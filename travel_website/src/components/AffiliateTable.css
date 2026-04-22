@@ -1,0 +1,120 @@
+.affiliate-table-wrapper {
+  margin: 8px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.affiliate-table__caption {
+  caption-side: top;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  padding: 16px 20px 12px;
+  text-align: left;
+  background: var(--color-bg-card);
+}
+
+.affiliate-table__scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.affiliate-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.88rem;
+  background: var(--color-bg-card);
+}
+
+.affiliate-table thead tr {
+  background: var(--color-bg-section-alt);
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.affiliate-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.affiliate-table tbody tr {
+  border-bottom: 1px solid var(--color-border);
+  transition: background-color 0.15s;
+}
+
+.affiliate-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.affiliate-table tbody tr:hover {
+  background: var(--color-bg-section-alt);
+}
+
+.affiliate-table td {
+  padding: 14px 16px;
+  color: var(--color-text-secondary);
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.affiliate-table__provider {
+  font-weight: 600;
+  color: var(--color-text-primary) !important;
+  white-space: nowrap;
+}
+
+.affiliate-table__cost {
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--color-text-primary) !important;
+}
+
+.affiliate-table__stars {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  color: var(--color-border);
+  font-size: 1rem;
+}
+
+.star--filled {
+  color: var(--color-accent);
+}
+
+.affiliate-table__cta {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #1a1a1a;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.affiliate-table__cta:hover {
+  opacity: 0.85;
+}
+
+.affiliate-table__disclaimer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  padding: 12px 20px;
+  margin: 0;
+  background: var(--color-bg-section-alt);
+  border-top: 1px solid var(--color-border);
+  line-height: 1.6;
+}

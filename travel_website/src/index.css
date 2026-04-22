@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Color tokens: light mode defaults ── */
+:root {
+  --color-bg-page:         #ffffff;
+  --color-bg-section-alt:  #fafafa;
+  --color-bg-header:       #f8f8f8;
+  --color-bg-card:         #ffffff;
+  --color-bg-emoji:        #f5f0e8;
+  --color-text-primary:    #1a1a1a;
+  --color-text-secondary:  #555555;
+  --color-text-muted:      #777777;
+  --color-border:          #eeeeee;
+  --color-border-input:    #cccccc;
+  --color-accent:          #b8a06a;
+  --color-shadow-sm:       rgba(0, 0, 0, 0.05);
+  --color-shadow-md:       rgba(0, 0, 0, 0.10);
+}
+
+/* ── Color tokens: dark mode overrides ── */
+[data-theme="dark"] {
+  --color-bg-page:         #1a1a1a;
+  --color-bg-section-alt:  #222222;
+  --color-bg-header:       #111111;
+  --color-bg-card:         #2a2a2a;
+  --color-bg-emoji:        #2e2a22;
+  --color-text-primary:    #f0ede8;
+  --color-text-secondary:  #a8a8a8;
+  --color-text-muted:      #888888;
+  --color-border:          #333333;
+  --color-border-input:    #444444;
+  --color-accent:          #c9b47c;
+  --color-shadow-sm:       rgba(0, 0, 0, 0.35);
+  --color-shadow-md:       rgba(0, 0, 0, 0.55);
+}
+
+/* ── Smooth theme transition ── */
+*, *::before, *::after {
+  transition: background-color 0.25s ease, color 0.2s ease,
+              border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+html {
+  font-size: clamp(16px, 2vw, 18px);
+}
+
+body {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, rgb(234, 235, 236), rgb(183, 166, 126));
+}

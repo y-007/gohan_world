@@ -1,0 +1,92 @@
+.affiliate-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-accent);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 8px 0;
+}
+
+.affiliate-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.affiliate-card__badge {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #fff;
+  background: var(--color-accent);
+  padding: 3px 12px;
+  border-radius: 20px;
+}
+
+.affiliate-card__sponsored {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.68rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.affiliate-card__name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 6px;
+}
+
+.affiliate-card__tagline {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.affiliate-card__pros {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.affiliate-card__pros li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  padding-left: 18px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.affiliate-card__pros li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.affiliate-card__cta {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.affiliate-card__cta:hover {
+  opacity: 0.85;
+}

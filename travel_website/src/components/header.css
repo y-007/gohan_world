@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700&display=swap');
+
+/* ── Desktop header ── */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  background-color: var(--color-bg-header);
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  box-shadow: 0 1px 8px var(--color-shadow-sm);
+  min-height: 64px;
+}
+
+.logo img {
+  height: clamp(56px, 8vw, 80px);
+  display: block;
+}
+
+/* ── Desktop nav ── */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: clamp(14px, 2vw, 28px);
+  font-size: clamp(12px, 1.2vw, 14px);
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav li {
+  display: flex;
+  align-items: center;
+}
+
+.nav li button {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  padding: 4px 0;
+  white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.nav li button:hover,
+.nav li button.nav-item:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+.nav li button.nav-disclaimer {
+  border: 1px solid var(--color-border-input);
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.nav li button.nav-disclaimer:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.nav li button.nav-articles {
+  background: var(--color-accent);
+  color: #1a1a1a;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-weight: 600;
+  border-bottom: none;
+}
+
+.nav li button.nav-articles:hover {
+  opacity: 0.85;
+  color: #1a1a1a;
+  border-bottom-color: transparent;
+}
+
+.mobile-menu__link--articles {
+  font-weight: 600;
+  color: var(--color-accent) !important;
+}
+
+/* ── Social icons ── */
+.social-icons {
+  display: flex;
+  gap: clamp(8px, 1.2vw, 14px);
+  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+  color: var(--color-text-secondary);
+}
+
+.social-icons svg {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.social-icons svg:hover {
+  color: var(--color-accent);
+}
+
+/* ── Search ── */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 6px 10px;
+  border: 1px solid var(--color-border-input);
+  border-radius: 4px 0 0 4px;
+  width: clamp(80px, 10vw, 130px);
+  font-size: 13px;
+  outline: none;
+  background-color: var(--color-bg-card);
+  color: var(--color-text-primary);
+  transition: border-color 0.2s;
+}
+
+.search input:focus {
+  border-color: var(--color-accent);
+}
+
+.search input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.search-btn {
+  padding: 6px 10px;
+  background: var(--color-accent);
+  border: none;
+  border-radius: 0 4px 4px 0;
+  color: #1a1a1a;
+  cursor: pointer;
+  font-size: 13px;
+  transition: opacity 0.2s;
+}
+
+.search-btn:hover {
+  opacity: 0.85;
+}
+
+/* ── Theme toggle (shared desktop + mobile) ── */
+.theme-toggle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border-input);
+  background: transparent;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  margin-left: 12px;
+  flex-shrink: 0;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.theme-toggle:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* ── Hamburger button — hidden on desktop ── */
+.hamburger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid var(--color-border-input);
+  border-radius: 6px;
+  color: var(--color-text-primary);
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-left: 12px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.hamburger:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* ── Mobile drawer ── */
+.mobile-menu {
+  position: sticky;
+  top: 64px;
+  z-index: 199;
+  background-color: var(--color-bg-header);
+  border-bottom: 1px solid var(--color-border);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu.open {
+  max-height: 480px;
+}
+
+.mobile-menu__nav {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+.mobile-menu__link {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+  padding: 14px 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.mobile-menu__link:hover {
+  background-color: var(--color-bg-card);
+  color: var(--color-accent);
+}
+
+.mobile-menu__link--disclaimer {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+.mobile-menu__search {
+  display: flex;
+  margin: 16px 24px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--color-border-input);
+}
+
+.mobile-menu__search input {
+  flex: 1;
+  padding: 9px 12px;
+  border: none;
+  background: var(--color-bg-card);
+  color: var(--color-text-primary);
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.mobile-menu__search input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.mobile-menu__search button {
+  padding: 9px 14px;
+  background: var(--color-accent);
+  border: none;
+  color: #1a1a1a;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.mobile-menu__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px 20px;
+}
+
+.mobile-menu__social {
+  display: flex;
+  gap: 18px;
+  font-size: 1.2rem;
+  color: var(--color-text-secondary);
+}
+
+.mobile-menu__social svg {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.mobile-menu__social svg:hover {
+  color: var(--color-accent);
+}
+
+/* ── Responsive: tablet (< 1024px) ── */
+@media (max-width: 1024px) {
+  .header {
+    padding: 0 20px;
+  }
+
+  .nav ul {
+    gap: 12px;
+  }
+}
+
+/* ── Responsive: mobile (< 768px) — hamburger mode ── */
+@media (max-width: 768px) {
+  .nav,
+  .social-icons,
+  .search,
+  .theme-toggle {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .header {
+    padding: 0 16px;
+  }
+}

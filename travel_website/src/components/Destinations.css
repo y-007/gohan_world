@@ -1,0 +1,93 @@
+.destinations-section {
+  padding: clamp(40px, 8vw, 80px) clamp(16px, 5vw, 40px);
+  background-color: var(--color-bg-page);
+}
+
+.destinations-section__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.destinations-section__heading {
+  font-family: 'Playfair Display', serif;
+  font-size: var(--fluid-heading, 2.5rem);
+  margin-bottom: 8px;
+  color: var(--color-text-primary);
+}
+
+.destinations-section__sub {
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--fluid-sub, 1rem);
+  color: var(--color-text-muted);
+  margin-bottom: 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: clamp(16px, 3vw, 28px);
+}
+
+.destination-card {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-card);
+  box-shadow: 0 2px 12px var(--color-shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.destination-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px var(--color-shadow-md);
+}
+
+.destination-card__emoji {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  background: var(--color-bg-emoji);
+  padding: clamp(20px, 4vw, 32px);
+  text-align: center;
+}
+
+.destination-card__body {
+  padding: clamp(16px, 3vw, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.destination-card__tag {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
+}
+
+.destination-card__name {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.2rem, 2.2vw, 1.4rem);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.destination-card__desc {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.95rem, 1.4vw, 1.05rem);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .destinations-grid {
+    grid-template-columns: 1fr;
+  }
+}
