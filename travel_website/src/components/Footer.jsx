@@ -3,7 +3,7 @@ import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faPinterest, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
-const FORM_ENDPOINT = 'https://formsubmit.co/ajax/travelinsuranceplan101@gmail.com';
+const SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbysNwT7IUrVZzsmSOS58pmoFnaIeXwOYE2l83EPcRv4bRu-1Jop2yhXLWi9I6sG0eye/exec';
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -14,18 +14,46 @@ const Footer = () => {
     e.preventDefault();
     if (!email.trim()) return;
     setStatus('loading');
+
     try {
-      const res = await fetch(FORM_ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ email, _subject: 'New Gohan World Newsletter Signup' }),
-      });
-      if (res.ok) {
-        setStatus('success');
-        setEmail('');
-      } else {
-        setStatus('error');
+      // Get approximate city/country from IP — no browser permission popup needed.
+      // Fails silently if the API is unreachable; location columns will be blank.
+      let city = '', country = '', ip = '';
+      try {
+        const locRes = await fetch('https://ipapi.co/json/');
+        if (locRes.ok) {
+          const loc = await locRes.json();
+          city    = loc.city          || '';
+          country = loc.country_name  || '';
+          ip      = loc.ip            || '';
+        }
+      } catch {
+        // location is optional
       }
+
+      const now = new Date();
+      const params = new URLSearchParams({
+        email,
+        date:     now.toLocaleDateString('en-US'),
+        time:     now.toLocaleTimeString('en-US'),
+        monthTab: now.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+        city,
+        country,
+        ip,
+      });
+
+      // Image ping: CORS never blocks image src requests, so this GET always
+      // reaches Google regardless of browser security policies. doGet fires,
+      // the "image" fails to load (response is JSON), but we don't care.
+      await new Promise((resolve) => {
+        const ping = new Image();
+        ping.onload  = resolve;
+        ping.onerror = resolve;
+        ping.src = `${SHEETS_ENDPOINT}?${params.toString()}`;
+      });
+
+      setStatus('success');
+      setEmail('');
     } catch {
       setStatus('error');
     }
