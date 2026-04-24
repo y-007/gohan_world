@@ -123,7 +123,7 @@ const Header = ({ isDark, toggleTheme }) => {
           <a href="#" aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
           <a href="#" aria-label="X (Twitter)"><FontAwesomeIcon icon={faXTwitter} /></a>
           <a href="#" aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-          <a href="#" aria-label="Pinterest"><FontAwesomeIcon icon={faPinterest} /></a>
+          <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
         </div>
 
         <form className="search" onSubmit={handleSearch}>
@@ -178,7 +178,7 @@ const Header = ({ isDark, toggleTheme }) => {
             <a href="#" aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
             <a href="#" aria-label="X (Twitter)"><FontAwesomeIcon icon={faXTwitter} /></a>
             <a href="#" aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href="#" aria-label="Pinterest"><FontAwesomeIcon icon={faPinterest} /></a>
+            <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
           </div>
           <button className="theme-toggle" onClick={toggleTheme}
             aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}>

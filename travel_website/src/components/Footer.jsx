@@ -48,7 +48,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faFacebook} />
             <FontAwesomeIcon icon={faXTwitter} />
             <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faPinterest} />
+            <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
           </div>
         </div>
 
