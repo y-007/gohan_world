@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faPinterest, faXTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -112,6 +113,10 @@ const Footer = () => {
 
       <div className="footer__bottom">
         <p>&copy; {year} GOHAN WORLD. All rights reserved.</p>
+        <p className="footer__disclosure">
+          Some links on this site are affiliate links — we may earn a small commission at no extra cost to you.{' '}
+          <Link to="/disclaimer" className="footer__disclosure-link">Full Disclaimer</Link>
+        </p>
       </div>
     </footer>
   );

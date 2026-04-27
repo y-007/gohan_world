@@ -395,6 +395,109 @@ export const articles = [
       },
     ],
   },
+  {
+    slug: 'medicare-abroad',
+    title: 'Medicare Abroad: Why Your US Health Coverage Stops at the Border',
+    excerpt: 'Most Medicare beneficiaries don\'t find out that their coverage ends at the US border until they need a hospital overseas. Here\'s what you need to know before you travel.',
+    category: 'Trip Essentials',
+    icon: '🏥',
+    accentColor: '#c0616e',
+    readTime: '6 min read',
+    date: 'April 2026',
+    affiliateDisclosure: true,
+    content: [
+      {
+        type: 'paragraph',
+        text: 'You have worked your entire life, paid into the system, and earned your Medicare coverage. It feels like a safety net that travels with you. It does not. For the vast majority of international trips, Medicare — Original Medicare Parts A and B — provides zero coverage once you cross the US border. This is one of the most important and least-discussed facts about international travel for Americans over 65, and learning it after a medical emergency abroad is far too late.',
+      },
+      {
+        type: 'h2',
+        text: 'What Medicare Actually Covers Outside the US',
+      },
+      {
+        type: 'paragraph',
+        text: 'The rule is straightforward and unforgiving: Original Medicare does not pay for healthcare services received outside the United States. This means hospital stays, emergency room visits, surgery, prescription drugs, ambulance services, and doctor visits — all of it. If you are hospitalized in Tokyo, Kyoto, London, or anywhere else outside US territory, Medicare will not pay a single dollar of those bills. You will be responsible for the full cost, and medical bills in foreign countries, especially in the context of serious emergencies, can reach tens of thousands of dollars very quickly.',
+      },
+      {
+        type: 'h2',
+        text: 'The Three Very Narrow Exceptions',
+      },
+      {
+        type: 'paragraph',
+        text: 'Medicare does cover international care in three specific and highly limited situations. First, if you are in the US but the nearest hospital is in Canada or Mexico, Medicare may cover care at that foreign hospital. Second, if you are on a ship and a medical emergency occurs within six hours of a US port, Medicare may apply. Third, if you are traveling through Canada without unreasonable delay between Alaska and another US state and a medical emergency occurs, you may be covered. These exceptions are narrow enough that most international travelers will never qualify for any of them.',
+      },
+      {
+        type: 'h2',
+        text: 'What About Medicare Advantage?',
+      },
+      {
+        type: 'paragraph',
+        text: 'Medicare Advantage — Part C — is administered by private insurance companies, and some plans do include limited international coverage. However, this varies enormously from plan to plan. Some Advantage plans cover emergency care abroad but exclude routine care. Others cap international benefits at amounts that would be inadequate for a serious hospitalization. Many offer nothing outside the US at all. If you have Medicare Advantage, read your Evidence of Coverage document carefully and call your plan directly before any international trip. Do not assume you are covered. Assume you are not, and verify otherwise.',
+      },
+      {
+        type: 'h2',
+        text: 'Medicare Supplement (Medigap) — A Partial Answer',
+      },
+      {
+        type: 'paragraph',
+        text: 'Some Medicare Supplement plans, commonly called Medigap, do include a foreign travel emergency benefit. Medigap plans C, D, F, G, M, and N offer coverage for medically necessary emergency care outside the US — but the limitations are significant. Coverage kicks in only after a $250 annual deductible, pays only 80% of covered costs, and carries a lifetime maximum of $50,000. For a major medical event — a serious accident, a cardiac emergency, or a surgery requiring an extended hospital stay — $50,000 can disappear quickly, especially if medical evacuation back to the US is required. Medigap is a partial safety net, not a complete one.',
+      },
+      {
+        type: 'h2',
+        text: 'The Real Cost of a Medical Emergency Abroad',
+      },
+      {
+        type: 'paragraph',
+        text: 'To understand why this matters, consider the real numbers. A helicopter evacuation from a remote location in Japan to a major city hospital can cost $15,000 to $30,000. A medical repatriation flight — bringing a patient back to the United States on a medically equipped aircraft — routinely costs between $50,000 and $200,000 depending on the distance and the level of care required in transit. An ICU stay of even a few days in a private hospital in a major international city can exceed $10,000. These are not worst-case numbers. They are typical costs that uninsured travelers face every year.',
+      },
+      {
+        type: 'h2',
+        text: 'The Smart Solution: Travel Insurance Built for Medicare Beneficiaries',
+      },
+      {
+        type: 'paragraph',
+        text: 'The right answer for Medicare beneficiaries who travel internationally is a dedicated travel insurance policy that includes robust international medical coverage and medical evacuation. This type of policy exists specifically to fill the gap that Medicare leaves. For a two-week trip to Japan, a comprehensive plan for a traveler in their late 60s or 70s typically costs between $100 and $250 — a fraction of the cost of even a single emergency room visit. For peace of mind that lets you board the plane without a knot in your stomach, it is one of the most sensible purchases a traveler can make.',
+      },
+      {
+        type: 'tip',
+        text: 'Gohan World tip: Buy your travel insurance within 14 days of making your first trip deposit. This is the window that unlocks "cancel for any reason" coverage and pre-existing condition waivers — two protections that matter enormously for travelers managing health conditions.',
+      },
+      {
+        type: 'h2',
+        text: 'What to Look for in a Policy (If You Are on Medicare)',
+      },
+      {
+        type: 'list',
+        items: [
+          'Emergency medical coverage of at least $100,000 — ideally $250,000 or unlimited for long trips or remote destinations',
+          'Medical evacuation and repatriation coverage of at least $500,000 — this is where the biggest bills come from',
+          'Pre-existing condition waiver — available if purchased within 10–14 days of your first trip deposit',
+          'No age cap — some policies exclude travelers over 70 or 80; confirm eligibility before purchasing',
+          '24/7 emergency assistance line — a real person you can call from a hospital in Japan at 2am',
+          'Coverage for the full trip cost in case of cancellation — not just medical, but hotels, flights, and tours',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'Traveling internationally in retirement should feel like freedom, not a gamble. Understanding exactly where Medicare ends — and making sure something else begins there — is one of the most important things you can do before any trip outside the United States. The premium you pay for travel insurance is not an expense. It is the cost of traveling with confidence.',
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Recommended',
+        name: 'InsureMyTrip — Compare Plans for Medicare Travelers',
+        tagline: 'Find the right international coverage in minutes. Compare 20+ providers.',
+        pros: [
+          'Filter by age, destination, and trip length to find Medicare-gap policies',
+          'Side-by-side comparison of medical limits, evacuation coverage, and deductibles',
+          'Licensed agents available by phone to help you choose',
+        ],
+        link: '#', // TODO: replace with InsureMyTrip affiliate URL
+        linkText: 'Compare Travel Insurance Plans',
+        sponsored: true,
+      },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {

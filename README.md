@@ -1,3 +1,5 @@
+<!-- TODO: Update deployment URL from gohan-world.vercel.app to gohanworld.com -->
+
 # GOHAN WORLD
 
 A personal travel and lifestyle blog built with React and Vite. The site shares stories, destinations, and experiences centered around international travel between the USA and Japan.
