@@ -1,56 +1,57 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './About.css'
-import { useResizeObserver, fluidSize } from '../hooks/useResizeObserver'
 
-const cards = [
-  {
-    icon: '🍜',
-    title: 'Food & Culture',
-    body: 'Exploring the rich culinary traditions of Japan and the diverse food scene across the USA — one bowl at a time.',
-    slug: 'food-and-culture',
-  },
-  {
-    icon: '✈️',
-    title: 'Travel Stories',
-    body: 'Real stories from real adventures. From Tokyo backstreets to American road trips, every journey has a tale.',
-    slug: 'travel-stories',
-  },
-  {
-    icon: '🎒',
-    title: 'Trip Essentials',
-    body: 'Guiding you through the practical side of every journey, from smart packing to understanding the travel insurance that keeps adventures worry free.',
-    slug: 'trip-essentials',
-  },
-]
+const AboutPage = () => (
+  <main style={{ padding: '60px 20px', maxWidth: '800px', margin: '0 auto' }}>
 
-const About = () => {
-  const [ref, width] = useResizeObserver()
-  const headingSize = fluidSize(width, 30, 46)
-  const subSize     = fluidSize(width, 15, 18)
+    {/* Photo slot — swap src when you have a photo ready */}
+    <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+      <img
+        src="/about-yuko.jpg"
+        alt="Yuko — author of Gohan World"
+        style={{
+          width: '180px',
+          height: '180px',
+          borderRadius: '50%',
+          objectFit: 'cover',
+          backgroundColor: '#f0f0f0',
+        }}
+        onError={(e) => { e.target.style.display = 'none' }}
+      />
+    </div>
 
-  return (
-    <section id="about" className="about-section">
-      <div
-        ref={ref}
-        className="about-section__inner"
-        style={{ '--fluid-heading': `${headingSize}px`, '--fluid-sub': `${subSize}px` }}
-      >
-        <h2 className="about-section__heading">About Gohan World</h2>
-        <p className="about-section__sub">A journey between two worlds</p>
-        <div className="about-section__cards">
-          {cards.map(({ icon, title, body, slug }) => (
-            <Link key={slug} to={`/articles/${slug}`} className="about-card about-card--link">
-              <span className="about-card__icon">{icon}</span>
-              <h3>{title}</h3>
-              <p>{body}</p>
-              <span className="about-card__cta">Read article →</span>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </section>
-  )
-}
+    <h1 style={{ fontSize: '2rem', marginBottom: '24px' }}>About</h1>
 
-export default About
+    <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: '#444', marginBottom: '24px' }}>
+      Hi, welcome to Gohan World! I'm Yuko. I deeply value the bonds with my
+      circle of friends and family. From our childhood adventures to now,
+      we've navigated life's journey together — sharing meals, laughter, and
+      stories. Whether in the USA or Japan, we're living life to the fullest,
+      cherishing our connections and memories.
+    </p>
+
+    <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: '#444', marginBottom: '40px' }}>
+      This blog is where I document those adventures: travel guides, tips, and
+      honest recommendations for anyone moving between the USA and Japan, or
+      exploring both countries for the first time.
+    </p>
+
+    <Link
+      to="/articles"
+      style={{
+        display: 'inline-block',
+        padding: '12px 28px',
+        backgroundColor: '#b8963e',
+        color: '#fff',
+        borderRadius: '6px',
+        textDecoration: 'none',
+        fontWeight: '600',
+      }}
+    >
+      Read the Articles →
+    </Link>
+
+  </main>
+)
+
+export default AboutPage

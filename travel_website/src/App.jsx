@@ -7,6 +7,7 @@ import ArticlePage from './pages/ArticlePage'
 import DisclaimerPage from './pages/DisclaimerPage'
 import { useTheme } from './hooks/useTheme'
 import './index.css'
+import AboutPage from './pages/AboutPage'
 
 function App() {
   const { isDark, toggleTheme } = useTheme()
@@ -19,6 +20,7 @@ function App() {
         <Route path="/articles" element={<ArticlesPage />} />
         <Route path="/articles/:slug" element={<ArticlePage />} />
         <Route path="/disclaimer" element={<DisclaimerPage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
