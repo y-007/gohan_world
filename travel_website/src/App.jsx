@@ -7,7 +7,7 @@ import ArticlePage from './pages/ArticlePage'
 import DisclaimerPage from './pages/DisclaimerPage'
 import { useTheme } from './hooks/useTheme'
 import './index.css'
-import AboutPage from './pages/AboutPage'
+import AboutPage from './pages/AboutPage'   
 
 function App() {
   const { isDark, toggleTheme } = useTheme()

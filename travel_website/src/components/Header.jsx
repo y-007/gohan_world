@@ -7,7 +7,6 @@ import './header.css'
 
 const sectionLinks = [
   { label: 'Home',         id: 'home' },
-  { label: 'About',        id: 'about' },
   { label: 'Destinations', id: 'destinations' },
   { label: 'Travel Tips',  id: 'tips' },
   { label: 'Disclaimer',   id: 'disclaimer', isDisclaimer: true },
@@ -27,7 +26,6 @@ const Header = ({ isDark, toggleTheme }) => {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Close drawer when route changes
   useEffect(() => { setIsMenuOpen(false) }, [location.pathname])
 
   const scrollTo = (id) => {
@@ -47,6 +45,11 @@ const Header = ({ isDark, toggleTheme }) => {
   const handleArticlesClick = () => {
     setIsMenuOpen(false)
     navigate('/articles')
+  }
+
+  const handleAboutClick = () => {
+    setIsMenuOpen(false)
+    navigate('/about')
   }
 
   const handleInputChange = (e) => {
@@ -73,7 +76,6 @@ const Header = ({ isDark, toggleTheme }) => {
         navigate('/', { state: { scrollTo: match.id } })
       }
     } else {
-      // No section match — go to articles
       navigate('/articles')
       setIsMenuOpen(false)
     }
@@ -95,6 +97,14 @@ const Header = ({ isDark, toggleTheme }) => {
           </button>
         </li>
       ))}
+      <li>
+        <button
+          onClick={handleAboutClick}
+          className={mobile ? 'mobile-menu__link' : 'nav-item'}
+        >
+          About
+        </button>
+      </li>
       <li>
         <button
           onClick={handleArticlesClick}
