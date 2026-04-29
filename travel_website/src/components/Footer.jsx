@@ -7,7 +7,6 @@ import { faFacebook, faInstagram, faPinterest, faXTwitter } from '@fortawesome/f
 const SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbysNwT7IUrVZzsmSOS58pmoFnaIeXwOYE2l83EPcRv4bRu-1Jop2yhXLWi9I6sG0eye/exec';
 
 const Footer = () => {
-  const year = new Date().getFullYear();
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
@@ -66,7 +65,7 @@ const Footer = () => {
 
         <div className="footer__col footer__col--left">
           <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-            <img className="footer_logo" src="/gohan_world_logo_500x500.png" alt="Gohan World logo" />
+            <img className="footer_logo" src="/gohan_world_logo_500x500.png" alt="Gohan World™ logo" />
           </a>
           <p className="footer__tagline">Eating thoughtfully.<br />Living joyfully.</p>
         </div>
@@ -128,7 +127,7 @@ const Footer = () => {
           Content is for informational purposes only and is not professional insurance or legal advice.{' '}
           <Link to="/disclaimer" className="footer__disclosure-link">Full Disclaimer</Link>
         </p>
-        <p>&copy; {year} GOHAN WORLD. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} GOHAN WORLD&#8482;. All rights reserved.</p>
       </div>
     </footer>
   );
