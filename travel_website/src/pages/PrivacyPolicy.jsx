@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './LegalPage.css'
 
-const PrivacyPolicyPage = () => (
+const PrivacyPolicy = () => (
   <main className="legal-page">
     <h1>Privacy Policy</h1>
     <p className="legal-page__updated">Last updated: April 2026</p>
@@ -191,4 +191,4 @@ const PrivacyPolicyPage = () => (
   </main>
 )
 
-export default PrivacyPolicyPage
+export default PrivacyPolicy

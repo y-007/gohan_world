@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './LegalPage.css'
 
-const AffiliateDisclosurePage = () => (
+const AffiliateDisclosure = () => (
   <main className="legal-page">
     <h1>Affiliate Disclosure</h1>
     <p className="legal-page__updated">Last updated: April 2026</p>
@@ -90,4 +90,4 @@ const AffiliateDisclosurePage = () => (
   </main>
 )
 
-export default AffiliateDisclosurePage
+export default AffiliateDisclosure
