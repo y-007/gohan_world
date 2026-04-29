@@ -21,7 +21,10 @@ const ArticlePage = () => {
     <main className="article-page">
       <div
         className="article-page__hero"
-        style={{ '--article-accent': article.accentColor }}
+        style={{
+          '--article-accent': article.accentColor,
+          '--hero-image': article.heroImage ? `url(${article.heroImage})` : 'none',
+        }}
       >
         <div className="article-page__hero-inner">
           <Link
@@ -44,7 +47,7 @@ const ArticlePage = () => {
       <div className="article-page__content-wrapper">
         {article.affiliateDisclosure && (
           <div className="article-page__disclosure">
-            <strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you make a purchase through these links, we may earn a commission at no additional cost to you. Our recommendations are independent and based on our own research.
+            <strong>Affiliate Disclosure:</strong> This article contains affiliate links. If you make a purchase through my links, I may earn a small affiliate commission at no additional cost to you. My recommendations are independent and based on my own research.
           </div>
         )}
 

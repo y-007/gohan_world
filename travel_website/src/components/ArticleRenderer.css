@@ -6,6 +6,12 @@
   margin: 0 auto;
 }
 
+.article-body__p a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .article-body__p {
   font-family: 'Poppins', sans-serif;
   font-size: clamp(1rem, 1.6vw, 1.1rem);

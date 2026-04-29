@@ -1,0 +1,36 @@
+.contact-page__card {
+  background: var(--color-bg-section-alt);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-accent);
+  border-radius: 0 10px 10px 0;
+  padding: 28px 32px;
+  margin: 24px 0;
+}
+
+.contact-page__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+  margin: 0 0 8px;
+}
+
+.contact-page__email {
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-page__email:hover {
+  opacity: 0.8;
+}
+
+.contact-page__note {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}

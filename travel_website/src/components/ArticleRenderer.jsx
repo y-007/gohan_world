@@ -1,6 +1,7 @@
 import React from 'react'
 import AffiliateCard from './AffiliateCard'
 import AffiliateTable from './AffiliateTable'
+import InsuranceDisclosure from './InsuranceDisclosure'
 import './ArticleRenderer.css'
 
 const ArticleRenderer = ({ blocks }) => (
@@ -8,7 +9,9 @@ const ArticleRenderer = ({ blocks }) => (
     {blocks.map((block, i) => {
       switch (block.type) {
         case 'paragraph':
-          return <p key={i} className="article-body__p">{block.text}</p>
+          return block.html
+            ? <p key={i} className="article-body__p" dangerouslySetInnerHTML={{ __html: block.text }} />
+            : <p key={i} className="article-body__p">{block.text}</p>
         case 'h2':
           return <h2 key={i} className="article-body__h2">{block.text}</h2>
         case 'h3':
@@ -37,6 +40,8 @@ const ArticleRenderer = ({ blocks }) => (
           return <AffiliateCard key={i} {...block} />
         case 'affiliate_table':
           return <AffiliateTable key={i} {...block} />
+        case 'insurance_disclosure':
+          return <InsuranceDisclosure key={i} />
         default:
           return null
       }

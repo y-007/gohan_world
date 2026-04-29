@@ -83,7 +83,7 @@ const Footer = () => {
 
         <div className="footer__col footer__col--right">
           <h4 className="footer__col-title">Newsletter</h4>
-          <p className="footer__newsletter-sub">Our best tips, right in your inbox.</p>
+          <p className="footer__newsletter-sub">My best tips, right in your inbox.</p>
 
           {status === 'success' ? (
             <p className="footer__newsletter-success">Thanks for signing up!</p>
@@ -112,11 +112,23 @@ const Footer = () => {
       </div>
 
       <div className="footer__bottom">
-        <p>&copy; {year} GOHAN WORLD. All rights reserved.</p>
+        <nav className="footer__legal-nav">
+          <Link to="/affiliate-disclosure" className="footer__legal-link">Affiliate Disclosure</Link>
+          <span className="footer__legal-sep">|</span>
+          <Link to="/disclaimer" className="footer__legal-link">Disclaimer</Link>
+          <span className="footer__legal-sep">|</span>
+          <Link to="/privacy-policy" className="footer__legal-link">Privacy Policy</Link>
+          <span className="footer__legal-sep">|</span>
+          <Link to="/contact" className="footer__legal-link">Contact</Link>
+        </nav>
         <p className="footer__disclosure">
-          Some links on this site are affiliate links — we may earn a small commission at no extra cost to you.{' '}
+          Some links on this site are affiliate links — I may earn a small affiliate commission at no extra cost to you.{' '}
+          <Link to="/affiliate-disclosure" className="footer__disclosure-link">Full Disclosure</Link>
+          {' · '}
+          Content is for informational purposes only and is not professional insurance or legal advice.{' '}
           <Link to="/disclaimer" className="footer__disclosure-link">Full Disclaimer</Link>
         </p>
+        <p>&copy; {year} GOHAN WORLD. All rights reserved.</p>
       </div>
     </footer>
   );

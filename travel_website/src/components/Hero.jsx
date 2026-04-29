@@ -11,16 +11,12 @@ const Hero = () => {
         <img src='/hero_profile.png' alt='Narco — Gohan World creator' />
       </div>
       <div className='about-title'>
-        <span>World GOHAN Creator</span>
-        <p>Hi, Welcome to GOHAN WORLD. I'm Narco.
-          I deeply value the bonds with my circle of friends and family.
-          From our childhood adventures to now, we've navigated life's journey together,
-          sharing meals, laughter and stories.
-          Whether in the USA or Japan, we're living life to the fullest,
-          cherishing our connections and memories.</p>
+        <span>Go where you love — and feel ready for anything.  </span>
+        <p>Whether you're dreaming of Japan or planning your next getaway, this space gives you the practical know‑how every traveler should have before they leave: senior‑friendly safety tips, packing essentials, airport guidance, cultural insights, and clear answers to those “what happens if…?” moments.
+Travel with curiosity, confidence, and the comfort of being prepared for whatever the journey brings.</p>
       </div>
       <div className='hero_narco'>
-        <img src='/narco.png' alt='Narco character' />
+        {/* <img src='/narco.png' alt='Narco character' /> */}
       </div>
     </section>
   )

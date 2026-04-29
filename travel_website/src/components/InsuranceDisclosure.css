@@ -1,0 +1,24 @@
+.insurance-disclosure {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #f0f7ff;
+  border-left: 4px solid #2a7ae2;
+  border-radius: 4px;
+  padding: 14px 16px;
+  margin: 24px 0;
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.insurance-disclosure__icon {
+  font-size: 1.1rem;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.insurance-disclosure__text {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}

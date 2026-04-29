@@ -5,13 +5,6 @@ import React, { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import './header.css'
 
-const sectionLinks = [
-  { label: 'Home',         id: 'home' },
-  { label: 'Destinations', id: 'destinations' },
-  { label: 'Travel Tips',  id: 'tips' },
-  { label: 'Disclaimer',   id: 'disclaimer', isDisclaimer: true },
-]
-
 const Header = ({ isDark, toggleTheme }) => {
   const [searchText, setSearchText] = useState('')
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -42,61 +35,51 @@ const Header = ({ isDark, toggleTheme }) => {
     }
   }
 
-  const handleArticlesClick = () => {
-    setIsMenuOpen(false)
-    navigate('/articles')
-  }
-
   const handleAboutClick = () => {
     setIsMenuOpen(false)
     navigate('/about')
   }
 
+  const handleDestinationsClick = () => {
+    setIsMenuOpen(false)
+    navigate('/destinations')
+  }
+
+  const handleDisclaimerClick = () => {
+    setIsMenuOpen(false)
+    navigate('/disclaimer')
+  }
+
+  const handleArticlesClick = () => {
+    setIsMenuOpen(false)
+    navigate('/articles')
+  }
+
   const handleInputChange = (e) => {
-    if (e.target.value.length <= 20) setSearchText(e.target.value)
+    if (e.target.value.length <= 60) setSearchText(e.target.value)
   }
 
   const handleSearch = (e) => {
     e.preventDefault()
     if (!searchText.trim()) return
-    const query = searchText.toLowerCase()
-    const targets = [
-      { id: 'home',         keywords: ['home', 'welcome', 'gohan', 'narco'] },
-      { id: 'about',        keywords: ['about', 'culture', 'food', 'family', 'story'] },
-      { id: 'destinations', keywords: ['destination', 'tokyo', 'kyoto', 'osaka', 'new york', 'hawaii', 'san francisco', 'japan', 'usa'] },
-      { id: 'tips',         keywords: ['tip', 'tips', 'advice', 'suica', 'cash', 'wifi', 'luggage'] },
-      { id: 'disclaimer',   keywords: ['disclaimer', 'affiliate', 'legal', 'commission'] },
-    ]
-    const match = targets.find(t => t.keywords.some(k => k.includes(query) || query.includes(k)))
-    if (match) {
-      setIsMenuOpen(false)
-      if (location.pathname === '/') {
-        scrollTo(match.id)
-      } else {
-        navigate('/', { state: { scrollTo: match.id } })
-      }
-    } else {
-      navigate('/articles')
-      setIsMenuOpen(false)
-    }
+    setIsMenuOpen(false)
+    navigate(`/search?q=${encodeURIComponent(searchText.trim())}`)
+    setSearchText('')
   }
 
   const NavItems = ({ mobile = false }) => (
     <>
-      {sectionLinks.map(({ label, id, isDisclaimer }) => (
-        <li key={id}>
-          <button
-            onClick={() => handleSectionClick(id)}
-            className={[
-              mobile ? 'mobile-menu__link' : 'nav-item',
-              isDisclaimer && !mobile ? 'nav-disclaimer' : '',
-              isDisclaimer && mobile ? 'mobile-menu__link--disclaimer' : '',
-            ].filter(Boolean).join(' ')}
-          >
-            {label}
-          </button>
-        </li>
-      ))}
+      {/* Home — scroll link */}
+      <li>
+        <button
+          onClick={() => handleSectionClick('home')}
+          className={mobile ? 'mobile-menu__link' : 'nav-item'}
+        >
+          Home
+        </button>
+      </li>
+
+      {/* About — page route */}
       <li>
         <button
           onClick={handleAboutClick}
@@ -105,6 +88,42 @@ const Header = ({ isDark, toggleTheme }) => {
           About
         </button>
       </li>
+
+      {/* Destinations — page route */}
+      <li>
+        <button
+          onClick={handleDestinationsClick}
+          className={mobile ? 'mobile-menu__link' : 'nav-item'}
+        >
+          Destinations
+        </button>
+      </li>
+
+      {/* Travel Tips — still a scroll link for now */}
+      <li>
+        <button
+          onClick={() => handleSectionClick('tips')}
+          className={mobile ? 'mobile-menu__link' : 'nav-item'}
+        >
+          Travel Tips
+        </button>
+      </li>
+
+      {/* Disclaimer — page route */}
+      <li>
+        <button
+          onClick={handleDisclaimerClick}
+          className={[
+            mobile ? 'mobile-menu__link' : 'nav-item',
+            !mobile ? 'nav-disclaimer' : '',
+            mobile ? 'mobile-menu__link--disclaimer' : '',
+          ].filter(Boolean).join(' ')}
+        >
+          Disclaimer
+        </button>
+      </li>
+
+      {/* Articles — page route */}
       <li>
         <button
           onClick={handleArticlesClick}
@@ -123,6 +142,7 @@ const Header = ({ isDark, toggleTheme }) => {
           <a href="#" onClick={(e) => { e.preventDefault(); handleSectionClick('home') }}>
             <img src="/gohan_world_logo_500x500.png" alt="Gohan World logo" />
           </a>
+          <p className="logo__tagline">Travel Tips &amp; Insurance Guidance for USA–Japan Travelers</p>
         </div>
 
         <nav className="nav">

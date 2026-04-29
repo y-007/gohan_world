@@ -10,6 +10,7 @@ export const articles = [
     category: 'Food & Culture',
     icon: '🍜',
     accentColor: '#b8a06a',
+    heroImage: '/hero-food-culture.jpg',
     readTime: '7 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -132,6 +133,7 @@ export const articles = [
     category: 'Travel Stories',
     icon: '✈️',
     accentColor: '#6a8ab8',
+    heroImage: '/hero-travel-stories.jpg',
     readTime: '8 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -242,6 +244,7 @@ export const articles = [
     category: 'Trip Essentials',
     icon: '🎒',
     accentColor: '#6ab88a',
+    heroImage: '/hero-trip-essentials.jpg',
     readTime: '9 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -250,6 +253,7 @@ export const articles = [
         type: 'paragraph',
         text: 'Nobody talks about the two hours before a great trip — the packing panic, the passport check, the "did I print that booking confirmation?" anxiety. But those two hours determine a lot. Getting the practical side right before you leave means the moment you land, your only job is to enjoy where you are. This checklist covers everything, two weeks out to wheels up.',
       },
+      { type: 'insurance_disclosure' },
       {
         type: 'h2',
         text: 'Two Weeks Before Departure',
@@ -402,6 +406,7 @@ export const articles = [
     category: 'Trip Essentials',
     icon: '🏥',
     accentColor: '#c0616e',
+    heroImage: '/hero-medicare-abroad.jpg',
     readTime: '6 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -410,6 +415,7 @@ export const articles = [
         type: 'paragraph',
         text: 'You have worked your entire life, paid into the system, and earned your Medicare coverage. It feels like a safety net that travels with you. It does not. For the vast majority of international trips, Medicare — Original Medicare Parts A and B — provides zero coverage once you cross the US border. This is one of the most important and least-discussed facts about international travel for Americans over 65, and learning it after a medical emergency abroad is far too late.',
       },
+      { type: 'insurance_disclosure' },
       {
         type: 'h2',
         text: 'What Medicare Actually Covers Outside the US',
@@ -494,6 +500,187 @@ export const articles = [
         link: '#', // TODO: replace with InsureMyTrip affiliate URL
         linkText: 'Compare Travel Insurance Plans',
         sponsored: true,
+      },
+    ],
+  },
+
+  {
+    slug: 'medicare-wont-cover-you-abroad',
+    title: 'Medicare Won\'t Cover You Abroad — Here\'s What Seniors Need Instead',
+    excerpt: 'Most seniors assume Medicare travels with them. It doesn\'t. Here\'s how to close the coverage gap before your next trip.',
+    category: 'Travel Insurance',
+    icon: '🛡️',
+    accentColor: '#C4714F',
+    heroImage: '/hero-medicare-senior.jpg',
+    readTime: '8 min read',
+    date: 'April 2026',
+    affiliateDisclosure: true,
+    content: [
+      {
+        type: 'paragraph',
+        text: 'You\'ve saved for this trip. You\'ve planned every detail — the flights, the hotels, the excursions. But here\'s the one thing most senior travelers overlook, and it could cost tens of thousands of dollars if something goes wrong abroad: Medicare does not cover you outside the United States. The moment your cruise ship leaves port or your flight lands in Europe, your primary health coverage stops. This guide explains what that gap means — and how to close it before your next trip.',
+      },
+      { type: 'insurance_disclosure' },
+      {
+        type: 'h2',
+        text: 'The Medicare Gap No One Talks About',
+      },
+      {
+        type: 'paragraph',
+        text: 'Most seniors assume their health coverage travels with them. It doesn\'t. Medicare Parts A and B provide essentially no coverage for medical care received outside the United States — with very limited exceptions. Medicare Advantage plans may offer some emergency coverage abroad, but the limits are typically low, claims are complicated, and out-of-pocket costs can still be substantial. The result is a gap that most travelers don\'t discover until they\'re sitting in a foreign hospital, handing over a credit card for a bill they never expected.',
+      },
+      {
+        type: 'paragraph',
+        text: 'A single medical emergency abroad can be financially devastating. Emergency hospitalization in Japan can exceed $3,000 per day. A helicopter evacuation from a remote European location can cost $80,000 or more. An unexpected cardiac event in Australia — one of the most expensive medical systems in the world for uninsured travelers — could result in bills exceeding $100,000. None of these costs are covered by Medicare. Travel insurance exists specifically to fill this gap and keep one bad day from becoming a financial catastrophe.',
+      },
+      {
+        type: 'tip',
+        text: 'Travel Insurance tip: Before your trip, call your Medicare or Medicare Advantage provider directly and ask: \'What emergency medical coverage do I have if I\'m hospitalized outside the US?\' Get the answer in writing. Many seniors are surprised to discover how little coverage actually applies when they travel abroad.',
+      },
+      {
+        type: 'h2',
+        text: 'What Travel Insurance Actually Covers for Seniors',
+      },
+      {
+        type: 'paragraph',
+        text: 'The right travel insurance policy for seniors is more than just health coverage. It\'s a comprehensive safety net designed for every stage of your journey, from the moment you book to the moment you return home. Understanding what\'s included — and what\'s not — is the difference between buying a policy that protects you and one that leaves you exposed when it matters most. Here\'s what a strong senior travel insurance plan typically includes.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Emergency Medical Coverage — Pays for hospital stays, doctor visits, surgery, and treatment if you become sick or injured while traveling.',
+          'Medical Evacuation — Covers the cost of emergency transport to the nearest adequate hospital, or back to the United States if medically necessary.',
+          'Trip Cancellation & Interruption — Reimburses prepaid, non-refundable trip costs if you must cancel or cut your trip short for a covered reason.',
+          'Pre-Existing Condition Coverage — Many plans waive exclusions for pre-existing conditions when purchased within a set window after your initial trip deposit.',
+          'Baggage Loss & Delay — Covers lost, stolen, or damaged luggage and provides reimbursement for essential purchases if your bags are significantly delayed.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'The 3 Features Every Senior Traveler Should Look For',
+      },
+      {
+        type: 'paragraph',
+        text: 'Not every travel insurance plan is built for senior travelers. Many standard policies offer coverage limits that are simply too low for the medical realities of international travel over 60, or they bury pre-existing condition exclusions in fine print that most buyers don\'t notice until they file a claim. When comparing plans, three features consistently make the difference between a policy that works and one that disappoints when you actually need it.',
+      },
+      {
+        type: 'list',
+        items: [
+          'High Medical Coverage Limits — Aim for a minimum of $100,000 in emergency medical coverage. For international trips, $250,000 or more is strongly recommended.',
+          'Pre-Existing Condition Waiver — Available on most plans when purchased within 10–21 days of your initial deposit. This window is strict — don\'t miss it.',
+          'Cancel For Any Reason (CFAR) Upgrade — Reimburses 50–75% of prepaid costs if you cancel for reasons not covered by standard trip cancellation, including a doctor\'s recommendation.',
+        ],
+      },
+      {
+        type: 'tip',
+        text: 'Travel Insurance tip: Purchase your policy within 14 days of your initial trip deposit to qualify for the pre-existing condition waiver. This single step ensures senior travelers with chronic conditions — heart disease, diabetes, or recent surgeries — are fully protected, not excluded when a claim is filed.',
+      },
+      {
+        type: 'h2',
+        text: 'Pre-Existing Conditions: What You Need to Know Before You Buy',
+      },
+      {
+        type: 'paragraph',
+        text: '\'Will my plan cover my heart condition?\' It\'s the question we hear most often from senior travelers — and the answer is almost always yes, provided you buy at the right time. Most travel insurance policies include a pre-existing condition exclusion by default, meaning any condition that existed before purchase may not be covered. However, most reputable plans offer a waiver that removes this exclusion entirely, as long as you meet three conditions.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Purchase your policy within 10 to 21 days of your initial trip deposit — the exact window varies by provider.',
+          'Be medically able to travel on the date of purchase — not currently hospitalized or awaiting a diagnosis that could affect your plans.',
+          'Insure the full non-refundable cost of your trip — partial insuring can affect waiver eligibility and limit your reimbursement if you cancel.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'If you meet all three conditions, your pre-existing conditions — whether it\'s a managed heart condition, Type 2 diabetes, a replaced hip, or a history of cancer — are covered the same as any other medical issue that arises during your trip. Miss the purchase window, and those same conditions become excluded from coverage. This is why the single most important piece of advice for senior travelers is: buy your travel insurance as soon as you book your trip.',
+      },
+      {
+        type: 'h2',
+        text: 'Our Top-Rated Plans for Senior Travelers',
+      },
+      {
+        type: 'paragraph',
+        text: 'Every plan on this list has been evaluated for medical coverage limits, pre-existing condition waiver availability, customer service ratings, and overall value for travelers over 60. These are not generic picks — they are the plans that consistently perform well when senior travelers actually need them. The right plan for you depends on your destination, trip length, existing health conditions, and how much flexibility you want. Compare your options below and find the coverage that fits your trip.',
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Allianz Travel Insurance — Best Overall for Seniors',
+        tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.',
+        pros: [
+          'Up to $50,000 medical coverage and $500,000 medical evacuation',
+          'Pre-existing condition waiver available within 14 days of initial deposit',
+          'Consistently top-rated for customer service among senior travelers',
+        ],
+        link: '#', // TODO: replace with Allianz affiliate URL
+        linkText: 'Get a Quote with Allianz',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'World Nomads — Best for Active Senior Travelers',
+        tagline: 'High coverage limits and full CFAR flexibility for active seniors.',
+        pros: [
+          'Up to $100,000 medical coverage and $500,000 evacuation',
+          'Cancel For Any Reason (CFAR) upgrade available',
+          'Ideal for longer trips and high-cost international destinations',
+        ],
+        link: '#', // TODO: replace with World Nomads affiliate URL
+        linkText: 'Get a Quote with World Nomads',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Seven Corners — Best for High Medical Coverage',
+        tagline: 'Maximum protection for seniors with complex medical histories.',
+        pros: [
+          'Up to $250,000 medical coverage and $1,000,000 evacuation limit',
+          'Pre-existing condition waiver within 20 days of initial deposit',
+          'Cancel For Any Reason available — best for cruises and long-haul trips',
+        ],
+        link: '#', // TODO: replace with Seven Corners affiliate URL
+        linkText: 'Get a Quote with Seven Corners',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Compare',
+        name: 'Squaremouth — Best for Comparison Shopping',
+        tagline: 'Compare 30+ top-rated plans side by side in minutes.',
+        pros: [
+          'Filter by medical limit, pre-existing waiver, CFAR, and price',
+          'Zero-complaint guarantee — disputes resolved within 30 days',
+          'No pressure, no upsells — ideal for first-time buyers',
+        ],
+        link: 'https://www.squaremouth.com/plans/single-trip?aid=101&msclkid=3b37bb28f4881506805cd2daea8ad355&src=BING-SQM-41501358-1114977136&tag=3b37bb28f4881506805cd2daea8ad355&utm_campaign=Search_Branded+-+SquareMouth+%28All+Devices%29&utm_content=Squaremouth+-+Broad+Match&utm_medium=cpc&utm_source=bing&utm_term=squaremouth',
+        linkText: 'Compare Plans on Squaremouth',
+        sponsored: true,
+      },
+      {
+        type: 'h2',
+        text: 'How to Get a Quote in Under 2 Minutes',
+      },
+      {
+        type: 'paragraph',
+        html: true,
+        text: 'Getting covered takes less than two minutes. All you need is your destination, travel dates, total trip cost, and traveler ages. Enter those details at <a href="https://www.squaremouth.com/plans/single-trip?aid=101&msclkid=3b37bb28f4881506805cd2daea8ad355&src=BING-SQM-41501358-1114977136&tag=3b37bb28f4881506805cd2daea8ad355&utm_campaign=Search_Branded+-+SquareMouth+%28All+Devices%29&utm_content=Squaremouth+-+Broad+Match&utm_medium=cpc&utm_source=bing&utm_term=squaremouth" target="_blank" rel="noopener noreferrer">www.squaremouth.com</a> and you\'ll see matched plans instantly — sorted by price, coverage limit, or provider rating, with full breakdowns so you can compare with confidence.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Enter your destination, departure date, return date, and the ages of all travelers on the policy.',
+          'Set your total insured trip cost — include all non-refundable expenses such as flights, hotels, and tours.',
+          'Compare plans side by side — filter by price, medical limit, pre-existing condition waiver, or CFAR availability.',
+          'Click through to your chosen plan for full policy details, verified customer ratings, and a zero-pressure purchase.',
+          'Purchase directly with the provider — coverage begins immediately and policy documents arrive by email within minutes.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'Travel after 60 should be about discovery, not worry. The right travel insurance removes the financial risk from every trip you take — so you can book the cruise, board the flight, and step into a new country knowing that if something goes wrong, you\'re protected. Medicare won\'t follow you abroad. But with the right plan in place, you don\'t have to go unprotected. Compare your options today and travel with the confidence you\'ve earned.',
       },
     ],
   },

@@ -1,0 +1,30 @@
+.affiliate-bar {
+  background-color: #f9f5ec;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.affiliate-bar__text {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+  line-height: 1.5;
+}
+
+.affiliate-bar__label {
+  font-weight: 600;
+  color: #333;
+}
+
+.affiliate-bar__link {
+  color: #b8860b;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+
+.affiliate-bar__link:hover {
+  opacity: 0.75;
+}
