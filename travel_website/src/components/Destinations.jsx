@@ -28,7 +28,7 @@ const Destinations = () => {
         }}
       >
         <h2 className="destinations-section__heading">Destinations</h2>
-        <p className="destinations-section__sub">Places we love between Japan & the USA</p>
+        <p className="destinations-section__sub">Places I love between Japan &amp; the USA</p>
         <div className="destinations-grid">
           {destinations.map((dest) => (
             <div className="destination-card" key={dest.name}>

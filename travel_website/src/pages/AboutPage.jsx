@@ -25,10 +25,10 @@ const AboutPage = () => (
     
     <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: '#444', marginBottom: '24px' }}>
       Hi, welcome to Gohan World! I'm Yuko. I deeply value the bonds with my
-      circle of friends and family. From our childhood adventures to now,
-      we've navigated life's journey together — sharing meals, laughter, and
-      stories. Whether in the USA or Japan, we're living life to the fullest,
-      cherishing our connections and memories.
+      circle of friends and family. From my childhood adventures to now,
+      I've navigated life's journey together — sharing meals, laughter, and
+      stories. Whether in the USA or Japan, I'm living life to the fullest,
+      cherishing connections and memories.
     </p>
 
     <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: '#444', marginBottom: '40px' }}>
