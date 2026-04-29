@@ -48,7 +48,7 @@ const PrivacyPolicy = () => (
 
     <hr />
 
-    <h2>Cookies</h2>
+    <h2>Cookies we use</h2>
     <p>This site uses cookies for the following purposes:</p>
     <table>
       <thead>
@@ -61,24 +61,41 @@ const PrivacyPolicy = () => (
       <tbody>
         <tr>
           <td><strong>Essential</strong></td>
-          <td>Required for the site to function correctly</td>
+          <td>Site security and performance (Cloudflare)</td>
           <td>Session</td>
         </tr>
         <tr>
           <td><strong>Analytics</strong></td>
-          <td>Understand how visitors use the site (Google Analytics)</td>
-          <td>Up to 2 years</td>
+          <td>Anonymous visitor tracking</td>
+          <td>1 year</td>
         </tr>
         <tr>
           <td><strong>Affiliate tracking</strong></td>
-          <td>Allow affiliate partners to attribute referrals correctly</td>
-          <td>Up to 90 days</td>
+          <td>Commission tracking for Amazon, Allianz, and insurance partners</td>
+          <td>30 days</td>
+        </tr>
+        <tr>
+          <td><strong>Consent preference</strong></td>
+          <td>Remembers your cookie choice</td>
+          <td>1 year</td>
         </tr>
       </tbody>
     </table>
     <p>
       You can control cookies through your browser settings. Disabling cookies may affect the
       functionality of some parts of this site.
+    </p>
+    <p>
+      To opt out of Google Analytics tracking, visit:{' '}
+      <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">
+        https://tools.google.com/dlpage/gaoptout
+      </a>
+    </p>
+    <p>
+      To opt out of Amazon affiliate cookies, visit:{' '}
+      <a href="https://www.amazon.com/adprefs" target="_blank" rel="noopener noreferrer">
+        https://www.amazon.com/adprefs
+      </a>
     </p>
 
     <hr />

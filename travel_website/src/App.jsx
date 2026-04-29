@@ -14,6 +14,7 @@ import AffiliateDisclosure from './pages/AffiliateDisclosure'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import ContactPage from './pages/ContactPage'
 import AffiliateBar from './components/AffiliateBar'
+import CookieBanner from './components/CookieBanner'
 
 function App() {
   const { isDark, toggleTheme } = useTheme()
@@ -22,6 +23,7 @@ function App() {
     <BrowserRouter>
       <Header isDark={isDark} toggleTheme={toggleTheme} />
       <AffiliateBar />
+      <CookieBanner />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/articles" element={<ArticlesPage />} />
