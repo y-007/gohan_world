@@ -4,7 +4,6 @@ import Hero from '../components/Hero'
 import Destinations from '../components/Destinations'
 import TravelTips from '../components/TravelTips'
 import TravelInsurance from '../components/TravelInsurance'
-import Disclaimer from '../components/Disclaimer'
 
 const HomePage = () => {
   const location = useLocation()
@@ -23,7 +22,6 @@ const HomePage = () => {
       <Destinations />
       <TravelTips />
       <TravelInsurance />
-      <Disclaimer />
     </main>
   )
 }
