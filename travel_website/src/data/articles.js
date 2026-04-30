@@ -685,6 +685,69 @@ export const articles = [
     ],
   },
 
+  {
+    slug: 'machi-chuka-japan-neighborhood-chinese',
+    title: 'Machi Chuka: The Neighborhood Chinese Restaurant That Japan Made Its Own',
+    excerpt: 'It\'s not the name of a restaurant — it\'s a word for a place every Japanese person knows by heart. Here\'s what machi chuka is, how it got here, and why it matters.',
+    category: 'Food & Culture',
+    icon: '🍜',
+    accentColor: '#b8a06a',
+    heroImage: '/hero-machi-chuka-japan-neighborhood-chinese.jpg',
+    readTime: '7 min read',
+    date: 'April 2026',
+    affiliateDisclosure: true,
+    content: [
+      { type: 'paragraph', text: 'There\'s a restaurant near my grandmother\'s house in Tokyo that has been there my entire life. Same hand-painted sign. Same screen door that sticks in summer. Same two-burner wok station you can see from the counter if you lean just right. The menu is laminated and slightly sticky and I have every item memorized — gyoza, ramen, chahan, tenshin-han. You order by pointing. The owner\'s wife brings green tea without asking. This is machi chuka. And until recently, I never thought about what it actually is.' },
+      { type: 'h2', text: 'What "Machi Chuka" Actually Means' },
+      { type: 'paragraph', text: '町中華 — machi chuka — isn\'t the name of a restaurant. It\'s slang, the same way you\'d say "the Chinese place down the street" in English. It just means neighborhood Chinese — a catch-all for the small, family-run spots that have been feeding Japanese towns for decades. No chain. No brand. Just a worn wooden counter, the smell of garlic and sesame oil, and a laminated menu with gyoza, ramen, chahan, and tenshin-han. You\'ve probably walked past fifty of them without knowing there was a word for it.' },
+      { type: 'paragraph', text: 'What makes machi chuka interesting is that it\'s not really Chinese. Not anymore, and maybe not ever, in the way people mean. The food has been adapted so thoroughly to Japanese tastes that many of the dishes — tenshin-han, ankake yakisoba, thick starchy sauces over crispy noodles — simply don\'t exist in China. They were born in Japan, in restaurant kitchens exactly like the one I grew up eating in.' },
+      { type: 'h2', text: 'The History You Didn\'t Know You Were Eating' },
+      { type: 'paragraph', text: 'Chinese immigrants arrived in Japan through port cities like Yokohama and Nagasaki in the late 1800s, setting up restaurants in concentrated neighborhoods — Yokohama\'s Chinatown is still one of the largest in Asia. Then came the wars, and the waves afterward. Japanese soldiers returning from Manchuria in the late 1940s came back craving the pan-fried dumplings of the north, which they began selling at postwar black markets. Those dumplings became gyoza — crispier, garlickier, leaner on the filling than their Chinese jiaozi origins, served with a vinegar-soy-chili dipping sauce that\'s uniquely Japanese.' },
+      { type: 'paragraph', text: 'By the 1950s and 60s, Japanese cooks — not Chinese immigrants — were running most neighborhood Chinese restaurants. They cooked from memory and adaptation, adjusting to local ingredients, Japanese palates, and the limits of a two-burner kitchen on a tight Tokyo side street. The food got milder, sweeter, starchier. The sauces got thicker. Tenshin-han appeared on menus across the country, despite having no Chinese origin whatsoever. My mom always called it "Chinese food" when we ordered it. She wasn\'t wrong, exactly. But she wasn\'t quite right either.' },
+      { type: 'h2', text: 'The American Parallel: Chop Suey and Orange Chicken' },
+      { type: 'paragraph', text: 'Here\'s the thing that hit me when I moved to the US — America did the exact same thing. Chinese immigrants who arrived during the Gold Rush era created dishes specifically designed for non-Chinese customers: chop suey, chow mein, egg foo young. Food that used Chinese techniques but pivoted hard toward American tastes. Fortune cookies were invented in San Francisco, not Beijing. General Tso\'s chicken came from a Taiwanese-American restaurant in New York. By mid-century, Chinese-American restaurants were in every small town in the country.' },
+      { type: 'paragraph', text: 'A Japanese person eating at a small-town American Chinese restaurant for the first time might feel a familiar kind of deja vu. The worn laminated menus. The family behind the counter. The dishes that taste like somewhere but not quite where they say they\'re from. The difference is that Americans tend to know their Chinese food is Americanized, and that conversation has been going on for years. In Japan, machi chuka lived mostly in the background — so embedded in daily life that nobody thought to name it until recently. The term 町中華 only became widely used in Japanese media in the 2010s, when people started noticing these places were quietly disappearing.' },
+      { type: 'h2', text: 'What You Order at a Machi Chuka' },
+      { type: 'list', items: [
+        'Gyoza (餃子) — Pan-fried, always. Six or eight pieces, crispy bottom, soft top, served with vinegar and rayu (chili oil). Order a second plate immediately.',
+        'Ramen — Not artisanal. Not tonkotsu with a 40-year-old broth. Just ramen — shoyu or miso, good noodles, a slice of chashu, a soft egg if you\'re lucky.',
+        'Chahan (炒飯) — Fried rice done in a blistering wok. Better at machi chuka than almost anywhere else because they cook it the old way: fast, hot, no fussing.',
+        'Tenshin-han (天津飯) — A fluffy, crab-flavored omelette draped over white rice, smothered in either a sweet-savory ankake sauce or a tangy red version. It exists only in Japan.',
+        'Ankake Yakisoba — Crispy noodles buried under a thick, starchy sauce full of vegetables and pork. The sauce soaks in as you eat. You never want it to end.',
+      ] },
+      { type: 'tip', text: 'Gohan World tip: At most machi chuka, the best value is the set lunch — usually ramen or chahan plus gyoza, under ¥1,000. Many places don\'t have English menus, so memorizing gyoza, ramen, chahan, and tenshin-han gets you everywhere you need to go.' },
+      { type: 'h2', text: 'Where to Find It in Japan' },
+      { type: 'list', items: [
+        'Tokyo\'s shitamachi neighborhoods — Koenji, Kagurazaka, Yanaka, Shimokitazawa. The older the neighborhood, the more likely a family-run shop has survived.',
+        'Osaka\'s Tanimachi and Tsuruhashi areas — Dense with old-school eating culture; the shotengai streets here are especially good hunting grounds.',
+        'Yokohama\'s back streets near Kannai — The Chinatown itself is tourist-facing now, but the machi chuka spots in the surrounding blocks are the real thing.',
+        'Any old-school shotengai (covered shopping street) in any Japanese city — If there\'s a shotengai, there\'s almost certainly a machi chuka at the far end of it.',
+      ] },
+      { type: 'h2', text: 'Where to Find the American Version' },
+      { type: 'list', items: [
+        'San Francisco\'s Clement Street — The "other Chinatown," more neighborhood than tourist. Cantonese-American comfort food with decades of practice behind it.',
+        'Chicago\'s Chinatown on Wentworth Avenue — One of the oldest in the Midwest, with family restaurants that have been running since the 1950s.',
+        'Los Angeles, San Gabriel Valley — From Monterey Park outward, the range of Chinese-American food here is unmatched anywhere in the US.',
+        'Any small American town with a single Chinese restaurant — This is the most honest parallel to machi chuka. The place that\'s been there thirty years. The one everyone has eaten at a hundred times.',
+      ] },
+      { type: 'h2', text: 'Go Deeper With a Food Experience' },
+      { type: 'paragraph', text: 'If you want to get past the surface of Japan\'s neighborhood food culture — machi chuka included — a guided food walk or cooking class is one of the best ways to do it. These are the two I\'d point you toward.' },
+      { type: 'affiliate_card', badge: 'Experiences', name: 'Airbnb Experiences — Cooking & Culture', tagline: 'Cook with locals. Eat where they eat.', pros: [
+        'Verified local hosts in Tokyo, Kyoto, Osaka, and across the USA',
+        'Options range from gyoza-making classes to neighborhood food walks',
+        'Small groups — typically 2–10 people for a personal experience',
+      ], link: '#', // TODO: replace with Airbnb Experiences affiliate URL
+        linkText: 'Browse Cooking Experiences', sponsored: true },
+      { type: 'affiliate_card', badge: 'Tours', name: 'Viator — Food & Culture Tours', tagline: 'Guided food tours in Japan and the USA.', pros: [
+        'Neighborhood food walks and shotengai tours in Tokyo and Osaka',
+        'Street food experiences through Kyoto\'s Nishiki Market',
+        'Free cancellation on most bookings',
+      ], link: '#', // TODO: replace with Viator affiliate URL
+        linkText: 'Browse Food Tours', sponsored: true },
+      { type: 'paragraph', text: 'Both machi chuka and the small-town American Chinese restaurant exist in the same emotional space — a place where you know what you\'re going to order before you sit down, where the food is exactly what you need, and where someone\'s family has been feeding your neighborhood longer than you\'ve been alive. That\'s not a small thing. In food, that kind of continuity is everything.' },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {
