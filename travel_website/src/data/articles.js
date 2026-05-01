@@ -748,6 +748,334 @@ export const articles = [
     ],
   },
 
+  {
+    slug: 'best-travel-insurance-japan-2026',
+    title: 'Best Travel Insurance for Japan (2026 Guide)',
+    excerpt: 'Your US health insurance won\'t cover you in Japan — here\'s what to get instead, who offers the best plans, and how to buy before your trip.',
+    category: 'Travel Insurance',
+    icon: '🛡️',
+    accentColor: '#C4714F',
+    heroImage: '/hero-best-travel-insurance-japan-2026.jpg',
+    readTime: '9 min read',
+    date: 'May 2026',
+    affiliateDisclosure: true,
+    content: [
+      { type: 'paragraph', text: 'A few years ago, a friend of mine — I\'ll call her Keiko — had what should\'ve been a perfect two-week trip to Osaka and Kyoto. She\'d been saving for it for over a year. On day four, she slipped on wet stone steps at Fushimi Inari and fractured her wrist. She didn\'t have travel insurance. The ER visit, x-rays, and splint cost her about $800 out of pocket. Which honestly isn\'t terrible — until you factor in that she missed the rest of her trip and her regular US health insurance covered zero of it. Zero. She came home with a splint, a story, and a bill she hadn\'t budgeted for.' },
+      { type: 'paragraph', text: 'I think about her every time someone asks me if travel insurance for Japan is really worth it. It is. Here\'s what you need to know.' },
+      { type: 'insurance_disclosure' },
+      { type: 'h2', text: 'The Gap You Probably Don\'t Know About' },
+      { type: 'paragraph', text: 'Here\'s the thing most Americans don\'t realize until they\'re standing in a foreign ER: your US health insurance almost certainly doesn\'t cover you abroad. Some plans provide minimal international coverage, but most have serious caps or exclude it entirely. Medicare covers nothing outside the US — not even in Canada, let alone Japan.' },
+      { type: 'paragraph', text: 'Japan has incredible healthcare. The hospitals are clean, the doctors are skilled, and you will be treated well. But as a foreigner without Japanese national health insurance, you\'re paying private-patient rates. A single emergency room visit runs roughly $200–$500 on the low end. A hospitalization? Easily $1,000–$3,000 per night. If you need a medical evacuation back to the US — and these happen more often than you\'d think — you\'re looking at $50,000 to $200,000. No, your credit card travel benefits probably won\'t cover it either — most card protections cap medical at $5,000–$10,000, which sounds like a lot until it isn\'t.' },
+      { type: 'tip', text: 'Travel Insurance tip: Check your existing health insurance\'s "international coverage" section before you buy travel insurance — some premium plans do offer partial coverage abroad, which can let you buy a less expensive travel medical plan rather than a comprehensive one.' },
+      { type: 'h2', text: 'What Good Japan Travel Insurance Actually Covers' },
+      { type: 'paragraph', text: 'A solid policy for Japan should include all of the following. Not some — all of them.' },
+      { type: 'list', items: [
+        'Emergency Medical Coverage — Pays for hospital stays, ER visits, surgery, and treatment if you get sick or injured. Look for at least $100,000 in coverage, ideally more.',
+        'Medical Evacuation — Covers transport to a better-equipped hospital or back to your home country. This is where costs get truly terrifying if you\'re uninsured — aim for $500,000+.',
+        'Trip Cancellation — Reimburses your prepaid, non-refundable costs (flights, hotels, tours) if you have to cancel for a covered reason: illness, death in the family, natural disaster, etc.',
+        'Trip Interruption — Kicks in if you have to cut the trip short mid-travel, not just before departure. Often pays more than cancellation does.',
+        'Baggage Loss & Delay — Japan\'s luggage handling is actually stellar, but airlines can still lose things. Useful coverage for delayed luggage when connecting through US airports.',
+        'Travel Delay — Reimburses meals and hotel if your flight is significantly delayed.',
+      ] },
+      { type: 'h2', text: 'Features to Look For (Beyond the Basics)' },
+      { type: 'paragraph', text: 'Not all policies are created equal. These are the extras I tell friends to check:' },
+      { type: 'list', items: [
+        'Cancel For Any Reason (CFAR) — Lets you cancel for literally any reason — cold feet, work emergency, anything — and typically gets you 75% of your costs back. It\'s an add-on upgrade, usually adds 40–60% to the premium, but worth it if you have expensive non-refundable bookings.',
+        'Pre-existing Condition Waiver — Many policies exclude pre-existing conditions unless you buy within 14–21 days of your initial trip deposit. If you have any chronic conditions, this timing matters a lot.',
+        'Adventure Sports Coverage — Planning to ski in Hokkaido, go hiking in the Japanese Alps, or surf in Miyazaki? Basic policies often exclude these. World Nomads is one of the few that covers adventure sports by default.',
+        '24/7 Emergency Assistance Line — This is non-negotiable. If you\'re in a hospital in Osaka at 2am and don\'t speak Japanese, you need someone on the phone who can help navigate the system.',
+      ] },
+      { type: 'tip', text: 'Travel Insurance tip: Buy your policy within 14 days of putting down your first trip deposit — that\'s usually the window to unlock the pre-existing condition waiver. Most people wait until a week before they leave, and by then it\'s too late to add that benefit.' },
+      { type: 'h2', text: 'What About Pre-Existing Conditions?' },
+      { type: 'paragraph', text: '"Pre-existing condition" in insurance terms means any illness, injury, or condition you\'ve been diagnosed with, treated for, or shown symptoms of in the past 60–365 days (window varies by policy). That\'s a wide net. High blood pressure on medication counts. Asthma counts. That knee thing you saw a doctor about last spring? Could count. Here\'s what to do:' },
+      { type: 'list', items: [
+        'Buy your policy within the waiver window (typically 14–21 days of your first deposit) — this is the cleanest way to get pre-existing conditions covered',
+        'Read the specific waiver language in the policy — some require you to be "medically stable" for a set period before travel',
+        'If you have complex medical history, call the insurance provider directly before buying — get specifics in writing',
+        'Consider using a comparison site like Squaremouth where you can filter specifically for policies with pre-existing waivers',
+      ] },
+      { type: 'h2', text: 'My Top Picks for Japan Travel Insurance in 2026' },
+      { type: 'paragraph', text: 'These are the providers I actually recommend to friends and family planning trips to Japan. I\'ve organized them by who they\'re best for.' },
+      { type: 'affiliate_card', badge: 'Insurance', name: 'World Nomads — Best for Active & Adventure Travelers', tagline: 'High coverage limits and full CFAR flexibility.', pros: [
+        'Up to $100,000 medical coverage and $500,000 evacuation',
+        'Cancel For Any Reason (CFAR) upgrade available',
+        'Covers most adventure sports by default — verify your activities',
+      ], link: '#', // TODO: replace with World Nomads affiliate URL
+        linkText: 'Get a Quote with World Nomads', sponsored: true },
+      { type: 'affiliate_card', badge: 'Insurance', name: 'Allianz Travel Insurance — Best Overall for Most Travelers', tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.', pros: [
+        'Up to $50,000 medical coverage and $500,000 medical evacuation',
+        'Pre-existing condition waiver available within 14 days of initial deposit',
+        'Consistently top-rated for customer service',
+      ], link: '#', // TODO: replace with Allianz affiliate URL
+        linkText: 'Get a Quote with Allianz', sponsored: true },
+      { type: 'affiliate_card', badge: 'Insurance', name: 'Seven Corners — Best for High Medical Coverage', tagline: 'Maximum protection for travelers with complex medical histories.', pros: [
+        'Up to $250,000 medical coverage and $1,000,000 evacuation limit',
+        'Pre-existing condition waiver within 20 days of initial deposit',
+        'Cancel For Any Reason available — best for cruises and long-haul trips',
+      ], link: '#', // TODO: replace with Seven Corners affiliate URL
+        linkText: 'Get a Quote with Seven Corners', sponsored: true },
+      { type: 'affiliate_card', badge: 'Compare', name: 'Squaremouth — Best for Comparison Shopping', tagline: 'Compare 30+ top-rated plans side by side in minutes.', pros: [
+        'Filter by medical limit, pre-existing waiver, CFAR, and price',
+        'Zero-complaint guarantee — disputes resolved within 30 days',
+        'No pressure, no upsells — ideal for first-time buyers',
+      ], link: '#', // TODO: replace with Squaremouth affiliate URL
+        linkText: 'Compare Plans on Squaremouth', sponsored: true },
+      { type: 'affiliate_table', caption: 'Travel Insurance Comparison — At a Glance', disclaimer: '* Prices are estimates based on a 14-day trip for one adult. Actual quotes vary by age, trip cost, and destination. Links below are affiliate links — I may earn a commission at no cost to you.', columns: ['Provider', 'Best For', 'Key Coverage', 'Est. Cost*', 'Rating'], rows: [
+        { provider: 'World Nomads', bestFor: 'Adventure travelers', coverage: 'Medical, trip cancellation, adventure sports, gear theft', cost: '$80–$150', rating: 5, link: '#', // TODO: replace with World Nomads affiliate URL
+          linkText: 'Get Quote' },
+        { provider: 'InsureMyTrip', bestFor: 'Comparing options', coverage: 'Compare 20+ providers, full trip protection, medical', cost: '$60–$200', rating: 5, link: '#', // TODO: replace with InsureMyTrip affiliate URL
+          linkText: 'Compare Plans' },
+        { provider: 'Allianz Travel', bestFor: 'Families & business', coverage: 'Cancel for any reason, trip delay, emergency medical', cost: '$50–$180', rating: 4, link: '#', // TODO: replace with Allianz affiliate URL
+          linkText: 'Get Quote' },
+        { provider: 'SafetyWing', bestFor: 'Long stays & nomads', coverage: 'Medical-only, monthly subscription, global coverage', cost: '$42–$84/mo', rating: 4, link: '#', // TODO: replace with SafetyWing affiliate URL
+          linkText: 'Sign Up' },
+      ] },
+      { type: 'h2', text: 'How to Get a Quote (It Takes About 5 Minutes)' },
+      { type: 'paragraph', text: 'Getting a quote is faster than most people expect. Here\'s how I walk through it:' },
+      { type: 'list', items: [
+        'Start at Squaremouth or InsureMyTrip — these comparison sites let you see 20+ plans at once filtered to your exact trip',
+        'Enter your trip dates, destination (Japan), total trip cost, and your age — the cost field is important because it affects your cancellation coverage',
+        'Filter for: emergency medical minimum $100,000, evacuation minimum $500,000 — this narrows out the bare-bones plans immediately',
+        'Add the pre-existing waiver filter if that\'s relevant to you',
+        'Compare 3–5 finalists side by side — look at what\'s excluded, not just what\'s covered',
+        'Buy the policy within 14–21 days of your first deposit — set a calendar reminder the day you book your flights',
+      ] },
+      { type: 'paragraph', text: 'Keiko bought travel insurance for her next Japan trip. She told me it felt like throwing money away — until her connecting flight in LAX was cancelled and she claimed a $400 hotel reimbursement without blinking. Sometimes it works exactly like that.' },
+    ],
+  },
+
+  {
+    slug: 'japan-packing-list-seniors',
+    title: 'Japan Packing List for Seniors',
+    excerpt: 'Everything a senior traveler actually needs for a safe, comfortable trip to Japan — from slip-on shoes and compression socks to the insurance coverage that matters most.',
+    category: 'Trip Essentials',
+    icon: '🎒',
+    accentColor: '#6ab88a',
+    heroImage: '/hero-japan-packing-list-seniors.jpg',
+    readTime: '8 min read',
+    date: 'May 2026',
+    affiliateDisclosure: true,
+    content: [
+      {
+        type: 'paragraph',
+        text: 'My friend Abby did her first solo trip to Japan at 68. She\'d been talking about it for years, and I\'d been putting together her packing list in my head for just as long. When she finally went — two weeks, Tokyo to Kyoto to Hiroshima — she came back on cloud nine. But she also came back with a blister on each heel, a pulled muscle from a staircase at Fushimi Inari, and a moment of real panic when she realized she\'d forgotten her extra blood pressure medication at the hotel.',
+      },
+      {
+        type: 'paragraph',
+        text: 'She had a wonderful trip. But I learned some things. And now I want to share them with you — whether you\'re packing for yourself or helping someone you love get ready for Japan.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Here\'s what actually matters.',
+      },
+      {
+        type: 'insurance_disclosure',
+      },
+      {
+        type: 'h2',
+        text: 'Documents & Health Prep — The Non-Negotiables',
+      },
+      {
+        type: 'paragraph',
+        text: 'Pack these first, because nothing else matters if these aren\'t right.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Passport (valid 6+ months beyond your return date) — Japan\'s entry rules are strict on this; check the expiration date now, not at the airport',
+          'Printed travel itinerary + hotel addresses in Japanese — taxi drivers and locals will often need to see it in kanji; Google Translate your hotel name and save it to your phone too',
+          'International travel insurance card + emergency contact number — more on this below, but don\'t leave home without it',
+          'Medications (double what you need, split between bags) — customs allows personal quantities; carry a doctor\'s letter for anything controlled or injectable',
+          'Prescription list in English and, if possible, Japanese — pharmacies in Japan are excellent but will need to know exactly what you\'re taking',
+          'Copies of all documents — email them to yourself AND to one trusted person at home',
+          'Credit card + some yen in cash (at least ¥20,000–30,000) — Japan is still heavily cash-based outside the major tourist corridors; ATMs at 7-Eleven and Japan Post work reliably with foreign cards',
+        ],
+      },
+      {
+        type: 'tip',
+        text: 'Packing tip: Buy a slim document organizer that holds your passport, insurance card, and a few small bills. Keep it on your body — not in your bag — on transit days. Abby used a neck pouch and said it was the one thing she was glad she bought.',
+      },
+      {
+        type: 'h2',
+        text: 'Clothing — Comfort Over Everything',
+      },
+      {
+        type: 'paragraph',
+        text: 'Japan in any season involves a lot of walking. More than people expect. Many people average 15,000–20,000 steps a day in Tokyo without even trying. For seniors, that number doesn\'t have to be as high — but your feet are going to work. Plan accordingly.',
+      },
+      {
+        type: 'paragraph',
+        text: 'The golden rule for Japan packing: shoes you can slip on and off easily. You\'ll remove them at temples, traditional restaurants, some ryokan, and more. Lace-up boots that take 90 seconds to undo are a real problem when you\'re standing on a tatami floor holding a tray of food.',
+      },
+      {
+        type: 'list',
+        items: [
+          '1–2 pairs of slip-on walking shoes with good arch support — Skechers, HOKA, New Balance, or Merrell all make great options; avoid anything with soles that mark wood floors',
+          'Lightweight, moisture-wicking socks (one pair per day) — you\'ll be showing your socks at every temple, so bring ones without holes',
+          'Layers, not bulk — Japan\'s climate shifts; a thin fleece + a light waterproof shell beats a heavy coat almost every season',
+          'Compression socks for flights — especially important for seniors on long-haul from the US; I wear them on every flight over 8 hours',
+          'One nicer outfit — for a kaiseki dinner, a tea ceremony, or just because you want to',
+          'Packable rain poncho — not an umbrella; umbrellas on crowded sidewalks are chaos',
+        ],
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Packing',
+        name: 'Amazon — Top-Rated Travel Packing Essentials',
+        tagline: 'Curated gear that seasoned travelers actually use.',
+        pros: [
+          'Osprey and Eagle Creek packing cubes — durable, washable, worth every penny',
+          'Anker portable chargers — the most reliable brand for travel power',
+          'Compression bags for bulky layers — cuts volume by up to 60%',
+        ],
+        link: 'https://www.amazon.com', // TODO: replace with Amazon Associates affiliate URL
+        linkText: 'Shop Packing Essentials',
+        sponsored: true,
+      },
+      {
+        type: 'h2',
+        text: 'Senior-Specific Must-Haves',
+      },
+      {
+        type: 'paragraph',
+        text: 'These are the things I\'ve collected from travelers who\'ve done Japan in their 60s and 70s. You may not need all of them — but you\'ll be glad you thought about each one.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Collapsible walking stick or trekking pole — Japan has beautiful, uneven stone paths at temples and shrines; a pole is not a sign of weakness, it\'s a sign you\'ve done this before',
+          'Knee or ankle brace if you have any joint issues — the combination of walking + stairs + floor-level seating at some restaurants can aggravate existing problems',
+          'Portable pill organizer (TSA-friendly) — keep a week\'s supply in your carry-on at all times, separate from your checked bag',
+          'Small tube of blister treatment + moleskin — get it before you go; Japanese pharmacies carry great products but you\'ll need to read the labels',
+          'Seat cushion or folded fleece for long bullet train rides — the Shinkansen seats are very comfortable, but 2-hour legs are still 2-hour legs',
+          'Noise-cancelling earbuds or earplugs — Japan is orderly but big cities are loud; good sleep matters more on a trip like this',
+          'Print-out or screenshot of your blood type — in Japan, it\'s considered useful medical information; A, B, O, AB in both English and Japanese',
+          'Hand luggage scale (small, clip-style) — you will buy things; you need to know if you\'re over before you get to the airport',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Connectivity & Getting Around',
+      },
+      {
+        type: 'paragraph',
+        text: 'Japan has excellent infrastructure, but navigating it solo in a foreign language takes a little setup.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Pocket Wi-Fi or eSIM — don\'t rely on your US carrier\'s international plan; it\'s expensive and patchy; rent pocket Wi-Fi at the airport or buy an eSIM before you leave',
+          'Google Maps downloaded offline for your destinations — works beautifully in Japan even without data for basic navigation',
+          'IC Card (Suica or Pasmo) — load it at any major train station; it works on trains, buses, and even convenience stores; no need to buy individual tickets every time',
+          'Portable charger (10,000mAh minimum) — Japan\'s outlets are type A (same as the US), so no adapter needed, but you\'ll use your phone heavily for navigation and translation',
+          'Google Translate app with Japanese downloaded for offline use — the camera translation feature is a lifesaver in restaurants and pharmacies',
+        ],
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Connectivity',
+        name: 'Airalo — eSIM for Japan & Worldwide',
+        tagline: 'Activate mobile data before you land. No physical SIM swap.',
+        pros: [
+          'Japan-specific eSIM plans from $4.50 for 1GB / 7 days',
+          'Activate via QR code in 60 seconds — works on most modern phones',
+          'No roaming fees, no contract',
+        ],
+        link: 'https://www.airalo.com', // TODO: replace with Airalo affiliate URL
+        linkText: 'Get a Japan eSIM',
+        sponsored: true,
+      },
+      {
+        type: 'h2',
+        text: 'Travel Insurance — Please Don\'t Skip This',
+      },
+      {
+        type: 'paragraph',
+        text: 'I\'m going to be direct here: travel insurance matters for every traveler, but for seniors traveling to Japan, it\'s not optional. Japan\'s healthcare is excellent and relatively affordable by US standards — but "relatively affordable" still means thousands of dollars if something goes wrong and you don\'t have coverage.',
+      },
+      {
+        type: 'paragraph',
+        text: 'A minor stroke during a trip to Osaka. Treated well, full recovery — but without travel insurance, the bills alone would have been devastating. Good coverage took care of the hospital stay, the medical evacuation home, and the extended hotel costs while a spouse waited. That\'s the difference between a scary story and a financial disaster. It happens, and it happens to healthy people on otherwise smooth trips.',
+      },
+      {
+        type: 'paragraph',
+        text: 'For seniors, the things to look for specifically are: pre-existing condition waivers, high medical limits (at least $100,000 — ideally more), and emergency evacuation coverage. Medevac from Japan to the US can run $50,000–$100,000 on its own.',
+      },
+      {
+        type: 'affiliate_table',
+        caption: 'Travel Insurance Comparison — At a Glance',
+        disclaimer: '* Prices are estimates based on a 14-day trip for one adult. Actual quotes vary by age, trip cost, and destination. Links below are affiliate links — I may earn a commission at no cost to you.',
+        columns: ['Provider', 'Best For', 'Key Coverage', 'Est. Cost*', 'Rating'],
+        rows: [
+          {
+            provider: 'World Nomads',
+            bestFor: 'Adventure travelers',
+            coverage: 'Medical, cancellation, gear theft',
+            cost: '$80–$150',
+            rating: 5,
+            link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
+            linkText: 'Get Quote',
+          },
+          {
+            provider: 'InsureMyTrip',
+            bestFor: 'Comparing options',
+            coverage: 'Compare 20+ providers, full trip protection',
+            cost: '$60–$200',
+            rating: 5,
+            link: 'https://www.insuremytrip.com', // TODO: replace with InsureMyTrip affiliate URL
+            linkText: 'Compare Plans',
+          },
+          {
+            provider: 'Allianz Travel',
+            bestFor: 'Families & seniors',
+            coverage: 'Cancel for any reason, trip delay, emergency medical',
+            cost: '$50–$180',
+            rating: 4,
+            link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
+            linkText: 'Get Quote',
+          },
+          {
+            provider: 'SafetyWing',
+            bestFor: 'Long stays',
+            coverage: 'Medical-only, monthly subscription, global',
+            cost: '$42–$84/mo',
+            rating: 4,
+            link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
+            linkText: 'Sign Up',
+          },
+        ],
+      },
+      {
+        type: 'tip',
+        text: 'Travel Insurance tip: Buy your policy within 14–21 days of your first trip deposit. Most pre-existing condition waivers require this window — miss it, and you may not be covered for any health event related to conditions you already have.',
+      },
+      {
+        type: 'h2',
+        text: 'Day of Departure Checklist',
+      },
+      {
+        type: 'list',
+        items: [
+          '☐ Passport + copies (one in bag, one emailed to yourself)',
+          '☐ Insurance card + emergency phone number',
+          '☐ Medications — full supply in carry-on, backup in checked bag',
+          '☐ Portable charger charged to 100%',
+          '☐ eSIM activated or pocket Wi-Fi pre-booked for airport pickup',
+          '☐ Japanese yen (at least ¥20,000) — or plan to withdraw from 7-Eleven ATM on arrival',
+          '☐ IC Card (if returning trip) or note to get one at airport',
+          '☐ Comfortable shoes on your feet, slip-ons ready in carry-on',
+          '☐ Compression socks on for the flight',
+          '☐ Hotel addresses saved in Japanese (screenshot or printed)',
+          '☐ Tablet or e-reader charged — long flight, enjoy it',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'Japan is one of the most accessible, welcoming, and genuinely safe countries in the world for senior travelers. The trains run on time, the food is extraordinary, and the culture of omotenashi — that deep hospitality — means people will go out of their way to help you if you\'re confused or struggling. Go. Pack smart. And don\'t forget the slip-on shoes.',
+      },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {
