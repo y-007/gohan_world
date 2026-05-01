@@ -15,7 +15,9 @@ const ArticleRenderer = ({ blocks }) => (
         case 'h2':
           return <h2 key={i} className="article-body__h2">{block.text}</h2>
         case 'h3':
-          return <h3 key={i} className="article-body__h3">{block.text}</h3>
+          return block.html
+            ? <h3 key={i} className="article-body__h3" dangerouslySetInnerHTML={{ __html: block.text }} />
+            : <h3 key={i} className="article-body__h3">{block.text}</h3>
         case 'list':
           return (
             <ul key={i} className="article-body__list">
