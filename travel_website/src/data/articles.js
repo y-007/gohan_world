@@ -105,7 +105,7 @@ export const articles = [
           'Options range from sushi-making classes to ramen deep-dives',
           'Small groups — typically 2–10 people for a personal experience',
         ],
-        link: '#', // TODO: replace with Airbnb Experiences affiliate URL
+        link: 'https://www.airbnb.com/experiences', // TODO: replace with Airbnb Experiences affiliate URL
         linkText: 'Browse Cooking Experiences',
         sponsored: true,
       },
@@ -119,7 +119,7 @@ export const articles = [
           'Street food walks through Kyoto\'s Nishiki Market',
           'Free cancellation on most bookings',
         ],
-        link: '#', // TODO: replace with Viator affiliate URL
+        link: 'https://www.viator.com', // TODO: replace with Viator affiliate URL
         linkText: 'Browse Food Tours',
         sponsored: true,
       },
@@ -216,7 +216,7 @@ export const articles = [
           'Free cancellation on most properties',
           'Genius loyalty program unlocks discounts automatically',
         ],
-        link: '#', // TODO: replace with Booking.com affiliate URL
+        link: 'https://www.booking.com', // TODO: replace with Booking.com affiliate URL
         linkText: 'Search Accommodation',
         sponsored: true,
       },
@@ -230,7 +230,7 @@ export const articles = [
           'Full-to-full fuel policy options (no surprises)',
           'Free cancellation up to 48 hours before pickup',
         ],
-        link: '#', // TODO: replace with Discover Cars affiliate URL
+        link: 'https://www.discovercars.com', // TODO: replace with Discover Cars affiliate URL
         linkText: 'Compare Rental Cars',
         sponsored: true,
       },
@@ -314,7 +314,7 @@ export const articles = [
           'Anker portable chargers — the most reliable brand for travel power',
           'Compression bags for bulky layers — cuts volume by up to 60%',
         ],
-        link: '#', // TODO: replace with Amazon affiliate URL (use Amazon Associates)
+        link: 'https://www.amazon.com', // TODO: replace with Amazon affiliate URL (use Amazon Associates)
         linkText: 'Shop Packing Essentials',
         sponsored: true,
       },
@@ -333,7 +333,7 @@ export const articles = [
       {
         type: 'affiliate_table',
         caption: 'Travel Insurance Comparison — Japan & USA Trips',
-        disclaimer: '* Prices are estimates based on a 14-day trip for one adult. Actual quotes vary by age, trip cost, and destination. Links below are affiliate links — we may earn a commission at no cost to you.',
+        disclaimer: '* Prices are estimates based on a 14-day trip for one adult. Actual quotes vary by age, trip cost, and destination. Links below are affiliate links — I may earn a commission at no cost to you.',
         columns: ['Provider', 'Best For', 'Key Coverage', 'Est. Cost*', 'Rating'],
         rows: [
           {
@@ -342,7 +342,7 @@ export const articles = [
             coverage: 'Medical, trip cancellation, adventure sports, gear theft',
             cost: '$80–$150',
             rating: 5,
-            link: '#', // TODO: replace with World Nomads affiliate URL
+            link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
             linkText: 'Get Quote',
           },
           {
@@ -351,7 +351,7 @@ export const articles = [
             coverage: 'Compare 20+ providers, full trip protection, medical',
             cost: '$60–$200',
             rating: 5,
-            link: '#', // TODO: replace with InsureMyTrip affiliate URL
+            link: 'https://www.insuremytrip.com', // TODO: replace with InsureMyTrip affiliate URL
             linkText: 'Compare Plans',
           },
           {
@@ -360,7 +360,7 @@ export const articles = [
             coverage: 'Cancel for any reason, trip delay, emergency medical',
             cost: '$50–$180',
             rating: 4,
-            link: '#', // TODO: replace with Allianz affiliate URL
+            link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
             linkText: 'Get Quote',
           },
           {
@@ -369,7 +369,7 @@ export const articles = [
             coverage: 'Medical-only, monthly subscription, global coverage',
             cost: '$42–$84/mo',
             rating: 4,
-            link: '#', // TODO: replace with SafetyWing affiliate URL
+            link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
             linkText: 'Sign Up',
           },
         ],
@@ -497,7 +497,7 @@ export const articles = [
           'Side-by-side comparison of medical limits, evacuation coverage, and deductibles',
           'Licensed agents available by phone to help you choose',
         ],
-        link: '#', // TODO: replace with InsureMyTrip affiliate URL
+        link: 'https://www.insuremytrip.com', // TODO: replace with InsureMyTrip affiliate URL
         linkText: 'Compare Travel Insurance Plans',
         sponsored: true,
       },
@@ -613,7 +613,7 @@ export const articles = [
           'Pre-existing condition waiver available within 14 days of initial deposit',
           'Consistently top-rated for customer service among senior travelers',
         ],
-        link: '#', // TODO: replace with Allianz affiliate URL
+        link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
         linkText: 'Get a Quote with Allianz',
         sponsored: true,
       },
@@ -627,7 +627,7 @@ export const articles = [
           'Cancel For Any Reason (CFAR) upgrade available',
           'Ideal for longer trips and high-cost international destinations',
         ],
-        link: '#', // TODO: replace with World Nomads affiliate URL
+        link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
         linkText: 'Get a Quote with World Nomads',
         sponsored: true,
       },
@@ -641,7 +641,7 @@ export const articles = [
           'Pre-existing condition waiver within 20 days of initial deposit',
           'Cancel For Any Reason available — best for cruises and long-haul trips',
         ],
-        link: '#', // TODO: replace with Seven Corners affiliate URL
+        link: 'https://www.sevencorners.com', // TODO: replace with Seven Corners affiliate URL
         linkText: 'Get a Quote with Seven Corners',
         sponsored: true,
       },
@@ -736,13 +736,13 @@ export const articles = [
         'Verified local hosts in Tokyo, Kyoto, Osaka, and across the USA',
         'Options range from gyoza-making classes to neighborhood food walks',
         'Small groups — typically 2–10 people for a personal experience',
-      ], link: '#', // TODO: replace with Airbnb Experiences affiliate URL
+      ], link: 'https://www.airbnb.com/experiences', // TODO: replace with Airbnb Experiences affiliate URL
         linkText: 'Browse Cooking Experiences', sponsored: true },
       { type: 'affiliate_card', badge: 'Tours', name: 'Viator — Food & Culture Tours', tagline: 'Guided food tours in Japan and the USA.', pros: [
         'Neighborhood food walks and shotengai tours in Tokyo and Osaka',
         'Street food experiences through Kyoto\'s Nishiki Market',
         'Free cancellation on most bookings',
-      ], link: '#', // TODO: replace with Viator affiliate URL
+      ], link: 'https://www.viator.com', // TODO: replace with Viator affiliate URL
         linkText: 'Browse Food Tours', sponsored: true },
       { type: 'paragraph', text: 'Both machi chuka and the small-town American Chinese restaurant exist in the same emotional space — a place where you know what you\'re going to order before you sit down, where the food is exactly what you need, and where someone\'s family has been feeding your neighborhood longer than you\'ve been alive. That\'s not a small thing. In food, that kind of continuity is everything.' },
     ],
@@ -800,34 +800,34 @@ export const articles = [
         'Up to $100,000 medical coverage and $500,000 evacuation',
         'Cancel For Any Reason (CFAR) upgrade available',
         'Covers most adventure sports by default — verify your activities',
-      ], link: '#', // TODO: replace with World Nomads affiliate URL
+      ], link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
         linkText: 'Get a Quote with World Nomads', sponsored: true },
       { type: 'affiliate_card', badge: 'Insurance', name: 'Allianz Travel Insurance — Best Overall for Most Travelers', tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.', pros: [
         'Up to $50,000 medical coverage and $500,000 medical evacuation',
         'Pre-existing condition waiver available within 14 days of initial deposit',
         'Consistently top-rated for customer service',
-      ], link: '#', // TODO: replace with Allianz affiliate URL
+      ], link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
         linkText: 'Get a Quote with Allianz', sponsored: true },
       { type: 'affiliate_card', badge: 'Insurance', name: 'Seven Corners — Best for High Medical Coverage', tagline: 'Maximum protection for travelers with complex medical histories.', pros: [
         'Up to $250,000 medical coverage and $1,000,000 evacuation limit',
         'Pre-existing condition waiver within 20 days of initial deposit',
         'Cancel For Any Reason available — best for cruises and long-haul trips',
-      ], link: '#', // TODO: replace with Seven Corners affiliate URL
+      ], link: 'https://www.sevencorners.com', // TODO: replace with Seven Corners affiliate URL
         linkText: 'Get a Quote with Seven Corners', sponsored: true },
       { type: 'affiliate_card', badge: 'Compare', name: 'Squaremouth — Best for Comparison Shopping', tagline: 'Compare 30+ top-rated plans side by side in minutes.', pros: [
         'Filter by medical limit, pre-existing waiver, CFAR, and price',
         'Zero-complaint guarantee — disputes resolved within 30 days',
         'No pressure, no upsells — ideal for first-time buyers',
-      ], link: '#', // TODO: replace with Squaremouth affiliate URL
+      ], link: 'https://www.squaremouth.com', // TODO: replace with Squaremouth affiliate URL
         linkText: 'Compare Plans on Squaremouth', sponsored: true },
       { type: 'affiliate_table', caption: 'Travel Insurance Comparison — At a Glance', disclaimer: '* Prices are estimates based on a 14-day trip for one adult. Actual quotes vary by age, trip cost, and destination. Links below are affiliate links — I may earn a commission at no cost to you.', columns: ['Provider', 'Best For', 'Key Coverage', 'Est. Cost*', 'Rating'], rows: [
-        { provider: 'World Nomads', bestFor: 'Adventure travelers', coverage: 'Medical, trip cancellation, adventure sports, gear theft', cost: '$80–$150', rating: 5, link: '#', // TODO: replace with World Nomads affiliate URL
+        { provider: 'World Nomads', bestFor: 'Adventure travelers', coverage: 'Medical, trip cancellation, adventure sports, gear theft', cost: '$80–$150', rating: 5, link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
           linkText: 'Get Quote' },
-        { provider: 'InsureMyTrip', bestFor: 'Comparing options', coverage: 'Compare 20+ providers, full trip protection, medical', cost: '$60–$200', rating: 5, link: '#', // TODO: replace with InsureMyTrip affiliate URL
+        { provider: 'InsureMyTrip', bestFor: 'Comparing options', coverage: 'Compare 20+ providers, full trip protection, medical', cost: '$60–$200', rating: 5, link: 'https://www.insuremytrip.com', // TODO: replace with InsureMyTrip affiliate URL
           linkText: 'Compare Plans' },
-        { provider: 'Allianz Travel', bestFor: 'Families & business', coverage: 'Cancel for any reason, trip delay, emergency medical', cost: '$50–$180', rating: 4, link: '#', // TODO: replace with Allianz affiliate URL
+        { provider: 'Allianz Travel', bestFor: 'Families & business', coverage: 'Cancel for any reason, trip delay, emergency medical', cost: '$50–$180', rating: 4, link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
           linkText: 'Get Quote' },
-        { provider: 'SafetyWing', bestFor: 'Long stays & nomads', coverage: 'Medical-only, monthly subscription, global coverage', cost: '$42–$84/mo', rating: 4, link: '#', // TODO: replace with SafetyWing affiliate URL
+        { provider: 'SafetyWing', bestFor: 'Long stays & nomads', coverage: 'Medical-only, monthly subscription, global coverage', cost: '$42–$84/mo', rating: 4, link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
           linkText: 'Sign Up' },
       ] },
       { type: 'h2', text: 'How to Get a Quote (It Takes About 5 Minutes)' },
