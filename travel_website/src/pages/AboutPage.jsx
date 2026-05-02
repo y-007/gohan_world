@@ -1,29 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './AboutPage.css'
 
 const AboutPage = () => (
-  <main style={{ padding: '60px 20px', maxWidth: '800px', margin: '0 auto' }}>
+  <main className="about-page">
 
-    <div style={{ textAlign: 'center', marginBottom: '40px', padding: '20px' }}>
+    <div className="about-page__photo-wrap">
       <img
         src="/about-yuko.jpg"
         alt="Yuko — author of Gohan World"
-        style={{
-          width: '280px',
-          height: '280px',
-          borderRadius: '0%',
-          objectFit: 'cover',
-          backgroundColor: '#f0f0f0',
-          display: 'block',
-          margin: '0 auto',
-        }}
+        className="about-page__photo"
         onError={(e) => { e.target.style.display = 'none' }}
       />
     </div>
 
-    <h1 style={{ fontSize: '2rem', marginBottom: '24px' }}>About <span>  - World GOHAN Creator</span></h1>
-    
-    <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: '#444', marginBottom: '24px' }}>
+    <h1 className="about-page__title">About <span>- World GOHAN Creator</span></h1>
+
+    <p className="about-page__body">
       Hi, welcome to Gohan World! I'm Yuko. I deeply value the bonds with my
       circle of friends and family. From my childhood adventures to now,
       I've navigated life's journey together — sharing meals, laughter, and
@@ -31,24 +24,13 @@ const AboutPage = () => (
       cherishing connections and memories.
     </p>
 
-    <p style={{ fontSize: '1.05rem', lineHeight: '1.9', color: '#444', marginBottom: '40px' }}>
+    <p className="about-page__body about-page__body--last">
       This blog is where I document those adventures: travel guides, tips, and
       honest recommendations for anyone moving between the USA and Japan, or
       exploring both countries for the first time.
     </p>
 
-    <Link
-      to="/articles"
-      style={{
-        display: 'inline-block',
-        padding: '12px 28px',
-        backgroundColor: '#b8963e',
-        color: '#fff',
-        borderRadius: '6px',
-        textDecoration: 'none',
-        fontWeight: '600',
-      }}
-    >
+    <Link to="/articles" className="about-page__cta">
       Read the Articles →
     </Link>
 

@@ -23,12 +23,12 @@ const AffiliateTable = ({ caption, disclaimer, columns, rows }) => (
         <tbody>
           {rows.map((row) => (
             <tr key={row.provider}>
-              <td className="affiliate-table__provider">{row.provider}</td>
-              <td>{row.bestFor}</td>
-              <td>{row.coverage}</td>
-              <td className="affiliate-table__cost">{row.cost}</td>
-              <td><Stars rating={row.rating} /></td>
-              <td>
+              <td className="affiliate-table__provider" data-label={columns[0]}>{row.provider}</td>
+              <td data-label={columns[1]}>{row.bestFor}</td>
+              <td data-label={columns[2]}>{row.coverage}</td>
+              <td className="affiliate-table__cost" data-label={columns[3]}>{row.cost}</td>
+              <td data-label={columns[4]}><Stars rating={row.rating} /></td>
+              <td data-label="Action">
                 <a
                   href={row.link}
                   className="affiliate-table__cta"
