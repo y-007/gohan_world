@@ -150,9 +150,9 @@ const Header = ({ isDark, toggleTheme }) => {
         </nav>
 
         <div className="social-icons">
-          <a href="#" aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+          <a href="https://www.facebook.com/gohanworld.by.yuko" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
           <a href="#" aria-label="X (Twitter)"><FontAwesomeIcon icon={faXTwitter} /></a>
-          <a href="#" aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a href="https://www.instagram.com/gohanworld.by.yuko/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
           <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
         </div>
 
@@ -205,9 +205,9 @@ const Header = ({ isDark, toggleTheme }) => {
         </form>
         <div className="mobile-menu__footer">
           <div className="mobile-menu__social">
-            <a href="#" aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="https://www.facebook.com/gohanworld.by.yuko" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
             <a href="#" aria-label="X (Twitter)"><FontAwesomeIcon icon={faXTwitter} /></a>
-            <a href="#" aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.instagram.com/gohanworld.by.yuko/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
           </div>
           <button className="theme-toggle" onClick={toggleTheme}

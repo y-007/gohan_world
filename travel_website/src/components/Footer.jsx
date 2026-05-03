@@ -73,9 +73,9 @@ const Footer = () => {
         <div className="footer__col footer__col--center">
           <h4 className="footer__col-title">Follow Us</h4>
           <div className="social_icons">
-            <FontAwesomeIcon icon={faFacebook} />
+            <a href="https://www.facebook.com/gohanworld.by.yuko" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
             <FontAwesomeIcon icon={faXTwitter} />
-            <FontAwesomeIcon icon={faInstagram} />
+            <a href="https://www.instagram.com/gohanworld.by.yuko/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
           </div>
         </div>
