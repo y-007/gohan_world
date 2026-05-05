@@ -6,10 +6,19 @@
   margin: 0 auto;
 }
 
-.article-body__p a {
+.article-body a {
   color: inherit;
   text-decoration: underline;
   text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.article-body a:hover {
+  color: #b8a06a;
+}
+
+.article-body__p + .article-body__p {
+  margin-top: -12px;
 }
 
 .article-body__p {

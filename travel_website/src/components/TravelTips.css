@@ -71,6 +71,16 @@
   margin: 0;
 }
 
+.tip-item__body p a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.tip-item__body p a:hover {
+  color: var(--color-accent);
+}
+
 @media (max-width: 768px) {
   .tip-item {
     flex-direction: column;

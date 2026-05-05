@@ -21,7 +21,11 @@ const ArticleRenderer = ({ blocks }) => (
         case 'list':
           return (
             <ul key={i} className="article-body__list">
-              {block.items.map((item, j) => <li key={j}>{item}</li>)}
+              {block.items.map((item, j) =>
+                block.html
+                  ? <li key={j} dangerouslySetInnerHTML={{ __html: item }} />
+                  : <li key={j}>{item}</li>
+              )}
             </ul>
           )
         case 'tip':

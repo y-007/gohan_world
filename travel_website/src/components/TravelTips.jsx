@@ -3,7 +3,7 @@ import './TravelTips.css'
 import { useResizeObserver, fluidSize } from '../hooks/useResizeObserver'
 
 const tips = [
-  { icon: '🎌', title: 'Get an IC Card in Japan',       body: 'A Suica or Pasmo card works on trains, subways, buses, and even convenience stores across Japan. Load it once and tap your way everywhere.' },
+  { icon: '🎌', title: 'Get an IC Card in Japan',       body: 'A <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener noreferrer">Suica</a> or <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener noreferrer">Pasmo</a> card works on trains, subways, buses, and even convenience stores across Japan. Load it once and tap your way everywhere.', html: true },
   { icon: '💴', title: 'Carry Cash in Japan',            body: 'Japan is still largely cash-based outside major cities. ATMs at 7-Eleven and Japan Post reliably accept foreign cards.' },
   { icon: '🌐', title: 'Pocket Wi-Fi or eSIM',           body: 'Rent a pocket Wi-Fi at the airport or set up an eSIM before departure. Staying connected is essential for navigation and translation apps.' },
   { icon: '🥢', title: 'Learn Basic Japanese Phrases',   body: '"Sumimasen" (excuse me) and "Arigatou gozaimasu" (thank you) go a long way. Locals deeply appreciate any effort to use Japanese.' },
@@ -37,7 +37,9 @@ const TravelTips = () => {
               <div className="tip-item__icon">{tip.icon}</div>
               <div className="tip-item__body">
                 <h3>{tip.title}</h3>
-                <p>{tip.body}</p>
+                {tip.html
+                  ? <p dangerouslySetInnerHTML={{ __html: tip.body }} />
+                  : <p>{tip.body}</p>}
               </div>
             </div>
           ))}
