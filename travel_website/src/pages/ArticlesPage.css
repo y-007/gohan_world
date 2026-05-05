@@ -95,6 +95,51 @@
 }
 
 /* ─────────────────────────────────────────
+   Category Cards
+───────────────────────────────────────── */
+.articles-page__category-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: clamp(12px, 2vw, 20px);
+}
+
+.articles-page__category-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--color-bg-card);
+  border: 2px solid var(--cat-accent, var(--color-border));
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.articles-page__category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px var(--color-shadow-sm);
+}
+
+.articles-page__category-card-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.articles-page__category-card-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  flex: 1;
+}
+
+.articles-page__category-card-arrow {
+  font-size: 0.9rem;
+  color: var(--cat-accent, var(--color-accent));
+  font-weight: 700;
+}
+
+/* ─────────────────────────────────────────
    Filter Box
 ───────────────────────────────────────── */
 .articles-page__filter-section {

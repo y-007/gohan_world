@@ -15,6 +15,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 import ContactPage from './pages/ContactPage'
 import AffiliateBar from './components/AffiliateBar'
 import CookieBanner from './components/CookieBanner'
+import CategoryPage from './pages/CategoryPage'
 
 function App() {
   const { isDark, toggleTheme } = useTheme()
@@ -27,6 +28,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/articles" element={<ArticlesPage />} />
+        <Route path="/articles/category/:categorySlug" element={<CategoryPage />} />
         <Route path="/articles/:slug" element={<ArticlePage />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/about" element={<AboutPage />} />

@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { articles } from '../data/articles'
+import { categories } from '../data/categories'
 import './ArticlesPage.css'
 
 const CATEGORIES = ['All', 'Travel Insurance', 'Food & Culture', 'Travel Stories', 'Trip Essentials']
@@ -115,6 +116,32 @@ const ArticlesPage = () => {
             </div>
             <div className="articles-page__strip">
               {featuredArticles.map(a => <ArticleCard key={a.slug} article={a} />)}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── Browse by Category ── */}
+      {!hasActiveFilter && (
+        <section className="articles-page__section">
+          <div className="articles-page__section-inner">
+            <div className="articles-page__section-header">
+              <h2 className="articles-page__section-title">📂 Browse by Category</h2>
+              <p className="articles-page__section-sub">Not sure where to start? Pick a topic and find everything in one place.</p>
+            </div>
+            <div className="articles-page__category-cards">
+              {categories.map(cat => (
+                <Link
+                  key={cat.slug}
+                  to={`/articles/category/${cat.slug}`}
+                  className="articles-page__category-card"
+                  style={{ '--cat-accent': cat.accentColor }}
+                >
+                  <span className="articles-page__category-card-icon">{cat.icon}</span>
+                  <span className="articles-page__category-card-name">{cat.name}</span>
+                  <span className="articles-page__category-card-arrow">→</span>
+                </Link>
+              ))}
             </div>
           </div>
         </section>
