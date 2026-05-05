@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faPinterest, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faPinterest } from '@fortawesome/free-brands-svg-icons'
 import { faSearch, faSun, faMoon, faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import React, { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
@@ -151,7 +151,6 @@ const Header = ({ isDark, toggleTheme }) => {
 
         <div className="social-icons">
           <a href="https://www.facebook.com/gohanworld.by.yuko" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-          <a href="#" aria-label="X (Twitter)"><FontAwesomeIcon icon={faXTwitter} /></a>
           <a href="https://www.instagram.com/gohanworld.by.yuko/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
           <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
         </div>
@@ -206,7 +205,6 @@ const Header = ({ isDark, toggleTheme }) => {
         <div className="mobile-menu__footer">
           <div className="mobile-menu__social">
             <a href="https://www.facebook.com/gohanworld.by.yuko" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="#" aria-label="X (Twitter)"><FontAwesomeIcon icon={faXTwitter} /></a>
             <a href="https://www.instagram.com/gohanworld.by.yuko/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
           </div>

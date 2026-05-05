@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faPinterest, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faPinterest } from '@fortawesome/free-brands-svg-icons';
 
 const SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbysNwT7IUrVZzsmSOS58pmoFnaIeXwOYE2l83EPcRv4bRu-1Jop2yhXLWi9I6sG0eye/exec';
 
@@ -74,7 +74,6 @@ const Footer = () => {
           <h4 className="footer__col-title">Follow Us</h4>
           <div className="social_icons">
             <a href="https://www.facebook.com/gohanworld.by.yuko" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-            <FontAwesomeIcon icon={faXTwitter} />
             <a href="https://www.instagram.com/gohanworld.by.yuko/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://www.pinterest.com/gohanandworld/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faPinterest} /></a>
           </div>
