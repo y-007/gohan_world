@@ -14,6 +14,12 @@ export const articles = [
     readTime: '7 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
+    tags: ['Food', 'Culture', 'Japan', 'USA'],
+    difficulty: 'Beginner',
+    type: 'Guide',
+    featured: false,
+    pinned: false,
+    lastUpdated: 'April 2026',
     content: [
       {
         type: 'paragraph',
@@ -137,6 +143,12 @@ export const articles = [
     readTime: '8 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
+    tags: ['Japan', 'USA', 'Beginners'],
+    difficulty: 'Beginner',
+    type: 'Guide',
+    featured: false,
+    pinned: false,
+    lastUpdated: 'April 2026',
     content: [
       {
         type: 'paragraph',
@@ -248,6 +260,12 @@ export const articles = [
     readTime: '9 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
+    tags: ['Packing', 'Beginners', 'Safety'],
+    difficulty: 'Beginner',
+    type: 'Checklist',
+    featured: true,
+    pinned: false,
+    lastUpdated: 'April 2026',
     content: [
       {
         type: 'paragraph',
@@ -410,6 +428,12 @@ export const articles = [
     readTime: '6 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
+    tags: ['Healthcare Abroad', 'Seniors', 'Safety', 'Money'],
+    difficulty: 'Intermediate',
+    type: 'Guide',
+    featured: false,
+    pinned: true,
+    lastUpdated: 'April 2026',
     content: [
       {
         type: 'paragraph',
@@ -515,6 +539,12 @@ export const articles = [
     readTime: '8 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
+    tags: ['Healthcare Abroad', 'Seniors', 'Safety'],
+    difficulty: 'Intermediate',
+    type: 'Guide',
+    featured: true,
+    pinned: true,
+    lastUpdated: 'April 2026',
     content: [
       {
         type: 'paragraph',
@@ -696,6 +726,12 @@ export const articles = [
     readTime: '7 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
+    tags: ['Food', 'Culture', 'Japan', 'Tokyo'],
+    difficulty: 'Beginner',
+    type: 'Guide',
+    featured: false,
+    pinned: false,
+    lastUpdated: 'April 2026',
     content: [
       { type: 'paragraph', text: 'There\'s a restaurant near my grandmother\'s house in Tokyo that has been there my entire life. Same hand-painted sign. Same screen door that sticks in summer. Same two-burner wok station you can see from the counter if you lean just right. The menu is laminated and slightly sticky and I have every item memorized — gyoza, ramen, chahan, tenshin-han. You order by pointing. The owner\'s wife brings green tea without asking. This is machi chuka. And until recently, I never thought about what it actually is.' },
       { type: 'h2', text: 'What "Machi Chuka" Actually Means' },
@@ -759,6 +795,12 @@ export const articles = [
     readTime: '9 min read',
     date: 'May 2026',
     affiliateDisclosure: true,
+    tags: ['Safety', 'Money', 'Japan', 'Beginners'],
+    difficulty: 'Beginner',
+    type: 'Comparison',
+    featured: true,
+    pinned: true,
+    lastUpdated: 'May 2026',
     content: [
       { type: 'paragraph', text: 'A few years ago, a friend of mine — I\'ll call her Keiko — had what should\'ve been a perfect two-week trip to Osaka and Kyoto. She\'d been saving for it for over a year. On day four, she slipped on wet stone steps at Fushimi Inari and fractured her wrist. She didn\'t have travel insurance. The ER visit, x-rays, and splint cost her about $800 out of pocket. Which honestly isn\'t terrible — until you factor in that she missed the rest of her trip and her regular US health insurance covered zero of it. Zero. She came home with a splint, a story, and a bill she hadn\'t budgeted for.' },
       { type: 'paragraph', text: 'I think about her every time someone asks me if travel insurance for Japan is really worth it. It is. Here\'s what you need to know.' },
@@ -855,6 +897,12 @@ export const articles = [
     readTime: '8 min read',
     date: 'May 2026',
     affiliateDisclosure: true,
+    tags: ['Packing', 'Seniors', 'Japan', 'Beginners'],
+    difficulty: 'Beginner',
+    type: 'Checklist',
+    featured: false,
+    pinned: false,
+    lastUpdated: 'May 2026',
     content: [
       {
         type: 'paragraph',
@@ -1087,6 +1135,12 @@ export const articles = [
     readTime: '7 min read',
     date: 'May 2026',
     affiliateDisclosure: true,
+    tags: ['Tokyo', 'Airports', 'Beginners', 'Japan'],
+    difficulty: 'Beginner',
+    type: 'Guide',
+    featured: false,
+    pinned: false,
+    lastUpdated: 'May 2026',
     content: [
       { type: 'paragraph', text: 'The first time I flew to Tokyo from the US, I landed at Narita at 4pm on a Tuesday. I was jet-lagged, dragging a suitcase, and somehow it still took me almost two hours to get to my hotel in Shinjuku. The Narita Express, the transfer at Shinjuku Station, the crowds — by the time I got to my room I was completely done.' },
       { type: 'paragraph', text: "That was the last time I used Narita for a Tokyo trip." },
@@ -1143,6 +1197,12 @@ export const articles = [
     readTime: '9 min read',
     date: 'May 2026',
     affiliateDisclosure: true,
+    tags: ['Beginners', 'Mobile Data', 'Japan'],
+    difficulty: 'Beginner',
+    type: 'Comparison',
+    featured: true,
+    pinned: true,
+    lastUpdated: 'May 2026',
     content: [
       { type: 'paragraph', html: true, text: 'Last spring my friend Sara texted me from Narita Airport at 10pm: <em>"My Verizon plan says it\'s $12 a day. For two weeks. I\'m just gonna pay it right?"</em> I made her stop, sit down at a Tully\'s near baggage claim, and install an eSIM on her iPhone before she walked outside. Twenty minutes later she had data for the whole trip for less than what one day of Verizon would\'ve cost her.' },
       { type: 'paragraph', text: 'That conversation happens to me a lot. So let me save you the panic-text version.' },

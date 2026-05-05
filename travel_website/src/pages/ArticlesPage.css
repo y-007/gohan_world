@@ -1,12 +1,16 @@
+/* ─────────────────────────────────────────
+   Articles Page — Layout
+───────────────────────────────────────── */
 .articles-page {
   min-height: 80vh;
   background-color: var(--color-bg-page);
 }
 
+/* Hero */
 .articles-page__hero {
   background: var(--color-bg-section-alt);
   border-bottom: 1px solid var(--color-border);
-  padding: clamp(48px, 8vw, 80px) clamp(16px, 5vw, 40px) clamp(40px, 6vw, 60px);
+  padding: clamp(48px, 8vw, 80px) clamp(16px, 5vw, 40px) clamp(32px, 5vw, 48px);
   text-align: center;
 }
 
@@ -22,14 +26,244 @@
   font-size: clamp(0.95rem, 1.6vw, 1.1rem);
   color: var(--color-text-secondary);
   max-width: 560px;
-  margin: 0 auto;
+  margin: 0 auto 28px;
   line-height: 1.7;
 }
 
+/* Search bar */
+.articles-page__search-wrap {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.articles-page__search {
+  width: 100%;
+  padding: 12px 18px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-bg-card);
+  color: var(--color-text-primary);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.articles-page__search:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(184, 160, 106, 0.15);
+}
+
+/* ─────────────────────────────────────────
+   Curated Sections (Recommended / Start Here)
+───────────────────────────────────────── */
+.articles-page__section {
+  padding: clamp(32px, 5vw, 56px) clamp(16px, 5vw, 40px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.articles-page__section--alt {
+  background: var(--color-bg-section-alt);
+}
+
+.articles-page__section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.articles-page__section-header {
+  margin-bottom: 24px;
+}
+
+.articles-page__section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+  color: var(--color-text-primary);
+  margin-bottom: 6px;
+}
+
+.articles-page__section-sub {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.85rem, 1.3vw, 0.95rem);
+  color: var(--color-text-muted);
+}
+
+.articles-page__strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: clamp(16px, 2.5vw, 24px);
+}
+
+/* ─────────────────────────────────────────
+   Filter Box
+───────────────────────────────────────── */
+.articles-page__filter-section {
+  padding: clamp(24px, 4vw, 48px) clamp(16px, 5vw, 40px);
+  background: var(--color-bg-page);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.articles-page__filter-box {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--color-bg-card);
+  border: 2px solid var(--color-accent);
+  border-radius: 16px;
+  padding: clamp(20px, 3vw, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 20px var(--color-shadow-sm);
+}
+
+.articles-page__filter-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  color: var(--color-text-primary);
+  margin: 0 0 4px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.articles-page__filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.articles-page__filter-group--row {
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.articles-page__filter-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+}
+
+/* Category tabs */
+.articles-page__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.articles-page__tab {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 5px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.articles-page__tab:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.articles-page__tab.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+/* Tag pills */
+.articles-page__tag-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.articles-page__tag-pill {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  padding: 3px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.articles-page__tag-pill:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.articles-page__tag-pill.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+/* Selects */
+.articles-page__select-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.articles-page__select {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-card);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  outline: none;
+}
+
+.articles-page__select:focus {
+  border-color: var(--color-accent);
+}
+
+/* Clear button */
+.articles-page__clear-btn {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.82rem;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  align-self: flex-end;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.articles-page__clear-btn:hover {
+  color: var(--color-text-primary);
+  border-color: var(--color-text-muted);
+}
+
+/* ─────────────────────────────────────────
+   Results Grid
+───────────────────────────────────────── */
 .articles-page__grid-wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  padding: clamp(32px, 6vw, 64px) clamp(16px, 5vw, 40px);
+  padding: clamp(24px, 4vw, 48px) clamp(16px, 5vw, 40px);
+}
+
+.articles-page__count {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin-bottom: 20px;
 }
 
 .articles-page__grid {
@@ -38,8 +272,22 @@
   gap: clamp(20px, 3vw, 32px);
 }
 
-/* Article card */
+.articles-page__empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--color-text-muted);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ─────────────────────────────────────────
+   Article Card
+───────────────────────────────────────── */
 .article-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   background: var(--color-bg-card);
@@ -54,6 +302,22 @@
 .article-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 28px var(--color-shadow-md);
+}
+
+.article-card__new-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1;
+  background: #e63946;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  border-radius: 999px;
 }
 
 .article-card__thumb {
@@ -120,8 +384,19 @@
   font-weight: 600;
 }
 
+/* ─────────────────────────────────────────
+   Responsive
+───────────────────────────────────────── */
+@media (max-width: 768px) {
+  .articles-page__filter-group--row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 @media (max-width: 480px) {
-  .articles-page__grid {
+  .articles-page__grid,
+  .articles-page__strip {
     grid-template-columns: 1fr;
   }
 }
