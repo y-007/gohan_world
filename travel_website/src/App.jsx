@@ -16,6 +16,7 @@ import ContactPage from './pages/ContactPage'
 import AffiliateBar from './components/AffiliateBar'
 import CookieBanner from './components/CookieBanner'
 import CategoryPage from './pages/CategoryPage'
+import ArchivePage from './pages/ArchivePage'
 
 function App() {
   const { isDark, toggleTheme } = useTheme()
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/articles" element={<ArticlesPage />} />
         <Route path="/articles/category/:categorySlug" element={<CategoryPage />} />
+        <Route path="/articles/archive/:year" element={<ArchivePage />} />
         <Route path="/articles/:slug" element={<ArticlePage />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/about" element={<AboutPage />} />

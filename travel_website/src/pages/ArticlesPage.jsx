@@ -4,6 +4,8 @@ import { articles } from '../data/articles'
 import { categories } from '../data/categories'
 import './ArticlesPage.css'
 
+const parseYear = (dateStr) => parseInt(dateStr.split(' ')[1])
+
 const CATEGORIES = ['All', 'Travel Insurance', 'Food & Culture', 'Travel Stories', 'Trip Essentials']
 const ALL_TAGS = ['All', 'Beginners', 'Seniors', 'Tokyo', 'Airports', 'Money', 'Safety', 'Packing', 'Mobile Data', 'Healthcare Abroad', 'Food', 'Culture', 'Japan', 'USA']
 const DIFFICULTIES = ['All', 'Beginner', 'Intermediate']
@@ -233,6 +235,32 @@ const ArticlesPage = () => {
           }
         </div>
       )}
+
+      {/* ── Archives ── */}
+      {!hasActiveFilter && (() => {
+        const allYears = [...new Set(articles.map(a => parseYear(a.date)))].sort((a, b) => b - a)
+        return (
+          <section className="articles-page__section articles-page__section--alt">
+            <div className="articles-page__section-inner">
+              <div className="articles-page__section-header">
+                <h2 className="articles-page__section-title">📅 Browse by Year</h2>
+                <p className="articles-page__section-sub">Look back through all articles by publication year.</p>
+              </div>
+              <div className="articles-page__archive-links">
+                {allYears.map(y => (
+                  <Link key={y} to={`/articles/archive/${y}`} className="articles-page__archive-link">
+                    <span className="articles-page__archive-year">{y}</span>
+                    <span className="articles-page__archive-count">
+                      {articles.filter(a => parseYear(a.date) === y).length} articles
+                    </span>
+                    <span className="articles-page__archive-arrow">→</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )
+      })()}
 
     </main>
   )
