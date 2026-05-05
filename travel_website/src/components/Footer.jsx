@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="footer__col footer__col--left">
           <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-            <img className="footer_logo" src="/gohan_world_logo_500x500.png" alt="Gohan World™ logo" />
+            <img className="footer_logo" src="/gohan_world_logo.svg" alt="Gohan World™ logo" />
           </a>
           <p className="footer__tagline">Eating thoughtfully.<br />Living joyfully.</p>
         </div>

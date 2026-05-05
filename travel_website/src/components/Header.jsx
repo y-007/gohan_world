@@ -140,7 +140,7 @@ const Header = ({ isDark, toggleTheme }) => {
       <header className="header">
         <div className="logo">
           <a href="#" onClick={(e) => { e.preventDefault(); handleSectionClick('home') }}>
-            <img src="/gohan_world_logo_500x500.png" alt="Gohan World logo" />
+            <img src="/gohan_world_logo.svg" alt="Gohan World logo" />
           </a>
           <p className="logo__tagline">Travel Tips &amp; Insurance Guidance for USA–Japan Travelers</p>
         </div>
