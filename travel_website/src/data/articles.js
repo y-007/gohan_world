@@ -1341,6 +1341,204 @@ export const articles = [
     ],
   },
 
+  {
+    slug: 'medical-emergencies-abroad-travel-insurance',
+    title: 'When the ER Bill Could Cost More Than Your Trip: Why Medical Emergencies Abroad Need Travel Insurance',
+    excerpt: 'A hospital visit in the USA can run tens of thousands of dollars. Even in Japan, where care is affordable, getting medically evacuated home can top $50,000. Here is what travel insurance actually covers — and why I never fly without it anymore.',
+    category: 'Travel Insurance',
+    icon: '🛡️',
+    accentColor: '#C4714F',
+    heroImage: '/hero-medical-emergencies-abroad-travel-insurance.jpg',
+    readTime: '8 min read',
+    date: 'May 2026',
+    lastUpdated: 'May 2026',
+    tags: ['Travel Insurance', 'Safety', 'Healthcare Abroad', 'Beginners', 'Japan', 'USA'],
+    difficulty: 'Beginner',
+    type: 'Guide',
+    featured: false,
+    pinned: true,
+    affiliateDisclosure: true,
+    content: [
+      {
+        type: 'paragraph',
+        text: 'A few summers ago, my friend Mika was hiking in the Japanese Alps with her husband when he slipped on a wet rock and landed hard on his shoulder. They were two hours from the nearest road. By the time the local rescue team got him to a hospital in Matsumoto, he had a dislocated shoulder, a fractured collarbone, and — they later found out — a concussion. The Japanese hospital was great. Calm, fast, kind. The bill at discharge? About $1,800. Totally manageable.',
+      },
+      {
+        type: 'paragraph',
+        text: 'The part that wasn\'t manageable was what happened next. His doctor in California wanted him flown home for surgery. A medical-escort flight, with a nurse and an upright stretcher seat, came in at just over $48,000. Mika texted me a screenshot of the quote at 2 a.m. her time. I still remember her message: "I didn\'t even know this was a thing you could need."',
+      },
+      {
+        type: 'paragraph',
+        text: 'That\'s the part travel insurance covers that nobody talks about until it\'s too late.',
+      },
+      {
+        type: 'insurance_disclosure',
+      },
+      {
+        type: 'h2',
+        text: 'The Gap Nobody Warns You About',
+      },
+      {
+        type: 'paragraph',
+        text: 'Here\'s the thing most people get wrong: they think their regular health insurance follows them across the border. It mostly doesn\'t. If you have private US insurance, your plan may pay something abroad — but usually only for "emergency stabilization," and almost never for evacuation. If you\'re on Medicare, it stops working the moment you leave the country. Period. No exceptions for Hawaii cruises, no exceptions for "I was just in Tijuana for an afternoon."',
+      },
+      {
+        type: 'paragraph',
+        text: 'And it goes the other way too. My mom flew over from Tokyo to visit us in Florida a couple years back, and we spent an evening getting her travel insurance because her Japanese national health insurance basically reimburses some costs after you get home, but you\'re paying everything out of pocket up front. In the US. Where a single ER visit for chest pain — turned out to be acid reflux, thank God — can hit $5,000 before you\'ve even seen a real doctor.',
+      },
+      {
+        type: 'tip',
+        text: 'Travel Insurance tip: Before you buy, check what your existing health plan does abroad. Call them. Ask specifically: "Do you cover emergency care outside the country? Do you cover medical evacuation?" The answer for most US plans is "limited" and "no." That gap is exactly what travel insurance is for.',
+      },
+      {
+        type: 'h2',
+        text: 'What Good Medical Coverage Actually Covers',
+      },
+      {
+        type: 'paragraph',
+        text: 'I\'ve bought travel insurance for almost every international trip I\'ve taken in the last five years, and I\'ve gotten better at reading the fine print. The stuff that matters when something goes wrong:',
+      },
+      {
+        type: 'list',
+        items: [
+          'Emergency Medical Coverage — Pays hospital, doctor, surgery, and prescription costs when you get sick or hurt abroad. Look for at least $100,000 in coverage; $250,000 is better for the US, where bills run higher.',
+          'Emergency Medical Evacuation — Pays to fly you to an adequate hospital, or back home, if local care isn\'t enough. This is the big one. Real evacuations routinely run $50,000 to $200,000+. Don\'t accept less than $250,000 in coverage.',
+          'Repatriation of Remains — Grim to think about, but if the worst happens, this covers getting a loved one home. Usually $25,000–$50,000 in good policies.',
+          'Trip Interruption — Reimburses unused trip costs and gets you home if a medical emergency cuts your trip short. My friend Mika\'s husband used this — they got back the cost of the four nights they didn\'t use at their ryokan.',
+          'A 24/7 Emergency Assistance Line — A real human who can find you an English-speaking doctor, arrange a hospital admission, and translate for the paperwork. Worth its weight in gold at 3 a.m. in a country where you don\'t speak the language.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'What to Look For in a Policy',
+      },
+      {
+        type: 'paragraph',
+        text: 'Not all travel insurance is the same, and the cheapest plan is almost always the wrong one for medical-focused coverage. When I\'m comparing policies, here\'s what I actually check:',
+      },
+      {
+        type: 'list',
+        items: [
+          'Medical limit of at least $100,000 (preferably $250,000 if you\'re traveling to the US, Canada, or Switzerland — three of the most expensive places on earth to get sick)',
+          'Evacuation limit of at least $250,000 — $500,000 if you\'re going somewhere remote like rural Japan, Iceland, or Patagonia',
+          'Primary vs. secondary coverage — Primary pays first, before your home health plan. Secondary makes you file with your home insurance first, then reimburses the gap. Primary is way less of a headache when you\'re stressed and hurt.',
+          'Pre-existing condition waiver — If you have any ongoing health stuff (asthma, blood pressure meds, anything), you need this. Most insurers offer it free if you buy within 14–21 days of your first trip deposit.',
+          'Direct billing to hospitals — Some policies pay the hospital directly. Others make you pay up front and submit receipts. Direct billing is a huge deal if you don\'t have a spare $30,000 sitting on your credit card.',
+        ],
+      },
+      {
+        type: 'tip',
+        text: 'Travel Insurance tip: Read the policy document — actually read it — before you buy. Specifically search for "exclusions." That\'s where they list what they won\'t cover. Most policies exclude things like alcohol-related injuries, undeclared pre-existing conditions, and certain "adventure activities" (which can include things as ordinary as renting a moped). If you\'re going to ride a scooter in Bali, you need a policy that covers it.',
+      },
+      {
+        type: 'h2',
+        text: 'Japan, the USA, and Where the Real Risk Is',
+      },
+      {
+        type: 'paragraph',
+        text: 'This is the part I want US travelers to hear: the USA is the most expensive place in the world to get sick. If you\'re a Japanese visitor coming to America — or you\'re traveling within the US without coverage — your risk profile is way higher than people realize. A friend of mine from Osaka came to visit New York, slipped on the subway stairs, hit her head, got admitted overnight for observation. Bill: $14,000. She\'d bought a basic Japanese travel insurance plan that capped at ¥1,000,000 (about $7,000). She paid the rest herself.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Japan, on the other hand, is one of the cheapest places to get good medical care if you\'re a tourist — but evacuation home is where the costs spiral. So the equation flips: in the US you mostly need medical coverage, in Japan you mostly need evacuation coverage. A solid policy covers both, and frankly, both are non-negotiable on any international trip.',
+      },
+      {
+        type: 'h2',
+        text: 'Top-Rated Plans I\'d Actually Recommend',
+      },
+      {
+        type: 'paragraph',
+        text: 'I\'ve used a few of these myself and pointed friends to others. Here are the ones I keep coming back to.',
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Allianz Travel Insurance — Best Overall for Most Travelers',
+        tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.',
+        pros: [
+          'Up to $50,000 medical coverage and $500,000 medical evacuation',
+          'Pre-existing condition waiver available within 14 days of initial deposit',
+          'Consistently top-rated for customer service',
+        ],
+        link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
+        linkText: 'Get a Quote with Allianz',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Seven Corners — Best for High Medical Coverage',
+        tagline: 'Maximum protection for travelers with complex medical histories.',
+        pros: [
+          'Up to $250,000 medical coverage and $1,000,000 evacuation limit',
+          'Pre-existing condition waiver within 20 days of initial deposit',
+          'Cancel For Any Reason available — best for cruises and long-haul trips',
+        ],
+        link: 'https://www.sevencorners.com', // TODO: replace with Seven Corners affiliate URL
+        linkText: 'Get a Quote with Seven Corners',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'World Nomads — Best for Active & Adventure Travelers',
+        tagline: 'High coverage limits and full CFAR flexibility.',
+        pros: [
+          'Up to $100,000 medical coverage and $500,000 evacuation',
+          'Cancel For Any Reason (CFAR) upgrade available',
+          'Covers most adventure sports by default — verify your activities',
+        ],
+        link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
+        linkText: 'Get a Quote with World Nomads',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Compare',
+        name: 'Squaremouth — Best for Comparison Shopping',
+        tagline: 'Compare 30+ top-rated plans side by side in minutes.',
+        pros: [
+          'Filter by medical limit, pre-existing waiver, CFAR, and price',
+          'Disputes resolved within 30 days',
+          'No pressure, no upsells — ideal for first-time buyers',
+        ],
+        link: 'https://www.squaremouth.com', // TODO: replace with Squaremouth affiliate URL
+        linkText: 'Compare Plans on Squaremouth',
+        sponsored: true,
+      },
+      {
+        type: 'h2',
+        text: 'How to Actually Get a Quote (It Takes 5 Minutes)',
+      },
+      {
+        type: 'paragraph',
+        text: 'I used to think buying travel insurance was a whole production. It isn\'t. Here\'s the playbook I use now:',
+      },
+      {
+        type: 'paragraph',
+        html: true,
+        text: 'Pick one comparison site (<a href="https://www.squaremouth.com" target="_blank" rel="noopener noreferrer">Squaremouth</a> or <a href="https://www.insuremytrip.com" target="_blank" rel="noopener noreferrer">InsureMyTrip</a>) and one direct provider (<a href="https://www.allianztravelinsurance.com" target="_blank" rel="noopener noreferrer">Allianz</a> or <a href="https://www.sevencorners.com" target="_blank" rel="noopener noreferrer">Seven Corners</a>) — that\'s enough.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Have these numbers ready: trip cost (sum of flights + hotels + tours), trip dates, traveler ages, destination country.',
+          'Filter for medical coverage of $100,000+ and evacuation of $250,000+ as a minimum.',
+          'Skip the cheapest plan. Look at the second or third-cheapest in your filtered list — usually the sweet spot for actual coverage vs. price.',
+          'Buy within 14 days of your first trip deposit if you want the pre-existing condition waiver. This is the single biggest mistake people make — they wait until the week of the trip and lose the waiver.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'A two-week trip to Japan or anywhere in Asia usually runs me about $80–$150 for solid coverage. A two-week trip to the US (for my visiting family) runs higher — usually $120–$220, because medical bills here are wild. Either way, it\'s less than what we\'d lose on one missed flight if a trip went sideways. And it\'s a rounding error compared to a $48,000 evac flight.',
+      },
+      {
+        type: 'paragraph',
+        text: 'The truth is, you buy travel insurance hoping you\'ll never use it. But the one time you do — when you\'re scared, jet-lagged, in a hospital where you don\'t speak the language — you will be so, so glad you spent the $100.',
+      },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {
