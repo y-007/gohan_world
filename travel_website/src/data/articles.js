@@ -437,7 +437,7 @@ export const articles = [
     content: [
       {
         type: 'paragraph',
-        text: 'You have worked your entire life, paid into the system, and earned your Medicare coverage. It feels like a safety net that travels with you. It does not. For the vast majority of international trips, Medicare — Original Medicare Parts A and B — provides zero coverage once you cross the US border. This is one of the most important and least-discussed facts about international travel for Americans over 65, and learning it after a medical emergency abroad is far too late.',
+        text: 'You have worked your entire life, paid into the system, and earned your Medicare coverage. It feels like a safety net that travels with you. It does not. For the vast majority of international trips, Medicare — Original Medicare Parts A and B — provides no coverage. This is one of the most important and least-discussed facts about international travel for Americans over 65, and learning it after a medical emergency abroad is far too late.',
       },
       { type: 'insurance_disclosure' },
       {
@@ -450,7 +450,8 @@ export const articles = [
       },
       {
         type: 'h2',
-        text: 'The Three Very Narrow Exceptions',
+        html: true,
+        text: '<a href="https://www.medicare.gov/coverage/travel-outside-the-u.s." target="_blank" rel="noopener noreferrer">The Three Very Narrow Exceptions</a>',
       },
       {
         type: 'paragraph',
@@ -458,7 +459,8 @@ export const articles = [
       },
       {
         type: 'h2',
-        text: 'What About Medicare Advantage?',
+        html: true,
+        text: 'What About <a href="https://www.medicare.gov/health-drug-plans/health-plans/your-health-plan-options" target="_blank" rel="noopener noreferrer">Medicare Advantage</a>?',
       },
       {
         type: 'paragraph',
@@ -466,7 +468,8 @@ export const articles = [
       },
       {
         type: 'h2',
-        text: 'Medicare Supplement (Medigap) — A Partial Answer',
+        html: true,
+        text: 'Medicare Supplement (<a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" target="_blank" rel="noopener noreferrer">Medigap</a>) — A Partial Answer',
       },
       {
         type: 'paragraph',
@@ -553,7 +556,8 @@ export const articles = [
       { type: 'insurance_disclosure' },
       {
         type: 'h2',
-        text: 'The Medicare Gap No One Talks About',
+        html: true,
+        text: 'The <a href="https://www.medicare.gov/health-drug-plans/medigap/basics/compare-plan-benefits" target="_blank" rel="noopener noreferrer">Medicare Gap</a> No One Talks About',
       },
       {
         type: 'paragraph',
@@ -682,7 +686,7 @@ export const articles = [
         tagline: 'Compare 30+ top-rated plans side by side in minutes.',
         pros: [
           'Filter by medical limit, pre-existing waiver, CFAR, and price',
-          'Zero-complaint guarantee — disputes resolved within 30 days',
+          'Disputes resolved within 30 days',
           'No pressure, no upsells — ideal for first-time buyers',
         ],
         link: 'https://www.squaremouth.com/plans/single-trip?aid=101&msclkid=3b37bb28f4881506805cd2daea8ad355&src=BING-SQM-41501358-1114977136&tag=3b37bb28f4881506805cd2daea8ad355&utm_campaign=Search_Branded+-+SquareMouth+%28All+Devices%29&utm_content=Squaremouth+-+Broad+Match&utm_medium=cpc&utm_source=bing&utm_term=squaremouth',
@@ -858,7 +862,7 @@ export const articles = [
         linkText: 'Get a Quote with Seven Corners', sponsored: true },
       { type: 'affiliate_card', badge: 'Compare', name: 'Squaremouth — Best for Comparison Shopping', tagline: 'Compare 30+ top-rated plans side by side in minutes.', pros: [
         'Filter by medical limit, pre-existing waiver, CFAR, and price',
-        'Zero-complaint guarantee — disputes resolved within 30 days',
+        'Disputes resolved within 30 days',
         'No pressure, no upsells — ideal for first-time buyers',
       ], link: 'https://www.squaremouth.com', // TODO: replace with Squaremouth affiliate URL
         linkText: 'Compare Plans on Squaremouth', sponsored: true },
@@ -1536,6 +1540,70 @@ export const articles = [
         type: 'paragraph',
         text: 'The truth is, you buy travel insurance hoping you\'ll never use it. But the one time you do — when you\'re scared, jet-lagged, in a hospital where you don\'t speak the language — you will be so, so glad you spent the $100.',
       },
+    ],
+  },
+
+  {
+    slug: 'hikawa-maru-yokohama-floating-history',
+    title: '氷川丸 (Hikawa Maru): Japan\'s Floating Cultural Treasure in Yokohama',
+    excerpt: 'A preserved 1930s ocean liner, an Important Cultural Property, and one of the most peaceful half-days you can spend in Yokohama — perfect for slow travelers who love history.',
+    category: 'Food & Culture',
+    icon: '🍜',
+    accentColor: '#b8a06a',
+    heroImage: '/hero-hikawa-maru-yokohama-floating-history.jpg',
+    readTime: '7 min read',
+    date: 'May 2026',
+    lastUpdated: 'May 2026',
+    tags: ['Japan', 'Culture', 'Seniors', 'Tokyo'],
+    difficulty: 'Beginner',
+    type: 'Guide',
+    featured: false,
+    pinned: false,
+    affiliateDisclosure: true,
+    content: [
+      { type: 'image', src: '/hikawa-maru-bow-mast.jpg', alt: 'View from the deck of Hikawa Maru looking forward along the bow, with the ship\'s mast and Yokohama harbor in the background', caption: 'Looking forward from the deck — the ship\'s original mast still stands above the bow, the harbor stretching out beyond.' },
+      { type: 'paragraph', text: 'I still remember the first time I saw her from the Yamashita Park waterfront. I was walking with my aunt — she\'s in her early 60s, visiting from Tochigi (we\'ll talk about Tochigi in another article) — and we just stopped. Right there on the path. Neither of us said anything for a moment.' },
+      { type: 'paragraph', text: 'There\'s something about a full-size ocean liner sitting quietly at a pier, painted white and green, that doesn\'t make sense until you\'re standing in front of it. It\'s big. And it\'s real. And it\'s been there since 1930.' },
+      { type: 'paragraph', text: 'That ship is the 氷川丸 — Hikawa Maru. And if you\'re planning a trip to Yokohama, especially if you love history, slow walks, and places that feel genuinely old, she\'s worth your whole afternoon.' },
+      { type: 'h2', html: true, text: 'What Is <a href="https://hikawamaru.nyk.com/en/index.asp" target="_blank" rel="noopener noreferrer">Hikawa Maru</a>, Exactly?' },
+      { type: 'paragraph', text: 'Hikawa Maru is a passenger-cargo liner built in 1930, originally commissioned by NYK Line (日本郵船) to sail the Seattle route between Japan and the US Pacific Northwest. She made 238 crossings in her career — carrying passengers, mail, and cargo across the Pacific during one of the most turbulent periods in modern history.' },
+      { type: 'paragraph', text: 'During World War II, she was converted into a hospital ship. She\'s one of the very few Japanese vessels from that era to survive the war intact. After the war, she returned to passenger service before being permanently moored at Yokohama\'s Yamashita Park in 1961.' },
+      { type: 'paragraph', text: 'In 2016, she was designated a 重要文化財 — an Important Cultural Property of Japan. That\'s not a label given lightly. It puts her in the same category as ancient temples and historic castles. Honestly? She deserves it.' },
+      { type: 'h2', text: 'Why I Think 50–60+ Travelers Will Love This Place' },
+      { type: 'paragraph', text: 'My aunt is not a museum person. She\'ll tell you that herself. But she spent almost two hours on Hikawa Maru and kept saying, もう少し見たい — "I want to see a little more."' },
+      { type: 'paragraph', text: 'It\'s physically easy. Yamashita Park itself is flat — genuinely flat, paved paths, benches along the water, no hills. The ship has an elevator between decks. You don\'t need to rush. Nobody\'s rushing. On the weekday afternoon we visited, it was quiet enough that we could hear the harbor water.' },
+      { type: 'paragraph', text: 'It\'s visually beautiful. The ship\'s 1930s Art Deco interiors are preserved — the first-class dining salon, the wood-paneled cabins, the captain\'s quarters. There\'s a real care in the restoration. If you like photography, you\'ll find angles everywhere.' },
+      { type: 'paragraph', text: 'And the Pacific-crossing route went to Seattle. My aunt kept saying, "So this ship connected Japan and America." For anyone who lives that dual-world — Japan on one side, US on the other — that hits different.' },
+      { type: 'h2', text: 'What To See On Board' },
+      { type: 'paragraph', text: 'The ship is open as a museum, and you can walk through most of the interior. Here\'s what I\'d focus on:' },
+      { type: 'list', items: [
+        'First-class dining salon — One of the most photographed spaces on the ship. Circular skylights, warm wood, brass fittings. Feels like a dining car from a very good dream.',
+        'First-class cabins and social hall — Original furniture, original layout. The scale of passenger travel in the 1930s is genuinely surprising.',
+        'Engine room — Accessible and visible from a viewing area. The original triple-expansion steam engines are still there.',
+        'Captain\'s bridge — Great views of the harbor. On a clear day, you can see all the way to the Yokohama Bay Bridge.',
+        'Hospital ship exhibition — A quiet, moving section covering the WWII period. Worth taking your time here.',
+        'NYK Line history panels — If you\'re interested in the Japan–USA shipping route history, there\'s real depth here.',
+      ] },
+      { type: 'tip', text: 'Gohan World tip: Go on a weekday if you can. Weekend afternoons can get busier with families. A weekday morning visit — doors open at 10am — is the calmest. Bring a light jacket even in summer; the harbor breeze picks up in the afternoon.' },
+      { type: 'h2', text: 'The Neighborhood: Yamashita Park & Beyond' },
+      { type: 'paragraph', text: 'One of the things I love about this visit is that Hikawa Maru sits right in the middle of one of Yokohama\'s most walkable, flat, genuinely lovely stretches. Yamashita Park (山下公園) runs along the waterfront — roses, grass, harbor views, benches. It\'s a classic Yokohama postcard and it costs nothing to walk through.' },
+      { type: 'paragraph', text: 'From the park, it\'s an easy flat walk to 中華街 (Yokohama Chinatown) — the largest Chinatown in Japan, about 10 minutes on foot. Fantastic for lunch before or after the ship. Try the 豚まん (steamed pork buns) from the street stalls. And about 15 minutes along the waterfront, the 赤レンガ倉庫 (Red Brick Warehouse) is great for coffee and browsing — fully flat, no stairs.' },
+      { type: 'h2', text: 'Practical Visit Info' },
+      { type: 'list', items: [
+        'Address — Yamashita Park, Naka-ku, Yokohama (山下公園, 横浜市中区)',
+        'Nearest station — Exit 4 Motomachi-Chukagai Station (みなとみらい線), 3-minute walk',
+        'Hours — 10:00am – 5:00pm (last entry 4:30pm). Closed Mondays.',
+        'Admission — ¥300 adults / ¥200 seniors (65+) / ¥100 children (5-12)',
+        'Best time to visit — Weekday mornings; spring (April–May) and autumn (Oct–Nov)',
+      ] },
+      { type: 'h2', text: 'A Note on Traveling Safely — Especially on "Easy" Days' },
+      { type: 'paragraph', text: 'Here\'s something I want to say, because after 20+ years working in medical claims, I\'ve seen it more times than I can count. Travelers in their 50s and 60s often have their biggest claim incidents on the quietest days of their trip. Not on the long hikes. Not on the adventure tours. On the museum visit. The easy afternoon walk. The gentle sightseeing day.' },
+      { type: 'paragraph', text: 'A slip on wet dock pavement. A sudden dizzy spell in the heat. A fall on a ship deck that looked completely safe. Japan\'s medical care is excellent — but it\'s not free for foreign visitors. A single emergency room visit can run ¥100,000 to ¥500,000 ($700–$3,500 USD) or more without insurance. A good travel insurance policy for a two-week trip typically runs $60–$150. That\'s less than one night at a decent Yokohama hotel.' },
+      { type: 'insurance_disclosure' },
+      { type: 'h2', text: 'Before You Go: Travel Insurance for Japan Visits' },
+      { type: 'affiliate_card', badge: 'Insurance', name: 'Allianz Travel Insurance — Best Overall for Most Travelers', tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.', pros: [ 'Up to $50,000 medical coverage and $500,000 medical evacuation', 'Pre-existing condition waiver available within 14 days of initial deposit', 'Consistently top-rated for customer service — ideal for 50+ travelers' ], link: '#', linkText: 'Get a Quote with Allianz', sponsored: true }, // TODO: replace with Allianz affiliate URL
+      { type: 'affiliate_card', badge: 'Compare', name: 'Squaremouth — Best for Comparison Shopping', tagline: 'Compare 30+ top-rated plans side by side in minutes.', pros: [ 'Filter by medical limit, pre-existing waiver, CFAR, and price', 'Zero-complaint guarantee — disputes resolved within 30 days', 'No pressure, no upsells — ideal for first-time buyers' ], link: '#', linkText: 'Compare Plans on Squaremouth', sponsored: true }, // TODO: replace with Squaremouth affiliate URL
+      { type: 'paragraph', html: true, text: 'Want more Japan travel tips, food stories, and honest insurance guides for USA⇄Japan travelers? Browse <a href="https://gohanworld.com" target="_blank" rel="noopener noreferrer">gohanworld.com</a> — and travel safely out there.' },
     ],
   },
 

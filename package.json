@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "npm run dev --prefix travel_website",
+    "build": "npm run build --prefix travel_website",
+    "preview": "npm run preview --prefix travel_website",
+    "lint": "npm run lint --prefix travel_website"
+  }
+}
