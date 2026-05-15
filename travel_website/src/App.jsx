@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
@@ -22,7 +22,7 @@ function App() {
   const { isDark, toggleTheme } = useTheme()
 
   return (
-    <BrowserRouter>
+    <>
       <Header isDark={isDark} toggleTheme={toggleTheme} />
       <AffiliateBar />
       <CookieBanner />
@@ -41,7 +41,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </>
   )
 }
 

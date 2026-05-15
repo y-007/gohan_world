@@ -6,6 +6,8 @@ import './CookieBanner.css'
 const COOKIE_NAME = 'gohanworld-cookie-consent'
 
 const CookieBanner = () => {
+  if (typeof window === 'undefined') return null // not rendered during SSR
+
   useEffect(() => {
     const banner = document.querySelector('.cookie-banner')
     if (!banner) return

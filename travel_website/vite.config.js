@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     sitemap({
       hostname: 'https://www.gohanworld.com',
-      outDir: 'dist',
+      outDir: 'dist/client',
       generateRobotsTxt: false
     })
   ]

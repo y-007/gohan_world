@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react'
 
 export function useTheme() {
   const [isDark, setIsDark] = useState(() => {
-    const saved = localStorage.getItem('gohan-theme')
-    if (saved) return saved === 'dark'
-    return window.matchMedia('(prefers-color-scheme: dark)').matches
+    if (typeof window === 'undefined') return false // SSR: default light
+    // Read the value the blocking <script> in index.html already set on the DOM
+    return document.documentElement.dataset.theme === 'dark'
   })
 
   useEffect(() => {
