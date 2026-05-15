@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faPinterest } from '@fortawesome/free-brands-svg-icons'
 import { faSearch, faSun, faMoon, faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import React, { useState, useEffect } from 'react'
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate, useLocation, Link } from 'react-router-dom'
 import './header.css'
 
 const Header = ({ isDark, toggleTheme }) => {
@@ -35,26 +35,6 @@ const Header = ({ isDark, toggleTheme }) => {
     }
   }
 
-  const handleAboutClick = () => {
-    setIsMenuOpen(false)
-    navigate('/about')
-  }
-
-  const handleDestinationsClick = () => {
-    setIsMenuOpen(false)
-    navigate('/destinations')
-  }
-
-  const handleDisclaimerClick = () => {
-    setIsMenuOpen(false)
-    navigate('/disclaimer')
-  }
-
-  const handleArticlesClick = () => {
-    setIsMenuOpen(false)
-    navigate('/articles')
-  }
-
   const handleInputChange = (e) => {
     if (e.target.value.length <= 60) setSearchText(e.target.value)
   }
@@ -81,22 +61,24 @@ const Header = ({ isDark, toggleTheme }) => {
 
       {/* About — page route */}
       <li>
-        <button
-          onClick={handleAboutClick}
+        <Link
+          to="/about"
+          onClick={() => setIsMenuOpen(false)}
           className={mobile ? 'mobile-menu__link' : 'nav-item'}
         >
           About
-        </button>
+        </Link>
       </li>
 
       {/* Destinations — page route */}
       <li>
-        <button
-          onClick={handleDestinationsClick}
+        <Link
+          to="/destinations"
+          onClick={() => setIsMenuOpen(false)}
           className={mobile ? 'mobile-menu__link' : 'nav-item'}
         >
           Destinations
-        </button>
+        </Link>
       </li>
 
       {/* Travel Tips — still a scroll link for now */}
@@ -111,8 +93,9 @@ const Header = ({ isDark, toggleTheme }) => {
 
       {/* Disclaimer — page route */}
       <li>
-        <button
-          onClick={handleDisclaimerClick}
+        <Link
+          to="/disclaimer"
+          onClick={() => setIsMenuOpen(false)}
           className={[
             mobile ? 'mobile-menu__link' : 'nav-item',
             !mobile ? 'nav-disclaimer' : '',
@@ -120,17 +103,18 @@ const Header = ({ isDark, toggleTheme }) => {
           ].filter(Boolean).join(' ')}
         >
           Disclaimer
-        </button>
+        </Link>
       </li>
 
       {/* Articles — page route */}
       <li>
-        <button
-          onClick={handleArticlesClick}
+        <Link
+          to="/articles"
+          onClick={() => setIsMenuOpen(false)}
           className={mobile ? 'mobile-menu__link mobile-menu__link--articles' : 'nav-articles'}
         >
           Articles
-        </button>
+        </Link>
       </li>
     </>
   )
@@ -139,7 +123,7 @@ const Header = ({ isDark, toggleTheme }) => {
     <>
       <header className="header">
         <div className="logo">
-          <a href="#" onClick={(e) => { e.preventDefault(); handleSectionClick('home') }}>
+          <a href="/" onClick={(e) => { e.preventDefault(); handleSectionClick('home') }}>
             <img src="/gohan_world_logo.svg" alt="Gohan World logo" />
           </a>
           <p className="logo__tagline">Travel Tips &amp; Insurance Guidance for USA–Japan Travelers</p>
