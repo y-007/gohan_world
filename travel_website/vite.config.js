@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import sitemap from 'vite-plugin-sitemap'
 
 export default defineConfig({
   build: {
@@ -8,10 +7,5 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    sitemap({
-      hostname: 'https://www.gohanworld.com',
-      outDir: 'dist/client',
-      generateRobotsTxt: false
-    })
   ]
 })
