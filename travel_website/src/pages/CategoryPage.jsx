@@ -30,7 +30,7 @@ const CategoryPage = () => {
 
   useEffect(() => {
     if (category) document.title = `${category.name} — Gohan World`
-    return () => { document.title = 'GOHAN WORLD' }
+    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
   }, [category])
 
   if (!category) {

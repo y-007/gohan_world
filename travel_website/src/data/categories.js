@@ -1,5 +1,22 @@
 export const categories = [
   {
+    slug: 'our-story',
+    name: 'Our Story',
+    icon: '🌸',
+    accentColor: '#E8A0B4',
+    intro: 'Gohan World started with one question: why is it so hard to find honest, practical information about traveling between Japan and the USA — especially for seniors and first-timers? This section is about who I am, why I built this site, and what I believe travel should feel like.',
+    subtopics: [
+      'Who is behind Gohan World',
+      'Why I focus on USA⇄Japan travel',
+      'My approach to travel insurance guidance',
+      'Why senior-friendly travel matters',
+      'The story behind the name',
+      'What I believe about travel',
+    ],
+    featuredSlug: 'what-is-gohan-world',
+    relatedCategories: ['travel-stories', 'trip-essentials'],
+  },
+  {
     slug: 'travel-insurance',
     name: 'Travel Insurance',
     icon: '🛡️',

@@ -126,7 +126,7 @@ const Header = ({ isDark, toggleTheme }) => {
           <a href="/" onClick={(e) => { e.preventDefault(); handleSectionClick('home') }}>
             <img src="/gohan_world_logo.svg" alt="Gohan World logo" />
           </a>
-          <p className="logo__tagline">Travel Tips &amp; Insurance Guidance for USA–Japan Travelers</p>
+          <p className="logo__tagline">USA⇄Japan travel and insurance guide. Simple, safe, senior-friendly tips.</p>
         </div>
 
         <nav className="nav">

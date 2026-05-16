@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { articles } from '../data/articles'
 import { categories } from '../data/categories'
@@ -6,7 +6,7 @@ import './ArticlesPage.css'
 
 const parseYear = (dateStr) => parseInt(dateStr.split(' ')[1])
 
-const CATEGORIES = ['All', 'Travel Insurance', 'Food & Culture', 'Travel Stories', 'Trip Essentials']
+const CATEGORIES = ['All', 'Our Story', 'Travel Insurance', 'Food & Culture', 'Travel Stories', 'Trip Essentials']
 const ALL_TAGS = ['All', 'Beginners', 'Seniors', 'Tokyo', 'Airports', 'Money', 'Safety', 'Packing', 'Mobile Data', 'Healthcare Abroad', 'Food', 'Culture', 'Japan', 'USA']
 const DIFFICULTIES = ['All', 'Beginner', 'Intermediate']
 const TYPES = ['All', 'Guide', 'Checklist', 'Comparison', 'Review']
@@ -43,6 +43,11 @@ const ArticleCard = ({ article }) => (
 )
 
 const ArticlesPage = () => {
+  useEffect(() => {
+    document.title = 'All Articles — Gohan World'
+    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+  }, [])
+
   const [search, setSearch]       = useState('')
   const [category, setCategory]   = useState('All')
   const [tag, setTag]             = useState('All')

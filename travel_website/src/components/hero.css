@@ -13,7 +13,7 @@
   padding: clamp(24px, 6vw, 60px) clamp(16px, 5vw, 40px);
 }
 
-.about-title h4 {
+.hero__welcome {
   font-family: "Playfair", serif;
   font-size: clamp(1.8rem, 5vw, 3rem);
   margin-bottom: 10px;
@@ -29,18 +29,20 @@
   display: block;
 }
 
-.about-title span {
+.hero__brand {
   font-family: "Poppins", sans-serif;
-  font-size: clamp(0.7rem, 1.5vw, 0.8em);
+  font-size: clamp(0.75rem, 1.5vw, 0.9rem);
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: none;
   color: var(--color-text-secondary);
+  width: min(90%, 600px);
+  margin: 0 auto 10px;
 }
 
 .about-title p {
   font-family: "Poppins", sans-serif;
   font-size: clamp(1rem, 2vw, 19px);
-  width: clamp(280px, 70%, 600px);
+  width: min(90%, 600px);
   text-align: center;
   margin: 0 auto;
   padding: 15px 0 30px;

@@ -67,11 +67,12 @@ const Footer = () => {
           <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
             <img className="footer_logo" src="/gohan_world_logo.svg" alt="Gohan World™ logo" />
           </a>
-          <p className="footer__tagline">Eating thoughtfully.<br />Living joyfully.</p>
+          <h3 className="footer__brand-name">Gohan World (gohanworld.com)</h3>
+          <p className="footer__tagline">USA⇄Japan travel and insurance guide. Simple, safe, senior-friendly tips.</p>
         </div>
 
         <div className="footer__col footer__col--center">
-          <h4 className="footer__col-title">Follow Us</h4>
+          <h4 className="footer__col-title">Follow Me</h4>
           <div className="social_icons">
             <a href="https://www.facebook.com/gohanworld.by.yuko" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
             <a href="https://www.instagram.com/gohanworld.by.yuko/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
@@ -126,7 +127,7 @@ const Footer = () => {
           Content is for informational purposes only and is not professional insurance or legal advice.{' '}
           <Link to="/disclaimer" className="footer__disclosure-link">Full Disclaimer</Link>
         </p>
-        <p>&copy; {new Date().getFullYear()} GOHAN WORLD&#8482;. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Gohan World&#8482;. All rights reserved.</p>
       </div>
     </footer>
   );

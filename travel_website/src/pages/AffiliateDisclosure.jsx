@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './LegalPage.css'
 
-const AffiliateDisclosure = () => (
+const AffiliateDisclosure = () => {
+  useEffect(() => {
+    document.title = 'Affiliate Disclosure — Gohan World'
+    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+  }, [])
+  return (
   <main className="legal-page">
     <h1>Affiliate Disclosure</h1>
     <p className="legal-page__updated">Last updated: April 2026</p>
@@ -88,6 +93,7 @@ const AffiliateDisclosure = () => (
       free and continue creating content for travelers.
     </p>
   </main>
-)
+  )
+}
 
 export default AffiliateDisclosure

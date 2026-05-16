@@ -1607,6 +1607,99 @@ export const articles = [
     ],
   },
 
+  {
+    slug: 'what-is-gohan-world',
+    title: 'What Is Gohan World? Our Story.',
+    excerpt: 'I spent 20+ years in medical claims and got tired of watching people arrive in Japan or the USA without the one thing they actually needed. Here\'s why I built Gohan World.',
+    category: 'Our Story',
+    icon: '🌸',
+    accentColor: '#E8A0B4',
+    heroImage: '/hero-what-is-gohan-world.jpg',
+    readTime: '5 min read',
+    date: 'May 2026',
+    lastUpdated: 'May 2026',
+    tags: ['Japan', 'USA', 'Beginners', 'Seniors'],
+    difficulty: 'Beginner',
+    type: 'Guide',
+    featured: false,
+    pinned: true,
+    affiliateDisclosure: false,
+    content: [
+      {
+        type: 'image',
+        src: '/ourstory_1.png',
+        alt: 'Yuko in front of the Tokyo Skytree — founder of Gohan World',
+        caption: 'Asakusa waterfront. Sumida River. © Gohan World. All rights reserved.',
+      },
+      {
+        type: 'paragraph',
+        text: 'I\'ve been traveling between Japan and the USA for most of my adult life. I was born in Japan, built a life in the United States, and spent over two decades working in the medical claims industry — which means I\'ve spent a very long time watching what happens when people travel without the right information.',
+      },
+      {
+        type: 'paragraph',
+        text: 'What I saw, over and over again, was not recklessness. It was just a gap. People didn\'t know what their insurance covered abroad. They didn\'t know how to navigate Haneda at 6 a.m. after a 13-hour flight. They didn\'t know which eSIM to buy before landing, or what to do if a parent had a medical episode in Tokyo, or whether their Medicare card was worth anything outside US borders (it isn\'t). They arrived well-intentioned and underprepared — and sometimes that had real consequences.',
+      },
+      {
+        type: 'h2',
+        text: 'Why I Built This Site',
+      },
+      {
+        type: 'paragraph',
+        text: 'Gohan World started as a collection of notes I kept sending to friends and family before their trips. Practical things. What to pack. Which airport exit to take. What travel insurance actually covers (and what it doesn\'t). When a friend\'s husband needed medical evacuation from Japan — a $48,000 flight I\'ve written about elsewhere on this site — it became clear that this information needed to be somewhere people could actually find it.',
+      },
+      {
+        type: 'paragraph',
+        text: 'So I built Gohan World. A small site, written by one person, focused on one corridor: the space between Japan and the USA. I\'m not trying to cover every destination on earth. I\'m trying to be the most honest, most practical, most genuinely useful guide for the specific trip I know best — the one I\'ve made dozens of times, from both directions.',
+      },
+      {
+        type: 'h2',
+        text: 'Who This Site Is For',
+      },
+      {
+        type: 'paragraph',
+        text: 'Primarily, I write for three kinds of travelers. First: seniors and 50+ travelers who are visiting Japan (or the USA) for the first time or after a long gap, and who want information that doesn\'t assume they\'re 25 and backpacking. Second: first-time travelers who need the practical basics explained clearly, without condescension. Third: people like me — bilingual, bicultural, living between two countries — who sometimes just want a resource that understands both sides of the crossing.',
+      },
+      {
+        type: 'tip',
+        text: 'Gohan World tip: If you\'re not sure where to start, go to the Travel Insurance section first. It\'s the most consequential thing most people get wrong — and the easiest to fix before you leave.',
+      },
+      {
+        type: 'h2',
+        text: 'About the Name',
+      },
+      {
+        type: 'paragraph',
+        text: 'ご飯 (gohan) means rice in Japanese. It also means meal. It also, in a broader sense, means sustenance — what keeps you going. When Japanese people ask "have you eaten?" they say "gohan tabeta?" — literally "did you eat rice?" It\'s a greeting as much as a question. A way of saying: are you okay? Are you taken care of?',
+      },
+      {
+        type: 'paragraph',
+        text: 'That\'s what I want this site to be. A way of asking — before you get on the plane — are you taken care of? Do you have what you need? Is there anything I\'ve missed?',
+      },
+      {
+        type: 'h2',
+        text: 'A Note on Transparency',
+      },
+      {
+        type: 'paragraph',
+        text: 'Some links on this site are affiliate links. If you click through and buy something — a travel insurance policy, a packing item, a piece of gear — I may earn a small commission at no extra cost to you. I only link to things I\'d genuinely recommend. I will always tell you when a link is affiliate, and I will never recommend something just because it pays better. My 20+ years in insurance claims means I\'ve seen what bad coverage looks like in practice — I\'m not going to send you toward it.',
+      },
+      {
+        type: 'paragraph',
+        text: 'All content on Gohan World is for informational purposes only. It\'s not professional insurance advice or legal advice. When in doubt, call your insurer directly and ask. The full disclosure is linked in the footer.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Thanks for being here. I hope something on this site makes your trip a little safer, a little smoother, or a little more joyful. That\'s the whole point.',
+      },
+      {
+        type: 'image',
+        src: '/ourstory_2.png',
+        alt: 'Fukurodano-Taki — one of Japan\'s Three Great Waterfalls',
+        caption: 'Fukurodano-Taki, one of Japan\'s "Three Great Waterfalls". © Gohan World. All rights reserved.',
+      },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {

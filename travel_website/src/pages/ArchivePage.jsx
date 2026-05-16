@@ -21,7 +21,7 @@ const ArchivePage = () => {
 
   useEffect(() => {
     document.title = `${year} Articles — Gohan World`
-    return () => { document.title = 'GOHAN WORLD' }
+    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
   }, [year])
 
   if (yearArticles.length === 0) {

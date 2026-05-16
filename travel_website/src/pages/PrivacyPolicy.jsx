@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './LegalPage.css'
 
-const PrivacyPolicy = () => (
+const PrivacyPolicy = () => {
+  useEffect(() => {
+    document.title = 'Privacy Policy — Gohan World'
+    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+  }, [])
+  return (
   <main className="legal-page">
     <h1>Privacy Policy</h1>
     <p className="legal-page__updated">Last updated: April 2026</p>
@@ -206,6 +211,7 @@ const PrivacyPolicy = () => (
       5 business days.
     </p>
   </main>
-)
+  )
+}
 
 export default PrivacyPolicy

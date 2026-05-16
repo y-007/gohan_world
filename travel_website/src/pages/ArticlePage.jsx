@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getArticleBySlug } from '../data/articles'
 import ArticleRenderer from '../components/ArticleRenderer'
@@ -7,6 +7,59 @@ import './ArticlePage.css'
 const ArticlePage = () => {
   const { slug } = useParams()
   const article = getArticleBySlug(slug)
+
+  useEffect(() => {
+    if (!article) return
+    document.title = `${article.title} — Gohan World`
+
+    const metaDesc = document.querySelector('meta[name="description"]')
+    if (metaDesc) metaDesc.setAttribute('content', article.excerpt)
+
+    const ogTitle = document.querySelector('meta[property="og:title"]')
+    if (ogTitle) ogTitle.setAttribute('content', `${article.title} — Gohan World`)
+
+    const ogDesc = document.querySelector('meta[property="og:description"]')
+    if (ogDesc) ogDesc.setAttribute('content', article.excerpt)
+
+    const ogUrl = document.querySelector('meta[property="og:url"]')
+    if (ogUrl) ogUrl.setAttribute('content', `https://www.gohanworld.com/articles/${article.slug}`)
+
+    const ogImage = document.querySelector('meta[property="og:image"]')
+    if (ogImage && article.heroImage) ogImage.setAttribute('content', `https://www.gohanworld.com${article.heroImage}`)
+
+    const canonical = document.querySelector('link[rel="canonical"]')
+    if (canonical) canonical.setAttribute('href', `https://www.gohanworld.com/articles/${article.slug}`)
+
+    // Article structured data
+    const existingLd = document.getElementById('article-ld')
+    if (existingLd) existingLd.remove()
+    const ld = document.createElement('script')
+    ld.id = 'article-ld'
+    ld.type = 'application/ld+json'
+    ld.text = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: article.title,
+      description: article.excerpt,
+      image: article.heroImage ? `https://www.gohanworld.com${article.heroImage}` : undefined,
+      author: { '@type': 'Person', name: 'Yuko', url: 'https://www.gohanworld.com/about' },
+      publisher: { '@type': 'Organization', name: 'Gohan World', url: 'https://www.gohanworld.com' },
+      url: `https://www.gohanworld.com/articles/${article.slug}`,
+      datePublished: article.date,
+      dateModified: article.lastUpdated,
+    })
+    document.head.appendChild(ld)
+
+    return () => {
+      document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides'
+      const desc = document.querySelector('meta[name="description"]')
+      if (desc) desc.setAttribute('content', 'Gohan World is your USA⇄Japan travel and insurance guide. Senior-friendly safety tips, packing essentials, airport guidance, cultural insights, and practical answers to \'what happens if...?\' moments.')
+      const canon = document.querySelector('link[rel="canonical"]')
+      if (canon) canon.setAttribute('href', 'https://www.gohanworld.com')
+      const ldEl = document.getElementById('article-ld')
+      if (ldEl) ldEl.remove()
+    }
+  }, [article])
 
   if (!article) {
     return (

@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './LegalPage.css'
 
-const Disclaimer = () => (
+const Disclaimer = () => {
+  useEffect(() => {
+    document.title = 'Disclaimer — Gohan World'
+    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+  }, [])
+  return (
   <main className="legal-page">
     <h1>Disclaimer</h1>
     <p className="legal-page__updated">Last updated: April 2026</p>
@@ -86,6 +91,7 @@ const Disclaimer = () => (
     <h2>Questions?</h2>
     <p>If you have questions about this disclaimer, please visit my <Link to="/contact">Contact page</Link>.</p>
   </main>
-)
+  )
+}
 
 export default Disclaimer

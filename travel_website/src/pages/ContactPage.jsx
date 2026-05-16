@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './LegalPage.css'
 import './ContactPage.css'
 
-const ContactPage = () => (
+const ContactPage = () => {
+  useEffect(() => {
+    document.title = 'Contact — Gohan World'
+    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+  }, [])
+  return (
   <main className="legal-page contact-page">
     <h1>Contact</h1>
     <p className="legal-page__updated">I'd love to hear from you.</p>
@@ -40,6 +45,7 @@ const ContactPage = () => (
       <li><Link to="/privacy-policy">Privacy Policy</Link> — how I handle your data</li>
     </ul>
   </main>
-)
+  )
+}
 
 export default ContactPage

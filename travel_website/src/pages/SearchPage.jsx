@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useEffect } from 'react'
 import { useSearchParams, Link } from 'react-router-dom'
 import { searchIndex } from '../data/searchIndex'
 import './SearchPage.css'
@@ -6,6 +6,11 @@ import './SearchPage.css'
 const SearchPage = () => {
   const [params] = useSearchParams()
   const query = (params.get('q') || '').trim()
+
+  useEffect(() => {
+    document.title = query ? `Search: "${query}" — Gohan World` : 'Search — Gohan World'
+    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+  }, [query])
 
   const results = useMemo(() => {
     if (!query) return []
