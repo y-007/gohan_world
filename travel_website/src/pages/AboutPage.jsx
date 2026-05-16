@@ -14,7 +14,7 @@ const AboutPage = () => (
       />
     </div>
 
-    <h1 className="about-page__title">About <span>- World GOHAN Creator</span></h1>
+    <h1 className="about-page__title">About <span>- GOHAN World Creator</span></h1>
 
     <p className="about-page__body">
       Hi, welcome to Gohan World! I'm Yuko. I deeply value the bonds with my
