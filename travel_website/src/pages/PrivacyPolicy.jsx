@@ -72,19 +72,9 @@ const PrivacyPolicy = () => {
           <td>Session</td>
         </tr>
         <tr>
-          <td><strong>Preference</strong></td>
-          <td>Remembers your dark/light theme choice</td>
-          <td>Local storage (persistent)</td>
-        </tr>
-        <tr>
           <td><strong>Analytics</strong></td>
           <td>Anonymous visitor tracking via Google Analytics (GA4)</td>
           <td>Up to 2 years</td>
-        </tr>
-        <tr>
-          <td><strong>Affiliate tracking</strong></td>
-          <td>Commission tracking for travel insurance partners (Squaremouth, Allianz, World Nomads, etc.)</td>
-          <td>30–90 days</td>
         </tr>
         <tr>
           <td><strong>Consent preference</strong></td>
@@ -94,8 +84,12 @@ const PrivacyPolicy = () => {
       </tbody>
     </table>
     <p>
-      You can control or disable cookies through your browser settings. Disabling analytics or
-      affiliate cookies will not affect your ability to read content on this site.
+      Your dark/light theme preference is stored in your browser's local storage — not a cookie.
+      It never leaves your device and is not shared with anyone.
+    </p>
+    <p>
+      You can control or disable cookies through your browser settings. Disabling analytics
+      cookies will not affect your ability to read content on this site.
     </p>
     <p>
       To opt out of Google Analytics tracking across all sites:{' '}
@@ -276,7 +270,6 @@ const PrivacyPolicy = () => {
       <li><strong>Newsletter subscribers:</strong> Retained while subscribed; removed within 30 days of unsubscription request</li>
       <li><strong>Contact enquiries:</strong> Retained for up to 2 years, then deleted</li>
       <li><strong>Analytics data:</strong> Per Google Analytics default retention settings (up to 26 months)</li>
-      <li><strong>Affiliate tracking cookies:</strong> 30–90 days depending on the affiliate partner</li>
     </ul>
 
     <hr />
