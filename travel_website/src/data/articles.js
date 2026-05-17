@@ -10,7 +10,7 @@ export const articles = [
     category: 'Food & Culture',
     icon: '🍜',
     accentColor: '#b8a06a',
-    heroImage: '/hero-food-culture.jpg', // Photo by Janice Tea on Unsplash: https://unsplash.com/photos/focus-photography-of-ramen-in-bowl-with-condiment-shakers-lbxLlgi_8_w
+    heroImage: '/hero-food-culture.jpg', // Verified royalty-free. Photo by Janice Tea on Unsplash: https://unsplash.com/photos/focus-photography-of-ramen-in-bowl-with-condiment-shakers-lbxLlgi_8_w
     readTime: '7 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -139,7 +139,7 @@ export const articles = [
     category: 'Travel Stories',
     icon: '✈️',
     accentColor: '#6a8ab8',
-    heroImage: '/hero-travel-stories.jpg', // Photo by Jezael Melgoza on Unsplash: https://unsplash.com/photos/a-person-with-a-backpack-walking-down-a-street-s5H8-HrxO_w
+    heroImage: '/hero-travel-stories.jpg', // Verified royalty-free. Photo by Jezael Melgoza on Unsplash: https://unsplash.com/photos/a-person-with-a-backpack-walking-down-a-street-s5H8-HrxO_w
     readTime: '8 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -256,7 +256,7 @@ export const articles = [
     category: 'Trip Essentials',
     icon: '🎒',
     accentColor: '#6ab88a',
-    heroImage: '/hero-trip-essentials.jpg', // Photo by Surface on Unsplash: https://unsplash.com/photos/C-o9HNzQ_rA
+    heroImage: '/hero-trip-essentials.jpg', // Verified royalty-free. Photo by Surface on Unsplash: https://unsplash.com/photos/C-o9HNzQ_rA
     readTime: '9 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -424,7 +424,7 @@ export const articles = [
     category: 'Trip Essentials',
     icon: '🏥',
     accentColor: '#c0616e',
-    heroImage: '/hero-medicare-abroad.jpg', // Photo by National Cancer Institute on Unsplash: https://unsplash.com/photos/DK--4VWK1tw
+    heroImage: '/hero-medicare-abroad.jpg', // Verified royalty-free. Photo by National Cancer Institute on Unsplash: https://unsplash.com/photos/DK--4VWK1tw
     readTime: '6 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -538,7 +538,7 @@ export const articles = [
     category: 'Travel Insurance',
     icon: '🛡️',
     accentColor: '#C4714F',
-    heroImage: '/hero-medicare-senior.jpg', // Photo on Unsplash: https://unsplash.com/photos/elderly-couple-sitting-together-outdoors--NwK3jWezuI
+    heroImage: '/hero-medicare-senior.jpg', // Verified royalty-free. Photo on Unsplash: https://unsplash.com/photos/elderly-couple-sitting-together-outdoors--NwK3jWezuI
     readTime: '8 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -726,7 +726,7 @@ export const articles = [
     category: 'Food & Culture',
     icon: '🍜',
     accentColor: '#b8a06a',
-    heroImage: '/hero-machi-chuka-japan-neighborhood-chinese.jpg', // Photo by Wenhao Ruan on Unsplash: https://unsplash.com/photos/two-people-sitting-at-a-counter-in-a-restaurant-Ela2AO4JDWQ
+    heroImage: '/hero-machi-chuka-japan-neighborhood-chinese.jpg', // Verified royalty-free. Photo by Wenhao Ruan on Unsplash: https://unsplash.com/photos/two-people-sitting-at-a-counter-in-a-restaurant-Ela2AO4JDWQ
     readTime: '7 min read',
     date: 'April 2026',
     affiliateDisclosure: true,
@@ -795,7 +795,7 @@ export const articles = [
     category: 'Travel Insurance',
     icon: '🛡️',
     accentColor: '#C4714F',
-    heroImage: '/hero-best-travel-insurance-japan-2026.jpg', // Photo by rawkkim on Unsplash: https://unsplash.com/photos/people-waiting-in-a-modern-airport-lounge-by-large-windows-unJT7Gnj3W8
+    heroImage: '/hero-best-travel-insurance-japan-2026.jpg', // Verified royalty-free. Photo by rawkkim on Unsplash: https://unsplash.com/photos/people-waiting-in-a-modern-airport-lounge-by-large-windows-unJT7Gnj3W8
     readTime: '9 min read',
     date: 'May 2026',
     affiliateDisclosure: true,
@@ -897,7 +897,7 @@ export const articles = [
     category: 'Trip Essentials',
     icon: '🎒',
     accentColor: '#6ab88a',
-    heroImage: '/hero-japan-packing-list-seniors.jpg', // Photo by Arnel Hasanovic on Unsplash: https://unsplash.com/photos/Nl-SXO4FAHw
+    heroImage: '/hero-japan-packing-list-seniors.jpg', // Verified royalty-free. Photo by Arnel Hasanovic on Unsplash: https://unsplash.com/photos/Nl-SXO4FAHw
     readTime: '8 min read',
     date: 'May 2026',
     affiliateDisclosure: true,
@@ -1135,7 +1135,7 @@ export const articles = [
     category: 'Trip Essentials',
     icon: '🎒',
     accentColor: '#6ab88a',
-    heroImage: '/hero-haneda-airport-guide-tokyo.jpg', // Photo by Jason Leung on Unsplash: https://unsplash.com/photos/train-station-platform-with-stairs-and-signage-fV2G5KGNDg4
+    heroImage: '/hero-haneda-airport-guide-tokyo.jpg', // Verified royalty-free. Photo by Jason Leung on Unsplash: https://unsplash.com/photos/train-station-platform-with-stairs-and-signage-fV2G5KGNDg4
     readTime: '7 min read',
     date: 'May 2026',
     affiliateDisclosure: true,
@@ -1197,7 +1197,7 @@ export const articles = [
     category: 'Trip Essentials',
     icon: '🎒',
     accentColor: '#6ab88a',
-    heroImage: '/hero-esim-japan-beginners-guide.jpg', // Photo by Redd Francisco on Unsplash: https://unsplash.com/photos/pilh8f3eNSU
+    heroImage: '/hero-esim-japan-beginners-guide.jpg', // Verified royalty-free. Photo by Redd Francisco on Unsplash: https://unsplash.com/photos/pilh8f3eNSU
     readTime: '9 min read',
     date: 'May 2026',
     affiliateDisclosure: true,
@@ -1352,7 +1352,7 @@ export const articles = [
     category: 'Travel Insurance',
     icon: '🛡️',
     accentColor: '#C4714F',
-    heroImage: '/hero-medical-emergencies-abroad-travel-insurance.jpg', // Photo by Vitaly Gariev on Unsplash: https://unsplash.com/photos/doctor-using-stethoscope-to-examine-patients-chest-lDH1fxwguxw
+    heroImage: '/hero-medical-emergencies-abroad-travel-insurance.jpg', // Verified royalty-free. Photo by Vitaly Gariev on Unsplash: https://unsplash.com/photos/doctor-using-stethoscope-to-examine-patients-chest-lDH1fxwguxw
     readTime: '8 min read',
     date: 'May 2026',
     lastUpdated: 'May 2026',
