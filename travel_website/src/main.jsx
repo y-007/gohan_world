@@ -7,7 +7,7 @@ import './index.css'
 hydrateRoot(
   document.getElementById('root'),
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter>        
       <App />
     </BrowserRouter>
   </StrictMode>
