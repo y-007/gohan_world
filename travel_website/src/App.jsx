@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
@@ -17,12 +17,20 @@ import AffiliateBar from './components/AffiliateBar'
 import CookieBanner from './components/CookieBanner'
 import CategoryPage from './pages/CategoryPage'
 import ArchivePage from './pages/ArchivePage'
+import { useEffect } from 'react'
+
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
+  return null
+}
 
 function App() {
   const { isDark, toggleTheme } = useTheme()
 
   return (
     <>
+      <ScrollToTop />
       <Header isDark={isDark} toggleTheme={toggleTheme} />
       <AffiliateBar />
       <CookieBanner />
