@@ -18,8 +18,7 @@ const HomePage = () => {
   return (
     <main>
       <Hero />
-      <p>Impact-Site-Verification: a7a49880-5bc9-4f5e-acf4-a8671eb9f677</p>
-
+      
       <Destinations />
       <TravelTips />
       <TravelInsurance />
