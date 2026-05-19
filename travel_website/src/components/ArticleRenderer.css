@@ -116,3 +116,46 @@
   text-align: center;
   margin-top: 8px;
 }
+
+.article-body__toc {
+  background: var(--color-bg-section-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 20px 24px;
+}
+
+.article-body__toc-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin: 0 0 12px;
+}
+
+.article-body__toc-list {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.article-body__toc-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.88rem, 1.4vw, 0.97rem);
+  line-height: 1.5;
+}
+
+.article-body__toc-item a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.article-body__toc-item a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
