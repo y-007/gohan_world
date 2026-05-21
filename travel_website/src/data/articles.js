@@ -1179,7 +1179,7 @@ export const articles = [
       { type: 'h2', text: 'What About the JR Pass?' },
       { type: 'paragraph', html: true, text: '<a href="https://www.jreast.co.jp/en/multi/pass/" target="_blank" rel="noopener noreferrer">The JR Pass</a> is worth its own article (coming soon!), but here\'s the short version as it relates to airports.' },
       { type: 'paragraph', text: "The JR Pass is a prepaid rail pass that covers all JR (Japan Railways) trains nationwide — including Shinkansen bullet trains to Kyoto, Osaka, Hiroshima, and beyond. It does NOT cover private lines like Keikyu or the Tokyo Monorail." },
-      { type: 'list', items: [ "From Narita: You can ride the Narita Express (NEX) for free — it's JR, it's fast, and it goes directly to Shinjuku, Shibuya, and Yokohama.", "From Haneda: You'll still pay out of pocket for the Keikyu or Monorail to reach a JR station, then your pass kicks in from there." ] },
+      { type: 'list', items: [ "From Narita: Narita Express (NEX) is included in Japan Rail Pass — it's JR, it's fast, and it goes directly to Shinjuku, Shibuya, and Yokohama.", "From Haneda: You'll still pay out of pocket for the Keikyu or Monorail to reach a JR station, then your pass kicks in from there." ] },
       { type: 'paragraph', text: "This is one legitimate reason to choose Narita if you have a pass and are heading out of Tokyo quickly (say, straight to Kyoto on Day 1). But for most people who are spending their first night in Tokyo anyway, it's a minor cost — ¥310–510 on an IC card to reach a JR station is not going to break your budget." },
       { type: 'paragraph', text: "The best place to buy or pick up a JR Pass is through Klook — you order online, pick up a voucher, and exchange it at the JR office right inside the arrivals hall at either airport. I always recommend ordering it before you leave home so you can activate it the minute you land." },
       { type: 'affiliate_card', badge: 'Tours & Transit', name: 'Klook — Japan Rail Pass, IC Cards & More', tagline: 'Japan Rail Pass with home delivery or airport pickup, plus pocket Wi-Fi and skip-the-line tickets.', pros: [ 'Japan Rail Pass options (7, 14, or 21 days) with voucher pickup at the airport', 'Pocket Wi-Fi rentals for collection at Haneda or Narita arrivals', 'Suica IC cards available if you want a physical card shipped before departure' ], link: 'https://www.klook.com/en-US/destination/co1012-japan/', // TODO: replace with Klook affiliate URL
@@ -2086,13 +2086,14 @@ export const articles = [
         type: 'affiliate_card',
         badge: 'Tours & Transit',
         name: 'Klook — Japan Rail Pass, Tickets & Tours',
+        nameLink: 'https://affiliate.klook.com/redirect?aid=121824&aff_adid=1282168&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fdestination%2Fco1012-japan%2F',
         tagline: 'Japan Rail Pass, theme park tickets, and pocket Wi-Fi rentals.',
         pros: [
           'Japan Rail Pass with home delivery to your hotel',
           'Skip-the-line tickets for major Tokyo attractions',
           'Pocket Wi-Fi and SIM card rentals for pickup at major airports',
         ],
-        link: '#', // TODO: replace with Klook affiliate URL
+        link: 'https://affiliate.klook.com/redirect?aid=121824&aff_adid=1282082&k_site=https%3A%2F%2Fwww.klook.com%2Fen-US%2Factivity%2F1420-7-day-whole-japan-rail-pass-jr-pass%2F',
         linkText: 'Browse Japan Tickets',
         sponsored: true,
       },
