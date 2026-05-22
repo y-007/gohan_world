@@ -1,71 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700&display=swap');
 
-.header-title-wrapper {
+/* ───────────────────────────────────────────────
+   SALTINOURHAIR‑STYLE HERO LAYOUT
+   Fluid height, flexbox, aspect ratio image
+─────────────────────────────────────────────── */
+
+.hero {
+  display: flex;
+  align-items: stretch;
   width: 100%;
+  background: var(--color-bg-page);
+  overflow: hidden;
+  padding: 0;
+  gap: 0;
+}
+
+/* ─── Left: Image wrapper with aspect ratio ─── */
+
+.hero__image-wrapper {
+  flex: 1.1;
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 0 clamp(60px, 10vw, 130px) clamp(60px, 10vw, 130px) 0; */
+  border-radius: 15vw 19vw 12vw 18vw;
+  aspect-ratio: 4 / 3; /* ⭐ This is the key to scaling like SaltInOurHair */
+}
+
+.hero__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+/* ─── Right: Content panel ─── */
+
+.hero__content {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  box-sizing: border-box;
-  position: relative;
-  background-color: var(--color-bg-page);
-  padding: clamp(24px, 6vw, 60px) clamp(16px, 5vw, 40px);
+  justify-content: center;
+  padding: clamp(32px, 5vw, 72px);
+  gap: clamp(12px, 1.4vw, 20px);
+  min-width: 0;
 }
 
-.hero__welcome {
-  font-family: "Playfair", serif;
-  font-size: clamp(1.8rem, 5vw, 3rem);
-  margin-bottom: 10px;
-  color: var(--color-text-primary);
-}
+/* Typography (same as your original) */
 
-.about-img img {
-  width: clamp(72px, 12vw, 100px);
-  height: clamp(72px, 12vw, 100px);
-  border-radius: 50%;
-  border: 2px solid var(--color-border-input);
-  margin-bottom: 15px;
-  display: block;
+.hero__eyebrow {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.7rem, 1.2vw, 1rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-accent);
+  margin: 0;
 }
 
 .hero__brand {
-  font-family: "Poppins", sans-serif;
-  font-size: clamp(0.75rem, 1.5vw, 0.9rem);
+  font-family: 'Playfair', serif;
+  font-size: clamp(2rem, 4.5vw, 3.8rem);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.hero__tagline {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.8rem, 1.4vw, 1.05rem);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.hero__body {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.78rem, 1.2vw, 0.97rem);
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  margin: 0;
+}
+
+.hero__body a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.hero__body a:hover {
+  color: var(--color-accent);
+}
+
+.hero__cta {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.8rem, 1.2vw, 0.95rem);
   font-weight: 600;
-  text-transform: none;
-  color: var(--color-text-secondary);
-  width: min(90%, 600px);
-  margin: 0 auto 10px;
+  padding: clamp(10px, 1.2vw, 14px) clamp(18px, 2.5vw, 28px);
+  border-radius: 8px;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  margin-top: clamp(4px, 0.8vw, 10px);
 }
 
-.about-title p {
-  font-family: "Poppins", sans-serif;
-  font-size: clamp(1rem, 2vw, 19px);
-  width: min(90%, 600px);
-  text-align: center;
-  margin: 0 auto;
-  padding: 15px 0 30px;
-  display: block;
-  box-sizing: border-box;
-  line-height: 30px;
-  color: var(--color-text-secondary);
+.hero__cta:hover {
+  opacity: 0.88;
+  transform: translateY(-2px);
 }
 
-.hero_narco img {
-  max-width: clamp(120px, 20vw, 200px);
-  height: auto;
-  position: relative;
-  top: clamp(-40px, -8vw, -80px);
-}
-
-@media (max-width: 480px) {
-  .about-title p {
-    width: 95%;
-    line-height: 1.7;
+/* Desktop only — scale image down with page */
+@media (min-width: 1025px) {
+  .hero__image-wrapper {
+    flex: 0.9; /* allow shrinking */
+    aspect-ratio: 5 / 4; /* proportional scaling */
+    height: auto;
   }
 
-  .hero_narco img {
-    top: -20px;
+  .hero__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero {
+    height: auto;        /* allow shrinking */
+    min-height: auto;    /* remove forced tall hero */
   }
 }
+
+/* ─── Tablet & Mobile ─── */
+
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__image-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 10; /* more cinematic on mobile */
+    border-radius: 0 0 clamp(40px, 8vw, 80px) clamp(40px, 8vw, 80px);
+  }
+
+  .hero__content {
+    text-align: center;
+    align-items: center;
+    padding: clamp(28px, 6vw, 48px);
+  }
+
+  .hero__cta {
+    align-self: center;
+  }
+}
+
+
+
+
