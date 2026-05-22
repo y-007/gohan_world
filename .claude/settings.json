@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"c:\\\\Users\\\\nakai\\\\website_travel\\\\travel_website\" && rm -rf dist/)",
+      "Bash(git commit -m ' *)",
+      "Bash(Get-ChildItem -Recurse -Force)",
+      "Bash(Select-Object -First 50)",
+      "WebFetch(domain:unsplash.com)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\nakai\\website_travel\\travel_website\\dist"
+    ]
+  }
+}

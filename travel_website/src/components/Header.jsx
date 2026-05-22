@@ -59,17 +59,7 @@ const Header = ({ isDark, toggleTheme }) => {
         </button>
       </li>
 
-      {/* About — page route */}
-      <li>
-        <Link
-          to="/about"
-          onClick={() => setIsMenuOpen(false)}
-          className={mobile ? 'mobile-menu__link' : 'nav-item'}
-        >
-          About
-        </Link>
-      </li>
-
+     
       {/* Destinations — page route */}
       <li>
         <Link
@@ -103,6 +93,17 @@ const Header = ({ isDark, toggleTheme }) => {
           ].filter(Boolean).join(' ')}
         >
           Disclaimer
+        </Link>
+      </li>
+
+ {/* About — page route */}
+      <li>
+        <Link
+          to="/about"
+          onClick={() => setIsMenuOpen(false)}
+          className={mobile ? 'mobile-menu__link' : 'nav-item'}
+        >
+          About
         </Link>
       </li>
 

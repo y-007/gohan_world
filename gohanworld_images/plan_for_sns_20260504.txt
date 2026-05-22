@@ -1,0 +1,121 @@
+You are a SNS creator and expert in CTA conversion.
+I want to build a system for SNS reel/post. 
+
+A. Niche : Travel Tips & Insurance Guidance USA ⇄ Japan Travelers. Simple, honest advice for safer trips for seniors. This is a "edutainment"(education and entertainment) 
+
+B. Primary goal: Traffic to webiste 
+C. Content sytle preference : Hybrid (personal brand "gohanworld.by.yuko" & facelss-AI voice, stock, text-based) 
+D. Offcer : link (website url), travel insurance tips, travel tips, Japanese food (beginner travelers to Japan - they don't know what to eat) 
+E. Time + Volume : at least 3 times a week and posting time is early morning when people wake up before getting up (whan you wake up, you check your phone) and evening when whinding time. Or suggest the best timing of such time especially for seniors. 
+
+Expected outcome :
+1. Build my content pillars
+2. Create a repeatable reel template
+3. Show me how to convert 1 idea to 3 platforms
+4. Start generating my first high-converting posts
+
+1. Platform Reality (Audience + What Actually Works)
+📘 Facebook
+
+Audience behavior
+
+Skews older (30–60+)
+Passive consumption (scrolling, not searching)
+Strong on community + relatability + trust
+
+What converts
+
+Short videos (Reels) are growing, but:
+Story-based posts still outperform pure trends
+Slightly longer attention span than IG
+
+Minimum viable format
+
+Video > Image
+Hook in first 3 seconds
+Subtitles REQUIRED (many watch muted)
+CTA must feel practical, not salesy
+
+Trend right now
+
+“Relatable storytelling” (family, money, life struggles)
+Slightly raw / non-polished content performs better than overproduced
+📸 Instagram
+
+Audience behavior
+
+18–40
+Visual-first, identity-driven
+People follow for aspiration + emotion + aesthetics
+
+What converts
+
+Reels dominate reach (algorithm priority)
+Carousel still strong for education/saves
+
+Minimum viable format
+
+Reel with:
+Fast hook (0–2 sec)
+Pattern interrupt
+Text overlays
+Clean visuals (this matters more than FB)
+
+Trend right now
+
+“Edutainment” (education + entertainment)
+Quick cuts, captions, strong pacing
+Micro-niche authority content (very important)
+📌 Pinterest
+
+Audience behavior
+
+Search-based (VERY different)
+Future-oriented (planning, ideas, solutions)
+High buying intent
+
+What converts
+
+NOT traditional “social content”
+Idea Pins / short videos tied to keywords
+
+Minimum viable format
+
+Vertical video OR static pin
+SEO title + description is EVERYTHING
+Content must solve a specific problem
+
+Trend right now
+
+Evergreen content > trending content
+“How-to”, “step-by-step”, “best ways to…”
+
+
+2. Core Strategic Insight (Most People Miss This)
+
+You are NOT creating 3 different contents.
+
+You are creating:
+
+1 core content → adapted into 3 platform-native formats
+
+If you don’t systemize this, you’ll fail consistency.
+
+
+3. Conversion Structure (Universal CTA Framework)
+
+Every piece of content must follow:
+
+1. Hook
+Stop scroll
+Trigger curiosity, pain, or desire
+2. Value
+Insight / story / solution
+3. Micro-CTA (mid content)
+“Most people don’t realize this…”
+4. Hard CTA (end)
+Follow / Save / Click / DM
+
+
+***
+Source: This is from Copilot 05042026

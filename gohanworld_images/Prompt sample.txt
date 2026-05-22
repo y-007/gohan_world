@@ -1,0 +1,21 @@
+Prompt sample
+
+You are a senior content strategist with 10+ years. Build my Brand Guide using my answers below. 
+My Voice: [Help people travel to Japan from USA, give the seniors travel tips and provide ultimate travel insurance guide]
+
+My 3 Pillers: 
+Skill - topics: 
+Passion - topics
+Story- topics
+
+My Audience's symptom 
+Frustrations: Not sure if they really need a travel insurance. 
+Their desires: the audiene wants to know clear easy 
+
+Rules: 
+Focus on the viewerf's comprehension not just my expertise. 
+Every idea: strong hook + real value + re-hooks
+3 formats to focus on: Direct to camera, carousel, single B0roo+text
+
+Output: 
+Return to me a PDF that I can use to import fore each new project/conversation as our context 
