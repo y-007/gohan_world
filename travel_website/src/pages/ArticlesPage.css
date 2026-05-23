@@ -32,26 +32,50 @@
 
 /* Search bar */
 .articles-page__search-wrap {
+  display: flex;
+  align-items: center;
   max-width: 480px;
   margin: 0 auto;
-}
-
-.articles-page__search {
-  width: 100%;
-  padding: 12px 18px;
   border: 1px solid var(--color-border);
   border-radius: 999px;
   background: var(--color-bg-card);
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.articles-page__search-wrap:focus-within {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(184, 160, 106, 0.15);
+}
+
+.articles-page__search {
+  flex: 1;
+  padding: 12px 18px;
+  border: none;
+  background: transparent;
   color: var(--color-text-primary);
   font-family: 'Poppins', sans-serif;
   font-size: 0.95rem;
   outline: none;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.articles-page__search:focus {
-  border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px rgba(184, 160, 106, 0.15);
+.articles-page__search-btn {
+  flex-shrink: 0;
+  padding: 0 18px;
+  height: 100%;
+  background: transparent;
+  color: var(--color-text-secondary);
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+}
+
+.articles-page__search-btn:hover {
+  color: var(--color-accent);
 }
 
 /* ─────────────────────────────────────────

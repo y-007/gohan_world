@@ -1,5 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { articles } from '../data/articles'
 import { categories } from '../data/categories'
 import './ArticlesPage.css'
@@ -43,59 +45,68 @@ const ArticleCard = ({ article }) => (
 )
 
 const ArticlesPage = () => {
+  const navigate = useNavigate()
+
   useEffect(() => {
     document.title = 'All Articles — Gohan World'
     return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
   }, [])
 
-  const [search, setSearch]       = useState('')
+  const [searchText, setSearchText] = useState('')
+
+  const handleSearch = (e) => {
+    e.preventDefault()
+    if (!searchText.trim()) return
+    navigate(`/search?q=${encodeURIComponent(searchText.trim())}`)
+    setSearchText('')
+  }
+
   const [category, setCategory]   = useState('All')
   const [tag, setTag]             = useState('All')
   const [difficulty, setDifficulty] = useState('All')
   const [type, setType]           = useState('All')
 
-  const hasActiveFilter = category !== 'All' || tag !== 'All' || difficulty !== 'All' || type !== 'All' || search.trim() !== ''
+  const hasActiveFilter = category !== 'All' || tag !== 'All' || difficulty !== 'All' || type !== 'All'
 
   const clearFilters = () => {
     setCategory('All')
     setTag('All')
     setDifficulty('All')
     setType('All')
-    setSearch('')
   }
 
   const pinnedArticles  = useMemo(() => articles.filter(a => a.pinned), [])
   const featuredArticles = useMemo(() => articles.filter(a => a.featured), [])
 
-  const filteredArticles = useMemo(() => articles.filter(a => {
-    if (category !== 'All' && a.category !== category) return false
-    if (tag !== 'All' && !a.tags?.includes(tag)) return false
-    if (difficulty !== 'All' && a.difficulty !== difficulty) return false
-    if (type !== 'All' && a.type !== type) return false
-    if (search.trim()) {
-      const q = search.toLowerCase()
-      return a.title.toLowerCase().includes(q) || a.excerpt.toLowerCase().includes(q)
-    }
-    return true
-  }), [category, tag, difficulty, type, search])
+  const filteredArticles = useMemo(() => {
+    let base = articles
+    if (category !== 'All') base = base.filter(a => a.category === category)
+    if (tag !== 'All') base = base.filter(a => a.tags?.includes(tag))
+    if (difficulty !== 'All') base = base.filter(a => a.difficulty === difficulty)
+    if (type !== 'All') base = base.filter(a => a.type === type)
+    return base
+  }, [category, tag, difficulty, type])
 
   return (
     <main className="articles-page">
 
-      {/* ── Hero + Search ── */}
+      {/* ── Hero ── */}
       <div className="articles-page__hero">
         <h1 className="articles-page__heading">Articles</h1>
         <p className="articles-page__sub">Guides, stories, and practical advice for travelers between Japan and the USA.</p>
-        <div className="articles-page__search-wrap">
+        <form className="articles-page__search-wrap" onSubmit={handleSearch}>
           <input
             className="articles-page__search"
-            type="search"
+            type="text"
             placeholder="Search articles…"
-            value={search}
-            onChange={e => setSearch(e.target.value)}
+            value={searchText}
+            onChange={e => setSearchText(e.target.value)}
             aria-label="Search articles"
           />
-        </div>
+          <button type="submit" className="articles-page__search-btn" aria-label="Search">
+            <FontAwesomeIcon icon={faSearch} />
+          </button>
+        </form>
       </div>
 
       {/* ── Recommended Resources (pinned money pages) ── */}
