@@ -4,30 +4,30 @@
 }
 
 .search-page__hero {
-  background: var(--color-bg-header);
-  padding: clamp(40px, 8vw, 64px) clamp(16px, 5vw, 40px) clamp(32px, 6vw, 48px);
-  text-align: center;
+  background: var(--color-bg-section-alt);
   border-bottom: 1px solid var(--color-border);
+  padding: clamp(48px, 8vw, 80px) clamp(16px, 5vw, 40px) clamp(32px, 5vw, 48px);
+  text-align: center;
 }
 
 .search-page__heading {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
   color: var(--color-text-primary);
-  margin: 0 0 10px;
+  margin-bottom: 12px;
 }
 
 .search-page__count {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.9rem;
-  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
   margin: 0;
 }
 
 .search-page__body {
   max-width: 800px;
   margin: 0 auto;
-  padding: clamp(32px, 6vw, 56px) clamp(16px, 5vw, 40px);
+  padding: clamp(32px, 5vw, 56px) clamp(16px, 5vw, 40px);
 }
 
 .search-page__results {
@@ -38,76 +38,75 @@
 
 .search-result {
   display: block;
-  text-decoration: none;
-  padding: 24px 28px;
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: 12px;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  padding: clamp(20px, 3vw, 28px);
+  text-decoration: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .search-result:hover {
   border-color: var(--color-accent);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 .search-result__top {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 
 .search-result__icon {
-  font-size: 1.3rem;
-  line-height: 1;
+  font-size: 1.1rem;
 }
 
 .search-result__tag {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.72rem;
-  font-weight: 700;
+  font-size: 0.75rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--color-accent);
 }
 
 .search-result__title {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
   color: var(--color-text-primary);
   margin: 0 0 8px;
-  line-height: 1.3;
 }
 
 .search-result__excerpt {
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
-  color: var(--color-text-muted);
-  line-height: 1.65;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
   margin: 0;
 }
 
 .search-page__empty {
   text-align: center;
-  padding: 60px 20px;
+  padding: clamp(40px, 8vw, 72px) 0;
 }
 
 .search-page__empty-msg {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   color: var(--color-text-secondary);
-  margin: 0 0 20px;
+  margin-bottom: 24px;
 }
 
 .search-page__fallback {
+  display: inline-block;
   font-family: 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--color-accent);
   text-decoration: none;
 }
 
 .search-page__fallback:hover {
-  opacity: 0.75;
+  text-decoration: underline;
 }
