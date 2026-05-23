@@ -2114,6 +2114,254 @@ export const articles = [
     ],
   },
 
+  {
+    slug: 'medical-costs-japan-visitors',
+    title: 'Medical Costs in Japan: What Every Visitor Needs to Know Before They Go',
+    excerpt: 'Japan has excellent healthcare — but foreign visitors pay full price. Here\'s what getting sick in Japan actually costs, and how to protect yourself before you go.',
+    category: 'Travel Insurance',
+    icon: '🛡️',
+    accentColor: '#c0616e',
+    heroImage: '/hero-medical-costs-japan-visitors.jpg',
+    // Verified royalty-free. Photo by National Cancer Institute (@nci) on Unsplash: https://unsplash.com/photos/byGTytEGjBo
+    readTime: '10 min read',
+    date: 'May 2026',
+    affiliateDisclosure: true,
+    seoTitle: 'Medical Costs in Japan for Visitors | Gohan World',
+    metaDescription: 'Foreign visitors pay full price at Japanese clinics. Learn what healthcare actually costs in Japan, how billing works, and which travel insurance covers you best.',
+    canonicalUrl: 'https://www.gohanworld.com/articles/medical-costs-japan-visitors',
+    instagramCaption: 'Did you know foreign visitors to Japan pay 100% of medical costs — no national insurance discount? From a ¥2,880 first visit fee to $200k+ evacuation costs, knowing the numbers before you go can save you a lot. Link in bio for the full breakdown — including which travel insurance plans I actually recommend for Japan trips. #JapanTravel #TravelInsurance #JapanTips #SeniorTravel #TravelSmart',
+    heroImageCredit: {
+      photographer: 'National Cancer Institute',
+      source: 'Unsplash',
+      sourceUrl: 'https://unsplash.com/photos/byGTytEGjBo',
+      license: 'Unsplash License (free for commercial use, no attribution required)',
+      downloadedAt: '2026-05-22',
+    },
+    content: [
+      { type: 'paragraph', text: 'Honestly, I never thought much about medical costs in Japan until friends started asking me about it before their trips. Japan has this reputation for being safe and organized — which it is — but "safe country" doesn\'t mean you won\'t end up at a clinic with a fever at midnight, or twisting an ankle on a wet train station floor.' },
+      { type: 'paragraph', text: 'The short version: minor care in Japan is surprisingly affordable. A clinic visit might run you $30–$60. But major care, surgery, or a medical evacuation back to the US? That\'s where visitors without coverage get into serious trouble — and where I\'ve seen friends get caught completely off guard.' },
+      {
+        type: 'toc',
+        items: [
+          { anchor: 'how-japan-calculates', label: 'How Japan Actually Calculates Medical Bills' },
+          { anchor: 'healthcare-costs', label: 'What Does Healthcare in Japan Actually Cost for Visitors?' },
+          { anchor: 'us-insurance-japan', label: 'Does Your US Health Insurance Cover You in Japan?' },
+          { anchor: 'good-coverage', label: 'What Good Travel Medical Coverage Looks Like for Japan' },
+          { anchor: 'pre-existing-conditions', label: 'Pre-Existing Conditions: What Seniors Must Know' },
+          { anchor: 'going-to-doctor', label: 'Going to a Japanese Doctor as a Foreigner' },
+          { anchor: 'recommended-plans', label: 'The Plans I Recommend for Japan Travel' },
+          { anchor: 'get-a-quote', label: 'How to Get a Quote Before You Book' },
+        ],
+      },
+      { type: 'h2', id: 'how-japan-calculates', text: 'How Japan Actually Calculates Medical Bills' },
+      { type: 'paragraph', text: 'Before we get into real-world costs, it helps to understand how Japanese medical billing works — because it\'s very different from the US.' },
+      { type: 'paragraph', text: 'Japan uses a point-based system (点数, ten-sū) to calculate medical fees. Every procedure, consultation, and add-on is assigned a point value. One point equals ¥10. Your final bill is the total points multiplied by ¥10.' },
+      { type: 'paragraph', text: 'For Japanese residents enrolled in national health insurance, they pay only 10–30% of that total (depending on age). Visitors pay 100% — the full unsubsidized amount.' },
+      { type: 'paragraph', text: 'Here\'s how a basic outpatient visit (外来, gairai) breaks down, based on the official medical fee schedule published by Japan\'s Ministry of Health, Labour and Welfare (厚生労働省):' },
+      {
+        type: 'affiliate_table',
+        caption: 'Base Consultation Fees — First Visit (初診料 / shoshinryō)',
+        disclaimer: 'Source: Ministry of Health, Labour and Welfare (厚生労働省). Fee schedule effective 2024. 1 point = ¥10. USD conversions approximate at ¥150/$. Visitors pay 100% — no insurance discount applies. https://www.mhlw.go.jp/stf/newpage_67729.html',
+        columns: ['Item', 'Points', 'Yen (¥)', 'USD (approx.)'],
+        rowKeys: ['provider', 'coverage', 'cost', 'extra'],
+        rows: [
+          { provider: 'First visit fee (初診料)', coverage: '288 pts', cost: '¥2,880', extra: '~$19' },
+          { provider: 'Follow-up visit (再診料)', coverage: '73 pts', cost: '¥730', extra: '~$5' },
+          { provider: 'Outpatient clinic fee', coverage: '74 pts', cost: '¥740', extra: '~$5' },
+          { provider: 'Outpatient management add-on', coverage: '57 pts', cost: '¥570', extra: '~$4' },
+        ],
+      },
+      { type: 'paragraph', text: 'For a Japanese resident, the out-of-pocket share on a first visit is roughly ¥288–¥864 (10–30%). For a visitor: the full ¥2,880 — just for walking in the door, before any tests or treatment.' },
+      {
+        type: 'affiliate_table',
+        caption: 'After-Hours and Holiday Surcharges',
+        disclaimer: 'Source: Ministry of Health, Labour and Welfare (厚生労働省). Added on top of the base consultation fee. https://www.mhlw.go.jp/stf/newpage_67729.html',
+        columns: ['Timing', 'Extra Points', 'Extra Yen', 'Extra USD'],
+        rowKeys: ['provider', 'coverage', 'cost', 'extra'],
+        rows: [
+          { provider: 'After-hours (outside normal clinic hours)', coverage: '+110 pts', cost: '+¥1,100', extra: '+~$7' },
+          { provider: 'Holiday / Sunday visit', coverage: '+240 pts', cost: '+¥2,400', extra: '+~$16' },
+          { provider: 'Late night (after 10 p.m.)', coverage: '+420 pts', cost: '+¥4,200', extra: '+~$28' },
+        ],
+      },
+      {
+        type: 'affiliate_table',
+        caption: 'Other Common Outpatient Add-Ons',
+        disclaimer: 'Source: Ministry of Health, Labour and Welfare (厚生労働省). https://www.mhlw.go.jp/stf/newpage_67729.html',
+        columns: ['Item', 'Points', 'Notes'],
+        rowKeys: ['provider', 'bestFor', 'coverage'],
+        rows: [
+          { provider: 'Medical information fee', bestFor: '3–10 pts', coverage: 'For accessing/processing health records' },
+          { provider: 'Digital health (DX) fee', bestFor: '4 pts', coverage: 'Electronic records coordination' },
+          { provider: 'Infection control fee', bestFor: '6 pts', coverage: 'Standard infection prevention measures' },
+        ],
+      },
+      { type: 'paragraph', text: 'So a late-night first visit on a holiday — before any treatment, X-rays, or medication — already adds up to: 288 + 420 + 240 = 948 points = ¥9,480 (~$63). Add an X-ray (¥5,000–¥15,000), blood work, and a prescription, and a "minor" late-night visit can easily reach ¥20,000–¥30,000 ($130–$200) for a visitor paying full price.' },
+      { type: 'tip', text: 'Gohan World tip: If it\'s not a true emergency, consider waiting until regular clinic hours. The after-hours and late-night surcharges add up fast — and most conditions that feel urgent at midnight can safely be seen at 9 a.m.' },
+
+      { type: 'h2', id: 'healthcare-costs', text: 'What Does Healthcare in Japan Actually Cost for Visitors?' },
+      { type: 'paragraph', text: 'Now that you understand the billing system, here\'s how it plays out in real-world scenarios:' },
+      { type: 'list', items: [
+        'GP visit / clinic consultation — ¥3,000–¥8,000 ($20–$55) for a standard exam',
+        'Emergency room visit — ¥10,000–¥30,000 ($65–$200) depending on severity',
+        'X-ray — ¥5,000–¥15,000 ($33–$100) added to the consultation',
+        'Hospitalization (per night) — ¥30,000–¥60,000 ($200–$400) per day in a standard ward',
+        'Surgery (appendectomy, for example) — ¥300,000–¥700,000 ($2,000–$5,000) without insurance',
+        'Medical evacuation to the US — $50,000–$200,000+ depending on your condition and distance from Tokyo',
+      ]},
+      { type: 'paragraph', text: 'Those hospitalization and evacuation numbers are the ones that matter most. A week-long hospital stay after a serious accident could easily run $3,000–$5,000 out of pocket. An evacuation could wipe out an entire year\'s savings.' },
+      { type: 'tip', text: 'Gohan World tip: Emergency rooms at large Japanese hospitals (救急病院, kyūkyū byōin) are equipped for serious cases, but smaller clinics may not have English-speaking staff. Keep your insurance card and a note in Japanese describing your symptoms handy.' },
+
+      { type: 'h2', id: 'us-insurance-japan', text: 'Does Your US Health Insurance Cover You in Japan?' },
+      { type: 'paragraph', text: 'Short answer: probably not well. Most US employer health plans either exclude international coverage entirely or reimburse a fraction of costs after you pay upfront. Medicare and Medicaid have essentially no international coverage. Some travel credit cards offer limited medical benefits — usually $5,000–$10,000 — but that ceiling can disappear fast with serious care.' },
+      { type: 'paragraph', text: 'Always check three things before a Japan trip:' },
+      { type: 'list', items: [
+        'Does my plan cover international emergencies at all?',
+        'Is it reimbursement-based (meaning I pay first) or direct-pay?',
+        'Does it include medical evacuation?',
+      ]},
+      { type: 'paragraph', text: 'Most people who check find the answer is: coverage is thin, reimbursement-only, and doesn\'t include evacuation. That gap is exactly why travel medical insurance matters — especially for seniors, where the stakes are higher and the costs can compound quickly.' },
+
+      { type: 'h2', id: 'good-coverage', text: 'What Good Travel Medical Coverage Looks Like for Japan' },
+      { type: 'paragraph', text: 'When looking at plans for a Japan trip, here\'s the minimum to look for:' },
+      { type: 'list', items: [
+        'Medical coverage — at least $100,000; ideally $250,000+ for longer trips or if you have any health history',
+        'Emergency medical evacuation — at least $500,000 (evacuation from Japan to the US is expensive)',
+        'Pre-existing condition waiver — critical for seniors; usually requires purchasing within 14–21 days of your first trip deposit',
+        'Direct-pay option — so you\'re not fronting thousands and waiting for reimbursement',
+        '24/7 emergency assistance line — with Japanese-speaker support if possible',
+        'Trip cancellation/interruption — worth bundling if you have non-refundable bookings',
+      ]},
+      { type: 'paragraph', text: 'One thing people skip: the evacuation limit. A $500,000 ceiling sounds like a lot until you understand that a stretcher-on-a-commercial-flight from Osaka to Los Angeles can cost $80,000–$120,000. Full air ambulance? Double that.' },
+      { type: 'tip', text: 'Travel Insurance tip: If you\'re doing any hiking — think Fuji, the Kumano Kodo, or the Japanese Alps — confirm your plan covers search and rescue. Not all plans do by default.' },
+
+      { type: 'h2', id: 'pre-existing-conditions', text: 'Pre-Existing Conditions: What Seniors Must Know' },
+      { type: 'paragraph', text: 'This is the section most people skip — and for older travelers, it\'s the most important one. The pre-existing condition waiver extends your coverage to conditions you already have — heart disease, diabetes, hypertension, joint replacements, past surgeries. Without it, if something related to a pre-existing condition happens in Japan, your insurer can deny the claim entirely.' },
+      { type: 'h3', text: 'Dos' },
+      { type: 'list', items: [
+        'Buy your travel insurance within 14–21 days of your first trip deposit to qualify for the waiver (the window varies by provider — check before you buy)',
+        'Disclose all current medications and conditions when applying — this protects you at claim time',
+        'Choose a plan with at least $250,000 medical coverage if you have any ongoing health history',
+        'Look for plans that cover pre-existing conditions for emergency stabilization even without a waiver — some do',
+      ]},
+      { type: 'h3', text: 'Don\'ts' },
+      { type: 'list', items: [
+        'Don\'t wait until a week before departure to buy — you\'ll likely miss the waiver window',
+        'Don\'t assume your condition is "stable" by the insurer\'s definition — each plan defines stability differently (often 60–180 days with no change in medication or treatment)',
+        'Don\'t buy the cheapest plan without checking what it excludes — low-cost plans often have tight pre-existing condition clauses',
+        'Don\'t rely on a credit card travel benefit as your primary coverage — limits are too low for serious senior medical needs',
+      ]},
+      { type: 'tip', text: 'Travel Insurance tip: Seven Corners allows a 20-day pre-existing waiver window. Allianz requires 14 days. If you\'re still finalizing trip plans, buy the insurance first — you can often adjust trip details later.' },
+
+      { type: 'h2', id: 'going-to-doctor', text: 'Going to a Japanese Doctor as a Foreigner — What to Expect' },
+      { type: 'paragraph', text: 'Japan\'s clinics are clean, efficient, and generally excellent. But the system works a little differently than the US, and knowing what to expect makes the whole experience much less stressful.' },
+      { type: 'h3', text: 'Finding English-Speaking Care' },
+      { type: 'paragraph', text: 'Several hospitals and clinics across Japan have dedicated international patient centers or English-speaking staff. Some well-known options include:' },
+      { type: 'list', items: [
+        'Tokyo Medical and Surgical Clinic (Tokyo) — international patients, English-speaking doctors',
+        'St. Luke\'s International Hospital (Tokyo) — full English support, international desk',
+        'Kameda Medical Center (Chiba) — large international department',
+        'JCHO Osaka Hospital (Osaka) — traveler-friendly international clinic',
+        'Kyoto University Hospital (Kyoto) — international patient support available',
+      ]},
+      { type: 'paragraph', html: true, text: 'For a broader, searchable list of English-friendly medical providers across Japan, <a href="https://www.amdamedicalcenter.com" target="_blank" rel="noopener noreferrer">AMDA International Medical Information Center</a> and the <a href="https://www.jnto.go.jp/emergency/eng/mi_guide.html" target="_blank" rel="noopener noreferrer">JNTO medical assistance page</a> are good starting points.' },
+      { type: 'h3', text: 'Practical Things to Know' },
+      { type: 'list', items: [
+        'Cash is still common at smaller clinics — carry ¥20,000–¥30,000 if you think you might need urgent care',
+        'Ambulances are free in Japan — you don\'t pay for the ride, only for treatment',
+        'You\'ll get a receipt (領収書, ryōshūsho) at checkout — keep it, your insurer will need it for any claim',
+      ]},
+      { type: 'h3', text: 'About the Medical Record — Shindanshō (診断書)' },
+      { type: 'paragraph', text: 'Many travel insurance claims departments require an official medical record — called a shindanshō — to process and expedite reimbursement. Japanese clinics and hospitals charge extra for this document, typically ¥3,000–¥5,000 ($20–$35), and it\'s not automatically given at checkout.' },
+      { type: 'paragraph', text: 'Ask for it before you leave the clinic. If you want your reimbursement to move quickly, get the shindanshō on the spot. The good news: most major travel insurers now have in-house translation services, so you don\'t need to get the document translated yourself before submitting. Just make sure you have it — a receipt alone often isn\'t enough for complex claims.' },
+      { type: 'h3', text: 'Picking Up Your Prescription — Shohōsen (処方箋)' },
+      { type: 'paragraph', text: 'In the US, you get a prescription slip and take it to a separate pharmacy. In Japan, the yakkyoku (薬局) is almost always directly adjacent to or just steps from the clinic or hospital. You walk out of the doctor\'s office, hand your shohōsen to the pharmacist next door, and you\'re typically done in 5–10 minutes. Fast, organized, no extra trip required. And unlike in the United States, the cost of prescription medication in Japan is generally reasonably priced — so that part of the bill rarely comes as a surprise.' },
+
+      { type: 'h2', id: 'recommended-plans', text: 'The Plans I Recommend for Japan Travel' },
+      { type: 'paragraph', text: 'Based on coverage limits, pre-existing condition options, and value for seniors, here are the plans worth looking at:' },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'World Nomads — Best for Active Travelers',
+        tagline: 'High coverage limits with adventure sports built in.',
+        pros: [
+          'Up to $100,000 medical coverage and $500,000 evacuation',
+          'Cancel For Any Reason (CFAR) upgrade available',
+          'Covers most adventure sports by default — verify your activities',
+        ],
+        link: '#', // TODO: replace with World Nomads affiliate URL
+        linkText: 'Get a Quote with World Nomads',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Seven Corners — Best for High Medical Coverage',
+        tagline: 'Maximum protection for travelers with complex medical histories.',
+        pros: [
+          'Up to $250,000 medical coverage and $1,000,000 evacuation limit',
+          'Pre-existing condition waiver within 20 days of initial deposit',
+          'Cancel For Any Reason available — best for long trips or cruises',
+        ],
+        link: '#', // TODO: replace with Seven Corners affiliate URL
+        linkText: 'Get a Quote with Seven Corners',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Allianz Travel — Best Overall for Most Travelers',
+        tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.',
+        pros: [
+          'Up to $50,000 medical coverage and $500,000 medical evacuation',
+          'Pre-existing condition waiver available within 14 days of initial deposit',
+          'Consistently top-rated for customer service',
+        ],
+        link: '#', // TODO: replace with Allianz affiliate URL
+        linkText: 'Get a Quote with Allianz',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Compare',
+        name: 'Squaremouth — Best for Comparison Shopping',
+        tagline: 'Compare 30+ top-rated plans side by side in minutes.',
+        pros: [
+          'Filter by medical limit, pre-existing waiver, CFAR, and price',
+          'Zero-complaint guarantee — disputes resolved within 30 days',
+          'No pressure, no upsells — ideal if you\'re buying for the first time',
+        ],
+        link: '#', // TODO: replace with Squaremouth affiliate URL
+        linkText: 'Compare Plans on Squaremouth',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_table',
+        caption: 'Travel Insurance Comparison — Japan Trips',
+        disclaimer: '* Prices are estimates based on a 14-day trip for one adult. Actual quotes vary by age, trip cost, and activities. Links are affiliate links — we may earn a commission at no cost to you.',
+        columns: ['Provider', 'Best For', 'Medical Limit', 'Pre-Existing Waiver', 'Est. Cost*'],
+        rowKeys: ['provider', 'bestFor', 'coverage', 'extra', 'cost'],
+        rows: [
+          { provider: 'World Nomads', bestFor: 'Adventure travelers', coverage: '$100,000', cost: '$80–$150', extra: 'Yes (within 14 days)', link: '#', linkText: 'Get Quote' }, // TODO: replace with World Nomads affiliate URL
+          { provider: 'Seven Corners', bestFor: 'High coverage needs', coverage: '$250,000', cost: '$90–$180', extra: 'Yes (within 20 days)', link: '#', linkText: 'Get Quote' }, // TODO: replace with Seven Corners affiliate URL
+          { provider: 'Allianz Travel', bestFor: 'Families & seniors', coverage: '$50,000', cost: '$50–$180', extra: 'Yes (within 14 days)', link: '#', linkText: 'Get Quote' }, // TODO: replace with Allianz affiliate URL
+          { provider: 'Squaremouth', bestFor: 'Comparing options', coverage: 'Varies', cost: '$60–$200', extra: 'Varies by plan', link: '#', linkText: 'Compare Plans' }, // TODO: replace with Squaremouth affiliate URL
+        ],
+      },
+
+      { type: 'h2', id: 'get-a-quote', text: 'How to Get a Quote Before You Book' },
+      { type: 'paragraph', text: 'It takes about five minutes. Here\'s what to do:' },
+      { type: 'list', items: [
+        'Decide your trip dates and total non-refundable trip cost',
+        'Go to Squaremouth (or any comparison site) and enter your details',
+        'Filter by medical minimum ($100,000+) and evacuation coverage',
+        'If you have any pre-existing conditions, filter for the waiver — and confirm the purchase window',
+        'Read the exclusions list — most surprises live there',
+      ]},
+      { type: 'paragraph', text: 'Don\'t wait until the week before your trip. The pre-existing condition waiver window closes early, and prices don\'t get better last-minute. Japan is a safe country. The healthcare is genuinely good. But "safe" doesn\'t mean immune to a serious fall, a respiratory infection, or a cardiac event far from home. The peace-of-mind math — $80–$150 for a 14-day policy — is the easiest decision to make before any Japan trip.' },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {
