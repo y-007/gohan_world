@@ -12,6 +12,7 @@ const HomePage = () => {
     if (location.state?.scrollTo) {
       const el = document.getElementById(location.state.scrollTo)
       if (el) el.scrollIntoView({ behavior: 'smooth' })
+      window.history.replaceState({}, '', '/')
     }
   }, [location.state])
 
