@@ -14,6 +14,7 @@ const DIFFICULTIES = ['All', 'Beginner', 'Intermediate']
 const TYPES = ['All', 'Guide', 'Checklist', 'Comparison', 'Review']
 
 const isNew = (dateStr) => {
+  if (!dateStr) return false
   const months = { January: 0, February: 1, March: 2, April: 3, May: 4, June: 5, July: 6, August: 7, September: 8, October: 9, November: 10, December: 11 }
   const [month, year] = dateStr.split(' ')
   const d = new Date(parseInt(year), months[month], 1)
@@ -53,6 +54,10 @@ const ArticlesPage = () => {
   }, [])
 
   const [searchText, setSearchText] = useState('')
+  const [category, setCategory]     = useState('All')
+  const [tag, setTag]               = useState('All')
+  const [difficulty, setDifficulty] = useState('All')
+  const [type, setType]             = useState('All')
 
   const handleSearch = (e) => {
     e.preventDefault()
@@ -60,11 +65,6 @@ const ArticlesPage = () => {
     navigate(`/search?q=${encodeURIComponent(searchText.trim())}`)
     setSearchText('')
   }
-
-  const [category, setCategory]   = useState('All')
-  const [tag, setTag]             = useState('All')
-  const [difficulty, setDifficulty] = useState('All')
-  const [type, setType]           = useState('All')
 
   const hasActiveFilter = category !== 'All' || tag !== 'All' || difficulty !== 'All' || type !== 'All'
 
@@ -75,17 +75,16 @@ const ArticlesPage = () => {
     setType('All')
   }
 
-  const pinnedArticles  = useMemo(() => articles.filter(a => a.pinned), [])
+  const pinnedArticles   = useMemo(() => articles.filter(a => a.pinned), [])
   const featuredArticles = useMemo(() => articles.filter(a => a.featured), [])
 
-  const filteredArticles = useMemo(() => {
-    let base = articles
-    if (category !== 'All') base = base.filter(a => a.category === category)
-    if (tag !== 'All') base = base.filter(a => a.tags?.includes(tag))
-    if (difficulty !== 'All') base = base.filter(a => a.difficulty === difficulty)
-    if (type !== 'All') base = base.filter(a => a.type === type)
-    return base
-  }, [category, tag, difficulty, type])
+  const filteredArticles = useMemo(() => articles.filter(a => {
+    if (category !== 'All' && a.category !== category) return false
+    if (tag !== 'All' && !a.tags?.includes(tag)) return false
+    if (difficulty !== 'All' && a.difficulty !== difficulty) return false
+    if (type !== 'All' && a.type !== type) return false
+    return true
+  }), [category, tag, difficulty, type])
 
   return (
     <main className="articles-page">
@@ -110,60 +109,54 @@ const ArticlesPage = () => {
       </div>
 
       {/* ── Recommended Resources (pinned money pages) ── */}
-      {!hasActiveFilter && (
-        <section className="articles-page__section">
-          <div className="articles-page__section-inner">
-            <div className="articles-page__section-header">
-              <h2 className="articles-page__section-title">⭐ Recommended Resources</h2>
-              <p className="articles-page__section-sub">Affiliate-supported guides — thoroughly researched, honestly reviewed.</p>
-            </div>
-            <div className="articles-page__strip">
-              {pinnedArticles.map(a => <ArticleCard key={a.slug} article={a} />)}
-            </div>
+      <section className="articles-page__section">
+        <div className="articles-page__section-inner">
+          <div className="articles-page__section-header">
+            <h2 className="articles-page__section-title">⭐ Recommended Resources</h2>
+            <p className="articles-page__section-sub">Affiliate-supported guides — thoroughly researched, honestly reviewed.</p>
           </div>
-        </section>
-      )}
+          <div className="articles-page__strip">
+            {pinnedArticles.map(a => <ArticleCard key={a.slug} article={a} />)}
+          </div>
+        </div>
+      </section>
 
       {/* ── Start Here (featured beginner picks) ── */}
-      {!hasActiveFilter && (
-        <section className="articles-page__section articles-page__section--alt">
-          <div className="articles-page__section-inner">
-            <div className="articles-page__section-header">
-              <h2 className="articles-page__section-title">🚀 Start Here</h2>
-              <p className="articles-page__section-sub">New to Japan travel? These are the best places to begin.</p>
-            </div>
-            <div className="articles-page__strip">
-              {featuredArticles.map(a => <ArticleCard key={a.slug} article={a} />)}
-            </div>
+      <section className="articles-page__section articles-page__section--alt">
+        <div className="articles-page__section-inner">
+          <div className="articles-page__section-header">
+            <h2 className="articles-page__section-title">🚀 Start Here</h2>
+            <p className="articles-page__section-sub">New to Japan travel? These are the best places to begin.</p>
           </div>
-        </section>
-      )}
+          <div className="articles-page__strip">
+            {featuredArticles.map(a => <ArticleCard key={a.slug} article={a} />)}
+          </div>
+        </div>
+      </section>
 
       {/* ── Browse by Category ── */}
-      {!hasActiveFilter && (
-        <section className="articles-page__section">
-          <div className="articles-page__section-inner">
-            <div className="articles-page__section-header">
-              <h2 className="articles-page__section-title">📂 Browse by Category</h2>
-              <p className="articles-page__section-sub">Not sure where to start? Pick a topic and find everything in one place.</p>
-            </div>
-            <div className="articles-page__category-cards">
-              {categories.map(cat => (
-                <Link
-                  key={cat.slug}
-                  to={`/articles/category/${cat.slug}`}
-                  className="articles-page__category-card"
-                  style={{ '--cat-accent': cat.accentColor }}
-                >
-                  <span className="articles-page__category-card-icon">{cat.icon}</span>
-                  <span className="articles-page__category-card-name">{cat.name}</span>
-                  <span className="articles-page__category-card-arrow">→</span>
-                </Link>
-              ))}
-            </div>
+      <section className="articles-page__section">
+        <div className="articles-page__section-inner">
+          <div className="articles-page__section-header">
+            <h2 className="articles-page__section-title">📂 Browse by Category</h2>
+            <p className="articles-page__section-sub">Not sure where to start? Pick a topic and find everything in one place.</p>
           </div>
-        </section>
-      )}
+          <div className="articles-page__category-cards">
+            {categories.map(cat => (
+              <Link
+                key={cat.slug}
+                to={`/articles/category/${cat.slug}`}
+                className="articles-page__category-card"
+                style={{ '--cat-accent': cat.accentColor }}
+              >
+                <span className="articles-page__category-card-icon">{cat.icon}</span>
+                <span className="articles-page__category-card-name">{cat.name}</span>
+                <span className="articles-page__category-card-arrow">→</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ── Filter Box ── */}
       <div className="articles-page__filter-section">
@@ -231,29 +224,29 @@ const ArticlesPage = () => {
         </div>
       </div>
 
-      {/* ── Filtered Results (only shown when a filter is active) ── */}
-      {hasActiveFilter && (
-        <div className="articles-page__grid-wrapper">
-          <p className="articles-page__count">
-            {filteredArticles.length} article{filteredArticles.length !== 1 ? 's' : ''} found
-          </p>
-          {filteredArticles.length > 0
-            ? (
-              <div className="articles-page__grid">
-                {filteredArticles.map(a => <ArticleCard key={a.slug} article={a} />)}
-              </div>
-            ) : (
-              <div className="articles-page__empty">
-                <p>No articles match your filters.</p>
-                <button className="articles-page__clear-btn" onClick={clearFilters}>Clear filters</button>
-              </div>
-            )
-          }
-        </div>
-      )}
+      {/* ── All / Filtered Results ── */}
+      <div className="articles-page__grid-wrapper">
+        <p className="articles-page__count">
+          {hasActiveFilter
+            ? `${filteredArticles.length} article${filteredArticles.length !== 1 ? 's' : ''} found`
+            : `All ${filteredArticles.length} articles`}
+        </p>
+        {filteredArticles.length > 0
+          ? (
+            <div className="articles-page__grid">
+              {filteredArticles.map(a => <ArticleCard key={a.slug} article={a} />)}
+            </div>
+          ) : (
+            <div className="articles-page__empty">
+              <p>No articles match your filters.</p>
+              <button className="articles-page__clear-btn" onClick={clearFilters}>Clear filters</button>
+            </div>
+          )
+        }
+      </div>
 
       {/* ── Archives ── */}
-      {!hasActiveFilter && (() => {
+      {(() => {
         const allYears = [...new Set(articles.map(a => parseYear(a.date)))].sort((a, b) => b - a)
         return (
           <section className="articles-page__section articles-page__section--alt">

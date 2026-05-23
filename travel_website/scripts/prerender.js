@@ -33,6 +33,7 @@ const routes = [
   '/about',
   '/destinations',
   '/contact',
+  '/search',
   '/disclaimer',
   '/affiliate-disclosure',
   '/privacy-policy',
@@ -62,6 +63,10 @@ const STATIC_META = {
   '/contact': {
     title: 'Contact | Gohan World',
     desc: 'Get in touch with Gohan World. Questions, feedback, or collaboration inquiries are welcome.',
+  },
+  '/search': {
+    title: 'Search | Gohan World',
+    desc: 'Search all Gohan World articles — travel tips, insurance guides, packing lists, and cultural insights for USA–Japan travelers.',
   },
   '/disclaimer': {
     title: 'Disclaimer | Gohan World',
@@ -149,8 +154,8 @@ for (const route of routes) {
   const metaTag = `<meta name="description" content="${safeDesc}">`
 
   const html = template
-    .replace('<title>GOHAN WORLD</title>', `<title>${title}</title>\n    ${metaTag}`)
-    .replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`)
+    .replace('<!--prerender:head-->', `<title>${title}</title>\n    ${metaTag}`)
+    .replace('<!--prerender:app-->', appHtml)
 
   const dir = join(root, 'dist/client', route === '/' ? '' : route)
   mkdirSync(dir, { recursive: true })
