@@ -32,6 +32,7 @@ const routes = [
   '/articles',
   '/about',
   '/destinations',
+  '/destinations/tokyo',
   '/contact',
   '/search',
   '/disclaimer',
@@ -47,6 +48,7 @@ const STATIC_META = {
   '/': {
     title: 'Gohan World — Japan & USA Travel Tips, Insurance Guides & Cultural Insights',
     desc: 'Practical travel tips, insurance guidance, and cultural insights for USA–Japan travelers. Senior-friendly advice from Yuko at Gohan World.',
+    image: `${HOSTNAME}/hero_profile.png`,
   },
   '/articles': {
     title: 'All Articles | Gohan World',
@@ -55,10 +57,16 @@ const STATIC_META = {
   '/about': {
     title: 'About Yuko | Gohan World',
     desc: 'Meet Yuko, the traveler behind Gohan World — sharing Japan and USA travel tips focused on seniors, first-time visitors, and mindful explorers.',
+    image: `${HOSTNAME}/about-yuko.jpg`,
   },
   '/destinations': {
     title: 'Destinations | Gohan World',
-    desc: 'Explore destinations between Japan and the USA — Tokyo, Kyoto, Osaka, New York, Hawaii, and San Francisco travel guides from Gohan World.',
+    desc: 'Explore destinations between Japan and the USA — Tokyo, Kyoto, Osaka, New York, Hawaii, and Treasure Coast travel guides from Gohan World.',
+  },
+  '/destinations/tokyo': {
+    title: 'Tokyo Travel Guide — Attractions, Food & Tips | Gohan World',
+    desc: 'Complete Tokyo travel guide for USA visitors — Senso-ji Temple, Shibuya Crossing, the best ramen, practical travel tips, and how to fly from the USA.',
+    image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?auto=format&fit=crop&w=1200&q=80',
   },
   '/contact': {
     title: 'Contact | Gohan World',
@@ -106,6 +114,7 @@ for (const y of years) {
 const FALLBACK = {
   title: 'Gohan World — Japan & USA Travel Tips',
   desc: 'Practical travel tips and insurance guidance for USA–Japan travelers — Gohan World.',
+  image: `${HOSTNAME}/hero_profile.png`,
 }
 
 // Sitemap config per route pattern
@@ -117,6 +126,9 @@ function getSitemapEntry(route) {
     return { lastmod: today, changefreq: 'weekly', priority: '0.9' }
   }
   if (route === '/about') {
+    return { lastmod: today, changefreq: 'monthly', priority: '0.8' }
+  }
+  if (route.startsWith('/destinations/') && route !== '/destinations') {
     return { lastmod: today, changefreq: 'monthly', priority: '0.8' }
   }
   if (route.startsWith('/articles/category/')) {
@@ -149,12 +161,29 @@ for (const route of routes) {
     continue
   }
 
-  const { title, desc } = STATIC_META[route] || FALLBACK
-  const safeDesc = desc.replace(/"/g, '&quot;')
-  const metaTag = `<meta name="description" content="${safeDesc}">`
+  const { title, desc, image } = STATIC_META[route] || FALLBACK
+  const safeTitle = title.replace(/"/g, '&quot;')
+  const safeDesc  = desc.replace(/"/g, '&quot;')
+  const canonical = `${HOSTNAME}${route === '/' ? '/' : route + '/'}`
+  const ogImage   = image || `${HOSTNAME}/hero_profile.png`
+
+  const headBlock = [
+    `<title>${title}</title>`,
+    `<meta name="description" content="${safeDesc}">`,
+    `<link rel="canonical" href="${canonical}">`,
+    `<meta property="og:title" content="${safeTitle}">`,
+    `<meta property="og:description" content="${safeDesc}">`,
+    `<meta property="og:url" content="${canonical}">`,
+    `<meta property="og:image" content="${ogImage}">`,
+    `<meta property="og:type" content="website">`,
+    `<meta name="twitter:card" content="summary_large_image">`,
+    `<meta name="twitter:title" content="${safeTitle}">`,
+    `<meta name="twitter:description" content="${safeDesc}">`,
+    `<meta name="twitter:image" content="${ogImage}">`,
+  ].join('\n    ')
 
   const html = template
-    .replace('<!--prerender:head-->', `<title>${title}</title>\n    ${metaTag}`)
+    .replace('<!--prerender:head-->', headBlock)
     .replace('<!--prerender:app-->', appHtml)
 
   const dir = join(root, 'dist/client', route === '/' ? '' : route)

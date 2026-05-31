@@ -7,6 +7,7 @@ import { faFacebook, faInstagram, faPinterest } from '@fortawesome/free-brands-s
 const SHEETS_ENDPOINT = 'https://script.google.com/macros/s/AKfycbysNwT7IUrVZzsmSOS58pmoFnaIeXwOYE2l83EPcRv4bRu-1Jop2yhXLWi9I6sG0eye/exec';
 
 const Footer = () => {
+  const [firstName, setFirstName] = useState('');
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
 
@@ -34,6 +35,7 @@ const Footer = () => {
       const now = new Date();
       const params = new URLSearchParams({
         email,
+        firstName,
         date:     now.toLocaleDateString('en-US'),
         time:     now.toLocaleTimeString('en-US'),
         monthTab: now.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
@@ -53,6 +55,7 @@ const Footer = () => {
       });
 
       setStatus('success');
+      setFirstName('');
       setEmail('');
     } catch {
       setStatus('error');
@@ -90,11 +93,21 @@ const Footer = () => {
             <form className="footer__form" onSubmit={handleNewsletterSubmit}>
               <input
                 className="footer__email-input"
+                type="text"
+                placeholder="First Name"
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
+                autoComplete="given-name"
+                disabled={status === 'loading'}
+              />
+              <input
+                className="footer__email-input"
                 type="email"
                 placeholder="Enter your email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
+                autoComplete="email"
                 disabled={status === 'loading'}
               />
               <button className="footer__email-btn" type="submit" disabled={status === 'loading'}>

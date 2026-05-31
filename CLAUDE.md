@@ -28,7 +28,11 @@ Header  →  Hero  →  Footer
 
 Each component owns its styles via a paired CSS file (e.g. `Header.jsx` + `header.css`). Tailwind utility classes are used inline alongside these local stylesheets — both approaches coexist.
 
-**Styling convention:** Tailwind classes handle layout/color; component-scoped CSS files handle sizing, positioning, and anything Tailwind can't express cleanly. When adding styles, follow whichever approach the existing component already uses.
+**Styling convention:**
+- **Existing components** have a paired `.css` file (e.g. `header.jsx` + `header.css`). All style changes to existing components go in that `.css` file — Tailwind does not reliably override it.
+- **New components/pages** (added from this point on): use Tailwind utility classes only. Do NOT create a new `.css` file.
+- Never mix both approaches on the same component — pick one and stay consistent within that file.
+- Brand accent colour: `#b8a06a` (light mode) / `#c9b47c` (dark mode). Reference as `bg-[#b8a06a]` or add named tokens to `tailwind.config.js`.
 
 **Icons:** Font Awesome 6 SVG-core pattern — import individual icons from `@fortawesome/free-brands-svg-icons` or `@fortawesome/free-solid-svg-icons`, then render with `<FontAwesomeIcon icon={...} />`.
 

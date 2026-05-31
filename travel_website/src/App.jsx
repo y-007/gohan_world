@@ -17,6 +17,7 @@ import AffiliateBar from './components/AffiliateBar'
 import CookieBanner from './components/CookieBanner'
 import CategoryPage from './pages/CategoryPage'
 import ArchivePage from './pages/ArchivePage'
+import TokyoPage from './pages/destinations/TokyoPage'
 import { useEffect } from 'react'
 
 function ScrollToTop() {
@@ -43,6 +44,7 @@ function App() {
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/destinations" element={<DestinationsPage />} />
+        <Route path="/destinations/tokyo" element={<TokyoPage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
