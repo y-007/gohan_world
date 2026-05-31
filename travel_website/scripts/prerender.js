@@ -33,6 +33,11 @@ const routes = [
   '/about',
   '/destinations',
   '/destinations/tokyo',
+  '/destinations/kyoto',
+  '/destinations/newyork',
+  '/destinations/hawaii',
+  '/destinations/osaka',
+  '/destinations/treasurecoast',
   '/contact',
   '/search',
   '/disclaimer',
@@ -67,6 +72,31 @@ const STATIC_META = {
     title: 'Tokyo Travel Guide — Attractions, Food & Tips | Gohan World',
     desc: 'Complete Tokyo travel guide for USA visitors — Senso-ji Temple, Shibuya Crossing, the best ramen, practical travel tips, and how to fly from the USA.',
     image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?auto=format&fit=crop&w=1200&q=80',
+  },
+  '/destinations/kyoto': {
+    title: 'Kyoto Travel Guide — Temples, Gardens & Culture | Gohan World',
+    desc: 'Complete Kyoto travel guide — Fushimi Inari, Arashiyama bamboo grove, Kinkaku-ji, Gion district, kaiseki dining, and how to get there from the USA.',
+    image: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80',
+  },
+  '/destinations/newyork': {
+    title: 'New York City Travel Guide — Things to Do, Eat & See | Gohan World',
+    desc: 'Complete New York City travel guide — Central Park, Brooklyn Bridge, Japanese ramen, New York pizza, travel tips, and direct flights from Japan.',
+    image: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=1200&q=80',
+  },
+  '/destinations/hawaii': {
+    title: 'Hawaii Travel Guide — Beaches, Food & Island Tips | Gohan World',
+    desc: 'Complete Hawaii travel guide — Waikiki Beach, Road to Hana, poke bowls, shave ice, sea turtles, and direct flights from Japan to Honolulu.',
+    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+  },
+  '/destinations/osaka': {
+    title: 'Osaka Travel Guide — Street Food, Dotonbori & Culture | Gohan World',
+    desc: 'Complete Osaka travel guide — Dotonbori, Osaka Castle, takoyaki, okonomiyaki, kushikatsu, and how to get there from the USA.',
+    image: 'https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?auto=format&fit=crop&w=1200&q=80',
+  },
+  '/destinations/treasurecoast': {
+    title: 'Treasure Coast, Florida Travel Guide — Beaches & Seafood | Gohan World',
+    desc: 'Treasure Coast Florida travel guide — Hutchinson Island beaches, Jonathan Dickinson State Park, fresh grouper, stone crab, and sea turtle nesting.',
+    image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80',
   },
   '/contact': {
     title: 'Contact | Gohan World',

@@ -5,11 +5,11 @@ import { useResizeObserver, fluidSize } from '../hooks/useResizeObserver'
 
 const destinations = [
   { name: 'Tokyo, Japan',            tag: 'Culture & Food',      description: 'Bustling streets, ancient temples, ramen shops on every corner — Tokyo is a sensory overload in the best way.', emoji: '🗼', slug: 'tokyo' },
-  { name: 'Kyoto, Japan',            tag: 'History & Nature',    description: 'Bamboo forests, geisha districts, and endless shrines. Kyoto is Japan at its most serene and timeless.', emoji: '⛩️', slug: null },
-  { name: 'New York, USA',           tag: 'City Life',           description: 'The city that never sleeps delivers world-class food, art, and energy on every block.', emoji: '🗽', slug: null },
-  { name: 'Hawaii, USA',             tag: 'Beach & Aloha',       description: 'Where Japanese and American cultures meet the Pacific — breathtaking nature with warm island hospitality.', emoji: '🌺', slug: null },
-  { name: 'Osaka, Japan',            tag: 'Street Food Capital', description: "Takoyaki, okonomiyaki, kushikatsu — Osaka lives up to its nickname as Japan's kitchen.", emoji: '🦑', slug: null },
-  { name: 'Treasure Coast, Florida', tag: 'Sun & Coast',         description: 'Miles of uncrowded beaches, fresh seafood, and a laid-back Florida charm — a perfect coastal escape.', emoji: '🌊', slug: null },
+  { name: 'Kyoto, Japan',            tag: 'History & Nature',    description: 'Bamboo forests, geisha districts, and endless shrines. Kyoto is Japan at its most serene and timeless.', emoji: '⛩️', slug: 'kyoto' },
+  { name: 'New York, USA',           tag: 'City Life',           description: 'The city that never sleeps delivers world-class food, art, and energy on every block.', emoji: '🗽', slug: 'newyork' },
+  { name: 'Hawaii, USA',             tag: 'Beach & Aloha',       description: 'Where Japanese and American cultures meet the Pacific — breathtaking nature with warm island hospitality.', emoji: '🌺', slug: 'hawaii' },
+  { name: 'Osaka, Japan',            tag: 'Street Food Capital', description: "Takoyaki, okonomiyaki, kushikatsu — Osaka lives up to its nickname as Japan's kitchen.", emoji: '🦑', slug: 'osaka' },
+  { name: 'Treasure Coast, Florida', tag: 'Sun & Coast',         description: 'Miles of uncrowded beaches, fresh seafood, and a laid-back Florida charm — a perfect coastal escape.', emoji: '🌊', slug: 'treasurecoast' },
 ]
 
 const Destinations = () => {

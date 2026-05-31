@@ -18,6 +18,11 @@ import CookieBanner from './components/CookieBanner'
 import CategoryPage from './pages/CategoryPage'
 import ArchivePage from './pages/ArchivePage'
 import TokyoPage from './pages/destinations/TokyoPage'
+import KyotoPage from './pages/destinations/KyotoPage'
+import NewYorkPage from './pages/destinations/NewYorkPage'
+import HawaiiPage from './pages/destinations/HawaiiPage'
+import OsakaPage from './pages/destinations/OsakaPage'
+import TreasureCoastPage from './pages/destinations/TreasureCoastPage'
 import { useEffect } from 'react'
 
 function ScrollToTop() {
@@ -45,6 +50,11 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/destinations" element={<DestinationsPage />} />
         <Route path="/destinations/tokyo" element={<TokyoPage />} />
+        <Route path="/destinations/kyoto" element={<KyotoPage />} />
+        <Route path="/destinations/newyork" element={<NewYorkPage />} />
+        <Route path="/destinations/hawaii" element={<HawaiiPage />} />
+        <Route path="/destinations/osaka" element={<OsakaPage />} />
+        <Route path="/destinations/treasurecoast" element={<TreasureCoastPage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
