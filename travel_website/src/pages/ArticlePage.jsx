@@ -39,13 +39,23 @@ const ArticlePage = () => {
     const canonical = document.querySelector('link[rel="canonical"]')
     if (canonical) canonical.setAttribute('href', canonicalStr)
 
-    // Dynamic meta tags (article + Pinterest) — created here, removed on unmount
+    // Dynamic meta tags (article + Pinterest) + hero preload — created here, removed on unmount
     const dynamic = []
     const addMeta = (attrs) => {
       const el = document.createElement('meta')
       Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v))
       document.head.appendChild(el)
       dynamic.push(el)
+    }
+
+    // Preload hero image so the browser fetches it eagerly (equivalent of loading="eager")
+    if (article.heroImage) {
+      const preload = document.createElement('link')
+      preload.rel = 'preload'
+      preload.as = 'image'
+      preload.href = article.heroImage
+      document.head.appendChild(preload)
+      dynamic.push(preload)
     }
 
     const pubDate = new Date('1 ' + article.date)

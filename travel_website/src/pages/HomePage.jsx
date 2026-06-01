@@ -5,6 +5,7 @@ import NewsletterBanner from '../components/NewsletterBanner'
 import Destinations from '../components/Destinations'
 import TravelTips from '../components/TravelTips'
 import TravelInsurance from '../components/TravelInsurance'
+import PopularArticles from '../components/PopularArticles'
 
 const HomePage = () => {
   const location = useLocation()
@@ -24,6 +25,7 @@ const HomePage = () => {
       <Destinations />
       <TravelTips />
       <TravelInsurance />
+      <PopularArticles />
     </main>
   )
 }

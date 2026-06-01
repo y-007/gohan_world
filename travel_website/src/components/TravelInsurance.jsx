@@ -48,6 +48,16 @@ const TravelInsurance = () => {
 
         <div className="insurance-section__note">
           <p>💡 <strong>Gohan World recommends:</strong> Compare plans at <strong>InsureMyTrip</strong> or <strong>World Nomads</strong> before every trip. Always read what's excluded before you buy.</p>
+          <div className="flex flex-wrap gap-4 justify-center mt-4">
+            <a href="https://www.insuremytrip.com" target="_blank" rel="noopener noreferrer"
+              className="inline-block px-6 py-3 rounded-lg font-bold text-white bg-[#b8a06a] hover:bg-[#a08d5a] transition-colors">
+              🏥 Compare Plans — InsureMyTrip →
+            </a>
+            <a href="https://www.worldnomads.com" target="_blank" rel="noopener noreferrer"
+              className="inline-block px-6 py-3 rounded-lg font-bold text-white bg-[#b8a06a] hover:bg-[#a08d5a] transition-colors">
+              🌍 Get a Quote — World Nomads →
+            </a>
+          </div>
         </div>
       </div>
     </section>

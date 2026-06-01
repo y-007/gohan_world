@@ -53,7 +53,7 @@ const ArticleRenderer = ({ blocks }) => (
         case 'image':
           return (
             <figure key={i} className="article-body__figure">
-              <img src={block.src} alt={block.alt} />
+              <img src={block.src} alt={block.alt} loading="lazy" />
               {block.caption && <figcaption>{block.caption}</figcaption>}
             </figure>
           )

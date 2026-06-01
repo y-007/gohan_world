@@ -1,0 +1,62 @@
+[33m1358ae2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Add missing SearchPage.css that was causing blank search results on live site
+[33me519c20[m Replace Articles page search with navbar-style search that navigates to /search
+[33me5b07c1[m Add medical costs Japan article with insurance tables and affiliate cards
+[33m1ac91c8[m Remove stale static sitemap — build-generated one is authoritative
+[33m80a85d2[m Rebuild hero as fluid split layout and update About page
+[33m37ed316[m Add Klook affiliate links to Mt. Fuji article and nameLink prop to AffiliateCard
+[33m96585b8[m Add Mt. Fuji day trip article with hero image and SEO metadata
+[33m00453bc[m Add flight delay/cancellation article with TOC, OG/Pinterest SEO, and FAQ scaffold
+[33m4e977fc[m Remove Impact.com content verification tags (meta tag and p element)
+[33mc61dab5[m Add Impact.com content verification text to homepage
+[33mc1c39e8[m Add Impact.com tracking, site verification tags, and scroll-to-top on navigation
+[33mf8574e3[m Add travel insurance article for 65-year-old Japan traveler with pre-existing condition
+[33m88e4e41[m Add 'Verified royalty-free' label to all Unsplash hero image comments
+[33m5e58a84[m Replace unverified hero images with licensed Unsplash photos; document sources
+[33m4dcb27f[m Update Privacy Policy with full GDPR and CCPA compliance
+[33me9d787a[m SEO overhaul, Our Story category, responsive fixes, and content updates
+[33meef8289[m Fix indentation consistency in index.html head section
+[33m0582d39[m Fix indentation in index.html and update copy in Hero and AboutPage
+[33m648169e[m Fix robots.txt Sitemap URL to use www.gohanworld.com
+[33m14b12c2[m Generate sitemap.xml from live data in prerender.js; remove vite-plugin-sitemap
+[33m6aa16fb[m Fix nav orphan pages: convert page-route buttons to Link, fix logo href
+[33m3d9b2a8[m Inject per-route title and meta description into pre-rendered HTML
+[33m4ad39c0[m trigger fresh cloudflare build with dist/client output
+[33m14f354d[m Add Cloudflare Pages _redirects for SPA fallback routing
+[33mcef1711[m Add SSG: pre-render all 25 routes to static HTML for SEO indexability
+[33mf7ce2eb[m Add Hikawa Maru article with original photos and misc fixes
+[33m92bf330[m Add medical emergencies article, update sitemap (Steps 6 + new article)
+[33m53215a2[m Add archive pages (Step 5) — browse articles by year
+[33m7868c34[m Add category pages with SEO content and Browse by Category section (Step 4)
+[33mf9a8081[m Articles page: add schema fields, curated sections, and filter box (Steps 1-3)
+[33m9e67d67[m Add eSIM Japan article, fix affiliate table, article link styles, and Suica/Pasmo links
+[33m1d27b94[m Add Suica link to articles (jreast.co.jp/en/multi/pass/suica.html)
+[33m726ea45[m Remove X/Twitter icon from header and footer social icons
+[33ma6e0c6e[m Replace PNG logo with SVG in header, footer, and favicon
+[33m3f3b8ec[m Add Facebook and Instagram links to header and footer social icons
+[33mcd6631c[m Use Gohan World logo as favicon, remove airplane favicon
+[33m5e66f48[m Fix mobile responsiveness and update sitemap
+[33m1102973[m Add airport article hero image and update article data
+[33m2cba12e[m Fix all ESLint errors via config rules
+[33ma090312[m Add inline links to airport article; delete Suica/Pasmo image placeholders
+[33ma2151ba[m Link all affiliate placeholders to home URLs across all articles
+[33mf61ed18[m Add two new articles: travel insurance Japan 2026 and seniors packing list
+[33m8cf326d[m add google tag in header
+[33m9db44fd[m add machi chuka article with hero image
+[33m7f66b89[m add trademark symbol to footer
+[33m1b266b8[m add Bing verification tag
+[33mc8eece3[m add Google Search Console verification
+[33mcdd75ad[m fix broken Disclaimer import in HomePage
+[33me60fb2f[m fix sitemap plugin robots.txt error
+[33m908dbbb[m Add cookie consent banner with react-cookie-consent
+[33mcd0da7f[m Fix remaining we/our language to I/my across About, Destinations, Contact pages
+[33ma3ef29e[m add legal pages - disclosure, disclaimer, privacy policy
+[33m79364fb[m add sitemap
+[33m1b4cefb[m ready to deploy
+[33m535185f[m Add About page, fix navbar About link
+[33ma7d101b[m Update disclaimer - remove Amazon reference, rewrite honestly
+[33m1cc1923[m Update disclaimer - remove Amazon reference, rewrite honestly
+[33maf34a89[m Simplify Disclaimer to single paragraph
+[33mc2277e4[m Fix Disclaimer component content
+[33m323a272[m Add Google Sheets newsletter signup integration
+[33m316bcf9[m Add Pinterest profile links to navbar and footer
+[33m7bec001[m Initial commit: Gohan World travel blog

@@ -28,7 +28,7 @@ const Destinations = () => {
           '--fluid-sub':     `${subSize}px`,
         }}
       >
-        <h2 className="destinations-section__heading">Destinations</h2>
+        <h2 className="destinations-section__heading">Destinations: Japan & USA</h2>
         <p className="destinations-section__sub">Places I love between Japan &amp; the USA</p>
         <div className="destinations-grid">
           {destinations.map((dest) => {

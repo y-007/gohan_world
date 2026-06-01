@@ -91,7 +91,7 @@ const ArticlesPage = () => {
 
       {/* ── Hero ── */}
       <div className="articles-page__hero">
-        <h1 className="articles-page__heading">Articles</h1>
+        <h1 className="articles-page__heading">Japan & USA Travel Guides & Insurance Tips</h1>
         <p className="articles-page__sub">Guides, stories, and practical advice for travelers between Japan and the USA.</p>
         <form className="articles-page__search-wrap" onSubmit={handleSearch}>
           <input

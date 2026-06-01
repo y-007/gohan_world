@@ -2362,6 +2362,444 @@ export const articles = [
     ],
   },
 
+  {
+    slug: 'suica-vs-pasmo-ic-card-japan',
+    title: 'Suica or Pasmo? Here\'s All You Need to Know',
+    excerpt: 'Japan\'s IC cards look confusing. They\'re not. Here\'s the simple version — which card to get, how to buy it, and what to do with leftover balance.',
+    category: 'Trip Essentials',
+    icon: '🎒',
+    accentColor: '#6ab88a',
+    // Hero image: "Suica IC card being tapped at a Japan train gate" | Source: Unsplash — https://unsplash.com
+    // Photographer: Buddy AN | License: Unsplash License — free for commercial use
+    heroImage: '/hero-suica-vs-pasmo-ic-card-japan.jpg',
+    readTime: '5 min read',
+    date: 'May 2026',
+    affiliateDisclosure: true,
+
+    // SEO
+    seoTitle: 'Suica or Pasmo? IC Card Guide for Japan | Gohan World',
+    metaDescription: 'Suica or Pasmo — which IC card should you get for Japan? Simple guide for seniors and first-timers: how to buy, reload, and use leftover balance.',
+    canonicalUrl: 'https://www.gohanworld.com/articles/suica-vs-pasmo-ic-card-japan',
+
+    // SNS
+    instagramCaption: 'Suica or Pasmo? The question every Japan traveler asks. The answer is simpler than you think — and you can set it up before you even leave home. New guide on the blog. 🐧🤖 #JapanTravel #JapanTips #SeniorTravel #VisitJapan #GohanWorld',
+
+    // Image credit
+    heroImageCredit: {
+      photographer: 'Buddy AN',
+      source: 'Unsplash',
+      sourceUrl: 'https://unsplash.com/photos/people-passing-through-modern-ticket-gates-in-a-station-iAvCp7nyiBw',
+      license: 'Unsplash License',
+      downloadedAt: '2026-05-31',
+    },
+
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Suica and Pasmo may sound confusing at first, but they function almost identically. Pick one, charge it, and you’re set for trains, buses, and quick payments.',
+      },
+
+      {
+        type: 'h2',
+        text: 'What is an IC card?',
+      },
+      {
+        type: 'paragraph',
+        text: 'It\'s a small rechargeable card — or your phone — that you tap to ride trains, buses, and subways. It also pays for things at convenience stores and vending machines. No buying individual tickets, no figuring out fares. Just tap and go.',
+      },
+
+      {
+        type: 'h2',
+        text: 'Suica or Pasmo — which one?',
+      },
+      {
+        type: 'paragraph',
+        text: 'Pick Suica. Here\'s why: if you have an iPhone, you can set it up before you even leave home. That\'s the only real difference that matters for most travelers.',
+      },
+      {
+        type: 'paragraph',
+        text: 'If you end up with a Pasmo — maybe that\'s what the airport machine offers — that\'s completely fine too. Both work on the same trains, buses, and stores across all of Japan.',
+      },
+      {
+        type: 'tip',
+        text: 'Gohan World tip: Don\'t spend time comparing them. Just get one and go.',
+      },
+
+      {
+        type: 'h2',
+        text: 'How to get one — before you leave home (iPhone only)',
+      },
+      {
+        type: 'list',
+        items: [
+          'Open your Wallet app → tap + → choose Transit Card → select Suica',
+          'Choose a starting amount — ¥2,000 is a good start',
+          'Pay with Apple Pay using your US card',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'Done. When you land in Japan, walk straight to the train gate and tap your phone. No queues, no machines, no stress.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Android users: the setup takes a few extra steps through the Suica app. If it feels complicated, skip it and just buy a card at the airport — it takes about five minutes.',
+      },
+
+      {
+        type: 'h2',
+        text: 'How to get one — at the airport',
+      },
+      {
+        type: 'paragraph',
+        text: 'Look for the blue ticket machines near the train gates in the arrivals hall. Every major airport has them — Haneda and Narita both do.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Tap the English flag on the screen',
+          'Select Suica (or Pasmo if that\'s what\'s available)',
+          'Insert ¥2,000–¥3,000 to start',
+          'Take your card and go',
+        ],
+      },
+      {
+        type: 'tip',
+        text: 'Gohan World tip: ¥2,000–¥3,000 covers your airport train into Tokyo plus a few days of rides and snacks while you settle in.',
+      },
+
+      {
+        type: 'h2',
+        text: 'How to add more money (top up)',
+      },
+      {
+        type: 'paragraph',
+        text: 'Any time your balance gets low, reload at any of these:',
+      },
+      {
+        type: 'list',
+        items: [
+          'Ticket machines at any train station — insert card, press Charge, choose an amount',
+          'Convenience store registers — hand your card to the cashier and say how much you want to add',
+          'Your phone — open Wallet, tap your Suica, tap Add Money, pay with Apple Pay',
+        ],
+      },
+
+      {
+        type: 'h2',
+        text: 'What to do with leftover balance',
+      },
+      {
+        type: 'paragraph',
+        text: 'This is the question everyone asks at the end of the trip. Here are your simple options:',
+      },
+      {
+        type: 'list',
+        items: [
+          'Spend it — easiest by far. IC cards work at 7-Eleven, FamilyMart, Lawson, vending machines, and some restaurants. Buy snacks for the flight home.',
+          'Keep it — balances never expire. If you\'re coming back to Japan, just tuck the card away. It\'ll be ready when you return.',
+          'Return it — take your physical card to any major JR station service counter. Get your remaining balance back minus a ¥220 handling fee, plus your ¥500 deposit returned.',
+        ],
+      },
+      {
+        type: 'tip',
+        text: 'Gohan World tip: My favorite option is just keeping it. No fees, no forms — and the moment you land next time, you\'re already ready.',
+      },
+
+      {
+        type: 'h2',
+        text: 'One important warning for mobile card users',
+      },
+      {
+        type: 'paragraph',
+        text: 'If you added Suica or Pasmo to your phone and want a refund on the remaining balance — do not just delete it from your Wallet app. The money doesn\'t come back automatically.',
+      },
+      {
+        type: 'paragraph',
+        text: 'To get a refund, visit a JR station refund machine before you delete the card. The cashier at the station information counter can point you to the right machine. If you\'re short on time at the airport, just leave it on your phone. The balance keeps forever.',
+      },
+
+      {
+        type: 'h2',
+        text: 'Quick summary',
+      },
+      {
+        type: 'list',
+        items: [
+          'Suica or Pasmo — both work on trains, buses, and at convenience stores across Japan',
+          'Get Suica if you have an iPhone — you can set it up before you leave home',
+          'Start with ¥2,000–¥3,000, reload at any station or convenience store',
+          'Leftover balance — spend it, keep it, or return the physical card at a JR counter',
+          'Mobile card users — visit a refund machine before deleting from your phone',
+        ],
+      },
+
+      {
+        type: 'affiliate_card',
+        badge: 'Tours & Transit',
+        name: 'Klook — Japan Rail Pass, Tickets & Tours',
+        tagline: 'For travel beyond Tokyo — bullet trains, theme parks, and pocket Wi-Fi rentals.',
+        pros: [
+          'Japan Rail Pass delivered to your US address or Japan hotel',
+          'Skip-the-line tickets for Tokyo Disney, Universal Studios Japan, teamLab',
+          'Pocket Wi-Fi and SIM card rentals for pickup at major airports',
+        ],
+        link: '#', // TODO: replace with Klook affiliate URL
+        linkText: 'Browse Japan Tickets',
+        sponsored: true,
+      },
+    ],
+  },
+
+  {
+    slug: 'takkyubin-japan-luggage-delivery',
+    title: 'Takkyūbin 宅急便: Japan\'s Door-to-Door Luggage Delivery (And Why It\'s a Game-Changer)',
+    excerpt: 'Send your suitcase ahead and explore Japan completely hands-free — here\'s everything you need to know about takkyūbin, including what happens if your bag is delayed or missing.',
+    category: 'Food & Culture',
+    icon: '🍜',
+    accentColor: '#b8a06a',
+    heroImage: '/hero-takkyubin-japan-luggage-delivery.jpg',
+    readTime: '7 min read',
+    date: 'June 2026',
+    affiliateDisclosure: true,
+
+    seoTitle: 'Takkyūbin: Japan\'s Luggage Delivery Guide | Gohan World',
+    metaDescription: 'Everything you need to know about takkyūbin (TA-Q-BIN) — how to use it, pricing, what to do if your bag is delayed or missing, and travel insurance tips for Japan.',
+    canonicalUrl: 'https://www.gohanworld.com/articles/takkyubin-japan-luggage-delivery',
+
+    instagramCaption: 'Did you know you can ship your suitcase to your next hotel in Japan for around $10? Takkyūbin is a total game-changer — no dragging bags through crowded stations, no sweating up staircases. Just you, a day bag, and the Shinkansen. 🖤🐱 #JapanTravel #TravelTips #Takkyubin #HandsFreeTravel #GohanWorld',
+
+    heroImageCredit: {
+      photographer: 'Cuvii',
+      source: 'Unsplash',
+      sourceUrl: 'https://unsplash.com/photos/delivery-person-with-motorcycle-near-traditional-japanese-building-RoXe2VBzPDg',
+      license: 'Unsplash License',
+      downloadedAt: '2026-06-01',
+    },
+
+    content: [
+      {
+        type: 'paragraph',
+        text: 'Japan\'s takkyūbin (TA-Q-BIN) system is a door-to-door luggage delivery service that lets you send suitcases between airports, hotels, homes, and other destinations. It helps you travel hands-free, skip the crowded station staircases with a 28-inch roller bag, and just enjoy the trip.',
+      },
+
+      {
+        type: 'toc',
+        items: [
+          { anchor: 'what-is-takkyubin',  label: 'What Is Takkyūbin?' },
+          { anchor: 'how-to-use',         label: 'How to Use It — 4 Steps' },
+          { anchor: 'pricing',            label: 'Estimated Pricing Chart' },
+          { anchor: 'use-cases',          label: 'The Best Use Cases' },
+          { anchor: 'things-to-know',     label: 'A Few Things to Know' },
+          { anchor: 'delayed-missing',    label: 'What If Your Bag Is Delayed or Missing?' },
+          { anchor: 'japanese-phrases',   label: 'Useful Japanese Phrases' },
+          { anchor: 'book-and-cover',     label: 'Book Your Takkyūbin — and Cover Your Bags' },
+        ],
+      },
+
+      // ── What Is Takkyūbin? ──────────────────────────────────────────
+      { type: 'h2', text: 'What Is Takkyūbin?', id: 'what-is-takkyubin' },
+      {
+        type: 'paragraph',
+        text: 'Yamato Transport launched it in 1976. The idea was simple: anyone should be able to ship a package anywhere in Japan, quickly and reliably. Today there are three main providers — Yamato (the most widely used), Sagawa Express, and JAL ABC — and they\'re all available at airports, hotels, and convenience stores across the country.',
+      },
+      {
+        type: 'affiliate_table',
+        caption: 'Major Takkyūbin Providers at a Glance',
+        disclaimer: '',
+        columns: ['Provider', 'Best For'],
+        rowKeys: ['provider', 'bestFor'],
+        rows: [
+          { provider: 'Yamato Transport (TA-Q-BIN)', bestFor: 'Most widely used; English counters; hotel & convenience store drop-off', link: null },
+          { provider: 'Sagawa Express',              bestFor: 'Sports gear (skis, golf bags), hands-free travel packages', link: null },
+          { provider: 'JAL ABC',                     bestFor: 'Airport-to-hotel delivery; strong at Narita, Haneda, Kansai', link: null },
+        ],
+      },
+
+      // ── How to Use It ───────────────────────────────────────────────
+      { type: 'h2', text: 'How to Use It — 4 Steps', id: 'how-to-use' },
+      { type: 'h3', text: '1. Drop Off Your Bag' },
+      {
+        type: 'paragraph',
+        text: 'Choose your drop-off point: hotel front desk, airport counter, or any 7-Eleven, Lawson, or FamilyMart. Hotel front desks are the easiest — staff handle the paperwork.',
+      },
+      { type: 'h3', text: '2. Fill Out the Form' },
+      {
+        type: 'paragraph',
+        text: 'You\'ll need: destination address (hotel name, address, phone), your full name (matching your reservation), and a preferred delivery date/time. Many counters have English forms. Hotel staff often help you complete it.',
+      },
+      { type: 'h3', text: '3. Pay' },
+      {
+        type: 'paragraph',
+        text: 'Cash is accepted everywhere. Credit cards work at most convenience stores and airport counters. Keep your receipt — it has the tracking number.',
+      },
+      { type: 'h3', text: '4. Pick Up at the Destination' },
+      {
+        type: 'paragraph',
+        text: 'Hotel: collected at the front desk. Airport: at the takkyūbin counter in the arrivals or departures hall.',
+      },
+      {
+        type: 'tip',
+        text: 'Gohan World tip: Book delivery for the day before you need your bag — not same-day. Standard delivery is next-day. For farther destinations like Hokkaido or Okinawa, allow 2+ days.',
+      },
+
+      // ── Pricing Chart ───────────────────────────────────────────────
+      { type: 'h2', text: 'Estimated Pricing Chart', id: 'pricing' },
+      {
+        type: 'paragraph',
+        text: 'Prices below are estimates for Yamato TA-Q-BIN, based on a standard large suitcase shipped within the Tokyo 23 wards or to nearby Kanagawa. Actual prices vary by exact size, weight, and delivery zone.',
+      },
+      {
+        type: 'affiliate_table',
+        caption: 'Estimated Yamato TA-Q-BIN Prices (Tokyo 23 Wards & Kanagawa)',
+        disclaimer: '* Estimates only. Confirm current rates at your drop-off point. Max combined dimensions: ~160–200 cm. Max weight: ~30 kg.',
+        columns: ['Suitcase Size', 'Combined Dimensions', 'Within Tokyo 23 Wards', 'Tokyo → Kanagawa'],
+        rowKeys: ['provider', 'bestFor', 'coverage', 'cost'],
+        rows: [
+          { provider: 'Small (60)',       bestFor: 'Up to 60 cm',  coverage: '~¥1,000–¥1,200', cost: '~¥1,200–¥1,400', link: null },
+          { provider: 'Medium (80)',      bestFor: 'Up to 80 cm',  coverage: '~¥1,200–¥1,500', cost: '~¥1,400–¥1,700', link: null },
+          { provider: 'Large (100)',      bestFor: 'Up to 100 cm', coverage: '~¥1,500–¥1,800', cost: '~¥1,700–¥2,000', link: null },
+          { provider: 'Extra Large (120)', bestFor: 'Up to 120 cm', coverage: '~¥1,700–¥2,000', cost: '~¥1,900–¥2,300', link: null },
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'Even two bags shipped both directions on a week-long trip comes out around $50–$60 total — less than one checked bag fee on most US domestic flights.',
+      },
+
+      // ── Best Use Cases ──────────────────────────────────────────────
+      { type: 'h2', text: 'The Best Use Cases', id: 'use-cases' },
+      {
+        type: 'list',
+        items: [
+          'Airport arrival → hotel — Ship your bag from Narita or Haneda straight to your first hotel before you even leave the arrivals hall. Jump on the Narita Express with nothing but a small backpack.',
+          'Hotel → hotel (city hopping) — Moving from Tokyo to Kyoto? Ship the night before. Your bag is waiting at the next front desk when you arrive.',
+          'Hotel → airport (departure day) — Ship from your last hotel in the morning. Pick up at the departures counter when you get there. No checking an oversized bag, no dragging it onto the train.',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'Most importantly, you won\'t be dragging a heavy suitcase through town. Japan requires a lot of walking — and dragging luggage through it isn\'t just tiring, it gets in the way of the trip itself. Shipping your bags frees you up to actually enjoy where you are.',
+      },
+
+      {
+        type: 'image',
+        src: '/takkyubin-haneda-airport-counter.jpg',
+        alt: 'Check-in counters at Haneda Airport, Tokyo — where takkyūbin luggage delivery services are available',
+        caption: 'The takkyūbin counter at Haneda is in the arrivals and departures halls — look for the Yamato or JAL ABC signs. Photo: Garrison Gao / Pexels',
+      },
+
+      // ── Things to Know ──────────────────────────────────────────────
+      { type: 'h2', text: 'A Few Things to Know', id: 'things-to-know' },
+      {
+        type: 'list',
+        items: [
+          'Don\'t ship valuables, passports, fragile items, or electronics — keep those with you.',
+          'Confirm the hotel can accept delivery before check-in time — call or email ahead.',
+          'Size and weight limits: combined dimensions up to ~160–200 cm, max ~30 kg.',
+          'Tracking: you get a slip number — check status via Yamato\'s English site.',
+        ],
+      },
+
+      // ── Delayed or Missing ──────────────────────────────────────────
+      { type: 'h2', text: 'What If Your Bag Is Delayed or Missing?', id: 'delayed-missing' },
+      {
+        type: 'paragraph',
+        text: 'This is the question most first-timers ask — and it\'s a fair one. Here\'s the honest answer: takkyūbin is remarkably reliable. Japan residents use it daily, and actual loss incidents are rare enough that they make the news when they happen. That said, delays do occur, usually during typhoons or heavy snowstorms when highway logistics stall.',
+      },
+      { type: 'h3', text: 'If Your Bag Hasn\'t Arrived on Time' },
+      {
+        type: 'list',
+        items: [
+          'Check the tracking number on your waybill receipt — Yamato\'s English tracking site shows real-time status.',
+          'Call or contact the carrier directly. For Yamato, you can reach them by phone or online. All the details you need are printed on your waybill copy.',
+          'File a delay or loss claim as soon as you notice the problem. For Yamato, damage claims must be filed within one week of delivery; loss claims can be filed the moment something goes missing.',
+        ],
+      },
+      { type: 'h3', text: 'What Does Takkyūbin Actually Guarantee?' },
+      {
+        type: 'paragraph',
+        text: 'Yamato\'s standard policy covers up to ¥300,000 per bag (roughly $2,000 USD) for loss or damage caused by the carrier. If they\'re at fault, they investigate and compensate up to that amount. That covers most travelers\' suitcase contents for a typical trip — but not high-value items like jewelry, cameras, or laptops, which is exactly why the advice is to keep those with you.',
+      },
+      {
+        type: 'tip',
+        text: 'Gohan World tip: Before you ship, take a photo of your suitcase and its contents. It takes 30 seconds and gives you solid documentation if you ever need to file a claim.',
+      },
+      { type: 'h3', text: 'Does Travel Insurance Cover a Takkyūbin Delay?' },
+      {
+        type: 'paragraph',
+        text: 'Standard takkyūbin delay is a carrier issue, handled directly with Yamato or Sagawa — not typically an airline baggage delay claim. However, if a delayed bag disrupts your trip (you\'re in Hokkaido and your winter gear is stuck in a warehouse in Nagoya), a solid travel insurance policy with baggage delay coverage can reimburse you for essential purchases — clothing, toiletries, gear rentals — while you wait.',
+      },
+      {
+        type: 'paragraph',
+        text: 'World Nomads covers baggage delays of 12+ hours and includes a dedicated lost baggage tracking and delivery service in every plan. Allianz covers emergency essential purchases while your baggage is delayed, plus reimbursement for lost or damaged items. Both are worth having for a Japan trip regardless of whether you use takkyūbin — but the baggage delay benefit is particularly relevant here.',
+      },
+      { type: 'insurance_disclosure' },
+
+      // ── Japanese Phrases ────────────────────────────────────────────
+      { type: 'h2', text: 'Useful Japanese Phrases', id: 'japanese-phrases' },
+      {
+        type: 'list',
+        items: [
+          '宅急便をお願いします (Takkyūbin o onegaishimasu) — "I\'d like to use takkyūbin."',
+          '明日届きますか？ (Ashita todokimasuka?) — "Will it arrive tomorrow?"',
+          'ホテルまで送りたいです (Hoteru made okuritai desu) — "I\'d like to send it to my hotel."',
+        ],
+      },
+
+      // ── Affiliate: Book + Insure ────────────────────────────────────
+      { type: 'h2', text: 'Book Your Takkyūbin — and Cover Your Bags', id: 'book-and-cover' },
+      {
+        type: 'affiliate_card',
+        badge: 'Travel Service',
+        name: 'Klook — Takkyūbin Luggage Delivery in Japan',
+        tagline: 'Pre-book door-to-door luggage delivery before your trip.',
+        pros: [
+          'Ship from airport to hotel, hotel to hotel, or hotel to airport',
+          'Covers major providers including Yamato TA-Q-BIN',
+          'Book in English online — no Japanese required at the counter',
+        ],
+        link: '#', // TODO: replace with Klook takkyubin affiliate URL
+        linkText: 'Book Luggage Delivery on Klook',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'World Nomads — Best for Baggage Delay & Loss',
+        tagline: 'Baggage delay and loss coverage included in every plan.',
+        pros: [
+          'Covers baggage delays of 12+ hours — reimburses essentials while you wait',
+          'Dedicated lost baggage tracking and delivery service on every plan',
+          'Medical, trip cancellation, and adventure sports also covered',
+        ],
+        link: '#', // TODO: replace with World Nomads affiliate URL
+        linkText: 'Get a Quote with World Nomads',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Allianz Travel Insurance — Best Overall for Most Travelers',
+        tagline: 'Trusted coverage with 24/7 emergency support worldwide.',
+        pros: [
+          'Covers emergency essential purchases during baggage delays',
+          'Reimbursement for lost, stolen, or damaged luggage',
+          'Up to $50,000 medical coverage and $500,000 medical evacuation',
+        ],
+        link: '#', // TODO: replace with Allianz affiliate URL
+        linkText: 'Get a Quote with Allianz',
+        sponsored: true,
+      },
+
+      // ── Closing ─────────────────────────────────────────────────────
+      {
+        type: 'paragraph',
+        text: 'Takkyūbin is one of those Japan things that sounds minor until you use it — and then it changes how you travel. Ship the bags. Ride the trains free.',
+      },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {

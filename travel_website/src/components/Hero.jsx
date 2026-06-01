@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className="hero__content">
         <p className="hero__eyebrow">Welcome to</p>
-        <h1 className="hero__brand">Gohan World</h1>
+        <h1 className="hero__brand">Japan Travel Tips for Seniors</h1>
         <p className="hero__tagline">
           USA⇄Japan travel and insurance guide.<br />
           Simple, safe, senior-friendly tips.
