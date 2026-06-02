@@ -15,11 +15,11 @@ const Hero = () => {
       </div>
 
       <div className="hero__content">
-        <p className="hero__eyebrow">Welcome to</p>
-        <h1 className="hero__brand">Japan Travel Tips for Seniors</h1>
+        <p className="hero__eyebrow">Welcome to Gohan World</p>
+        <h1 className="hero__brand">Japan Travel Tips for Seniors & First-Timers</h1>
         <p className="hero__tagline">
           USA⇄Japan travel and insurance guide.<br />
-          Simple, safe, senior-friendly tips.
+          Simple, safe, and practical - from Yuko at Gohan World.
         </p>
         <p className="hero__body">
           Whether you're dreaming of Japan or planning your next trip, 
@@ -27,7 +27,7 @@ const Hero = () => {
            — senior-friendly <a href="#tips">travel tips</a>, packing essentials, airport guidance,
             and clear answers to those "what happens if…?" moments.
         </p>
-        <Link to="/articles" className="hero__cta">Read the Articles →</Link>
+        <Link to="/articles" className="hero__cta">See My Top Japan Travel Articles →</Link>
       </div>
     </section>
   )
