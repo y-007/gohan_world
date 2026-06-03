@@ -132,6 +132,8 @@ const Footer = () => {
           <Link to="/privacy-policy" className="footer__legal-link">Privacy Policy</Link>
           <span className="footer__legal-sep">|</span>
           <Link to="/contact" className="footer__legal-link">Contact</Link>
+          <span className="footer__legal-sep">|</span>
+          <Link to="/sitemap" className="footer__legal-link">Sitemap</Link>
         </nav>
         <p className="footer__disclosure">
           Some links on this site are affiliate links — I may earn a small affiliate commission at no extra cost to you.{' '}

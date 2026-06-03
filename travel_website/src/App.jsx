@@ -13,6 +13,7 @@ import Disclaimer from './pages/Disclaimer'
 import AffiliateDisclosure from './pages/AffiliateDisclosure'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import ContactPage from './pages/ContactPage'
+import SitemapPage from './pages/SitemapPage'
 import AffiliateBar from './components/AffiliateBar'
 import CookieBanner from './components/CookieBanner'
 import CategoryPage from './pages/CategoryPage'
@@ -59,6 +60,7 @@ function App() {
         <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/sitemap" element={<SitemapPage />} />
       </Routes>
       <Footer />
     </>
