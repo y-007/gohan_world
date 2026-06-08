@@ -8,6 +8,13 @@ import './ArticlesPage.css'
 
 const parseYear = (dateStr) => parseInt(dateStr.split(' ')[1])
 
+const MONTHS = { January: 0, February: 1, March: 2, April: 3, May: 4, June: 5, July: 6, August: 7, September: 8, October: 9, November: 10, December: 11 }
+const parseDateStr = (dateStr) => {
+  if (!dateStr) return 0
+  const [month, year] = dateStr.split(' ')
+  return new Date(parseInt(year), MONTHS[month] ?? 0, 1).getTime()
+}
+
 const CATEGORIES = ['All', 'Our Story', 'Travel Insurance', 'Food & Culture', 'Travel Stories', 'Trip Essentials']
 const ALL_TAGS = ['All', 'Beginners', 'Seniors', 'Tokyo', 'Airports', 'Money', 'Safety', 'Packing', 'Mobile Data', 'Healthcare Abroad', 'Food', 'Culture', 'Japan', 'USA']
 const DIFFICULTIES = ['All', 'Beginner', 'Intermediate']
@@ -78,13 +85,16 @@ const ArticlesPage = () => {
   const pinnedArticles   = useMemo(() => articles.filter(a => a.pinned), [])
   const featuredArticles = useMemo(() => articles.filter(a => a.featured), [])
 
-  const filteredArticles = useMemo(() => articles.filter(a => {
-    if (category !== 'All' && a.category !== category) return false
-    if (tag !== 'All' && !a.tags?.includes(tag)) return false
-    if (difficulty !== 'All' && a.difficulty !== difficulty) return false
-    if (type !== 'All' && a.type !== type) return false
-    return true
-  }), [category, tag, difficulty, type])
+  const filteredArticles = useMemo(() => articles
+    .filter(a => {
+      if (category !== 'All' && a.category !== category) return false
+      if (tag !== 'All' && !a.tags?.includes(tag)) return false
+      if (difficulty !== 'All' && a.difficulty !== difficulty) return false
+      if (type !== 'All' && a.type !== type) return false
+      return true
+    })
+    .sort((a, b) => parseDateStr(b.date) - parseDateStr(a.date)),
+  [category, tag, difficulty, type])
 
   return (
     <main className="articles-page">

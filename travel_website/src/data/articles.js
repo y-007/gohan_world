@@ -2800,6 +2800,417 @@ export const articles = [
     ],
   },
 
+  // ─────────────────────────────────────────────────────────────────────────────
+  // ARTICLE: first-trip-japan-checklist
+  // URL: /articles/first-trip-japan-checklist
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'first-trip-japan-checklist',
+    title: 'Your First Trip to Japan Checklist: What to Book, Arrange, and Pack',
+    excerpt: 'A timeline-based checklist for Americans planning their first Japan trip — covering logistics, packing realities, connectivity, and why travel insurance matters more here than most destinations.',
+    category: 'Trip Essentials',
+    icon: '🎒',
+    accentColor: '#6ab88a',
+
+    heroImage: '/hero-first-trip-japan-checklist.jpg',
+    readTime: '10 min read',
+    date: 'June 2026',
+    affiliateDisclosure: true,
+
+    seoTitle: 'Your First Trip to Japan Checklist | Gohan World',
+    metaDescription: 'First trip to Japan from the US? I break down exactly what to book, arrange, and pack — organized by timeline so nothing falls through the cracks.',
+    canonicalUrl: 'https://www.gohanworld.com/articles/first-trip-japan-checklist',
+
+    instagramCaption: "Planning your first Japan trip from the US? I've helped a lot of American friends prep for this, and the same things always trip people up — JR Pass timing, cash logistics, and travel insurance with a real deadline. This checklist breaks it all down by timeline so nothing slips through. 🎒 Link in bio. #firsttimetojapan #japantravel #usatojapan #japantravelplanning #gohanworld",
+
+    heroImageCredit: {
+      photographer: 'Marissa Grootes',
+      source: 'Unsplash',
+      sourceUrl: 'https://unsplash.com/photos/open-suitcase-with-travel-essentials-and-hat-TVllFyGaLEA',
+      license: 'Unsplash License',
+      downloadedAt: '2026-06-05',
+    },
+
+    content: [
+
+      // ── INTRO ───────────────────────────────────────────────────────────────
+      {
+        type: 'paragraph',
+        text: "There's a lot to get right before your first Japan trip, and a few things genuinely need to happen in a specific order. I've helped enough American friends prep for Japan to know exactly where people get tripped up — the Japan Rail Pass decision, cash logistics, connectivity, and getting travel insurance in time to actually use it. This checklist organizes everything by timeline so nothing slips through.",
+      },
+
+      {
+        type: 'toc',
+        items: [
+          { label: 'Two Weeks Before You Fly',              anchor: 'two-weeks-before' },
+          { label: 'One Week Before Departure',             anchor: 'one-week-before' },
+          { label: 'Smart Packing for Japan',               anchor: 'smart-packing' },
+          { label: 'Why You Need Travel Insurance for Japan', anchor: 'travel-insurance' },
+          { label: 'Day of Departure',                      anchor: 'day-of-departure' },
+        ],
+      },
+
+      // ── TWO WEEKS BEFORE ────────────────────────────────────────────────────
+      { type: 'h2', text: 'Two Weeks Before You Fly', id: 'two-weeks-before' },
+      {
+        type: 'paragraph',
+        text: "I know this list looks administrative — and it kind of is. But every item here has a trip I've seen go sideways without it. The two-week mark passes faster than you think, and some of these have hard dependencies: the JR Pass needs delivery time, travel insurance has a coverage window, and peak-season accommodation can disappear overnight. I lost my first-choice ryokan in Hakone for cherry blossom week because I waited too long to book. Learned that one the hard way.",
+      },
+      {
+        type: 'list',
+        items: [
+          "Japan Rail Pass — decide now. If your itinerary covers multiple cities (Tokyo, Kyoto, Osaka, Hiroshima), compare the JR Pass cost against individual Shinkansen tickets. The JR Pass does not cover the Nozomi — only Hikari and Kodama on the Tokaido line, and Sakura on the Sanyo line. A concrete example: a Tokyo→Kyoto round trip on Hikari costs roughly ¥27,600, and a Kyoto→Hiroshima round trip adds about ¥22,600 — totaling ~¥50,200. The 7-day pass costs ¥50,000. Those two routes alone pay for it, and every JR train you ride beyond that is free. Buy from a licensed overseas reseller; it's cheaper than purchasing in Japan, and allow 5–10 days for delivery.",
+          "Passport validity. Japan requires your passport to be valid for the full duration of your stay. No six-months-beyond-entry rule, but check it anyway.",
+          "Visa. Americans don't need a visa for tourist stays up to 90 days. Nothing to arrange — just confirm your trip doesn't exceed that.",
+          "Accommodation. Book early if you're traveling during cherry blossom season (late March–early April) or autumn foliage (mid-October–November). Ryokan in Hakone, Kyoto, and Nara fill up months ahead for peak weeks.",
+          "eSIM or pocket Wi-Fi. You will not want to navigate Japan without mobile data. If your phone supports eSIM, activate a Japan-specific plan before you land — Airalo has Japan plans starting around $4.50 for 1GB/7 days. Prefer pocket Wi-Fi (better battery life, shareable)? Reserve it for pickup at Narita or Haneda.",
+          "Travel insurance. Book within 10–14 days of your first trip payment — that's the window for pre-existing condition waivers and time-sensitive upgrades like CFAR. Already past that window? Still buy it. You'll lose the pre-existing waiver and CFAR option, but emergency medical coverage and medical evacuation — the most critical protections for Japan — are available no matter when you purchase. More on this below.",
+        ],
+      },
+      {
+        type: 'paragraph',
+        html: true,
+        text: 'Check current JR Pass prices and options: <a href="https://www.japanrailpass.net/en/" target="_blank" rel="noopener noreferrer">Japan Rail Pass official site</a>.',
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Tours & Transit',
+        name: 'Klook — Japan Rail Pass, Tickets & Tours',
+        tagline: 'Japan Rail Pass, theme park tickets, and pocket Wi-Fi rentals.',
+        pros: [
+          'Japan Rail Pass with home delivery before you fly',
+          'Skip-the-line tickets for Tokyo Disney, USJ, teamLab, and more',
+          'Pocket Wi-Fi and SIM card rentals for pickup at major airports',
+        ],
+        link: '#', // TODO: replace with Klook affiliate URL
+        linkText: 'Browse Japan Tickets',
+        sponsored: true,
+      },
+
+      // ── ONE WEEK BEFORE ─────────────────────────────────────────────────────
+      { type: 'h2', text: 'One Week Before Departure', id: 'one-week-before' },
+      {
+        type: 'list',
+        items: [
+          "Download Google Maps offline. Search each city, tap the three-dot menu, download the offline map. Essential in tunnels and low-signal areas.",
+          "Set up Suica on your phone. Suica (and Pasmo) IC transit cards can be added to iPhone Wallet on iPhone 8 or later running iOS 16+. Set it up before you leave the US — the process doesn't always complete reliably once you're on a foreign network. This is how you pay for trains, buses, vending machines, and most convenience stores. Cash is still accepted everywhere, but IC card is much more convenient.",
+          "Cash plan. Plan to arrive with ¥30,000–50,000 ($200–330) in yen. Skip the currency exchange booths at US airports — the rates are genuinely bad. Your better options: convert at your US bank before you leave, or use a 7-Eleven or Japan Post ATM once you land. Both reliably accept foreign cards at much better rates.",
+          "Confirm hotel check-in timing. Standard check-in in Japan is 3pm. If your flight lands at 7am, your room likely won't be ready until afternoon. Most hotels will store your luggage at the front desk — call ahead if you want to be sure.",
+          "Download translation apps. Google Translate with Japanese downloaded for offline use — specifically the camera lens function, which lets you point your phone at a menu and translate it in real time. Use this constantly, especially at izakaya and local spots.",
+          "Screenshot all reservations. Don't rely on data at the airport immigration desk. Hotel confirmations, flight info, insurance policy number — all offline.",
+          "Check medications. Japan restricts certain common US medications, including some stimulants (Adderall is prohibited — no exceptions, even with a valid US prescription) and some cold medicines containing pseudoephedrine. Carry a copy of your prescription, keep medication in the original labeled bottle, and bring a letter from your doctor stating the purpose of the drug. Customs officers do not make on-the-spot exceptions.",
+        ],
+      },
+      {
+        type: 'paragraph',
+        html: true,
+        text: 'Official medication guidance for travelers: <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/kojinyunyu/topics/tp010401-1_00001.html" target="_blank" rel="noopener noreferrer">Ministry of Health, Labour and Welfare — Bringing Medicines into Japan</a>. Plain-English summary: <a href="https://jp.usembassy.gov/services/importing-medication/" target="_blank" rel="noopener noreferrer">US Embassy Tokyo — Importing Medication</a>.',
+      },
+
+      // ── SMART PACKING ───────────────────────────────────────────────────────
+      { type: 'h2', text: 'Smart Packing for Japan', id: 'smart-packing' },
+      {
+        type: 'paragraph',
+        text: "The packing reality most Americans don't hear before their first trip: you will take your shoes off constantly. Ryokan, traditional restaurants, some temples, even fitting rooms in certain department stores — slip-on shoes make daily life significantly easier. My favorite travel shoes for Japan are low-profile sneakers with no complicated lacing.",
+      },
+      {
+        type: 'list',
+        items: [
+          "Luggage size matters. Shinkansen cars have small overhead racks and no luggage compartments. Oversized bags are a real problem on busy trains. Pack as light as you can — or use Japan's takkyubin service to ship your bags from hotel to hotel for about ¥1,500–2,500 per piece. My husband and I did this for a leg from Tokyo to Kyoto and it completely changed how I pack for Japan.",
+          "Seasonal clothes. Japanese summer (June–September) is genuinely humid — lightweight, fast-dry fabrics only. Spring and autumn have wide temperature swings between morning and afternoon; layers are essential.",
+          "Plug adapters. Japan uses Type A outlets — two flat pins. If your charger or device has a standard 2-flat-pin plug (most phone chargers and USB-C bricks do), it works without any adapter. If it has a 3-prong plug with the round grounding pin, you'll need a simple grounding adapter. Voltage difference (100V vs 120V) is fine for modern electronics.",
+          "Laundry. Most hotels have coin laundry. A 2-week trip with a carry-on is completely doable.",
+          "Coin pouch. Japan has six coin denominations in active daily use — ¥1, ¥5, ¥10, ¥50, ¥100, and ¥500 — and you'll accumulate all of them fast. A small pouch keeps you organized at the register. Bonus: coin pouches in Japan are adorable — picking up a kawaii one is a legitimate souvenir.",
+          "Small cash wallet. Paying with exact change is appreciated. A slim, flat wallet dedicated to yen makes this much easier than digging through a card-heavy one at a busy register.",
+        ],
+      },
+      {
+        type: 'image',
+        src: '/japan-type-a-outlet.jpg',
+        alt: 'Japanese Type-A electrical wall outlet with two flat pins — standard throughout Japan',
+        caption: 'Japanese Type-A wall outlet — the same two flat-pin standard used in the US. Most modern chargers plug straight in. © gohanworld.com',
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Packing',
+        name: 'Amazon — Top-Rated Travel Packing Essentials',
+        tagline: 'Curated gear that seasoned Japan travelers actually use.',
+        pros: [
+          'Osprey and Eagle Creek packing cubes — durable, washable, worth it',
+          'Anker portable chargers — most reliable brand for travel power',
+          'Compression bags for bulky layers — cuts volume by up to 60%',
+        ],
+        link: '#', // TODO: replace with Amazon Associates affiliate URL
+        linkText: 'Shop Packing Essentials',
+        sponsored: true,
+      },
+
+      // ── TRAVEL INSURANCE ────────────────────────────────────────────────────
+      { type: 'insurance_disclosure' },
+      { type: 'h2', text: 'Why You Need Travel Insurance for Japan', id: 'travel-insurance' },
+      {
+        type: 'paragraph',
+        text: "Japan has excellent healthcare — clean hospitals, thorough doctors, reasonable wait times. The issue is payment. Japanese hospitals almost always require payment in full, upfront, before you leave. For a foreign patient, an ER visit or short hospitalization can easily run ¥500,000–1,000,000 ($3,300–$6,600) out of pocket before your US insurer reimburses anything — if they do at all.",
+      },
+      {
+        type: 'paragraph',
+        text: "I spent years working in travel insurance, and I've seen this play out more than once. A friend of mine got hit with a ¥600,000 invoice after a two-day hospitalization in Osaka for a GI issue that turned out to be nothing serious. His US health plan eventually reimbursed part of it — after a six-month claims fight. The travel insurance he'd passed on buying would have cost him $90.",
+      },
+      {
+        type: 'paragraph',
+        text: "Your US health plan likely does not cover international care. Medicare does not cover outside the US. And the travel protection on your credit card usually offers minimal emergency medical — enough for a minor issue, not a hospitalization or medical evacuation (flying you home with medical staff runs $50,000–$100,000 on its own). A solid plan with $50,000–100,000 in emergency medical and full evacuation cover runs $60–$150 for a two-week trip. That's the math.",
+      },
+      {
+        type: 'affiliate_table',
+        caption: 'Travel Insurance Comparison — At a Glance',
+        disclaimer: '* Prices are estimates based on a 14-day trip for one adult. Actual quotes vary by age, trip cost, and destination. These are my honest picks based on coverage, not commission size. Links are affiliate links — I may earn a commission at no extra cost to you.',
+        columns: ['Provider', 'Best For', 'Key Coverage', 'Est. Cost*', 'Rating'],
+        rows: [
+          {
+            provider: 'World Nomads',
+            bestFor: 'Adventure travelers',
+            coverage: 'Medical, trip cancellation, adventure sports, gear theft',
+            cost: '$80–$150',
+            rating: 5,
+            link: '#', // TODO: replace with World Nomads affiliate URL
+            linkText: 'Get Quote',
+          },
+          {
+            provider: 'InsureMyTrip',
+            bestFor: 'Comparing options',
+            coverage: 'Compare 20+ providers, full trip protection, medical',
+            cost: '$60–$200',
+            rating: 5,
+            link: '#', // TODO: replace with InsureMyTrip affiliate URL
+            linkText: 'Compare Plans',
+          },
+          {
+            provider: 'Allianz Travel',
+            bestFor: 'Families & business',
+            coverage: 'Cancel for any reason, trip delay, emergency medical',
+            cost: '$50–$180',
+            rating: 4,
+            link: '#', // TODO: replace with Allianz affiliate URL
+            linkText: 'Get Quote',
+          },
+          {
+            provider: 'SafetyWing',
+            bestFor: 'Long stays & nomads',
+            coverage: 'Medical-only subscription, global coverage, cancel anytime',
+            cost: '$42–$84/mo',
+            rating: 4,
+            link: '#', // TODO: replace with SafetyWing affiliate URL
+            linkText: 'Sign Up',
+          },
+        ],
+      },
+      {
+        type: 'tip',
+        text: "Travel Insurance tip: Buy within 10–14 days of your first trip payment — that's the window when pre-existing condition waivers kick in and CFAR upgrades are available. Already past it? Still buy. Emergency medical and evacuation coverage are available regardless of when you purchase.",
+      },
+
+      // ── DAY OF DEPARTURE ────────────────────────────────────────────────────
+      { type: 'h2', text: 'Day of Departure', id: 'day-of-departure' },
+      {
+        type: 'list',
+        items: [
+          "Arrive at the airport early. US to Japan is long-haul international — build in 2.5–3 hours minimum at LAX, SFO, JFK, or ORD.",
+          "Load your Suica. Add ¥3,000–5,000 before you board so you can tap straight through trains on arrival without stopping at a machine.",
+          "Know your airport train. From Narita: the Narita Express (N'EX) to Shinjuku/Tokyo (~¥3,070, ~60 min) or the Keisei Skyliner to Ueno (~¥2,540, ~40 min). From Haneda: the Keikyu Line or Tokyo Monorail, both fast and straightforward. Know which you're taking before you land — you'll be tired.",
+          "Visit Japan Web. Register before you fly at vjw-lp.digital.go.jp/en for digital immigration and customs processing. It's faster than paper cards and the app works offline once your forms are submitted.",
+          "Tipping — know the real rule. In most of Japan, tipping isn't practiced and can actually feel uncomfortable to the recipient. But there's one tradition worth knowing: at ryokan, a practice called kokorozuke (心付け) — a small cash gift, typically ¥1,000–¥3,000 — is sometimes given to the nakai-san, the attendant who cares for your room and meals, when they first come to introduce themselves. My grandmother always did this, presenting it in both hands as a quiet way of saying: I see you, and I'm trusting you to take care of us. Not expected from foreign guests — but a gesture that carries real warmth if you choose to offer it.",
+          "Have ¥3,000–5,000 cash for your first few hours. Even on IC card, you may need cash for your first meal, a coin locker, or a taxi.",
+          "Activate your eSIM. If you're using Airalo or another eSIM provider, activate before you board so it's ready the moment you land.",
+        ],
+      },
+      {
+        type: 'paragraph',
+        html: true,
+        text: 'Register for digital immigration and customs before you fly: <a href="https://vjw-lp.digital.go.jp/en/" target="_blank" rel="noopener noreferrer">Visit Japan Web (official Japanese government app)</a>.',
+      },
+      {
+        type: 'paragraph',
+        text: "The first time I brought my American friend to Tokyo, she stopped dead at Shinjuku Station — thousands of people moving in every direction — and instead of looking overwhelmed, she looked calm. 'I thought it was going to be chaotic,' she told me. 'But it's so organized.' That's the thing about Japan for first-time visitors: the country rewards preparation. Do the work in the right order and you'll arrive feeling ready. That's the whole point of this list.",
+      },
+
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // ARTICLE: typhoon-japan-what-to-do
+  // URL: /articles/typhoon-japan-what-to-do
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'typhoon-japan-what-to-do',
+    title: "Caught in a Typhoon in Japan? Here's What Actually Happens (and How to Plan Around It)",
+    excerpt: "Typhoon season doesn't have to wreck your trip — here's what really shuts down, what keeps running, and how travel insurance fits into the picture.",
+    category: 'Travel Insurance',
+    icon: '🛡️',
+    accentColor: '#C4714F',
+
+    // Hero image: "View of train tracks through a window at Odawara Station, Japan"
+    // Source: Unsplash — https://unsplash.com/photos/view-of-train-tracks-through-a-window-NgkYI8LUdss
+    // Photographer: Harry Angara (@theninetyfivearchive)
+    // License: Unsplash License — free for commercial use, no attribution required
+    heroImage: '/hero-typhoon-japan-what-to-do.jpg',
+
+    readTime: '9 min read',
+    date: 'June 2026',
+    affiliateDisclosure: true,
+
+    seoTitle: 'Caught in a Typhoon in Japan? What to Do | Gohan World',
+    metaDescription: "Typhoon season in Japan isn't as scary as it sounds. Here's what actually shuts down, what to do if you're caught in one, and how travel insurance helps.",
+    canonicalUrl: 'https://www.gohanworld.com/articles/typhoon-japan-what-to-do',
+
+    instagramCaption: "Typhoon season in Japan freaks people out — but most storms pass in under 24 hours if you know what to expect. Here's exactly what shuts down, what to do if you're caught in one, and how travel insurance actually helps. Link in bio. #japantravel #travelinsurance #typhoonseason #seniortravel #gohanworld",
+
+    heroImageCredit: {
+      photographer: 'Harry Angara',
+      source: 'Unsplash',
+      sourceUrl: 'https://unsplash.com/photos/view-of-train-tracks-through-a-window-NgkYI8LUdss',
+      license: 'Unsplash License',
+      downloadedAt: '2026-06-07',
+    },
+
+    content: [
+      { type: 'paragraph', text: "Let me guess — you saw \"typhoon season\" pop up while researching your Japan trip and immediately pictured your whole itinerary collapsing. I get it. A friend of mine had this exact panic before her October trip to Kyoto last year. She almost rebooked everything to avoid the season entirely." },
+      { type: 'paragraph', text: "Here's the truth: typhoons in Japan are common, predictable, and — for the most part — very manageable if you know what to expect. This isn't about scaring you off. It's about knowing exactly what happens, what to do in the moment, and where insurance actually comes in." },
+      { type: 'insurance_disclosure' },
+
+      {
+        type: 'toc',
+        items: [
+          { label: 'When typhoon season actually happens',                          anchor: 'when-typhoon-season-actually-happens' },
+          { label: 'What actually shuts down during a typhoon',                     anchor: 'what-actually-shuts-down-during-typhoon' },
+          { label: "What to actually do if you're caught in one",                   anchor: 'what-to-actually-do-if-caught-in-one' },
+          { label: 'So — does travel insurance actually cover typhoon disruptions?', anchor: 'does-travel-insurance-cover-typhoon-disruptions' },
+          { label: 'A few providers worth comparing',                               anchor: 'few-providers-worth-comparing' },
+          { label: 'The bottom line',                                               anchor: 'bottom-line' },
+        ],
+      },
+
+      // ── When typhoon season actually happens ────────────────────────────────
+      { type: 'h2', text: 'When typhoon season actually happens', id: 'when-typhoon-season-actually-happens' },
+      { type: 'paragraph', text: "Japan's typhoon season generally runs from May through October, with August and September being the peak months. Most typhoons are tracked days in advance — this isn't a surprise weather event. You'll usually have 3–5 days' notice before one makes landfall." },
+      { type: 'tip', text: "Travel Insurance tip: A \"named storm\" that's already forming or been announced before you buy your policy is typically NOT covered — this is called a known event exclusion. Buy your insurance early, before any storm is named." },
+
+      // ── What actually shuts down ────────────────────────────────────────────
+      { type: 'h2', text: 'What actually shuts down during a typhoon', id: 'what-actually-shuts-down-during-typhoon' },
+      { type: 'paragraph', text: "Here's the part most people get wrong — they assume everything grinds to a halt. In reality, it's selective and short-lived:" },
+      {
+        type: 'list',
+        items: [
+          'Trains — Shinkansen (bullet trains) and local lines often suspend service a few hours before and during peak winds. JR usually announces planned suspensions the day before.',
+          'Flights — Domestic and international flights get delayed or cancelled, especially at coastal airports like Haneda, Kansai, and Naha (Okinawa).',
+          'Buses and ferries — These are usually the first to stop and the last to resume.',
+          'Convenience stores and restaurants — Many close early or stay shut for the day, especially smaller, family-run spots.',
+          'Theme parks and outdoor attractions — Places like Tokyo Disneyland or Universal Studios Japan will close for the day if the storm is forecast to be severe.',
+        ],
+      },
+      { type: 'paragraph', text: "The good news? Most of this lasts less than 24 hours. Japan's infrastructure is built for this — services typically resume the next morning, sometimes even the same evening." },
+
+      // ── What to do if caught ────────────────────────────────────────────────
+      { type: 'h2', text: "What to actually do if you're caught in one", id: 'what-to-actually-do-if-caught-in-one' },
+      {
+        type: 'list',
+        items: [
+          "Stay where you are — don't try to \"beat the storm\" to your next destination. Hotels will keep you, and most won't penalize you for an extra night during a typhoon.",
+          'Check NHK World or the Japan Meteorological Agency app for real-time updates in English.',
+          'Stock up the night before — convenience stores get crowded fast once a storm warning is issued.',
+          "Have a backup day built into your itinerary — this is honestly the simplest fix. If your trip has zero flex days, one missed travel day can cascade into missed reservations and flights home.",
+          "Keep your travel documents and chargers in one bag — if you do need to relocate (rare, but it happens with evacuation advisories near the coast), you want to grab and go.",
+        ],
+      },
+      { type: 'tip', text: 'Travel Insurance tip: Trip delay coverage usually kicks in after a set number of hours (commonly 6–12) and can reimburse meals, hotel stays, and incidental costs while you wait it out.' },
+
+      // ── Does insurance cover it? ────────────────────────────────────────────
+      { type: 'h2', text: 'So — does travel insurance actually cover typhoon disruptions?', id: 'does-travel-insurance-cover-typhoon-disruptions' },
+      { type: 'paragraph', text: "Short answer: often, yes — but the timing of when you bought your policy matters enormously." },
+      { type: 'paragraph', text: "Here's what's typically covered when the storm wasn't a \"known event\" at the time of purchase:" },
+      {
+        type: 'list',
+        items: [
+          'Trip cancellation — if the typhoon forces a cancellation before departure',
+          "Trip delay — meals, hotels, and transport if you're stuck",
+          'Trip interruption — if the storm cuts your trip short',
+          'Missed connections — if a delay causes you to miss a connecting flight or tour',
+        ],
+      },
+      { type: 'paragraph', text: "What's usually not covered: general anxiety about \"maybe there'll be a typhoon,\" storms already named before you bought the policy, or simply changing your mind about traveling during the season." },
+
+      // ── Providers ───────────────────────────────────────────────────────────
+      { type: 'h2', text: 'A few providers worth comparing', id: 'few-providers-worth-comparing' },
+      { type: 'paragraph', text: "I'm not going to tell you which one to pick — that's genuinely personal, depending on your trip length, age, and any existing health conditions. But here are a few worth putting side by side:" },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'World Nomads — Popular for First-Timers',
+        tagline: 'Built for travelers who want flexible, easy-to-understand coverage.',
+        pros: [
+          'Covers trip delay, interruption, and emergency medical',
+          'Can be purchased even after departure (handy if plans change last-minute)',
+          'Straightforward online claims process',
+        ],
+        link: '#', // TODO: replace with World Nomads affiliate URL
+        linkText: 'See Current Plans',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Allianz Travel — Best for Couples & Families 50+',
+        tagline: 'One of the most established names, with senior-friendly plan options.',
+        pros: [
+          'Strong medical and evacuation coverage',
+          'Options for pre-existing condition coverage if purchased within a set window',
+          '24/7 multilingual assistance line',
+        ],
+        link: '#', // TODO: replace with Allianz Travel affiliate URL
+        linkText: 'Compare Senior Plans',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'Faye Travel Insurance — Best for Tech-Comfortable Planners',
+        tagline: 'A newer option built around fast digital claims.',
+        pros: [
+          'Real-time flight tracking that can auto-trigger delay claims',
+          'App-based claim submission — no paperwork mailing',
+          'Transparent published pricing before you buy',
+        ],
+        link: '#', // TODO: replace with Faye Travel Insurance affiliate URL
+        linkText: 'Check Eligibility',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_table',
+        caption: 'What to Compare Before Typhoon Season',
+        disclaimer: '* Coverage details vary by plan and region. Affiliate links — we may earn a commission at no cost to you.',
+        columns: ['What to Compare', 'Why It Matters for Typhoon Season'],
+        rowKeys: ['provider', 'bestFor'],
+        rows: [
+          { provider: 'Trip delay threshold (hours)',     bestFor: "Shorter thresholds mean faster reimbursement if you're stuck", link: null },
+          { provider: 'Cancel-for-any-reason option',     bestFor: "Gives flexibility if you'd rather not travel during a storm warning", link: null },
+          { provider: 'Pre-existing condition window',    bestFor: "Especially relevant if you're buying close to your trip date", link: null },
+          { provider: '24/7 assistance line',             bestFor: "You'll want real humans on the phone if plans change mid-trip", link: null },
+        ],
+      },
+
+      {
+        type: 'image',
+        src: '/typhoon-japan-what-to-do-detail.jpg', // TODO: add photo of traveler checking weather app at train station window
+        alt: 'Traveler checking a weather app at a train station window',
+        caption: 'Real-time updates are your best friend during typhoon season.',
+      },
+
+      // ── Bottom line ─────────────────────────────────────────────────────────
+      { type: 'h2', text: 'The bottom line', id: 'bottom-line' },
+      { type: 'paragraph', text: "A typhoon doesn't have to mean a ruined trip — it usually means a slower day, an extra night somewhere cozy, and a good story to tell later. My friend in Kyoto? She got rerouted for one day, ended up at a quiet izakaya she never would've found otherwise, and still calls it one of her favorite memories from the trip." },
+      { type: 'paragraph', text: 'Plan around it, build in some flexibility, and pick a policy that actually fits your travel style — not just the cheapest one you find.' },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {
