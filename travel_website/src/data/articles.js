@@ -3211,6 +3211,104 @@ export const articles = [
     ],
   },
 
+  // ─────────────────────────────────────────────────────────────────────────────
+  // ARTICLE: asakusa-hidden-spots
+  // URL: /articles/asakusa-hidden-spots
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'asakusa-hidden-spots',
+    title: 'Asakusa Beyond the Obvious: 9 Spots Most Tourists Walk Right Past',
+    excerpt: 'Senso-ji and Nakamise-dori are great — but the Asakusa I love is in the streets nobody\'s photographing.',
+    category: 'Travel Stories',
+    icon: '✈️',
+    accentColor: '#6a8ab8',
+    // Hero image: "people gathered at illuminated shops on a narrow Asakusa street at night"
+    // Source: Unsplash — https://unsplash.com/photos/people-gathered-at-illuminated-shops-on-a-narrow-street-4JVu0mrEDtk
+    // Photographer: ayumi kubo
+    // License: Unsplash License — free for commercial use, no attribution required
+    heroImage: '/hero-asakusa-hidden-spots.jpg',
+    heroImageCredit: {
+      photographer: 'ayumi kubo',
+      source: 'Unsplash',
+      sourceUrl: 'https://unsplash.com/photos/people-gathered-at-illuminated-shops-on-a-narrow-street-4JVu0mrEDtk',
+      license: 'Unsplash License',
+      downloadedAt: '2026-06-09',
+    },
+    readTime: '8 min read',
+    date: 'June 2026',
+    affiliateDisclosure: true,
+    seoTitle: 'Hidden Asakusa: 9 Spots Tourists Miss | Gohan World',
+    metaDescription: 'Beyond Senso-ji and Nakamise-dori, Asakusa hides shrines, a 1955 underground mall, Showa-era coffee shops, and a rooftop view most visitors never find.',
+    canonicalUrl: 'https://www.gohanworld.com/articles/asakusa-hidden-spots',
+    instagramCaption: 'Everyone goes to Senso-ji. I went to the underground mall built in 1955, the kissaten open since 1964, and the shrine right next door that almost nobody enters. Same neighborhood — completely different Asakusa. Link in bio for all 9 spots. #asakusa #tokyotravel #japantravel #hiddentokyo #gohanworld',
+    content: [
+      { type: 'paragraph', text: 'I\'m going to say something that might sound a little ungrateful: Asakusa can feel crowded in a way that\'s hard to enjoy. I love it. It\'s one of my favorite neighborhoods in Tokyo. The old shitamachi (downtown) atmosphere, the temples, the street food — there\'s nothing quite like it. But show up on a weekend afternoon and you\'ll spend half your visit shuffling through Nakamise-dori behind a tour group, waiting for a gap in the foot traffic to take a picture of Kaminarimon.' },
+      { type: 'paragraph', text: 'So I started going off-script. Same neighborhood, same five-minute radius — just the streets that don\'t show up on every itinerary. This is what I found.' },
+      { type: 'h2', text: 'The Spots Everyone Knows First' },
+      { type: 'paragraph', text: 'Before I get into the good stuff, here are the classics — worth doing if it\'s your first visit, and the baseline for understanding why the spots below feel so different.' },
+      { type: 'list', items: ['Kaminarimon — The Thunder Gate. Asakusa\'s iconic red lantern, officially called Fūraijinmon. Lit beautifully at night.', 'Senso-ji — Tokyo\'s oldest Buddhist temple, founded 628 AD. The omikuji fortune slips here are famous for giving bad luck. Draw one anyway.', 'Nakamise-dori — The covered shopping street between the gate and the temple. About 90 stalls, traditional crafts, snacks you\'ll keep buying.', 'Tokyo Skytree — 634 meters tall, visible from almost everywhere in Asakusa. Technically in Oshiage, but the neighborhood\'s constant backdrop.'] },
+      { type: 'h2', text: '9 Asakusa Spots Worth Finding' },
+      { type: 'paragraph', text: 'Here\'s a quick overview before we walk through each one.' },
+      { type: 'list', items: ['Asakusa Shrine — Right next to Senso-ji, and almost nobody goes in', 'Mokuba-kan Theater — 3+ hours of taishū engeki (popular theater) for ¥2,000', 'Hoppy Street — Izakayas open from noon, Showa-era atmosphere', 'Orange Street — The road is literally painted orange', 'Star Plaza — 348 celebrity handprints in the sidewalk', 'Kissaten Aroma — Open since 1964. That\'s the pitch.', 'Asakusa Underground Mall — Japan\'s oldest underground shopping arcade', 'Asakusa Hare Terrace — Free rooftop with Tokyo Skytree, golden flame, Sumida River in one frame', 'Asakusa ROX Matsuri-yu — 11 different baths after a long day of walking'] },
+      { type: 'h2', text: '1. Asakusa Shrine (浅草神社)' },
+      { type: 'image', src: '/asakusa-hidden-spots-shrine-torii.jpg', alt: 'The large torii gate of Asakusa Shrine, visible when walking right past Senso-ji\'s main hall', caption: 'The torii gate appears as you walk right from Senso-ji\'s main hall — most visitors walk straight past it.' },
+      { type: 'paragraph', text: 'Most people walk straight past this — which is almost funny, because it\'s right next to Senso-ji\'s main hall. A 30-second detour. One thing to know first: the names look similar but these are completely different. Senso-ji (浅草寺) is a Buddhist temple. Asakusa Shrine (浅草神社) — read Asakusa-jinja — is a Shinto shrine right beside it. Two traditions, two vibes, about 50 meters apart.' },
+      { type: 'paragraph', text: 'The deeper connection is what makes it interesting. The three deities enshrined here are the two fisherman brothers who pulled a small Kannon statue from the Sumida River in 628 AD, and Haji no Nakatomo, the village headman who heard the story, became a monk, and built Senso-ji to house it. So this shrine is essentially where Senso-ji\'s entire origin story lives. The famous Sanja Matsuri festival every May — one of Tokyo\'s biggest — is held in their honor. The shrine itself is noticeably calmer than next door. I\'ve stood there on busy weekend afternoons in a kind of quiet that felt genuinely separate from the crowd 30 meters away.' },
+      { type: 'image', src: '/asakusa-hidden-spots-komainu.jpg', alt: 'Giant komainu guardian lion-dog at Asakusa Shrine, seated on a rough stone pedestal, wearing a fire prevention sash', caption: 'Taller than a person and carved with a force that\'s hard to convey in a photo.' },
+      { type: 'paragraph', text: 'Then there are the komainu — the guardian lion-dog statues. I\'ve seen a lot of komainu. These stopped me. They sit on rough, chunky stone pedestals and the stone flows downward like it\'s melting into the base — there\'s something almost alive about the carving. I stood there for a solid three minutes. That almost never happens.' },
+      { type: 'image', src: '/asakusa-hidden-spots-meoto-komainu.jpg', alt: 'The meoto-komainu husband-and-wife guardian dogs at Asakusa Shrine, two figures leaning toward each other under a red parasol', caption: 'The meoto-komainu — a rare form said to bring blessings for good relationships and love.' },
+      { type: 'paragraph', text: 'Near the entrance, there\'s a second pair you\'d almost miss: the meoto-komainu, or "husband and wife" guardian dogs. Two figures, leaning toward each other. The form is rare. The shrine says they bring blessings for good relationships, marriage harmony, and love — so if you\'re visiting with a partner, this is the one to stop at.' },
+      { type: 'tip', text: 'Gohan World tip: Asakusa Shrine is free and open any time. If you can make it for Sanja Matsuri (third weekend of May), do it — over 1.5 million people over three days. Book accommodation months ahead.' },
+      { type: 'h2', text: '2. Mokuba-kan Theater (浅草木馬館)' },
+      { type: 'image', src: '/asakusa-hidden-spots-mokubakan.jpg', alt: 'The colorful facade of Asakusa Mokuba-kan theater in Asakusa\'s entertainment district', caption: 'Mokuba-kan — the only theater in Asakusa dedicated entirely to taishū engeki.' },
+      { type: 'paragraph', text: 'This one is niche, and I mean that as a compliment. Mokuba-kan is a taishū engeki theater — popular theater in the old Edo working-class tradition. Elaborate costumes, melodrama, dance performances, comedy bits. I brought my mom here once, expecting an hour. We stayed for almost three. She cried at two different songs. Performers come out into the aisles between acts and the audience hands them gifts — a warm, slightly chaotic ritual that has nothing to do with anything you\'d find in a travel guide. The ticket is ¥2,000 at the door. Three-plus hours of performance.' },
+      { type: 'tip', text: 'Gohan World tip: Doors open at 11:00 for the afternoon performance (starts at noon). Walk-ins are usually fine on weekdays — just show up.' },
+      { type: 'h2', text: '3. Hoppy Street (ホッピー通り)' },
+      { type: 'image', src: '/asakusa-hidden-spots-hoppy-street.jpg', alt: 'Hoppy Street in Asakusa, a narrow alley lined with open-air izakaya and plastic stools on the sidewalk', caption: 'About 80 meters of izakayas open from noon — one of the more honest slices of old Tokyo left in the neighborhood.' },
+      { type: 'paragraph', text: 'An 80-meter alley just west of Senso-ji\'s grounds, packed with izakaya that open around noon. Named after hoppy — a low-alcohol, beer-flavored drink that became popular after the war when real beer was out of reach for most people. Drink it mixed with shōchū in a cold mug. Cheap. Refreshing. Very much the point. My move: show up around 2 p.m. when there\'s still room at the outdoor tables. Order the motsu nikomi (beef offal stew) if you see it.' },
+      { type: 'h2', text: '4. Orange Street (オレンジ通り)' },
+      { type: 'image', src: '/asakusa-hidden-spots-orange-street.jpg', alt: 'Orange Street in Asakusa with the road surface painted a vivid orange and traditional craft shops on both sides', caption: 'Yes, the road really is painted orange. Quieter than Nakamise-dori and worth the detour.' },
+      { type: 'paragraph', text: 'Yes, the road is actually painted orange. The whole thing. The first time I walked down it I genuinely thought I\'d taken a wrong turn. Orange Street runs near Senso-ji with a mix of small shops — kimono and craft stores, wagashi (Japanese sweets), a Sanrio shop — and it\'s noticeably quieter than Nakamise-dori a few blocks over. The neighborhood even has its own mascot: Orante-kun, a small orange character whose hand shape is based on a lucky palm line. There\'s also a photo spot called "Orante-kun\'s House" along the street, deliberately unlabeled on maps. Part of the fun is finding it.' },
+      { type: 'h2', text: '5. Star Plaza at Asakusa Public Hall (スターの広場)' },
+      { type: 'image', src: '/asakusa-hidden-spots-star-plaza.jpg', alt: 'Celebrity handprint plaques set into the ground at Star Plaza outside Asakusa Public Hall on Orange Street', caption: 'Star Plaza, in front of Asakusa Public Hall. 348 names as of 2024 — look down as you walk.' },
+      { type: 'paragraph', text: 'On Orange Street, in front of Asakusa Public Hall, handprint plaques are set into the ground — life-size molds of Japanese entertainers who\'ve performed at the hall. As of 2024 there are 348 names, from Showa-era stars through current performers. It\'s Asakusa\'s low-key answer to the Hollywood Walk of Fame. The handprints also extend into the flower beds along Orange Street, so walk the whole length slowly and look down.' },
+      { type: 'h2', text: '6. Kissaten Aroma (珈琲 アロマ)' },
+      { type: 'image', src: '/asakusa-hidden-spots-kissaten-aroma.jpg', alt: 'Exterior of Kissaten Aroma on Asakusa Fureai Street, a small old-school Japanese coffee shop unchanged since 1964', caption: 'Kissaten Aroma — open since 1964, closed weekends. Go on a weekday.' },
+      { type: 'paragraph', text: 'Open since 1964. That\'s the review. The interior has about 15 counter seats and has not been meaningfully updated since the Showa era in any way that matters. The coffee is strong. The seats are worn in the right way. When I went, the room was full of older local regulars talking with the master like they\'d been doing it for decades. I ordered a milk coffee (¥400) and onion toast made with Pelican bakery bread (¥330) — a local Asakusa institution. The raw onion and pickles combination sounds like nothing and tastes like everything. Kissaten like this are disappearing from Tokyo fast. Go while it\'s still there. Closed Saturdays, Sundays, and holidays.' },
+      { type: 'h2', text: '7. Asakusa Underground Mall (浅草地下街)' },
+      { type: 'image', src: '/asakusa-hidden-spots-underground-mall.jpg', alt: 'Entrance to Asakusa Underground Mall, stairs leading below the Matsuya Asakusa department building, Japan\'s oldest surviving underground shopping arcade', caption: 'The entrance is under the Matsuya Asakusa building. Look for mole mascot Chikao-kun.' },
+      { type: 'paragraph', text: 'The oldest underground shopping arcade still operating in Japan, open since 1955. The entrance is right under the Matsuya Asakusa department store building — the one everyone passes without going under. Look for the mascot Chikao-kun (a mole) near the entrance. Inside: independent small stalls, a barbershop, izakayas, a DVD shop, a fortune teller. Exposed ducts overhead. No chain stores. And at the very back, there\'s a sealed door — about 300 meters of tunnel dug toward Senso-ji before the project was cancelled. The plan was to connect Asakusa Station to the temple underground. It never opened. The passage still exists back there, going nowhere.' },
+      { type: 'h2', text: '8. Asakusa Hare Terrace (浅草ハレテラス)' },
+      { type: 'image', src: '/asakusa-hidden-spots-hare-terrace.jpg', alt: 'View from Asakusa Hare Terrace rooftop showing Tokyo Skytree, the golden Asahi flame sculpture, and the Sumida River in one frame', caption: 'Tokyo Skytree, the golden Asahi flame, and the Sumida River — all in one frame, for free, from the EKIMISE rooftop.' },
+      { type: 'paragraph', text: 'A free rooftop terrace on top of the EKIMISE building, directly connected to Asakusa Station. Open 10:00–20:00. The draw is the view: Tokyo Skytree, the golden asahi flame sculpture on the Asahi Breweries building, and the Sumida River — all three in one frame from the same spot. It\'s the photo that looks like it took effort to find. It didn\'t. There\'s also a small Inari shrine up here that\'s been there for 93 years. In summer there\'s a beer garden; at Christmas, illuminations. I\'ve gone up at dusk when the sky was going pink and the Skytree lights were just starting. Hard to beat for free.' },
+      { type: 'h2', text: '9. Asakusa ROX Matsuri-yu (浅草ROXまつり湯)' },
+      { type: 'image', src: '/asakusa-hidden-spots-matsuri-yu.jpg', alt: 'Entrance to Asakusa ROX Matsuri-yu, a large onsen and bath facility on the 7th floor of the ROX building in Asakusa', caption: 'On the 7th floor of the ROX building — my mom\'s "Tokyo recovery plan" after a full day of walking.' },
+      { type: 'paragraph', text: 'A large onsen (hot spring bath) and sentō (public bathhouse) facility on the 7th floor of the ROX building, about 8 minutes\' walk from Asakusa Station. Eleven different baths — tourmaline, seawater, a jade open-air bath with a view over the neighborhood. My mom calls this her "Tokyo recovery plan." Admission ¥2,750 for adults. Towel rental available. There\'s also a restaurant on-site for after you\'ve soaked. The jade open-air bath with the Asakusa view is the one to head for first.' },
+      { type: 'h2', text: 'Where to Stay in Asakusa' },
+      { type: 'paragraph', text: 'All nine spots above are walkable from one another, most within 10 minutes of Senso-ji. Staying in Asakusa itself makes the early mornings and late evenings worth it — and means you can come back to the neighborhood more than once without planning a whole excursion.' },
+      {
+        type: 'affiliate_card',
+        badge: 'Accommodation',
+        name: 'Booking.com — Hotels & Unique Stays',
+        tagline: 'From budget guesthouses to ryokan a short walk from Kaminarimon.',
+        pros: ['Largest selection of hotels and ryokan in the Asakusa area', 'Free cancellation on most properties', 'Genius loyalty program unlocks discounts automatically'],
+        link: '#', // TODO: replace with Booking.com affiliate URL
+        linkText: 'Search Asakusa Stays',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Tours',
+        name: 'Viator — Food & Culture Tours',
+        tagline: 'Guided Asakusa walks and street food tours that go well beyond Nakamise-dori.',
+        pros: ['Small-group tours led by local guides who know the back streets', 'Izakaya and Hoppy Street evening tours available', 'Free cancellation on most bookings'],
+        link: '#', // TODO: replace with Viator affiliate URL
+        linkText: 'Browse Asakusa Tours',
+        sponsored: true,
+      },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {
