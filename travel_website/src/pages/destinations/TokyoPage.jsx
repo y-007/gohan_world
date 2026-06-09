@@ -44,6 +44,8 @@ const attractions = [
     desc: "Tokyo's oldest temple, founded 628 AD. Arrive at dawn — the lantern-lit gate is yours before the crowds.",
     img: 'https://images.unsplash.com/photo-1513407030348-c983a97b98d8?auto=format&fit=crop&w=800&q=80',
     alt: 'Kaminarimon gate of Senso-ji Temple illuminated at night in Asakusa, Tokyo',
+    link: '/articles/asakusa-hidden-spots',
+    linkText: 'Beyond Senso-ji: 9 hidden Asakusa spots →',
   },
   {
     name: 'Shibuya Crossing',
@@ -200,6 +202,11 @@ const TokyoPage = () => {
                 <div className="p-6">
                   <h3 className="font-display text-xl font-bold text-[var(--color-text-primary)] mb-2">{a.name}</h3>
                   <p className="font-body text-sm text-[var(--color-text-secondary)] leading-relaxed">{a.desc}</p>
+                  {a.link && (
+                    <Link to={a.link} className="inline-block mt-3 font-body text-xs font-semibold text-accent hover:underline">
+                      {a.linkText}
+                    </Link>
+                  )}
                 </div>
               </div>
             ))}
