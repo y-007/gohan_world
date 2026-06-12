@@ -848,6 +848,12 @@ export const articles = [
         'Covers most adventure sports by default — verify your activities',
       ], link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
         linkText: 'Get a Quote with World Nomads', sponsored: true },
+      { type: 'affiliate_card', badge: 'Insurance', name: 'SafetyWing — Best for Long Stays & Budget Travelers', tagline: 'Subscription-based medical coverage that renews monthly — no annual commitment required.', pros: [
+        'Up to $250,000 in medical expense coverage per incident',
+        'Monthly subscription — pause or cancel anytime, no long-term lock-in',
+        'No trip cancellation or pre-existing condition coverage — ideal for healthy, long-stay travelers',
+      ], link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
+        linkText: 'Get a Quote with SafetyWing', sponsored: true },
       { type: 'affiliate_card', badge: 'Insurance', name: 'Allianz Travel Insurance — Best Overall for Most Travelers', tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.', pros: [
         'Up to $50,000 medical coverage and $500,000 medical evacuation',
         'Pre-existing condition waiver available within 14 days of initial deposit',
@@ -873,7 +879,7 @@ export const articles = [
           linkText: 'Compare Plans' },
         { provider: 'Allianz Travel', bestFor: 'Families & business', coverage: 'Cancel for any reason, trip delay, emergency medical', cost: '$50–$180', rating: 4, link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
           linkText: 'Get Quote' },
-        { provider: 'SafetyWing', bestFor: 'Long stays & nomads', coverage: 'Medical-only, monthly subscription, global coverage', cost: '$42–$84/mo', rating: 4, link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
+        { provider: 'SafetyWing', bestFor: 'Long stays & budget travelers', coverage: 'Medical-only, $250k per incident, subscription model, no trip cancellation', cost: '~$63/4 weeks', rating: 4, link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
           linkText: 'Sign Up' },
       ] },
       { type: 'h2', text: 'How to Get a Quote (It Takes About 5 Minutes)' },
@@ -1511,6 +1517,20 @@ export const articles = [
         sponsored: true,
       },
       {
+        type: 'affiliate_card',
+        badge: 'Insurance',
+        name: 'SafetyWing — Best for Budget & Long-Stay Travelers',
+        tagline: 'Starts at ~$63/4 weeks and covers $250,000 in medical expenses — a strong budget option for shorter stays.',
+        pros: [
+          'Up to $250,000 in medical expense coverage per incident',
+          'Monthly subscription — start, pause, or cancel anytime',
+          'No pre-existing conditions or trip cancellation — best for healthy travelers on a budget',
+        ],
+        link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
+        linkText: 'Get a Quote with SafetyWing',
+        sponsored: true,
+      },
+      {
         type: 'h2',
         text: 'How to Actually Get a Quote (It Takes 5 Minutes)',
       },
@@ -1760,6 +1780,8 @@ export const articles = [
         { provider: 'Medical with Acute Onset Coverage', bestFor: 'Seniors with stable pre-existing conditions', coverage: 'Emergency care + unexpected pre-existing flare-ups', cost: '$85–$150', rating: 5, link: 'https://www.visitorscoverage.com', // TODO: replace with VisitorsCoverage affiliate URL
           linkText: 'Get Quote' },
         { provider: 'Comprehensive Plan', bestFor: 'Travelers with prepaid non-refundable bookings', coverage: 'Medical + trip cancellation and interruption', cost: '$200–$350', rating: 5, link: 'https://www.visitorscoverage.com', // TODO: replace with VisitorsCoverage affiliate URL
+          linkText: 'Get Quote' },
+        { provider: 'SafetyWing Nomad (age 60–69)', bestFor: 'Healthy seniors under 70 on longer stays', coverage: 'Medical-only, $250k per incident — no pre-existing coverage, no trip cancellation', cost: '~$97/4 weeks', rating: 3, link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
           linkText: 'Get Quote' },
       ] },
       { type: 'paragraph', text: "Most 65-year-olds with a pre-existing condition land in that $85–$150 range — specifically, a plan with acute onset coverage and $100,000–$250,000 in medical benefits. That's your realistic target. If you've prepaid a lot for tours, flights, or a ryokan package, add trip cancellation coverage — that bumps it to $200–$350 depending on your total trip cost." },
