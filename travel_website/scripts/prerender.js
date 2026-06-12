@@ -124,6 +124,7 @@ for (const a of articles) {
   STATIC_META[`/articles/${a.slug}`] = {
     title: `${a.title} | Gohan World`,
     desc: a.excerpt,
+    image: a.heroImage ? `${HOSTNAME}${a.heroImage}` : undefined,
   }
 }
 
