@@ -204,6 +204,17 @@
   transform: rotate(45deg);
 }
 
+/* ── Small inline photo insert ───────────────────────────────────────────── */
+.article-body__figure--small {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.article-body__figure--small img {
+  max-height: 320px;
+  object-fit: cover;
+}
+
 .article-body__faq-answer {
   font-family: 'Poppins', sans-serif;
   font-size: clamp(0.9rem, 1.4vw, 1rem);

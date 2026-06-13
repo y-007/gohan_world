@@ -122,8 +122,8 @@ const STATIC_META = {
 
 for (const a of articles) {
   STATIC_META[`/articles/${a.slug}`] = {
-    title: `${a.title} | Gohan World`,
-    desc: a.excerpt,
+    title: a.seoTitle || `${a.title} | Gohan World`,
+    desc: a.metaDescription || a.excerpt,
     image: a.heroImage ? `${HOSTNAME}${a.heroImage}` : undefined,
   }
 }
@@ -197,6 +197,7 @@ for (const route of routes) {
   const safeDesc  = desc.replace(/"/g, '&quot;')
   const canonical = `${HOSTNAME}${route === '/' ? '/' : route + '/'}`
   const ogImage   = image || `${HOSTNAME}/hero_profile.png`
+  const ogType    = articles.some(a => `/articles/${a.slug}` === route) ? 'article' : 'website'
 
   const headBlock = [
     `<title>${title}</title>`,
@@ -206,7 +207,7 @@ for (const route of routes) {
     `<meta property="og:description" content="${safeDesc}">`,
     `<meta property="og:url" content="${canonical}">`,
     `<meta property="og:image" content="${ogImage}">`,
-    `<meta property="og:type" content="website">`,
+    `<meta property="og:type" content="${ogType}">`,
     `<meta name="twitter:card" content="summary_large_image">`,
     `<meta name="twitter:title" content="${safeTitle}">`,
     `<meta name="twitter:description" content="${safeDesc}">`,

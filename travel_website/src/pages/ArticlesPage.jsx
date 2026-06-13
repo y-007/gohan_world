@@ -57,7 +57,15 @@ const ArticlesPage = () => {
 
   useEffect(() => {
     document.title = 'All Articles — Gohan World'
-    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+    const canon = document.querySelector('link[rel="canonical"]')
+    if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/articles/')
+    const ogUrl = document.querySelector('meta[property="og:url"]')
+    if (ogUrl) ogUrl.setAttribute('content', 'https://www.gohanworld.com/articles/')
+    return () => {
+      document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides'
+      if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
+      if (ogUrl) ogUrl.setAttribute('content', 'https://www.gohanworld.com/')
+    }
   }, [])
 
   const [searchText, setSearchText] = useState('')
