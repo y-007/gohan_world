@@ -129,6 +129,36 @@ export const articles = [
         linkText: 'Browse Food Tours',
         sponsored: true,
       },
+      {
+        type: 'faq_accordion',
+        heading: 'Frequently Asked Questions',
+        items: [
+          {
+            question: 'What does "Itadakimasu" mean and why do Japanese people say it before eating?',
+            answer: 'Itadakimasu loosely means "I humbly receive" — a phrase said before every meal that acknowledges the effort of the farmer, the cook, and the ingredients themselves. It reflects Japan\'s broader food philosophy: eating is not just nutrition, but a moment of gratitude for everything that made the meal possible.',
+          },
+          {
+            question: 'What is a depachika and why is it worth visiting in Japan?',
+            answer: 'A depachika (デパ地下) is the underground food hall beneath a Japanese department store. Regional specialties from across Japan are brought together in one place, presented almost like an exhibition. They\'re especially worth visiting in Tokyo and Osaka for discovering foods you wouldn\'t otherwise stumble across on a typical tourist route.',
+          },
+          {
+            question: 'Are Japanese convenience store foods actually worth eating?',
+            answer: 'Yes — genuinely. The onigiri, sandwiches, and hot foods at Japanese 7-Eleven are a real highlight for most visitors. For a quick, affordable, high-quality meal between sightseeing stops, convenience stores are one of Japan\'s most underrated food experiences.',
+          },
+          {
+            question: 'What are the must-try food experiences in Japan for first-time visitors?',
+            answer: 'A fresh sushi breakfast at Tsukiji Outer Market in Tokyo, street snacks through Kyoto\'s Nishiki Market, takoyaki and okonomiyaki along Dotonbori in Osaka, and a meal from a Japanese convenience store each show a completely different face of how Japan thinks about food.',
+          },
+          {
+            question: 'How can I tell if a Japanese restaurant is worth eating at?',
+            answer: 'Look at the noren — the split fabric curtain hanging in the doorway. A weathered, dark noren typically means the restaurant has been open long enough to be trusted. The newer and shinier it looks, the less certain you can be.',
+          },
+          {
+            question: 'Has Japanese food influenced American cuisine?',
+            answer: 'Significantly. Sushi is now mainstream across the US, ramen shops have opened in every major American city, and Japanese whisky appears on bar menus from Nashville to Seattle. The influence runs both directions — Japan\'s yoshoku dishes like omurice and napolitan spaghetti are Japan\'s own beloved adaptations of Western food, filtered through Japanese sensibility.',
+          },
+        ],
+      },
     ],
   },
 
@@ -245,6 +275,36 @@ export const articles = [
         link: 'https://www.discovercars.com', // TODO: replace with Discover Cars affiliate URL
         linkText: 'Compare Rental Cars',
         sponsored: true,
+      },
+      {
+        type: 'faq_accordion',
+        heading: 'Frequently Asked Questions',
+        items: [
+          {
+            question: 'Is Japan easy to navigate for older travelers?',
+            answer: 'Yes. Japan\'s transit system is extremely organized, with clear English signage and reliable schedules. Even first-time visitors over 50 often say they feel surprisingly confident after the first day.',
+          },
+          {
+            question: 'Do I need to speak Japanese to enjoy wandering around Tokyo?',
+            answer: 'Not at all. Many seniors enjoy exploring local neighborhoods with just basic phrases. People are polite, patient, and helpful, even when communication is simple or nonverbal.',
+          },
+          {
+            question: 'Is it safe to explore Tokyo\'s backstreets alone?',
+            answer: 'Tokyo is one of the safest major cities in the world. Many older travelers feel comfortable walking through neighborhoods like Yanaka, Koenji, and Kagurazaka at their own pace.',
+          },
+          {
+            question: 'Are Japan\'s trains senior-friendly?',
+            answer: 'Yes. Trains run on time, platforms are well-marked, and staff are helpful. Some stations are large, so giving yourself extra time is wise, but overall the system is very senior-friendly.',
+          },
+          {
+            question: 'What surprises most American travelers about Japan?',
+            answer: 'The calmness, the attention to detail, and how easy it is to get around once you understand the basics. Many seniors say Japan feels both exciting and deeply peaceful.',
+          },
+          {
+            question: 'How does traveling in Japan compare to traveling in the U.S.?',
+            answer: 'Japan encourages slowing down and noticing small details. The U.S. encourages covering long distances and embracing spontaneity. Many 50+ travelers enjoy both styles for different reasons.',
+          },
+        ],
       },
     ],
   },
@@ -415,6 +475,36 @@ export const articles = [
         type: 'paragraph',
         text: 'The goal of a good pre-trip routine is simple: to run out of things to worry about before the plane leaves the ground. Once you are up in the air, the work is done. Everything after that is the trip itself.',
       },
+      {
+        type: 'faq_accordion',
+        heading: 'Frequently Asked Questions',
+        items: [
+          {
+            question: 'How far in advance should I buy travel insurance for Japan?',
+            answer: 'Ideally within 14 days of your first trip deposit. That\'s the window that unlocks pre-existing condition waivers and cancel-for-any-reason add-ons. Buying later is still worth it for emergency medical and evacuation coverage, but you\'ll lose those time-sensitive benefits.',
+          },
+          {
+            question: 'Do I need a visa to visit Japan as a US citizen?',
+            answer: 'No. US citizens don\'t need a visa for tourist stays of up to 90 days. Just confirm your trip doesn\'t exceed that and your passport is valid for the full duration of your stay.',
+          },
+          {
+            question: 'Can I pack light for a two-week trip to Japan?',
+            answer: 'Yes. One carry-on and a personal item is enough for most two-week itineraries — especially in Japan, where the takkyubin luggage delivery service lets you ship bags between hotels for a few dollars. Checking a bag means waiting at baggage claim and carrying more than you need.',
+          },
+          {
+            question: 'What\'s the best way to get mobile data in Japan?',
+            answer: 'A travel SIM, eSIM, or pocket Wi-Fi — not your US carrier\'s international plan, which is rarely good value. eSIMs can be activated before you land and require no physical swap. Pocket Wi-Fi is shareable and has better battery life for groups.',
+          },
+          {
+            question: 'Do I need a power adapter for Japan?',
+            answer: 'Japan uses Type A outlets — the same two flat-pin standard as the US. Most US electronics plug straight in. The voltage difference (100V in Japan vs 120V in the US) is fine for modern electronics. Only older devices or appliances with motors may need a converter.',
+          },
+          {
+            question: 'What should I do at the airport on the day I depart?',
+            answer: 'Arrive 3 hours early for international flights, check in online 24 hours before if possible, and screenshot all boarding passes, hotel confirmations, and your insurance policy number so they\'re accessible without Wi-Fi. Keep your passport, phone, and a credit card in your carry-on — never in checked luggage.',
+          },
+        ],
+      },
     ],
   },
   {
@@ -527,6 +617,32 @@ export const articles = [
         link: 'https://www.insuremytrip.com', // TODO: replace with InsureMyTrip affiliate URL
         linkText: 'Compare Travel Insurance Plans',
         sponsored: true,
+      },
+      {
+        type: 'faq_accordion',
+        heading: 'Frequently Asked Questions',
+        items: [
+          {
+            question: 'Does Medicare cover me if I get sick in Japan or any other country?',
+            answer: 'No. Original Medicare Parts A and B do not pay for medical care outside the United States. Hospital stays, ER visits, surgery, prescriptions, and ambulance services abroad are entirely out-of-pocket.',
+          },
+          {
+            question: 'Are there any exceptions where Medicare will pay for care abroad?',
+            answer: 'Only three rare ones: if a foreign hospital is closer than a U.S. one, if an emergency happens on a ship within six hours of a U.S. port, or if you\'re traveling directly through Canada between Alaska and another U.S. state. Most travelers never qualify.',
+          },
+          {
+            question: 'Does Medicare Advantage include international coverage?',
+            answer: 'Sometimes — but it varies widely. Some plans offer limited emergency benefits abroad, others cap coverage at low amounts, and many offer none at all. Always check your Evidence of Coverage and call your plan before traveling.',
+          },
+          {
+            question: 'What does Medigap cover for international travel?',
+            answer: 'Certain Medigap plans (C, D, F, G, M, and N) include a foreign emergency benefit, but it pays only 80% after a $250 deductible and has a lifetime maximum of $50,000. This helps with minor emergencies but is not enough for major hospitalization or medical evacuation.',
+          },
+          {
+            question: 'What kind of travel insurance should Medicare beneficiaries buy?',
+            answer: 'Look for a plan with at least $100,000 in emergency medical coverage, $500,000 in medical evacuation, a pre-existing condition waiver (if purchased within 14 days of your first trip deposit), no age cap, and 24/7 emergency assistance. This is the coverage that replaces what Medicare does not provide abroad.',
+          },
+        ],
       },
     ],
   },
@@ -716,6 +832,36 @@ export const articles = [
         type: 'paragraph',
         text: 'Travel after 60 should be about discovery, not worry. The right travel insurance removes the financial risk from every trip you take — so you can book the cruise, board the flight, and step into a new country knowing that if something goes wrong, you\'re protected. Medicare won\'t follow you abroad. But with the right plan in place, you don\'t have to go unprotected. Compare your options today and travel with the confidence you\'ve earned.',
       },
+      {
+        type: 'faq_accordion',
+        heading: 'Frequently Asked Questions',
+        items: [
+          {
+            question: 'Why doesn\'t Medicare cover me when I travel internationally?',
+            answer: 'Medicare Parts A and B were designed for care received inside the United States. The moment you leave US territory, your coverage stops. Medicare Advantage may offer some limited emergency coverage abroad, but limits are typically low and claims can be complicated.',
+          },
+          {
+            question: 'How much could a medical emergency cost me abroad without travel insurance?',
+            answer: 'Emergency hospitalization in Japan can exceed $3,000 per day. A helicopter evacuation from a remote location can run $80,000 or more. An unexpected cardiac event in a country with expensive private care could result in bills exceeding $100,000. None of these are covered by Medicare.',
+          },
+          {
+            question: 'What are the three most important features seniors should look for in travel insurance?',
+            answer: 'High medical coverage limits (at least $100,000, ideally $250,000 or more), a pre-existing condition waiver (available if purchased within 10–21 days of your first trip deposit), and a Cancel For Any Reason upgrade if you have expensive non-refundable bookings or health concerns that might affect your plans.',
+          },
+          {
+            question: 'How does the pre-existing condition waiver work?',
+            answer: 'Most travel insurance plans exclude pre-existing conditions by default. The waiver removes that exclusion entirely — but only if you meet three conditions: purchase within 10–21 days of your first trip deposit, be medically able to travel on the date of purchase, and insure the full non-refundable cost of your trip.',
+          },
+          {
+            question: 'What is Cancel For Any Reason coverage and do seniors need it?',
+            answer: 'CFAR is an add-on upgrade that lets you cancel your trip for literally any reason and receive 50–75% of your prepaid costs back. It\'s worth considering if you have significant non-refundable bookings, ongoing health conditions, or simply want maximum flexibility. It typically adds 40–60% to the premium.',
+          },
+          {
+            question: 'How quickly can I get a travel insurance quote?',
+            answer: 'Under two minutes. You need your destination, travel dates, total trip cost, and traveler ages. Comparison sites like Squaremouth show matched plans instantly, sorted by price, coverage limit, or provider rating, with full breakdowns so you can compare before you buy.',
+          },
+        ],
+      },
     ],
   },
 
@@ -785,6 +931,32 @@ export const articles = [
       ], link: 'https://www.viator.com', // TODO: replace with Viator affiliate URL
         linkText: 'Browse Food Tours', sponsored: true },
       { type: 'paragraph', text: 'Both machi chuka and the small-town American Chinese restaurant exist in the same emotional space — a place where you know what you\'re going to order before you sit down, where the food is exactly what you need, and where someone\'s family has been feeding your neighborhood longer than you\'ve been alive. That\'s not a small thing. In food, that kind of continuity is everything.' },
+      {
+        type: 'faq_accordion',
+        heading: 'Frequently Asked Questions',
+        items: [
+          {
+            question: 'Why do machi-chuka restaurants feel so nostalgic to Japanese people?',
+            answer: 'Because they\'ve been neighborhood fixtures for decades. Many families have eaten at the same shop for 30–50 years, and the menus, flavors, and even the décor rarely change. For older Japanese travelers, machi-chuka is comfort food tied to childhood memories.',
+          },
+          {
+            question: 'How is machi-chuka different from modern ramen shops or trendy restaurants?',
+            answer: 'Machi-chuka is simple, fast, inexpensive, and family-run. No specialty broths, no Instagram plating, no long lines. It\'s everyday food — the Japanese equivalent of a reliable diner — not a gourmet destination.',
+          },
+          {
+            question: 'Is machi-chuka a good option for travelers who don\'t speak Japanese?',
+            answer: 'Yes. These restaurants are extremely beginner-friendly. Menus are short, dishes are predictable, and pointing works perfectly. Many older travelers prefer machi-chuka because it feels relaxed and unintimidating.',
+          },
+          {
+            question: 'Why do some dishes at machi-chuka taste different from Chinese food in the U.S.?',
+            answer: 'Because both countries \'localized\' Chinese cuisine in completely different ways. Japan created dishes like tenshin-han and ankake yakisoba; the U.S. created chop suey and General Tso\'s chicken. They share roots but evolved separately.',
+          },
+          {
+            question: 'Are machi-chuka restaurants disappearing in Japan?',
+            answer: 'Yes. Many are run by aging owners with no successors, and rising costs make it hard for small shops to survive. This is why machi-chuka has become a nostalgic cultural topic — people are realizing these places won\'t be around forever.',
+          },
+        ],
+      },
     ],
   },
 
