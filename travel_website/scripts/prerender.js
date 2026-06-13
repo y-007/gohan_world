@@ -193,11 +193,33 @@ for (const route of routes) {
   }
 
   const { title, desc, image } = STATIC_META[route] || FALLBACK
-  const safeTitle = title.replace(/"/g, '&quot;')
-  const safeDesc  = desc.replace(/"/g, '&quot;')
-  const canonical = `${HOSTNAME}${route === '/' ? '/' : route + '/'}`
-  const ogImage   = image || `${HOSTNAME}/hero_profile.png`
-  const ogType    = articles.some(a => `/articles/${a.slug}` === route) ? 'article' : 'website'
+  const safeTitle  = title.replace(/"/g, '&quot;')
+  const safeDesc   = desc.replace(/"/g, '&quot;')
+  const canonical  = `${HOSTNAME}${route === '/' ? '/' : route + '/'}`
+  const ogImage    = image || `${HOSTNAME}/hero_profile.png`
+  const articleObj = articles.find(a => `/articles/${a.slug}` === route)
+  const ogType     = articleObj ? 'article' : 'website'
+
+  let articleLd = ''
+  if (articleObj) {
+    const ldObj = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: articleObj.seoTitle ? articleObj.seoTitle.split(' | ')[0] : articleObj.title,
+      description: articleObj.metaDescription || articleObj.excerpt,
+      image: `${HOSTNAME}${articleObj.heroImage}`,
+      author: { '@type': 'Person', name: 'Yuko', url: `${HOSTNAME}/about` },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Gohan World',
+        logo: { '@type': 'ImageObject', url: `${HOSTNAME}/gohan_world_logo.svg` },
+      },
+      datePublished: monthYearToISO(articleObj.date),
+      dateModified: monthYearToISO(articleObj.date),
+      mainEntityOfPage: { '@type': 'WebPage', '@id': `${HOSTNAME}/articles/${articleObj.slug}/` },
+    }
+    articleLd = `\n    <script type="application/ld+json">${JSON.stringify(ldObj, null, 2)}</script>`
+  }
 
   const headBlock = [
     `<title>${title}</title>`,
@@ -212,7 +234,7 @@ for (const route of routes) {
     `<meta name="twitter:title" content="${safeTitle}">`,
     `<meta name="twitter:description" content="${safeDesc}">`,
     `<meta name="twitter:image" content="${ogImage}">`,
-  ].join('\n    ')
+  ].join('\n    ') + articleLd
 
   const html = template
     .replace('<!--prerender:head-->', headBlock)
