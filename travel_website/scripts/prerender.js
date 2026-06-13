@@ -23,6 +23,22 @@ function monthYearToISO(dateStr) {
   return `${year}-${MONTH_TO_NUM[month] || '01'}-01`
 }
 
+// Convert hero filename → readable alt text (Phase 2 image blocks)
+// eslint-disable-next-line no-unused-vars
+function filenameToAlt(filename) {
+  return filename
+    .replace(/\.[^.]+$/, '')
+    .replace(/-/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase())
+}
+
+const CATEGORY_TAGS = {
+  'Travel Stories':   ['Japan travel', 'Hidden Japan', 'Japan trip'],
+  'Trip Essentials':  ['Japan travel tips', 'Japan packing', 'Senior travel Japan'],
+  'Travel Insurance': ['Travel insurance Japan', 'Senior travel insurance'],
+  'Food & Culture':   ['Japanese food', 'Japan culture', 'Japanese cuisine'],
+}
+
 const today = new Date().toISOString().slice(0, 10)
 
 const years = [...new Set(articles.map(a => a.date.split(' ')[1]))]
@@ -221,6 +237,15 @@ for (const route of routes) {
     articleLd = `\n    <script type="application/ld+json">${JSON.stringify(ldObj, null, 2)}</script>`
   }
 
+  const articlePinterestTags = articleObj ? [
+    `<meta property="og:image:alt" content="${(articleObj.heroImageAlt || articleObj.title).replace(/"/g, '&quot;')}">`,
+    `<meta property="article:published_time" content="${monthYearToISO(articleObj.date)}T00:00:00+00:00">`,
+    `<meta property="article:modified_time" content="${monthYearToISO(articleObj.date)}T00:00:00+00:00">`,
+    `<meta property="article:author" content="Yuko">`,
+    `<meta name="pinterest:description" content="${(articleObj.excerpt + ' Save this for your Japan trip planning! 🎌').replace(/"/g, '&quot;')}">`,
+    ...(CATEGORY_TAGS[articleObj.category] || []).map(tag => `<meta property="article:tag" content="${tag}">`),
+  ] : []
+
   const headBlock = [
     `<title>${title}</title>`,
     `<meta name="description" content="${safeDesc}">`,
@@ -234,6 +259,7 @@ for (const route of routes) {
     `<meta name="twitter:title" content="${safeTitle}">`,
     `<meta name="twitter:description" content="${safeDesc}">`,
     `<meta name="twitter:image" content="${ogImage}">`,
+    ...articlePinterestTags,
   ].join('\n    ') + articleLd
 
   const html = template
