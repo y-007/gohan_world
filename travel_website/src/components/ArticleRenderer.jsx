@@ -63,6 +63,18 @@ const ArticleRenderer = ({ blocks }) => (
           return <AffiliateTable key={i} {...block} />
         case 'insurance_disclosure':
           return <InsuranceDisclosure key={i} />
+        case 'faq_accordion':
+          return (
+            <section key={i} className="article-body__faq">
+              {block.heading && <h2 className="article-body__h2">{block.heading}</h2>}
+              {block.items.map((item, j) => (
+                <details key={j} className="article-body__faq-item">
+                  <summary className="article-body__faq-question">{item.question}</summary>
+                  <p className="article-body__faq-answer">{item.answer}</p>
+                </details>
+              ))}
+            </section>
+          )
         default:
           return null
       }

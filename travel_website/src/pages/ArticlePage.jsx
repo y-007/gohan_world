@@ -86,18 +86,26 @@ const ArticlePage = () => {
     })
     document.head.appendChild(ld)
 
-    // FAQ schema — placeholder scaffold, uncomment and populate when FAQ content is added
-    // const faqLd = document.createElement('script')
-    // faqLd.id = 'faq-ld'
-    // faqLd.type = 'application/ld+json'
-    // faqLd.text = JSON.stringify({
-    //   '@context': 'https://schema.org',
-    //   '@type': 'FAQPage',
-    //   mainEntity: [
-    //     { '@type': 'Question', name: 'YOUR QUESTION HERE', acceptedAnswer: { '@type': 'Answer', text: 'YOUR ANSWER HERE' } },
-    //   ],
-    // })
-    // document.head.appendChild(faqLd)
+    // FAQ schema — injected only when the article has a faq_accordion block
+    const faqBlock = article.content?.find(b => b.type === 'faq_accordion')
+    const existingFaqLd = document.getElementById('faq-ld')
+    if (existingFaqLd) existingFaqLd.remove()
+    if (faqBlock?.items?.length) {
+      const faqLd = document.createElement('script')
+      faqLd.id = 'faq-ld'
+      faqLd.type = 'application/ld+json'
+      faqLd.text = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqBlock.items.map(({ question, answer }) => ({
+          '@type': 'Question',
+          name: question,
+          acceptedAnswer: { '@type': 'Answer', text: answer },
+        })),
+      })
+      document.head.appendChild(faqLd)
+      dynamic.push(faqLd)
+    }
 
     return () => {
       document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides'

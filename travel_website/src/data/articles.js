@@ -3331,6 +3331,109 @@ export const articles = [
     ],
   },
 
+  // ─────────────────────────────────────────────────────────────────────────────
+  // ARTICLE: ibaraki-hidden-gems-beyond-tokyo
+  // URL: /articles/ibaraki-hidden-gems-beyond-tokyo
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'ibaraki-hidden-gems-beyond-tokyo',
+    title: "Ibaraki's Hidden Gems: What to Do When You're Done with Tokyo",
+    excerpt: "Ibaraki has a giant Buddha in cherry blossoms, one of Japan's top waterfalls, pottery workshops, and an all-inclusive onsen hotel — all without the crowds.",
+    category: 'Travel Stories',
+    icon: '✈️',
+    accentColor: '#6a8ab8',
+    // Hero image: "pathway lined with cherry blossom trees in full bloom, Japan spring garden"
+    // Source: Unsplash — https://unsplash.com/photos/pathway-between-cherry-blossom-trees-7viWpO0fNss
+    // Photographer: Crystal Kay
+    // License: Unsplash License — free for commercial use, no attribution required
+    heroImage: '/hero-ibaraki-hidden-gems-beyond-tokyo.jpg',
+    heroImageCredit: {
+      photographer: 'Crystal Kay',
+      source: 'Unsplash',
+      sourceUrl: 'https://unsplash.com/photos/pathway-between-cherry-blossom-trees-7viWpO0fNss',
+      license: 'Unsplash License',
+      downloadedAt: '2026-06-12',
+    },
+    readTime: '8 min read',
+    date: 'June 2026',
+    affiliateDisclosure: true,
+    seoTitle: 'Ibaraki Hidden Gems: Beyond Tokyo | Gohan World',
+    metaDescription: "Ibaraki has a giant Buddha in cherry blossoms, one of Japan's top waterfalls, pottery workshops, and an all-inclusive onsen hotel — all without the crowds.",
+    canonicalUrl: 'https://www.gohanworld.com/articles/ibaraki-hidden-gems-beyond-tokyo',
+    instagramCaption: "Everyone goes to Tokyo, Osaka, Kyoto. But Ibaraki? A 120-meter Buddha in cherry blossoms, a waterfall I had almost to myself, and the best onsen buffet I've had in years. Link in bio. #japantravel #ibaraki #hiddengems #usatojapan #gohanworld",
+    content: [
+      { type: 'paragraph', text: "Every time I talk to someone planning their first trip to Japan, it goes the same way. Tokyo. Then Osaka. Then Kyoto. And I get it — those three cities are incredible and they deserve the hype. But if you've already done the circuit, or you're the kind of traveler who flinches a little at deer-park crowds and selfie sticks in bamboo groves, let me tell you about a prefecture that most tourists quietly skip right past on the Shinkansen." },
+      { type: 'paragraph', text: "Ibaraki." },
+      { type: 'paragraph', text: "It's not glamorous. It doesn't show up on those \"10 Days in Japan\" Pinterest boards. But that's honestly why I love it. The pace is different. The scenery is different. And some of the experiences I've had there — a 120-meter Buddha rising out of a cherry blossom haze, a waterfall I had almost entirely to myself, the best onsen buffet I've eaten at in years — stick with me in a way that a packed Gion alley just doesn't anymore." },
+      { type: 'paragraph', text: "This isn't an itinerary. Think of it as me grabbing you by the sleeve and saying: these places exist, they are real, you should go." },
+      { type: 'h2', text: 'The Giant Buddha in the Cherry Blossoms: Ushiku Daibutsu' },
+      { type: 'paragraph', text: "Let me set the scene. It's spring. You're standing in a park surrounded by cherry blossom trees, soft pink everywhere, petals drifting across the path. And rising out of all of that, slowly as you walk closer, is one of the tallest statues in the world. Ushiku Daibutsu stands at about 120 meters — that's taller than the Statue of Liberty with her pedestal. It's a sight that honestly doesn't feel real until you're standing at its feet." },
+      { type: 'paragraph', text: "Most people don't know this one. And during cherry blossom season, when the blossoms frame the base of the statue and the whole landscape goes pink and green and gold, it's one of those moments where you stop and think: I can't believe more people aren't here. And you mean it as a compliment." },
+      { type: 'paragraph', text: "You can go inside the statue, take an elevator partway up, and look out over the surrounding gardens. But honestly? I think the walk around the base during blossom season is the main event. Bring your camera, give yourself a couple of hours, and don't rush it." },
+      { type: 'tip', text: "Gohan World tip: Cherry blossom timing in Ibaraki is usually late March to mid-April, a few days behind Tokyo. Check the latest sakura forecast before booking — it's worth timing it right." },
+      { type: 'h2', text: "Fukuroda no Taki: A Waterfall That Earns Its Reputation" },
+      { type: 'paragraph', text: "Japan has what it calls the three most beautiful waterfalls in the country — Nihon Sandaki — and Fukuroda no Taki in the northern part of Ibaraki is one of them. I'll be honest: I went in not expecting much, because every waterfall gets called \"famous\" somewhere. I was wrong." },
+      { type: 'paragraph', text: "The falls drop in four separate tiers down a rocky face, and depending on the season — spring melt, summer green, autumn red, or frozen winter — it looks completely different each time. The canyon it sits in frames everything naturally, and the viewing platforms put you close enough to feel the mist. When I visited, there were maybe twenty other people there. Twenty. For one of Japan's three most celebrated waterfalls. If you're coming from Tokyo, it's a bit of a journey to reach — which is exactly why it stays quiet. That's the Ibaraki formula, honestly." },
+      { type: 'h2', text: "Kasama: Where You Make the Thing You Take Home" },
+      { type: 'paragraph', text: "I'm not usually a craft-class person. But something about Kasama Yaki — the pottery tradition that's been rooted in Kasama city for over 200 years — pulled me in. Maybe it's that the town itself feels like it was designed around the craft: small galleries, workshops open to the public, potters who actually talk to you about what they're making." },
+      { type: 'paragraph', text: "You can do a hands-on ceramic workshop at one of the studios in town, shape something on a wheel (messier and more satisfying than it looks), and have it glazed and fired and shipped to your home after you leave. My friend Karen came back from Kasama with a small sake cup she made herself, and she still uses it every weekend. That's the kind of souvenir that means something." },
+      { type: 'paragraph', text: "The town also has a good market scene, especially around the Kasama Inari Shrine area, and the whole vibe is slow in the best way. Half a day here feels like a full exhale." },
+      { type: 'h2', text: "Omoide Romankan: The All-Inclusive Onsen Stay You Didn't Know You Needed" },
+      { type: 'paragraph', text: "Okay, this is the one I can't stop recommending. Omoide Romankan is a ryokan-style hotel in Ibaraki that operates on an all-inclusive model — you arrive, you settle in, and the rest of the stay just takes care of itself." },
+      { type: 'paragraph', text: "The welcome lounge is the first thing you notice. It's warm and unhurried, the kind of entry that signals immediately: you can slow down now. Staff are genuinely attentive in that quiet, unobtrusive way that the best Japanese hospitality always is." },
+      { type: 'paragraph', text: "The buffet is the centerpiece of the experience, and it's not a generic hotel spread. They lean hard into Ibaraki's local ingredients — and Ibaraki, quietly, is one of the most agriculturally rich prefectures in Japan. You'll find locally sourced dishes, regional sake varieties, and the kind of meal where you keep going back for small plates because everything is just slightly different and interesting. I've stayed at places that charge more and deliver less." },
+      { type: 'paragraph', text: "And the onsen. The view from the baths is the kind of thing that makes you sit still for a long time. Green hills, quiet, the sound of water. It's not dramatic — it's just deeply restful. That's harder to find than you'd think." },
+      { type: 'paragraph', text: "The hotel also offers pickup from the nearest train station, which takes a logistical headache completely off the table." },
+      { type: 'h2', text: "Getting There: An Honest Word About Transportation" },
+      { type: 'paragraph', text: "Here's the thing about Ibaraki that nobody warns you about: it is not Tokyo. The train network exists, but it's sparse by Japanese standards, and some of the best spots — Fukuroda no Taki in particular — are genuinely difficult to reach without your own wheels. If you want to move through the prefecture at your own pace, stopping when something catches your eye, renting a car is the right call. The drives are scenic and the roads are uncrowded, and honestly, the freedom to pull over whenever the landscape gets beautiful is part of what makes Ibaraki feel different from a standard Japan trip." },
+      { type: 'paragraph', text: "That said, if driving in Japan feels like too much, you have options. Taxis operate in the area, and if you're staying at Omoide Romankan, they will pick you up directly from the station — so you can at least arrive and leave without figuring out local transit." },
+      { type: 'tip', text: "Navigation tip: Rent your car at a larger station before heading into Ibaraki rather than trying to pick one up locally. Toyota Rent a Car and Times Car Rental both have locations in Mito (the prefectural capital) and connect well to the main Shinkansen routes." },
+      {
+        type: 'faq_accordion',
+        heading: 'Frequently Asked Questions',
+        items: [
+          { question: 'Is Ibaraki worth visiting as a tourist?', answer: "Yes — especially if you've already done Tokyo, Osaka, and Kyoto and want something quieter and less crowded. Ibaraki has genuinely beautiful landmarks, a strong food and craft culture, and almost none of the tourist congestion you find in Japan's big three destinations. It rewards travelers who like exploring at their own pace." },
+          { question: 'When is the best time to visit Ibaraki for cherry blossoms?', answer: "Cherry blossom season in Ibaraki typically runs from late March to mid-April, usually a few days behind Tokyo's peak. Ushiku Daibutsu is especially beautiful during this window. Check the annual sakura forecast closer to your trip — timing can shift by a week depending on the year." },
+          { question: 'Is Fukuroda no Taki easy to reach without a car?', answer: "It's manageable by public transit but takes planning. From Mito Station you can take a train to Daigo and then a local bus to the falls — total journey around 1.5 to 2 hours each way. Having a rental car makes the trip significantly easier and opens up the surrounding area for exploration." },
+          { question: 'Can I do a pottery workshop in Kasama without booking ahead?', answer: 'Some studios in Kasama welcome walk-ins, but popular workshops fill up quickly on weekends and during festival periods. Booking at least a few days in advance is recommended, especially if you want a specific studio or to have your piece fired and shipped home.' },
+          { question: 'Is Omoide Romankan really all-inclusive?', answer: "Yes — the stay includes meals, access to the onsen facilities, and the buffet with local Ibaraki ingredients and sake. Hotel pickup from the nearest station is also available. It's worth confirming the exact inclusions when you book, as packages can vary by season." },
+          { question: 'How far is Ibaraki from Tokyo?', answer: 'Ibaraki is directly northeast of Tokyo. Mito, the prefectural capital, is about 75 minutes from Ueno Station on the Joban Line limited express. Individual destinations within the prefecture vary — Ushiku is closer to 45 minutes, while Fukuroda no Taki is about 2 hours with transfers.' },
+          { question: 'Do I need to speak Japanese to visit Ibaraki?', answer: 'More than in Tokyo, yes. Ibaraki is not heavily set up for English-speaking tourists, and outside of major hotels, English signage and menus are limited. Having Google Translate downloaded for offline use and a few basic Japanese phrases will go a long way. The locals are friendly — the language barrier is navigable with patience and good humor.' },
+        ],
+      },
+      { type: 'h2', text: 'Plan Your Visit' },
+      {
+        type: 'affiliate_card',
+        badge: 'Car Rental',
+        name: 'Discover Cars — Car Rental Comparison',
+        tagline: 'Compare rates across all major providers for your Ibaraki road trip.',
+        pros: [
+          'Compares Hertz, Enterprise, Budget, and 500+ suppliers in one search',
+          'Full-to-full fuel policy options — no surprise charges',
+          'Free cancellation up to 48 hours before pickup',
+        ],
+        link: '#', // TODO: replace with Discover Cars affiliate URL
+        linkText: 'Compare Rental Cars',
+        sponsored: true,
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Accommodation',
+        name: 'Booking.com — Hotels & Ryokan in Ibaraki',
+        tagline: 'Find and book Omoide Romankan and other Ibaraki stays.',
+        pros: [
+          'Largest selection of hotels and ryokan-style properties in Japan',
+          'Free cancellation on most properties',
+          'Read recent traveler reviews before booking',
+        ],
+        link: '#', // TODO: replace with Booking.com affiliate URL
+        linkText: 'Search Ibaraki Hotels',
+        sponsored: true,
+      },
+      { type: 'paragraph', text: "Ibaraki won't dazzle you the way Kyoto does in the first five minutes. It's slower. It asks a little more of you. But the places I've described above are real — genuinely good — and the feeling of having a 120-meter Buddha in a cherry blossom garden mostly to yourself is something I'd pick over a packed tourist site every single time. If Japan's big three feel familiar now, go northeast. Ibaraki is waiting." },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {
