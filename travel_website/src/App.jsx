@@ -24,6 +24,7 @@ import NewYorkPage from './pages/destinations/NewYorkPage'
 import HawaiiPage from './pages/destinations/HawaiiPage'
 import OsakaPage from './pages/destinations/OsakaPage'
 import TreasureCoastPage from './pages/destinations/TreasureCoastPage'
+import TravelTipsPage from './pages/TravelTipsPage'
 import { useEffect } from 'react'
 
 function ScrollToTop() {
@@ -61,6 +62,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/sitemap" element={<SitemapPage />} />
+        <Route path="/travel-tips" element={<TravelTipsPage />} />
       </Routes>
       <Footer />
     </>

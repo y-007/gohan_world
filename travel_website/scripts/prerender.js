@@ -59,6 +59,7 @@ const routes = [
   '/disclaimer',
   '/affiliate-disclosure',
   '/privacy-policy',
+  '/travel-tips',
   ...articles.map(a => `/articles/${a.slug}`),
   ...categories.map(c => `/articles/category/${c.slug}`),
   ...years.map(y => `/articles/archive/${y}`),
@@ -133,6 +134,10 @@ const STATIC_META = {
   '/privacy-policy': {
     title: 'Privacy Policy | Gohan World',
     desc: 'Gohan World privacy policy — how we collect, use, and protect your personal information.',
+  },
+  '/travel-tips': {
+    title: 'Japan Travel Tips for US Visitors — Practical Guides by Yuko | Gohan World',
+    desc: 'Practical Japan travel tips for American seniors and first-timers — eSIMs, packing, money, transit, and more. From Yuko at Gohan World.',
   },
 }
 
