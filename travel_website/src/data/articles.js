@@ -3613,6 +3613,243 @@ export const articles = [
     ],
   },
 
+  {
+    slug: 'jr-pass-worth-it-2026',
+    title: 'Is the JR Pass Still Worth It in 2026? An Honest Answer With Real Numbers',
+    excerpt: 'The JR Pass price nearly doubled in 2023. Here\'s how to figure out if it still makes sense for your specific trip — and three cheaper alternatives most tourists don\'t know about.',
+    category: 'Trip Essentials',
+    icon: '🎒',
+    accentColor: '#6ab88a',
+    // Hero image: "E7/W7 Series Shinkansen at Takasaki Station platform, Gunma, Japan"
+    // Source: Unsplash — https://unsplash.com/photos/rP8uxMH35es
+    // Photographer: John Cameron
+    // License: Unsplash License — free for commercial use, no attribution required
+    heroImage: '/hero-jr-pass-worth-it-2026.jpg',
+    heroImageCredit: {
+      photographer: 'John Cameron',
+      source: 'Unsplash',
+      sourceUrl: 'https://unsplash.com/photos/rP8uxMH35es',
+      license: 'Unsplash License',
+      downloadedAt: '2026-06-15',
+    },
+    readTime: '9 min read',
+    date: 'June 2026',
+    lastUpdated: 'June 2026',
+    affiliateDisclosure: true,
+    tags: ['Japan', 'Trip Essentials', 'Beginners', 'Money'],
+    difficulty: 'Beginner',
+    type: 'Guide',
+    featured: false,
+    pinned: false,
+    seoTitle: 'Is the JR Pass Worth It in 2026? | Gohan World',
+    metaDescription: 'JR Pass prices nearly doubled in 2023. Here\'s the real math on whether it\'s worth it — plus three cheaper JR alternatives most tourists don\'t know about.',
+    canonicalUrl: 'https://www.gohanworld.com/articles/jr-pass-worth-it-2026',
+    instagramCaption: 'The JR Pass nearly doubled in price in 2023 — so is it still worth buying for your Japan trip? I did the real math with a classic 10-day route, and the answer might surprise you. Plus three cheaper JR alternatives most tourists don\'t know about. Link in bio. #japantravel #jrpass #shinkansen #japantraveltips #seniortravel',
+    content: [
+      {
+        type: 'paragraph',
+        text: 'I\'ve been asked some version of this question more times than I can count over the past two years: "Yuko, should I still get the JR Pass?" And my honest answer is — it depends more than it ever used to.',
+      },
+      {
+        type: 'paragraph',
+        text: 'Until 2023, the JR Pass was almost a no-brainer for anyone doing a classic Japan trip. Then Japan Railways raised the prices dramatically. The 7-day pass went from ¥29,650 to ¥50,000. The 14-day from ¥47,250 to ¥80,000. Almost double, overnight. Suddenly the math stopped being obvious.',
+      },
+      {
+        type: 'paragraph',
+        text: 'So let me actually do the math for you — with a real route, real ticket prices, and the honest verdict.',
+      },
+      {
+        type: 'h2',
+        text: 'What the JR Pass Covers (And What It Doesn\'t)',
+      },
+      {
+        type: 'paragraph',
+        text: 'The JR Pass covers almost all JR-operated trains nationwide — including the Shinkansen bullet trains between major cities, JR local trains, some JR buses, and even the JR ferry to Miyajima Island near Hiroshima. That\'s genuinely useful.',
+      },
+      {
+        type: 'paragraph',
+        text: 'But here\'s the catch most people miss: the JR Pass does not cover Nozomi or Mizuho trains — the fastest Shinkansen services on the Tokaido and San-yo lines. If you want to ride the fastest trains between Tokyo and Osaka, you pay separately. With the JR Pass you take the Hikari instead — still very fast, just about 20–30 minutes longer. Also not covered: most private railways (Hankyu, Kintetsu, Keikyu, Tokyo Metro), the Tokyo subway, and most local city buses. In a city like Osaka or Kyoto you\'ll still need an IC card for daily getting around.',
+      },
+      {
+        type: 'h2',
+        text: 'The Real Cost Comparison — A Classic 10-Day Route',
+      },
+      {
+        type: 'paragraph',
+        text: 'Let me use a route I\'ve helped friends plan many times: Tokyo → Kyoto → Osaka → Hiroshima → Hakata (Fukuoka), with a side trip to Miyajima. Here\'s what point-to-point tickets actually cost in 2026 using Hikari Shinkansen — the JR Pass-eligible service:',
+      },
+      {
+        type: 'list',
+        items: [
+          'Tokyo → Kyoto (Hikari Shinkansen) — ¥13,850 unreserved',
+          'Kyoto → Hiroshima (Hikari Shinkansen) — ¥11,220 unreserved',
+          'Hiroshima → Miyajima (JR Ferry) — ¥200',
+          'Hiroshima → Hakata (Sakura Shinkansen) — ¥6,680 unreserved',
+          'Hakata → Tokyo (Hikari/Sakura via Shin-Osaka) — ¥22,220 unreserved',
+          'Total point-to-point: ¥54,170 — vs. 7-day JR Pass at ¥50,000',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'The JR Pass saves you about ¥4,000 on this route. That\'s a thin margin — but it also covers every JR local train along the way, the Miyajima ferry, and any side trips on JR lines. Add a day trip to Nara from Kyoto (JR Nara Line, ¥720 round trip) or Hiroshima\'s Peace Memorial area from the station, and the pass earns its keep.',
+      },
+      {
+        type: 'tip',
+        text: 'Trip Essentials tip: Before buying the JR Pass, list every train journey you plan to take and price them individually on Hyperdia or Japan Transit Planner. If the total is within ¥5,000 of the pass price, buy the pass — the flexibility of not buying individual tickets is worth that gap.',
+      },
+      {
+        type: 'h2',
+        text: 'When the JR Pass Is NOT Worth It',
+      },
+      {
+        type: 'list',
+        items: [
+          'Short Tokyo-focused trips — a round-trip Shinkansen to Kyoto costs about ¥27,700. The 7-day JR Pass is ¥50,000. You\'d need a lot more travel to close that gap.',
+          'Trips under 7 days — the pass starts at 7 days. If your total Japan trip is 5 days, just buy individual tickets.',
+          'Staying in one region — Tokyo only, Osaka/Kyoto only, or Okinawa (no Shinkansen there at all) don\'t benefit from a nationwide pass.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Three JR Alternatives Most Tourists Don\'t Know About',
+      },
+      {
+        type: 'paragraph',
+        text: 'Here\'s where it gets interesting — and where I think a lot of first-time visitors leave money on the table.',
+      },
+      {
+        type: 'h3',
+        text: 'Seishun 18 Kippu — The Best-Kept Secret in Japan Rail Travel',
+      },
+      {
+        type: 'paragraph',
+        text: 'This one surprises almost everyone I tell. The name translates to "Youth 18 Ticket" but anyone can buy it, at any age. The name is just a throwback to when it launched in the 1980s as a student pass. It\'s ¥12,050 for 5 days of unlimited travel on all JR local and rapid trains nationwide — you can ride from one end of Japan to the other, as long as it\'s local trains rather than Shinkansen or limited express services.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Cost — ¥12,050 for 5 one-day passes, usable on any 5 days (not necessarily consecutive)',
+          'Coverage — all JR local trains and rapid trains nationwide, unlimited distance',
+          'Not covered — Shinkansen, limited express, or sleeper trains',
+          'Who can buy — anyone: tourists, seniors, locals, any age',
+          'Where to buy — JR ticket windows (midori-no-madoguchi) at major stations only; cannot be purchased online or outside Japan',
+          'When available — Spring (late February to late March), Summer (July to early September), Winter (late December to early January) only',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'What I love about this pass: it\'s the slow travel version of Japan. You ride the coastal local trains, stop at tiny stations between major cities, see the countryside. A friend of mine used it to get from Osaka to Hiroshima on local trains along the San-yo coast — it took twice as long as the Shinkansen but she said it was one of the most beautiful train rides of her life.',
+      },
+      {
+        type: 'tip',
+        text: 'Trip Essentials tip: The Seishun 18 Kippu is sold as a single ticket with 5 "stamps" — each day of use gets one stamp. You can split the 5 days across different people if you\'re traveling together on the same day, which makes it incredibly flexible for groups. To ask for it at the ticket window, show station staff this text on your phone: 青春18きっぷ',
+      },
+      {
+        type: 'h3',
+        text: 'Tokyo Wide Pass — Best for Day Trips from Tokyo',
+      },
+      {
+        type: 'paragraph',
+        text: 'If you\'re based in Tokyo and want to do several day trips, this is often a better deal than the full JR Pass.',
+      },
+      {
+        type: 'list',
+        items: [
+          'Cost — ¥16,000 for 3 consecutive days',
+          'Coverage — all JR trains within a wide Tokyo-area zone, including the Shinkansen to Karuizawa, limited express to Nikko, Narita Express to the airport, and trains into Hakone via Odawara',
+          'Who it\'s for — Tokyo-based travelers exploring the Kanto region: Nikko, Karuizawa, Kamakura, Hakone, Izu Peninsula',
+          'Where to buy — online through JR East\'s official travel service, or at JR East Travel Service Centers at major Tokyo stations on arrival',
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: 'For context: a round-trip limited express to Nikko alone is about ¥5,000. Add Karuizawa and you\'ve already paid for the pass.',
+      },
+      {
+        type: 'h3',
+        text: 'Regional JR Passes — When You\'re Focused on One Area',
+      },
+      {
+        type: 'paragraph',
+        text: 'JR sells region-specific passes significantly cheaper than the national pass. These are worth knowing if your itinerary is concentrated in one part of Japan:',
+      },
+      {
+        type: 'list',
+        items: [
+          'JR Kansai Area Pass (1 day) — Osaka, Kyoto, Nara, Kobe — ¥2,400 — best for short Kansai-only trips',
+          'JR Kansai Wide Area Pass (5 days) — Kansai + Hiroshima + Okayama — ¥12,000 — best for Kansai with western day trips',
+          'JR Kyushu Rail Pass (3 days, all Kyushu) — all of Kyushu including Shinkansen — ¥16,000 — best for Kyushu-focused itineraries',
+          'JR East Tohoku Area Pass (5 days) — Tokyo + all of Tohoku — ¥20,000 — best for northern Japan explorers',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'How to Buy Any of These Passes',
+      },
+      {
+        type: 'list',
+        items: [
+          'JR Pass (national) — Purchase online before you leave the US through the JR Pass official site or through Klook, which delivers a voucher to your US address. Exchange for the actual pass at a JR Travel Service Center at the airport on arrival.',
+          'Seishun 18 Kippu — Japan-only purchase during seasonal sale windows. Go to any JR station ticket window and show staff this on your phone: 青春18きっぷ',
+          'Tokyo Wide Pass — Buy online in advance at JR East\'s website, or at JR East Travel Service Centers inside major Tokyo stations on arrival.',
+          'Regional passes — Each JR regional company has its own English booking website. Search the region name + "JR pass" and look for official jrkyushu.co.jp, jreast.co.jp, or westjr.co.jp domains.',
+        ],
+      },
+      {
+        type: 'tip',
+        text: 'Trip Essentials tip: Always buy or exchange your JR Pass on your first day — before you take any trains. The pass activates on first use, so if you wait until Day 2 you\'ve already paid separately for Day 1.',
+      },
+      {
+        type: 'faq_accordion',
+        heading: 'Frequently Asked Questions',
+        items: [
+          {
+            question: 'Is the JR Pass worth it for a 7-day trip to Japan in 2026?',
+            answer: 'It depends entirely on where you travel. For a 7-day trip covering Tokyo, Kyoto, Osaka, Hiroshima, and Hakata by Shinkansen, the JR Pass costs about ¥50,000 and saves you roughly ¥4,000 over point-to-point tickets. If your trip stays mostly in one city or you are only doing one long-distance leg, individual tickets will almost certainly be cheaper. Use Hyperdia to price your exact route before deciding.',
+          },
+          {
+            question: 'Can tourists buy the Seishun 18 Kippu?',
+            answer: 'Yes, any visitor to Japan can buy it — despite the "18" in the name, there is no age requirement. You do need to buy it inside Japan at a JR ticket window during the seasonal sale periods: Spring, Summer, or Winter. It cannot be purchased online or outside Japan, so plan your arrival timing around the sale windows if you want to use it.',
+          },
+          {
+            question: 'Does the JR Pass cover the Tokyo subway or city buses?',
+            answer: 'No. The JR Pass covers JR-operated trains only — it does not work on Tokyo Metro, Toei subway lines, or most city buses. You will still need a Suica or Pasmo IC card for getting around within Tokyo, Osaka, or Kyoto on a daily basis. Think of the JR Pass as your intercity travel card and your IC card as your city card.',
+          },
+          {
+            question: 'What is the fastest Shinkansen and does the JR Pass cover it?',
+            answer: 'The fastest Shinkansen on the Tokyo-Osaka route is the Nozomi, followed by the Mizuho on the Osaka-Hakata route. Neither is covered by the JR Pass. The JR Pass covers the Hikari and Kodama on those lines. The Hikari adds about 20 to 30 minutes to the Tokyo-Kyoto journey compared to the Nozomi, which is not a significant difference for most travelers.',
+          },
+          {
+            question: 'Where do I exchange my JR Pass voucher when I arrive in Japan?',
+            answer: 'Exchange your voucher at a JR Travel Service Center inside any major airport or large train station — Haneda Terminal 3, Narita Terminals 1 and 2, Tokyo Station, Shinjuku Station, and Osaka Station all have them. Bring your voucher, your passport, and your return flight information. The process takes about 10 to 15 minutes. Do this before you take your first JR train.',
+          },
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Plan Your Japan Rail Travel',
+      },
+      {
+        type: 'affiliate_card',
+        badge: 'Tours & Transit',
+        name: 'Klook — Japan Rail Pass, Regional Passes & More',
+        tagline: 'Order your JR Pass or regional pass before you leave home — delivered to your US address or ready for airport pickup.',
+        pros: [
+          '7-day, 14-day, and 21-day JR Pass options with voucher exchange at the airport',
+          'Regional passes including Kansai, Kyushu, and Tokyo Wide Pass',
+          'Pocket Wi-Fi rentals for pickup at Haneda or Narita on arrival',
+        ],
+        link: '#', // TODO: replace with Klook affiliate URL
+        linkText: 'Browse Japan Rail Passes on Klook',
+        sponsored: true,
+      },
+      {
+        type: 'paragraph',
+        text: 'The bottom line: the JR Pass isn\'t the automatic yes it used to be, but it\'s still genuinely worth it for the right itinerary. Do the math on your specific route first — and if you\'re traveling slowly or seasonally, the Seishun 18 Kippu might be the best ¥12,050 you spend in Japan.',
+      },
+    ],
+  },
+
 ]
 
 export function getArticleBySlug(slug) {

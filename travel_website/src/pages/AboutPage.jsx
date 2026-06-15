@@ -42,7 +42,7 @@ const AboutPage = () => {
         
         <p className="about-page__body">
         I’ve spent <strong>20+ years</strong> working in global medical assistance, 
-        travel insurance, and emergenccy support for travlers worldwide. </p> 
+        travel insurance, and emergency support for travelers worldwide. </p> 
 
          <p className="about-page__body"> My background includes medical claims, 
           insurance coordination, and bilingual (JP/EN) support for real travelers 

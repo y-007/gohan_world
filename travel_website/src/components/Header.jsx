@@ -71,14 +71,14 @@ const Header = ({ isDark, toggleTheme }) => {
         </Link>
       </li>
 
-      {/* Travel Tips — still a scroll link for now */}
       <li>
-        <button
-          onClick={() => handleSectionClick('tips')}
+        <Link
+          to="/travel-tips"
+          onClick={() => setIsMenuOpen(false)}
           className={mobile ? 'mobile-menu__link' : 'nav-item'}
         >
           Travel Tips
-        </button>
+        </Link>
       </li>
 
       {/* Disclaimer — page route */}

@@ -23,7 +23,7 @@ const NewsletterBanner = () => {
           country = loc.country_name || ''
           ip      = loc.ip           || ''
         }
-      } catch {}
+      } catch { /* location is optional */ }
 
       const now = new Date()
       const params = new URLSearchParams({
