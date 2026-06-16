@@ -4,6 +4,7 @@
   padding: 10px 16px;
   text-align: center;
   font-size: 0.85rem;
+  display: none;
 }
 
 .affiliate-bar__text {
