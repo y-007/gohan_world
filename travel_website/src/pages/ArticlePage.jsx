@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getArticleBySlug } from '../data/articles'
 import ArticleRenderer from '../components/ArticleRenderer'
+import RelatedArticles from '../components/RelatedArticles'
 import './ArticlePage.css'
 
 const ArticlePage = () => {
@@ -165,6 +166,8 @@ const ArticlePage = () => {
         )}
 
         <ArticleRenderer blocks={article.content} />
+
+        <RelatedArticles currentSlug={article.slug} category={article.category} />
 
         <div className="article-page__footer">
           <Link to="/articles" className="article-page__back-link">← Back to All Articles</Link>
