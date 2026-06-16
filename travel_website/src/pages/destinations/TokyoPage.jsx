@@ -109,6 +109,33 @@ const food = [
   },
 ]
 
+const related = [
+  {
+    slug: 'asakusa-hidden-spots',
+    icon: '✈️',
+    title: 'Asakusa Beyond the Obvious: 9 Spots Most Tourists Walk Right Past',
+    readTime: '8 min read',
+  },
+  {
+    slug: 'haneda-airport-guide-tokyo',
+    icon: '🎒',
+    title: 'Tokyo Airport Guide: Why I Always Fly Into Haneda (And When Narita Is Actually the Better Pick)',
+    readTime: '7 min read',
+  },
+  {
+    slug: 'mt-fuji-day-trip-tokyo',
+    icon: '✈️',
+    title: 'Mt. Fuji Day Trip from Tokyo: What Seniors Need to Know Before You Go',
+    readTime: '7 min read',
+  },
+  {
+    slug: 'ibaraki-hidden-gems-beyond-tokyo',
+    icon: '✈️',
+    title: "Ibaraki's Hidden Gems: What to Do When You're Done with Tokyo",
+    readTime: '8 min read',
+  },
+]
+
 const tips = [
   { icon: '🚇', tip: 'Get a Suica or Pasmo IC card at any station — works on all trains, subways, buses, and convenience store checkouts.' },
   { icon: '💴', tip: 'Carry cash. Many local restaurants, shrines, and smaller shops remain cash-only outside major tourist areas.' },
@@ -294,13 +321,35 @@ const TokyoPage = () => {
         </div>
       </section>
 
+      {/* ── Related Articles ── */}
+      <section className="max-w-5xl mx-auto px-6 md:px-12 py-14">
+        <h2 className="font-display text-2xl md:text-3xl font-bold text-[var(--color-text-primary)] mb-8">
+          Tokyo Articles
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {related.map(a => (
+            <Link
+              key={a.slug}
+              to={`/articles/${a.slug}`}
+              className="flex gap-4 items-start bg-[var(--color-bg-section-alt)] border border-[var(--color-border)] rounded-xl px-5 py-4 hover:border-accent hover:shadow-md transition-all duration-200 no-underline"
+            >
+              <span className="text-2xl flex-shrink-0 leading-none mt-0.5">{a.icon}</span>
+              <div className="flex flex-col gap-1 min-w-0">
+                <span className="font-body text-sm font-semibold text-[var(--color-text-primary)] leading-snug">{a.title}</span>
+                <span className="font-body text-xs text-[var(--color-text-muted)]">{a.readTime}</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* ── Bottom nav ── */}
-      <div className="max-w-5xl mx-auto px-6 md:px-12 py-10 flex gap-6 flex-wrap items-center">
+      <div className="max-w-5xl mx-auto px-6 md:px-12 pb-10 flex gap-6 flex-wrap items-center border-t border-[var(--color-border)] pt-8">
         <Link to="/destinations" className="font-body text-sm font-semibold text-accent hover:underline">
           ← All Destinations
         </Link>
         <Link to="/articles" className="font-body text-sm font-semibold text-[var(--color-text-muted)] hover:text-accent transition-colors">
-          Browse Japan Articles →
+          Browse all Japan articles →
         </Link>
       </div>
 
