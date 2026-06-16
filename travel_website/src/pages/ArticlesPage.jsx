@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react'
+﻿import React, { useState, useMemo, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -62,7 +62,7 @@ const ArticlesPage = () => {
     const ogUrl = document.querySelector('meta[property="og:url"]')
     if (ogUrl) ogUrl.setAttribute('content', 'https://www.gohanworld.com/articles/')
     return () => {
-      document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides'
+      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
       if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
       if (ogUrl) ogUrl.setAttribute('content', 'https://www.gohanworld.com/')
     }

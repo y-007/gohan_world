@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+﻿import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 // All images — Unsplash License (free for commercial use, no attribution required)
@@ -118,7 +118,7 @@ const tips = [
 const HawaiiPage = () => {
   useEffect(() => {
     document.title = 'Hawaii Travel Guide — Beaches, Food & Island Tips | Gohan World'
-    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+    return () => { document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World' }
   }, [])
 
   return (

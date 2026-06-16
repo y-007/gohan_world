@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+﻿import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './AboutPage.css'
 
@@ -7,7 +7,7 @@ const AboutPage = () => {
     document.title = 'About Yuko — Gohan World Creator'
     const metaDesc = document.querySelector('meta[name="description"]')
     if (metaDesc) metaDesc.setAttribute('content', 'Meet Yuko, the creator of Gohan World — a USA⇄Japan travel and insurance guide for seniors, beginners, and first-time travelers.')
-    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+    return () => { document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World' }
   }, [])
 
   return (

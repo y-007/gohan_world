@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+﻿import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from './TravelTipsPage.module.css'
 
@@ -51,7 +51,7 @@ const TravelTipsPage = () => {
     const ogType = document.querySelector('meta[property="og:type"]')
     if (ogType) ogType.setAttribute('content', 'website')
     return () => {
-      document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides'
+      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
       if (canon)  canon.setAttribute('href', 'https://www.gohanworld.com/')
       if (ogUrl)  ogUrl.setAttribute('content', 'https://www.gohanworld.com/')
       if (ogType) ogType.setAttribute('content', 'website')

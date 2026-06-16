@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
+﻿import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './LegalPage.css'
 
 const Disclaimer = () => {
   useEffect(() => {
     document.title = 'Disclaimer — Gohan World'
-    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+    return () => { document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World' }
   }, [])
   return (
   <main className="legal-page">

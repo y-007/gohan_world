@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className="hero__content">
         <p className="hero__eyebrow">Welcome to Gohan World</p>
-        <h1 className="hero__brand">Japan Travel Tips for Seniors & First-Timers</h1>
+        <h1 className="hero__brand">2026 Japan Travel Tips for Seniors & First-Timers</h1>
         <p className="hero__tagline">
           USA⇄Japan travel and insurance guide.<br />
           Simple, safe, and practical - from Yuko at Gohan World.

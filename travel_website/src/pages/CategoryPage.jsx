@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+﻿import React, { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getCategoryBySlug, categories } from '../data/categories'
 import { articles } from '../data/articles'
@@ -30,7 +30,7 @@ const CategoryPage = () => {
 
   useEffect(() => {
     if (category) document.title = `${category.name} — Gohan World`
-    return () => { document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides' }
+    return () => { document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World' }
   }, [category])
 
   if (!category) {

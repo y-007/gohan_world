@@ -68,7 +68,7 @@ const routes = [
 // Per-route SEO metadata — title replaces the generic "GOHAN WORLD" shell title
 const STATIC_META = {
   '/': {
-    title: 'Gohan World — Japan & USA Travel Tips, Insurance Guides & Cultural Insights',
+    title: 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World',
     desc: 'Practical travel tips, insurance guidance, and cultural insights for USA–Japan travelers. Senior-friendly advice from Yuko at Gohan World.',
     image: `${HOSTNAME}/hero_profile.png`,
   },

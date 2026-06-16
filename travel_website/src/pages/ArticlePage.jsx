@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+﻿import React, { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getArticleBySlug } from '../data/articles'
 import ArticleRenderer from '../components/ArticleRenderer'
@@ -109,7 +109,7 @@ const ArticlePage = () => {
     }
 
     return () => {
-      document.title = 'Gohan World - USA⇄Japan Travel & Insurance Guides'
+      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
       const desc = document.querySelector('meta[name="description"]')
       if (desc) desc.setAttribute('content', 'Gohan World is your USA⇄Japan travel and insurance guide. Senior-friendly safety tips, packing essentials, airport guidance, cultural insights, and practical answers to \'what happens if...?\' moments.')
       const canon = document.querySelector('link[rel="canonical"]')
