@@ -2,8 +2,8 @@
 import { Link } from 'react-router-dom'
 
 // All images — Unsplash License (free for commercial use, no attribution required)
-const HERO    = 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80'
-const OG_IMG  = 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80'
+const HERO    = 'https://images.unsplash.com/photo-1589035813591-c265ab8c9ec8?auto=format&fit=crop&w=1920&q=80'
+const OG_IMG  = 'https://images.unsplash.com/photo-1589035813591-c265ab8c9ec8?auto=format&fit=crop&w=1200&q=80'
 const PAGE_URL = 'https://www.gohanworld.com/destinations/treasurecoast/'
 
 const JSONLD = [
@@ -63,8 +63,8 @@ const attractions = [
     name: 'Fort Pierce Inlet State Park',
     area: 'Fort Pierce',
     desc: 'Great swimming, fishing, and snorkeling right at the inlet. The UDT-SEAL Museum nearby tells the history of Naval Special Warfare — free and genuinely fascinating.',
-    img: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=800&q=80',
-    alt: 'Clear blue ocean water and rocky shoreline at Fort Pierce Inlet State Park in Florida with people fishing',
+    img: 'https://images.unsplash.com/photo-1644772137061-0e0588ea24df?auto=format&fit=crop&w=800&q=80',
+    alt: 'Atlantic Ocean at sunset from the beach at Fort Pierce, Florida — golden hour clouds over the water',
   },
 ]
 

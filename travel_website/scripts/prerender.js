@@ -113,7 +113,7 @@ const STATIC_META = {
   '/destinations/treasurecoast': {
     title: 'Treasure Coast, Florida Travel Guide — Beaches & Seafood | Gohan World',
     desc: 'Treasure Coast Florida travel guide — Hutchinson Island beaches, Jonathan Dickinson State Park, fresh grouper, stone crab, and sea turtle nesting.',
-    image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1589035813591-c265ab8c9ec8?auto=format&fit=crop&w=1200&q=80',
   },
   '/contact': {
     title: 'Contact | Gohan World',
