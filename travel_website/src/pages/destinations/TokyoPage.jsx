@@ -147,7 +147,12 @@ const tips = [
 const TokyoPage = () => {
   useEffect(() => {
     document.title = 'Tokyo Travel Guide — Attractions, Food & Tips | Gohan World'
-    return () => { document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World' }
+    const canon = document.querySelector('link[rel="canonical"]')
+    if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/destinations/tokyo/')
+    return () => {
+      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
+      if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
+    }
   }, [])
 
   return (

@@ -14,7 +14,7 @@ const ArticlePage = () => {
 
     const titleStr = article.seoTitle || `${article.title} — Gohan World`
     const descStr = article.metaDescription || article.excerpt
-    const canonicalStr = article.canonicalUrl || `https://www.gohanworld.com/articles/${article.slug}`
+    const canonicalStr = `https://www.gohanworld.com/articles/${article.slug}/`
     const imageStr = article.heroImage ? `https://www.gohanworld.com${article.heroImage}` : 'https://www.gohanworld.com/hero_profile.png'
 
     document.title = titleStr
@@ -113,7 +113,7 @@ const ArticlePage = () => {
       const desc = document.querySelector('meta[name="description"]')
       if (desc) desc.setAttribute('content', 'Gohan World is your USA⇄Japan travel and insurance guide. Senior-friendly safety tips, packing essentials, airport guidance, cultural insights, and practical answers to \'what happens if...?\' moments.')
       const canon = document.querySelector('link[rel="canonical"]')
-      if (canon) canon.setAttribute('href', 'https://www.gohanworld.com')
+      if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
       const ogTypeEl = document.querySelector('meta[property="og:type"]')
       if (ogTypeEl) ogTypeEl.setAttribute('content', 'website')
       dynamic.forEach(el => el.remove())

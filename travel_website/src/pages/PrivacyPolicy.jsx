@@ -5,7 +5,12 @@ import './LegalPage.css'
 const PrivacyPolicy = () => {
   useEffect(() => {
     document.title = 'Privacy Policy — Gohan World'
-    return () => { document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World' }
+    const canon = document.querySelector('link[rel="canonical"]')
+    if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/privacy-policy/')
+    return () => {
+      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
+      if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
+    }
   }, [])
   return (
   <main className="legal-page">

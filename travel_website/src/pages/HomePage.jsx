@@ -11,6 +11,11 @@ const HomePage = () => {
   const location = useLocation()
 
   useEffect(() => {
+    const canon = document.querySelector('link[rel="canonical"]')
+    if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
+  }, [])
+
+  useEffect(() => {
     if (location.state?.scrollTo) {
       const el = document.getElementById(location.state.scrollTo)
       if (el) el.scrollIntoView({ behavior: 'smooth' })

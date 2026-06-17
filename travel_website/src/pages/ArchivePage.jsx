@@ -21,7 +21,12 @@ const ArchivePage = () => {
 
   useEffect(() => {
     document.title = `${year} Articles — Gohan World`
-    return () => { document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World' }
+    const canon = document.querySelector('link[rel="canonical"]')
+    if (canon) canon.setAttribute('href', `https://www.gohanworld.com/articles/archive/${year}/`)
+    return () => {
+      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
+      if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
+    }
   }, [year])
 
   if (yearArticles.length === 0) {

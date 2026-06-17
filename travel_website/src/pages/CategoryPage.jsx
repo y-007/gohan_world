@@ -30,8 +30,13 @@ const CategoryPage = () => {
 
   useEffect(() => {
     if (category) document.title = `${category.name} — Gohan World`
-    return () => { document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World' }
-  }, [category])
+    const canon = document.querySelector('link[rel="canonical"]')
+    if (canon) canon.setAttribute('href', `https://www.gohanworld.com/articles/category/${categorySlug}/`)
+    return () => {
+      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
+      if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
+    }
+  }, [category, categorySlug])
 
   if (!category) {
     return (
