@@ -114,6 +114,8 @@ const ArticlePage = () => {
       if (desc) desc.setAttribute('content', 'Gohan World is your USA⇄Japan travel and insurance guide. Senior-friendly safety tips, packing essentials, airport guidance, cultural insights, and practical answers to \'what happens if...?\' moments.')
       const canon = document.querySelector('link[rel="canonical"]')
       if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
+      const ogUrlEl = document.querySelector('meta[property="og:url"]')
+      if (ogUrlEl) ogUrlEl.setAttribute('content', 'https://www.gohanworld.com/')
       const ogTypeEl = document.querySelector('meta[property="og:type"]')
       if (ogTypeEl) ogTypeEl.setAttribute('content', 'website')
       dynamic.forEach(el => el.remove())
