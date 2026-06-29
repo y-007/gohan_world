@@ -37,7 +37,7 @@ const popular = [
     category: 'Trip Essentials',
     title: 'Japan Packing List',
     description: 'Everything you actually need — and what to leave at home',
-    link: '/articles/japan-packing-list',
+    link: '/articles/japan-packing-list-seniors',
   },
 ]
 
