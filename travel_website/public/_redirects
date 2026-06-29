@@ -1,1 +1,37 @@
-/* /index.html 200
+# ── Article slugs accessed at root level (no /articles/ prefix) ─────────────
+# Covers URLs that were shared or indexed without the /articles/ path segment.
+/food-and-culture                              /articles/food-and-culture/                              301
+/travel-stories                                /articles/travel-stories/                                301
+/trip-essentials                               /articles/trip-essentials/                               301
+/medicare-abroad                               /articles/medicare-abroad/                               301
+/medicare-wont-cover-you-abroad                /articles/medicare-wont-cover-you-abroad/                301
+/machi-chuka-japan-neighborhood-chinese        /articles/machi-chuka-japan-neighborhood-chinese/        301
+/best-travel-insurance-japan-2026              /articles/best-travel-insurance-japan-2026/              301
+/japan-packing-list-seniors                    /articles/japan-packing-list-seniors/                    301
+/haneda-airport-guide-tokyo                    /articles/haneda-airport-guide-tokyo/                    301
+/esim-japan-beginners-guide                    /articles/esim-japan-beginners-guide/                    301
+/medical-emergencies-abroad-travel-insurance   /articles/medical-emergencies-abroad-travel-insurance/   301
+/hikawa-maru-yokohama-floating-history         /articles/hikawa-maru-yokohama-floating-history/         301
+/what-is-gohan-world                           /articles/what-is-gohan-world/                           301
+/travel-insurance-65-year-old-japan-pre-existing /articles/travel-insurance-65-year-old-japan-pre-existing/ 301
+/flight-delayed-cancelled-what-to-do           /articles/flight-delayed-cancelled-what-to-do/           301
+/mt-fuji-day-trip-tokyo                        /articles/mt-fuji-day-trip-tokyo/                        301
+/medical-costs-japan-visitors                  /articles/medical-costs-japan-visitors/                  301
+/suica-vs-pasmo-ic-card-japan                  /articles/suica-vs-pasmo-ic-card-japan/                  301
+/takkyubin-japan-luggage-delivery              /articles/takkyubin-japan-luggage-delivery/              301
+/first-trip-japan-checklist                    /articles/first-trip-japan-checklist/                    301
+/typhoon-japan-what-to-do                      /articles/typhoon-japan-what-to-do/                      301
+/asakusa-hidden-spots                          /articles/asakusa-hidden-spots/                          301
+/ibaraki-hidden-gems-beyond-tokyo              /articles/ibaraki-hidden-gems-beyond-tokyo/              301
+/jr-pass-worth-it-2026                         /articles/jr-pass-worth-it-2026/                         301
+/met-museum-one-day-guide                      /articles/met-museum-one-day-guide/                      301
+
+# ── Old broken slug (previously hardcoded in PopularArticles, may be indexed) ─
+/japan-packing-list                            /articles/japan-packing-list-seniors/                    301
+/articles/japan-packing-list                   /articles/japan-packing-list-seniors/                    301
+
+# ── /article/ typo (singular) → correct /articles/ prefix ───────────────────
+/article/*                                     /articles/:splat                                         301
+
+# ── SPA fallback ─────────────────────────────────────────────────────────────
+/*                                             /index.html                                              200
