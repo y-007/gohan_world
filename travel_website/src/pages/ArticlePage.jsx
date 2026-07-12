@@ -2,6 +2,7 @@
 import { useParams, Link } from 'react-router-dom'
 import { getArticleBySlug } from '../data/articles'
 import ArticleRenderer from '../components/ArticleRenderer'
+import AuthorBio from '../components/AuthorBio'
 import RelatedArticles from '../components/RelatedArticles'
 import './ArticlePage.css'
 
@@ -78,7 +79,14 @@ const ArticlePage = () => {
       headline: article.seoTitle || article.title,
       description: descStr,
       image: imageStr,
-      author: { '@type': 'Person', name: 'Yuko', url: 'https://www.gohanworld.com/about' },
+      author: {
+        '@type': 'Person',
+        name: 'Yuko',
+        url: 'https://www.gohanworld.com/about',
+        image: 'https://www.gohanworld.com/yuko-headshot-square.jpg',
+        jobTitle: 'Founder, Gohan World',
+        description: '20+ years in global travel-medical assistance, travel insurance, and emergency support for travelers. Bilingual (JP/EN).',
+      },
       publisher: { '@type': 'Organization', name: 'Gohan World', url: 'https://www.gohanworld.com' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalStr },
       url: canonicalStr,
@@ -168,6 +176,8 @@ const ArticlePage = () => {
         )}
 
         <ArticleRenderer blocks={article.content} />
+
+        <AuthorBio />
 
         <RelatedArticles currentSlug={article.slug} category={article.category} />
 

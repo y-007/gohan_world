@@ -3507,6 +3507,67 @@ export const articles = [
   },
 
   // ─────────────────────────────────────────────────────────────────────────────
+  // ARTICLE: shibuya-ebisu-for-seniors
+  // URL: /articles/shibuya-ebisu-for-seniors
+  // ─────────────────────────────────────────────────────────────────────────────
+  {
+    slug: 'shibuya-ebisu-for-seniors',
+    title: 'Shibuya for Seniors? Skip the Scramble and Ride One Stop to Ebisu',
+    excerpt: 'Shibuya belongs to the young crowd. Do the famous crossing once — then take the Yamanote Line one stop to Ebisu, where Tokyo slows down and feels almost European.',
+    category: 'Travel Stories',
+    icon: '🚉',
+    accentColor: '#a6794f',
+    // Hero image needed: Ebisu Garden Place plaza / château (owner to supply — looks European)
+    heroImage: '/hero-shibuya-ebisu-garden-place.jpg',
+    readTime: '7 min read',
+    date: 'July 2026',
+    affiliateDisclosure: false,
+    seoTitle: 'Shibuya for Seniors: Skip It, Go to Ebisu Instead | Gohan World',
+    metaDescription: 'An honest senior take on Shibuya: see the crossing once, then ride the Yamanote Line one stop to Ebisu — Ebisu Garden Place, the Yebisu Beer Museum, the TOP photography museum, and calm streets that feel like Europe.',
+    canonicalUrl: 'https://www.gohanworld.com/articles/shibuya-ebisu-for-seniors',
+    instagramCaption: 'Everyone crowds into Shibuya. I ride the Yamanote Line one stop to Ebisu instead — a covered moving walkway, a plaza that looks like Europe, a beer museum, and Tokyo\'s photography museum, all calm and grown-up. Do the famous crossing once, then come here. Link in bio. #ebisu #shibuya #tokyotravel #japantravel #seniortravel #gohanworld',
+    content: [
+      { type: 'paragraph', text: 'Let me be honest with you, because that\'s the whole point of this site: Shibuya is wonderful — if you\'re twenty-five. It\'s loud, it\'s fast, it\'s wall-to-wall young people, and the energy is genuinely something to see once. But past that famous scramble crossing, there isn\'t much in Shibuya I\'d send a fellow senior traveler out of their way for.' },
+      { type: 'paragraph', text: 'So here\'s my advice: do the crossing once, get your photo, and then let me show you where I actually go. It\'s one stop away, and it\'s a completely different Tokyo.' },
+      { type: 'h2', text: 'See the Crossing Once — From Above' },
+      { type: 'paragraph', text: 'The Shibuya Scramble Crossing deserves its fame. When the lights change, as many as 3,000 people cross at once from every direction, and somehow nobody collides. It\'s worth seeing. My tip: don\'t stand in the middle fighting the crowd — go up. A café window overlooking the crossing, or the elevated walkways connected to the station, let you watch the whole beautiful chaos from above, sitting down and out of the crush. (If you don\'t mind heights and a ticket, the Shibuya Sky observation deck has the grandest view of all.)' },
+      { type: 'paragraph', text: 'And once you\'ve done that? You\'ve really done Shibuya.' },
+      { type: 'h2', text: 'Why Shibuya Isn\'t Really Built for Us' },
+      { type: 'paragraph', text: 'I don\'t say this to be discouraging — I say it so you can spend your limited energy well. Shibuya is built around late nights, shopping aimed at teenagers, standing-room izakaya, and steep little hills full of crowds. The sidewalks are packed, music spills out of every store, and there are very few places to simply sit down and rest. For a lot of us, an hour of that is plenty.' },
+      { type: 'h2', text: 'The Move: One Stop to Ebisu on the Yamanote Line' },
+      { type: 'paragraph', text: 'From Shibuya Station, hop on the JR Yamanote Line heading toward Meguro and Shinagawa. The very next stop — about two minutes — is Ebisu. That\'s it. One stop, and the whole mood changes. Ebisu (pronounced eh-bee-soo) is polished, calm, grown-up Tokyo. It\'s where locals with a little more time and taste tend to live and eat, and it rewards an unhurried pace.' },
+      { type: 'tip', text: 'Gohan World tip: Just tap your Suica or Pasmo card at the gate — no ticket to buy. The Yamanote Line comes every few minutes, so there\'s never any rush.' },
+      { type: 'h2', text: 'Ebisu Garden Place: Tokyo That Feels Like Europe' },
+      { type: 'paragraph', text: 'Here\'s the part I love. From Ebisu Station you don\'t walk out into traffic — you follow the signs to the "Yebisu Skywalk," a covered moving walkway (like the ones at airports) that carries you the roughly five minutes to Ebisu Garden Place. No stairs to climb, no weather, no getting lost. You simply glide there. For anyone with tired knees, it\'s a small gift.' },
+      { type: 'paragraph', text: 'And where it drops you is genuinely surprising: a wide, open plaza with a château-style building, a glass atrium, fountains, and room to breathe. The first time I brought my mother here she stopped and said, "Are we still in Tokyo?" It looks like a corner of Europe. There are benches everywhere, the ground is flat, and in December the whole place is wrapped in one of the prettiest winter illuminations in the city — including a giant Baccarat crystal chandelier out in the plaza.' },
+      { type: 'h2', text: 'The Museum of Yebisu Beer' },
+      { type: 'paragraph', text: 'Ebisu is named after beer — really. This whole area was once the Yebisu Beer brewery, and the train station was originally built just to ship the beer out. The name stuck, and today you can visit the beer museum right in Ebisu Garden Place. The exhibits walk you through the history in a gentle, easy indoor stroll, and there\'s a tasting salon where you can sample a freshly poured glass for a small fee. Even if you don\'t drink, the story is charming and the building is lovely. Hours and the tasting setup have changed in recent years, so check the current schedule before you go.' },
+      { type: 'h2', text: 'TOP Museum: Tokyo\'s Photography Museum' },
+      { type: 'paragraph', text: 'Also right there in the plaza is the Tokyo Photographic Art Museum — everyone calls it "TOP Museum." It\'s Japan\'s leading museum devoted to photography and film: quiet, beautifully lit, with rotating exhibitions. It\'s exactly the kind of calm, seated, indoor culture that makes a perfect afternoon — especially if the weather turns. Admission is modest and varies by exhibition.' },
+      { type: 'h2', text: 'Gourmet and Shopping, at a Grown-Up Pace' },
+      { type: 'paragraph', text: 'Ebisu is one of Tokyo\'s best neighborhoods for eating. It\'s known for excellent restaurants — from Michelin-level dining to warm little bistros and sushi counters — without the frantic crowds of Shibuya. Ebisu Garden Place has a department-store food hall and shops, and the streets around the station are full of relaxed cafés and bakeries. This is a place to sit down, take your time, and eat well.' },
+      { type: 'h2', text: 'If You Have More Time: Daikanyama, Nakameguro, Hiroo' },
+      { type: 'paragraph', text: 'Ebisu sits in the middle of three of Tokyo\'s most pleasant neighborhoods, each a short, flat walk or one quick taxi ride away:' },
+      { type: 'list', html: true, items: ['<strong>Daikanyama</strong> — Tokyo\'s calm, stylish book-and-boutique district. The Tsutaya Books complex here is a destination in itself, with armchairs, a café, and a garden.', '<strong>Nakameguro</strong> — A canal lined with cherry trees and low-key cafés. Stunning in spring, lovely and quiet the rest of the year.', '<strong>Hiroo</strong> — Leafy, international, and refined, with upscale grocers and easy sidewalks. A favorite of Tokyo\'s expat families.'] },
+      { type: 'tip', text: 'Gohan World tip: Go on a weekday, late morning. You\'ll have the Skywalk, the plaza, and the museums nearly to yourself — and you can build the whole day around unhurried meals and plenty of benches.' },
+      { type: 'h2', text: 'A Senior-Friendly Ebisu Afternoon' },
+      { type: 'paragraph', text: 'If you\'d like a simple plan, here\'s the one I give friends:' },
+      { type: 'list', items: ['Do the Shibuya crossing once, from a café window above it.', 'Ride the Yamanote Line one stop to Ebisu.', 'Take the covered Skywalk to Ebisu Garden Place.', 'Visit the Museum of Yebisu Beer, then the TOP photography museum.', 'Have an early, relaxed dinner in Ebisu — and skip the late-night crowds entirely.'] },
+      {
+        type: 'faq_accordion',
+        heading: 'Shibuya & Ebisu: Common Questions',
+        items: [
+          { question: 'How do I get from Shibuya to Ebisu?', answer: 'Take the JR Yamanote Line from Shibuya one stop toward Meguro/Shinagawa — Ebisu is the very next station, about two minutes away. Just tap your Suica or Pasmo IC card at the gate.' },
+          { question: 'Is the walk from Ebisu Station to Ebisu Garden Place hard for seniors?', answer: 'No — it\'s one of the easiest walks in Tokyo. Follow the signs to the "Yebisu Skywalk," a covered moving walkway that carries you most of the way in about five minutes. No stairs, no weather, and benches waiting at the other end.' },
+          { question: 'Is Ebisu Garden Place free to visit?', answer: 'Yes. The plaza, the château-style architecture, and the winter illuminations are all free to walk around and enjoy. Only the museums and the beer tasting salon charge admission, and those fees are modest.' },
+          { question: 'Is the Yebisu beer museum worth it if I don\'t drink?', answer: 'Absolutely. The history exhibits are a gentle, interesting indoor stroll and the building is worth seeing on its own. The beer tasting is entirely optional — you can enjoy the museum without it.' },
+          { question: 'When is the best time to go?', answer: 'A weekday late morning is calmest. If you visit in December, the Ebisu Garden Place illuminations — including a giant Baccarat crystal chandelier — are among the most beautiful in Tokyo.' },
+        ],
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────────
   // ARTICLE: ibaraki-hidden-gems-beyond-tokyo
   // URL: /articles/ibaraki-hidden-gems-beyond-tokyo
   // ─────────────────────────────────────────────────────────────────────────────
@@ -3846,269 +3907,6 @@ export const articles = [
       {
         type: 'paragraph',
         text: 'The bottom line: the JR Pass isn\'t the automatic yes it used to be, but it\'s still genuinely worth it for the right itinerary. Do the math on your specific route first — and if you\'re traveling slowly or seasonally, the Seishun 18 Kippu might be the best ¥12,050 you spend in Japan.',
-      },
-    ],
-  },
-
-  {
-    slug: 'met-museum-one-day-guide',
-    title: "I've Walked the Met a Dozen Times — Here's How I'd Spend One Day There",
-    excerpt: 'The Metropolitan Museum of Art is too big to "see." Here is the route I actually take, what is worth stopping for, and how not to collapse by 2pm.',
-    category: 'Travel Stories',
-    icon: '✈️',
-    accentColor: '#6a8ab8',
-    heroImage: '/hero-met-museum-one-day-guide.jpg',
-    readTime: '9 min read',
-    date: 'June 2026',
-    affiliateDisclosure: true,
-    seoTitle: 'The Met in One Day: My Route & Highlights | Gohan World',
-    metaDescription: 'A first-timer-friendly one-day route through the Metropolitan Museum of Art — Temple of Dendur, the Vermeers, Van Gogh, tickets, and tips.',
-    canonicalUrl: 'https://www.gohanworld.com/articles/met-museum-one-day-guide',
-    instagramCaption: "The Met is too big to 'see' in one day — so I stopped trying. Here's the exact route I walk every time, from the Temple of Dendur up to the Van Goghs. Save this for your NYC trip 🗽 #TheMet #NYCTravel #MetropolitanMuseum #JapanToUSA #TravelTips",
-    heroImageCredit: {
-      photographer: 'The Metropolitan Museum of Art',
-      source: 'Wikimedia Commons (Met Open Access)',
-      sourceUrl: 'https://commons.wikimedia.org/wiki/File:The_Temple_of_Dendur_MET_DP240336.jpg',
-      license: 'CC0 1.0 Public Domain Dedication',
-      downloadedAt: '2026-06-19',
-    },
-    content: [
-      {
-        type: 'paragraph',
-        text: "The first time I went to the Met, I made the classic mistake. I walked in the front doors, looked up at that enormous staircase and those marble halls, and thought, okay, I'll just start here and see everything. Three hours later I was sitting on a bench in the European paintings wing, feet aching, having seen maybe a fifth of the building — and I still hadn't found the Egyptian temple everyone talks about. I left feeling like I'd failed a test nobody told me I was taking.",
-      },
-      {
-        type: 'paragraph',
-        text: "I've been back a dozen times since — sometimes for a special exhibition, sometimes just because it's one of my favorite places in New York to spend a quiet afternoon. And here's the thing I wish someone had told me on day one: you cannot see the Met. Not in a day. Not in a week. The point isn't to see all of it. The point is to walk a smart route through the parts you actually care about, and let the rest be a reason to come back.",
-      },
-      {
-        type: 'paragraph',
-        text: "So this is the route I take now, the one I give to friends visiting from Japan, and the one I'd hand my own mom if she flew over. Floor by floor, with the stops I think are genuinely worth your tired feet.",
-      },
-      {
-        type: 'h2',
-        text: 'First, the boring-but-important stuff: getting in',
-      },
-      {
-        type: 'paragraph',
-        text: "The Met sits right on the edge of Central Park on the Upper East Side, at 1000 Fifth Avenue. Take the 4, 5, or 6 subway to 86th Street and it's about a ten-minute walk. You'll know you're close when you see the crowd sitting on those famous front steps — yes, the same steps from a hundred movies and shows.",
-      },
-      {
-        type: 'paragraph',
-        text: "Here's something a lot of first-timers don't realize: if you're not a New York State resident, the ticket is a flat price — around $30 for adults, less for seniors and students, and kids under 12 are free. (New York, New Jersey, and Connecticut residents can still pay-what-you-wish, but you'll need ID.) Buy online ahead of time if you can; the line at the desk on a Saturday is not how you want to start your day.",
-      },
-      {
-        type: 'tip',
-        text: "Gohan World tip: Go on a Friday or Saturday. The Met stays open until 9pm those nights, and the late hours are so much calmer than midday weekends. There's often live music up on the balcony bar too — it turns the whole place into something kind of magical after dark.",
-      },
-      {
-        type: 'paragraph',
-        text: "When you walk in, the information desk is right in front of you in the Great Hall. Grab a map. They sometimes have them in Japanese, and the staff is genuinely multilingual — I've watched them help my relatives in Japanese without missing a beat. Take thirty seconds with that map before you move. The sections are color-coded, and a little planning here saves you an hour of wandering later.",
-      },
-      {
-        type: 'h2',
-        text: 'Start downstairs on the right: Egypt and the Temple of Dendur',
-      },
-      {
-        type: 'paragraph',
-        text: "My favorite way in is to head straight for the Egyptian wing — the orange section on the right side of the map, on the first floor. It's one of the most complete Egyptian collections outside of Egypt, and you move through room after room of it building up to the big one.",
-      },
-      {
-        type: 'paragraph',
-        text: "And the big one really is big. The Temple of Dendur sits in a huge glass-walled room with a reflecting pool in front of it, light pouring in. It's a real 2,000-year-old Egyptian temple — Egypt gave it to the United States as a thank-you for helping rescue monuments that were going to be flooded by a dam. Get up close and you can still see the carved hieroglyphs. I've sat in that room more times than I can count. It's bright, it's calm, and it's a genuinely good place to just breathe at the start of a long day.",
-      },
-      {
-        type: 'image',
-        src: '/met-museum-one-day-guide-dendur.jpg',
-        alt: 'The Temple of Dendur reconstructed inside its glass-walled gallery at the Metropolitan Museum of Art',
-        caption: 'The Temple of Dendur — a real Egyptian temple, gifted to the US and rebuilt inside the Met. Image: The Met Open Access (CC0).',
-      },
-      {
-        type: 'h2',
-        text: 'Into the American Wing',
-      },
-      {
-        type: 'paragraph',
-        text: "From Dendur, follow the map into the blue section — the American Wing. The heart of it is the Charles Engelhard Court, another one of those sun-filled glass rooms (the Met does these so well). There's a golden Diana statue in the middle, and behind her, a façade that was literally moved from a building on Wall Street. There's a café here too, which is worth filing away for later.",
-      },
-      {
-        type: 'paragraph',
-        text: "Don't rush past the Tiffany stained glass — the colors are unreal in person, and right near it there's a staircase rescued from the old Chicago Stock Exchange. If you care at all about architecture, the Frank Lloyd Wright Room is tucked in this wing too, an entire preserved room from one of his houses.",
-      },
-      {
-        type: 'h2',
-        text: 'Armor, knights, and a surprise from Japan',
-      },
-      {
-        type: 'paragraph',
-        text: "Next door is the arms and armor hall, and honestly even people who think they don't care about armor end up loving this room. Banners hanging from the ceiling, full suits of armor lined up, mounted knights. But here's my favorite part, and the part I always point out to friends visiting from Japan: there's a whole collection of antique Japanese armor and swords here. Stuff so well-preserved and ornate that even my relatives who grew up in Japan stood there going, we've never seen anything like this back home. There's something funny and a little moving about flying to New York to see the best of your own country's craftsmanship.",
-      },
-      {
-        type: 'h2',
-        text: 'The quiet medieval and sculpture halls',
-      },
-      {
-        type: 'paragraph',
-        text: "Keep going and you'll hit the Medieval Sculpture Hall — a tall, hushed, almost church-like space. This is actually one of the oldest parts of the museum, here since it moved to this spot back in 1880. The European Sculpture Court nearby is another light-filled room full of Rodin and others; it genuinely feels like you stepped into a courtyard in France or Italy. There's a café here too (the Petrie Court Café), which does a proper lunch and afternoon tea — a good midpoint to refuel.",
-      },
-      {
-        type: 'tip',
-        text: "Navigation tip: Photos are fine without flash almost everywhere, and you're allowed to do pencil sketches — but no paint or pens. If you see people quietly sketching in the galleries, that's why. It's one of my favorite things to watch.",
-      },
-      {
-        type: 'h2',
-        text: 'Upstairs: the paintings everyone comes for',
-      },
-      {
-        type: 'paragraph',
-        text: "Now — real talk — if European paintings are the only reason you're here (the Monets, the Van Goghs, the Vermeers), don't do my whole downstairs loop. Buy your ticket, go straight up that central staircase, and start on the second floor. You could spend your entire visit just up here.",
-      },
-      {
-        type: 'paragraph',
-        text: "The European Paintings galleries (the brown section, 1250–1800) hold something that still stuns me every time: five Vermeers, in a museum where the artist only made around thirty-some paintings in his whole life. Five of them. In one place. Standing in that room is one of those quiet 'how is this real' moments.",
-      },
-      {
-        type: 'image',
-        src: '/met-museum-one-day-guide-vermeer.jpg',
-        alt: 'Johannes Vermeer, Young Woman with a Water Pitcher, one of five Vermeer paintings at the Met',
-        caption: "Vermeer's 'Young Woman with a Water Pitcher.' The Met has five Vermeers — out of around thirty in existence. Image: The Met Open Access (CC0).",
-      },
-      {
-        type: 'paragraph',
-        text: "Then there's the purple section — 19th and early 20th century — and this is where the famous faces live. Van Gogh's Wheat Field with Cypresses and his straw-hat self-portrait. Monet's Haystacks, part of a series he painted over and over in different seasons and light. Renoir, a whole wall of him. Seurat, Gauguin, Klimt, Cézanne. If you've ever seen these paintings on a postcard or a tote bag, a lot of the originals are right here.",
-      },
-      {
-        type: 'image',
-        src: '/met-museum-one-day-guide-van-gogh.jpg',
-        alt: 'Vincent van Gogh, Wheat Field with Cypresses, 1889, on view at the Metropolitan Museum of Art',
-        caption: "Van Gogh's 'Wheat Field with Cypresses' (1889). Image: The Met Open Access (CC0).",
-      },
-      {
-        type: 'paragraph',
-        text: "While you're up here, swing through the American Wing's second floor too. That huge painting of George Washington crossing the Delaware is here, and so is John Singer Sargent's Madame X — a portrait so scandalous when it was painted that the artist had to leave Paris over it. I love telling people that story right before they round the corner and see it.",
-      },
-      {
-        type: 'image',
-        src: '/met-museum-one-day-guide-madame-x.jpg',
-        alt: 'John Singer Sargent, Madame X (Virginie Amélie Avegno Gautreau), 1883–84',
-        caption: "Sargent's 'Madame X' — scandalous enough in 1884 to push him out of Paris. Image: The Met Open Access (CC0).",
-      },
-      {
-        type: 'h2',
-        text: 'If your feet still work: a few hidden corners',
-      },
-      {
-        type: 'paragraph',
-        text: "This is the part most day-trippers never reach, and it's where some of my favorite quiet rooms are. The Assyrian palace reliefs — 2,500 years old and somehow crisp as if carved last year. The Islamic Art galleries, with tiles and carpets and a whole reconstructed room. The Patio from a Spanish castle, shipped over stone by stone. The musical instruments gallery (genuinely hard to find — gallery 684) with multiple Stradivarius violins and the oldest surviving piano in the world.",
-      },
-      {
-        type: 'paragraph',
-        text: "And the modern wing has the names you'd know — Picasso, Lichtenstein, an Isamu Noguchi sculpture or two. Noguchi was Japanese-American, and seeing his work here always gives me that same dual-identity flicker I get standing in front of the Japanese armor.",
-      },
-      {
-        type: 'h2',
-        text: "Don't skip the roof (in summer)",
-      },
-      {
-        type: 'paragraph',
-        text: "From about May through October, the Met opens its rooftop garden, and it's one of the best free views in the city — Central Park spread out below, the skyline behind it. There's a café and martini bar up there, and a rotating art installation that changes every year. On a hot day, after the museum's heavy air conditioning, stepping out into the sun up here is exactly the reset you need.",
-      },
-      {
-        type: 'image',
-        src: '/met-museum-one-day-guide-rooftop.jpg',
-        alt: 'View from the Metropolitan Museum of Art rooftop garden over Central Park and the Manhattan skyline',
-        caption: 'The rooftop garden view over Central Park — open roughly May through October. Image: Unsplash.',
-      },
-      {
-        type: 'h2',
-        text: 'Bring a little of the Met home',
-      },
-      {
-        type: 'paragraph',
-        text: "I almost always end my visit at the gift shop, and honestly I think the Met Store is one of the best museum shops anywhere. It's not cheesy keychain stuff — they make scarves, jewelry, and prints based directly on works in the collection. I have a Hokusai Great Wave tote I use constantly, and a Van Gogh scarf that gets compliments every single time. If you fall in love with a painting on the wall, there's a good chance you can take a version of it home — and if you can't make it to New York, the same merch is on the Met Store online.",
-      },
-      {
-        type: 'faq_accordion',
-        items: [
-          {
-            question: 'How long should I spend at the Met?',
-            answer: 'Plan for at least three to four hours, and a full day if you want to see multiple wings without rushing. Most first-time visitors underestimate the size, since it is one of the largest art museums in the world. If you only have a couple of hours, pick one or two sections like Egyptian art and European paintings and skip the rest.',
-          },
-          {
-            question: 'How much does it cost to visit the Met?',
-            answer: 'General admission is around $30 for adults, with lower prices for seniors and students, and free entry for children under 12. Residents of New York, New Jersey, and Connecticut can pay what they wish with valid ID. Buying online in advance saves you waiting in the ticket line.',
-          },
-          {
-            question: 'What are the must-see highlights at the Met?',
-            answer: 'The most famous stops are the Temple of Dendur, the five Vermeer paintings, and the 19th-century gallery with Van Gogh, Monet, and Renoir. The arms and armor hall and the rooftop garden in summer are also favorites. If you see just these, you have seen the heart of the museum.',
-          },
-          {
-            question: 'Is the Met good for seniors or visitors with limited mobility?',
-            answer: 'Yes, the Met is fully wheelchair accessible with elevators to all main floors, free wheelchair loans, and plenty of benches to rest. The biggest challenge is simply the walking distance, so plan a focused route and take café breaks. Going on a quieter weekday morning makes it much more comfortable.',
-          },
-          {
-            question: 'What is the best day and time to visit the Met?',
-            answer: 'Friday and Saturday are ideal because the museum stays open until 9pm and the late evenings are far less crowded than weekend afternoons. Weekday mornings right at opening are also calm. Avoid midday on weekends if you can.',
-          },
-          {
-            question: 'Is one ticket good for the Met Cloisters too?',
-            answer: 'Yes, your Met admission ticket is valid for both The Met Fifth Avenue and The Met Cloisters on the same day. The Cloisters, up at the northern tip of Manhattan, focuses on medieval European art and gardens. If you have the energy, it is a beautiful and very different second stop.',
-          },
-        ],
-      },
-      {
-        type: 'h2',
-        text: 'Plan your visit',
-      },
-      {
-        type: 'paragraph',
-        text: "If you're building a New York trip around a Met day, my biggest tip is to stay somewhere on or near a subway line that gets you to the Upper East Side easily — it makes a museum-heavy day so much less exhausting. Here are the two things I actually use to plan a museum day in the city.",
-      },
-      {
-        type: 'affiliate_card',
-        badge: 'Stay',
-        name: 'Booking.com — Upper East Side Hotels',
-        tagline: 'Filter for hotels close to the 4/5/6 line near the museums.',
-        pros: [
-          'Map view shows exactly how close a hotel is to the subway',
-          'Free-cancellation options so you can lock a rate and adjust later',
-          'Reviews that often mention the commute to Midtown and the museums',
-        ],
-        link: '#',
-        linkText: 'Search Upper East Side stays',
-        sponsored: true,
-      },
-      {
-        type: 'affiliate_card',
-        badge: 'Tours',
-        name: 'Viator — NYC Museum Tours & Passes',
-        tagline: 'Skip-the-line and guided Met visits, plus city museum passes.',
-        pros: [
-          'Skip-the-line and guided highlight tours if you would rather not navigate solo',
-          'City passes that bundle the Met with other NYC museums',
-          'Good for first-timers or seniors who want a paced, narrated walk',
-        ],
-        link: '#',
-        linkText: 'Browse New York museum tours',
-        sponsored: true,
-      },
-      {
-        type: 'affiliate_card',
-        badge: 'Souvenirs',
-        name: 'The Met Store — Art-Based Gifts & Prints',
-        tagline: 'The scarves, prints, and totes I bring home, shippable nationwide.',
-        pros: [
-          'Designs based on real works in the collection — Hokusai totes, Van Gogh scarves, Egyptian-motif jewelry',
-          'Ships across the US, so you do not have to be in NYC to shop it',
-          'Every purchase supports the museum',
-        ],
-        link: '#',
-        linkText: 'Shop the Met Store',
-        sponsored: true,
-      },
-      {
-        type: 'paragraph',
-        text: "Take the route or ignore it completely — honestly, the Met rewards wandering too. But if it's your first time and you've only got one day, start with Dendur, work your way up to the paintings, and save the roof for when your feet need mercy. That's the day I'd give you.",
       },
     ],
   },

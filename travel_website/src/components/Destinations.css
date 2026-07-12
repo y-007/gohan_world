@@ -55,6 +55,34 @@
   text-align: center;
 }
 
+/* Photo cover for destination cards */
+.destination-card__media {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: var(--color-bg-emoji);
+}
+
+.destination-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.destination-card--link:hover .destination-card__img {
+  transform: scale(1.04);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .destination-card__img {
+    transition: none;
+  }
+  .destination-card--link:hover .destination-card__img {
+    transform: none;
+  }
+}
+
 .destination-card__body {
   padding: clamp(16px, 3vw, 24px);
   display: flex;

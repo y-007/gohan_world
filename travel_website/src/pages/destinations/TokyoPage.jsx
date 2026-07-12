@@ -53,6 +53,8 @@ const attractions = [
     desc: 'Up to 3,000 people cross at once when the lights change. Watch from the cafés above for the full effect.',
     img: 'https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=800&q=80',
     alt: 'Shibuya scramble crossing at night with neon lights and crowds in Tokyo',
+    link: '/articles/shibuya-ebisu-for-seniors',
+    linkText: "Shibuya's for the young crowd — try Ebisu instead →",
   },
   {
     name: 'Tsukiji Outer Market',

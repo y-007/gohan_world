@@ -39,3 +39,7 @@ Each component owns its styles via a paired CSS file (e.g. `Header.jsx` + `heade
 **Static assets** (logo, hero images) live in `public/` and are referenced with root-relative paths (e.g. `src='/gohan_world_logo_500x500.png'`).
 
 **Import note:** `Header` is exported from `components/header.jsx` (lowercase filename) but imported as `Header` — keep the filename lowercase to avoid case-sensitivity issues on Linux/CI.
+
+## SEO / Web
+
+For SEO/URL work on this site, always verify the rendered output (including trailing-slash behavior on og:url) after a fix, not just the source change.

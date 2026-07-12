@@ -4,12 +4,12 @@ import './Destinations.css'
 import { useResizeObserver, fluidSize } from '../hooks/useResizeObserver'
 
 const destinations = [
-  { name: 'Tokyo, Japan',            tag: 'Culture & Food',      description: 'Bustling streets, ancient temples, ramen shops on every corner — Tokyo is a sensory overload in the best way.', emoji: '🗼', slug: 'tokyo' },
-  { name: 'Kyoto, Japan',            tag: 'History & Nature',    description: 'Bamboo forests, geisha districts, and endless shrines. Kyoto is Japan at its most serene and timeless.', emoji: '⛩️', slug: 'kyoto' },
-  { name: 'New York, USA',           tag: 'City Life',           description: 'The city that never sleeps delivers world-class food, art, and energy on every block.', emoji: '🗽', slug: 'newyork' },
-  { name: 'Hawaii, USA',             tag: 'Beach & Aloha',       description: 'Where Japanese and American cultures meet the Pacific — breathtaking nature with warm island hospitality.', emoji: '🌺', slug: 'hawaii' },
-  { name: 'Osaka, Japan',            tag: 'Street Food Capital', description: "Takoyaki, okonomiyaki, kushikatsu — Osaka lives up to its nickname as Japan's kitchen.", emoji: '🦑', slug: 'osaka' },
-  { name: 'Treasure Coast, Florida', tag: 'Sun & Coast',         description: 'Miles of uncrowded beaches, fresh seafood, and a laid-back Florida charm — a perfect coastal escape.', emoji: '🌊', slug: 'treasurecoast' },
+  { name: 'Tokyo, Japan',            tag: 'Culture & Food',      description: 'Bustling streets, ancient temples, ramen shops on every corner — Tokyo is a sensory overload in the best way.', image: '/dest-tokyo.jpg', slug: 'tokyo' },
+  { name: 'Kyoto, Japan',            tag: 'History & Nature',    description: 'Bamboo forests, geisha districts, and endless shrines. Kyoto is Japan at its most serene and timeless.', image: '/dest-kyoto.jpg', slug: 'kyoto' },
+  { name: 'New York, USA',           tag: 'City Life',           description: 'The city that never sleeps delivers world-class food, art, and energy on every block.', image: '/dest-newyork.jpg', slug: 'newyork' },
+  { name: 'Hawaii, USA',             tag: 'Beach & Aloha',       description: 'Where Japanese and American cultures meet the Pacific — breathtaking nature with warm island hospitality.', image: '/dest-hawaii.jpg', slug: 'hawaii' },
+  { name: 'Osaka, Japan',            tag: 'Street Food Capital', description: "Takoyaki, okonomiyaki, kushikatsu — Osaka lives up to its nickname as Japan's kitchen.", image: '/dest-osaka.jpg', slug: 'osaka' },
+  { name: 'Treasure Coast, Florida', tag: 'Sun & Coast',         description: 'Miles of uncrowded beaches, fresh seafood, and a laid-back Florida charm — a perfect coastal escape.', image: '/dest-treasurecoast.jpg', slug: 'treasurecoast' },
 ]
 
 const Destinations = () => {
@@ -34,7 +34,17 @@ const Destinations = () => {
           {destinations.map((dest) => {
             const inner = (
               <>
-                <div className="destination-card__emoji">{dest.emoji}</div>
+                <div className="destination-card__media">
+                  <img
+                    src={dest.image}
+                    alt={`${dest.name} — ${dest.tag}`}
+                    className="destination-card__img"
+                    width="900"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
                 <div className="destination-card__body">
                   <span className="destination-card__tag">{dest.tag}</span>
                   <h3 className="destination-card__name">{dest.name}</h3>

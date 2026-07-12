@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700&display=swap');
 
 /* ───────────────────────────────────────────────
-   SALTINOURHAIR‑STYLE HERO LAYOUT
-   Fluid height, flexbox, aspect ratio image
+   HERO — trust-first split layout
+   Left: message + credential  ·  Right: real Fuji photo
 ─────────────────────────────────────────────── */
 
 .hero {
@@ -12,20 +12,200 @@
   width: 100%;
   background: var(--color-bg-page);
   overflow: hidden;
-  padding: 0;
   gap: 0;
 }
 
-/* ─── Left: Image wrapper with aspect ratio ─── */
+/* ─── Left: content panel ─── */
+
+.hero__content {
+  flex: 1.05;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(32px, 5vw, 72px);
+  gap: clamp(14px, 1.6vw, 20px);
+  min-width: 0;
+}
+
+.hero__eyebrow {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.7rem, 1.2vw, 0.9rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--color-accent);
+  margin: 0;
+}
+
+.hero__brand {
+  font-family: 'Playfair', serif;
+  font-size: clamp(2rem, 4.4vw, 3.6rem);
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+  margin: 0;
+}
+
+.hero__brand-accent {
+  color: var(--color-accent);
+  font-style: italic;
+  font-weight: 700;
+}
+
+.hero__tagline {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.9rem, 1.35vw, 1.08rem);
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  max-width: 46ch;
+  margin: 0;
+}
+
+.hero__tagline strong {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+/* ─── Reassurance chips — answer senior fears up front ─── */
+
+.hero__chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 2px 0 0;
+  padding: 0;
+}
+
+.hero__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: var(--color-bg-section-alt);
+  border: 1px solid var(--color-border);
+  padding: 7px 14px;
+  border-radius: 999px;
+}
+
+.hero__chip::before {
+  content: "✓";
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+/* ─── CTAs ─── */
+
+.hero__cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.hero__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent);
+  color: #1a1710;
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(0.85rem, 1.2vw, 0.98rem);
+  font-weight: 600;
+  padding: clamp(12px, 1.3vw, 15px) clamp(20px, 2.6vw, 28px);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.hero__cta:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.hero__cta--ghost {
+  background: transparent;
+  color: var(--color-text-primary);
+  border: 1.5px solid var(--color-border-input);
+}
+
+.hero__cta--ghost:hover {
+  opacity: 1;
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* ─── Author trust strip (credential-based, no invented stats) ─── */
+
+.hero__trust {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 8px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.hero__trust-badge {
+  position: relative;
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-bg-page), 0 0 0 4px var(--color-accent);
+}
+
+/* Headshot fills the badge once public/yuko-headshot.jpg exists */
+.hero__trust-badge-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 26%; /* focus the circle on the face (sits high in the frame) */
+  z-index: 1;
+}
+
+/* Monogram fallback shown until the headshot is added */
+.hero__trust-badge-fallback {
+  font-family: 'Playfair', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1710;
+}
+
+.hero__trust-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.hero__trust-text strong {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+/* ─── Right: real Fuji photo + floating credential card ─── */
 
 .hero__image-wrapper {
   flex: 1;
   position: relative;
   overflow: hidden;
-  /* border-radius: 0 clamp(60px, 10vw, 130px) clamp(60px, 10vw, 130px) 0; */
-  border-radius: 15vw 15vw 15vw 15vw;
-  background: var(--color-bg-page); /* fills any gap around the contained image */
-  /* aspect-ratio removed — let align-items:stretch match the text column height */
+  border-radius: clamp(60px, 10vw, 130px) 0 0 clamp(60px, 10vw, 130px);
+  background: var(--color-bg-section-alt);
+  min-height: 100%;
 }
 
 .hero__image {
@@ -33,108 +213,51 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center top;
+  object-fit: cover;
+  object-position: center center;
   display: block;
 }
 
-/* ─── Right: Content panel ─── */
-
-.hero__content {
-  flex: 1;
+.hero__credential {
+  position: absolute;
+  left: clamp(16px, 2vw, 28px);
+  bottom: clamp(16px, 2vw, 28px);
+  z-index: 2;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: clamp(32px, 5vw, 72px);
-  gap: clamp(12px, 1.4vw, 20px);
-  min-width: 0;
+  align-items: center;
+  gap: 11px;
+  max-width: min(78%, 320px);
+  padding: 13px 16px;
+  border-radius: 14px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 18px 44px -18px var(--color-shadow-md);
 }
 
-/* Typography (same as your original) */
+.hero__credential-icon {
+  font-size: 1.35rem;
+  line-height: 1;
+  flex: none;
+}
 
-.hero__eyebrow {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(0.7rem, 1.2vw, 1rem);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: var(--color-accent);
+.hero__credential p {
   margin: 0;
-}
-
-.hero__brand {
-  font-family: 'Playfair', serif;
-  font-size: clamp(2rem, 4.5vw, 3.8rem);
-  font-weight: 700;
-  color: var(--color-text-primary);
-  line-height: 1.1;
-  margin: 0;
-}
-
-.hero__tagline {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(0.8rem, 1.4vw, 1.05rem);
-  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.4;
   color: var(--color-text-secondary);
-  line-height: 1.6;
-  margin: 0;
 }
 
-.hero__body {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(0.78rem, 1.2vw, 0.97rem);
-  color: var(--color-text-muted);
-  line-height: 1.8;
-  margin: 0;
-}
-
-.hero__body a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: color 0.2s ease;
-}
-
-.hero__body a:hover {
+.hero__credential strong {
   color: var(--color-accent);
-}
-
-.hero__cta {
-  display: inline-block;
-  background: var(--color-accent);
-  color: #1a1a1a;
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(0.8rem, 1.2vw, 0.95rem);
   font-weight: 600;
-  padding: clamp(10px, 1.2vw, 14px) clamp(18px, 2.5vw, 28px);
-  border-radius: 8px;
-  text-decoration: none;
-  align-self: flex-start;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  margin-top: clamp(4px, 0.8vw, 10px);
 }
 
-.hero__cta:hover {
-  opacity: 0.88;
-  transform: translateY(-2px);
-}
+/* ─── Desktop refinement ─── */
 
-/* Desktop only — scale image down with page */
 @media (min-width: 1025px) {
   .hero__image-wrapper {
-    flex: 0.9; /* allow shrinking */
-    /* aspect-ratio removed — height now matches text column via stretch */
-  }
-
-  .hero__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .hero {
-    height: auto;        /* allow shrinking */
-    min-height: auto;    /* remove forced tall hero */
+    flex: 0.95;
   }
 }
 
@@ -147,7 +270,9 @@
 
   .hero__image-wrapper {
     width: 100%;
-    aspect-ratio: 16 / 10; /* more cinematic on mobile */
+    aspect-ratio: 16 / 11;
+    min-height: 0;
+    order: -1;
     border-radius: 0 0 clamp(40px, 8vw, 80px) clamp(40px, 8vw, 80px);
   }
 
@@ -157,11 +282,29 @@
     padding: clamp(28px, 6vw, 48px);
   }
 
-  .hero__cta {
-    align-self: center;
+  .hero__tagline {
+    max-width: 52ch;
+  }
+
+  .hero__chips,
+  .hero__cta-row {
+    justify-content: center;
+  }
+
+  .hero__trust {
+    text-align: left;
   }
 }
 
+@media (max-width: 480px) {
+  .hero__cta {
+    width: 100%;
+  }
+}
 
-
-
+@media (prefers-reduced-motion: reduce) {
+  .hero__cta,
+  .hero__cta--ghost {
+    transition: none;
+  }
+}
