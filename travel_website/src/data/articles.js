@@ -1003,7 +1003,7 @@ export const articles = [
       { type: 'list', items: [
         'Cancel For Any Reason (CFAR) — Lets you cancel for literally any reason — cold feet, work emergency, anything — and typically gets you 75% of your costs back. It\'s an add-on upgrade, usually adds 40–60% to the premium, but worth it if you have expensive non-refundable bookings.',
         'Pre-existing Condition Waiver — Many policies exclude pre-existing conditions unless you buy within 14–21 days of your initial trip deposit. If you have any chronic conditions, this timing matters a lot.',
-        'Adventure Sports Coverage — Planning to ski in Hokkaido, go hiking in the Japanese Alps, or surf in Miyazaki? Basic policies often exclude these. World Nomads is one of the few that covers adventure sports by default.',
+        'Adventure Sports Coverage — Planning to ski in Hokkaido, go hiking in the Japanese Alps, or surf in Miyazaki? Basic policies often exclude these, so look for a plan that names adventure or hazardous sports coverage — and confirm your exact activities are included before you buy.',
         '24/7 Emergency Assistance Line — This is non-negotiable. If you\'re in a hospital in Osaka at 2am and don\'t speak Japanese, you need someone on the phone who can help navigate the system.',
       ] },
       { type: 'tip', text: 'Travel Insurance tip: Buy your policy within 14 days of putting down your first trip deposit — that\'s usually the window to unlock the pre-existing condition waiver. Most people wait until a week before they leave, and by then it\'s too late to add that benefit.' },
@@ -1017,18 +1017,12 @@ export const articles = [
       ] },
       { type: 'h2', text: 'My Top Picks for Japan Travel Insurance in 2026' },
       { type: 'paragraph', text: 'These are the providers I actually recommend to friends and family planning trips to Japan. I\'ve organized them by who they\'re best for.' },
-      { type: 'affiliate_card', badge: 'Insurance', name: 'World Nomads — Best for Active & Adventure Travelers', tagline: 'High coverage limits and full CFAR flexibility.', pros: [
-        'Up to $100,000 medical coverage and $500,000 evacuation',
-        'Cancel For Any Reason (CFAR) upgrade available',
-        'Covers most adventure sports by default — verify your activities',
-      ], link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
-        linkText: 'Get a Quote with World Nomads', sponsored: true },
-      { type: 'affiliate_card', badge: 'Insurance', name: 'SafetyWing — Best for Long Stays & Budget Travelers', tagline: 'Subscription-based medical coverage that renews monthly — no annual commitment required.', pros: [
-        'Up to $250,000 in medical expense coverage per incident',
-        'Monthly subscription — pause or cancel anytime, no long-term lock-in',
-        'No trip cancellation or pre-existing condition coverage — ideal for healthy, long-stay travelers',
-      ], link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
-        linkText: 'Get a Quote with SafetyWing', sponsored: true },
+      { type: 'affiliate_card', badge: 'Insurance', name: 'Tin Leg — Best for Value & Budget-Conscious Seniors', tagline: 'Affordable comprehensive plans that still cover the essentials.', pros: [
+        'Economy plans are among the most affordable — often around $90 for a traveler in their 60s',
+        'Includes trip cancellation and interruption (unlike medical-only plans)',
+        'Pre-existing condition waiver available when you buy early',
+      ], link: '{{TINLEG_AFFILIATE_LINK}}', // TODO: replace with Tin Leg affiliate URL
+        linkText: 'Get a Quote with Tin Leg', sponsored: true },
       { type: 'affiliate_card', badge: 'Insurance', name: 'Allianz Travel Insurance — Best Overall for Most Travelers', tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.', pros: [
         'Up to $50,000 medical coverage and $500,000 medical evacuation',
         'Pre-existing condition waiver available within 14 days of initial deposit',
@@ -1048,14 +1042,12 @@ export const articles = [
       ], link: 'https://www.squaremouth.com', // TODO: replace with Squaremouth affiliate URL
         linkText: 'Compare Plans on Squaremouth', sponsored: true },
       { type: 'affiliate_table', caption: 'Travel Insurance Comparison — At a Glance', disclaimer: '* Prices are estimates based on a 14-day trip for one adult. Actual quotes vary by age, trip cost, and destination. Links below are affiliate links — I may earn a commission at no cost to you.', columns: ['Provider', 'Best For', 'Key Coverage', 'Est. Cost*', 'Rating'], rows: [
-        { provider: 'World Nomads', bestFor: 'Adventure travelers', coverage: 'Medical, trip cancellation, adventure sports, gear theft', cost: '$80–$150', rating: 5, link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
-          linkText: 'Get Quote' },
         { provider: 'InsureMyTrip', bestFor: 'Comparing options', coverage: 'Compare 20+ providers, full trip protection, medical', cost: '$60–$200', rating: 5, link: 'https://www.insuremytrip.com', // TODO: replace with InsureMyTrip affiliate URL
           linkText: 'Compare Plans' },
         { provider: 'Allianz Travel', bestFor: 'Families & business', coverage: 'Cancel for any reason, trip delay, emergency medical', cost: '$50–$180', rating: 4, link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
           linkText: 'Get Quote' },
-        { provider: 'SafetyWing', bestFor: 'Long stays & budget travelers', coverage: 'Medical-only, $250k per incident, subscription model, no trip cancellation', cost: '~$63/4 weeks', rating: 4, link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
-          linkText: 'Sign Up' },
+        { provider: 'Tin Leg', bestFor: 'Value & budget-conscious seniors', coverage: 'Affordable comprehensive plans, trip cancellation, optional pre-existing waiver', cost: '$90–$160', rating: 5, link: '{{TINLEG_AFFILIATE_LINK}}', // TODO: replace with Tin Leg affiliate URL
+          linkText: 'Get Quote' },
       ] },
       { type: 'h2', text: 'How to Get a Quote (It Takes About 5 Minutes)' },
       { type: 'paragraph', text: 'Getting a quote is faster than most people expect. Here\'s how I walk through it:' },
