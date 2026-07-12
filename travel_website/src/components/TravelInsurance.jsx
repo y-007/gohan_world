@@ -47,17 +47,77 @@ const TravelInsurance = () => {
         </div>
 
         <div className="insurance-section__note">
-          <p>💡 <strong>Gohan World recommends:</strong> Compare plans at <strong>InsureMyTrip</strong> or <strong>World Nomads</strong> before every trip. Always read what's excluded before you buy.</p>
+          <p>💡 <strong>Gohan World recommends:</strong> Compare plans at <strong>InsureMyTrip</strong> before every trip. Always read what&apos;s excluded before you buy.</p>
           <div className="flex flex-wrap gap-4 justify-center mt-4">
             <a href="https://www.insuremytrip.com" target="_blank" rel="noopener noreferrer"
               className="inline-block px-6 py-3 rounded-lg font-bold text-white bg-[#b8a06a] hover:bg-[#a08d5a] transition-colors">
               🏥 Compare Plans — InsureMyTrip →
             </a>
-            <a href="https://www.worldnomads.com" target="_blank" rel="noopener noreferrer"
-              className="inline-block px-6 py-3 rounded-lg font-bold text-white bg-[#b8a06a] hover:bg-[#a08d5a] transition-colors">
-              🌍 Get a Quote — World Nomads →
-            </a>
           </div>
+        </div>
+
+        <p className="insurance-table__intro">
+          Estimated costs vary by age, health, and trip cost — get a live quote for your exact price.
+        </p>
+        <div className="insurance-table-wrap">
+          <table className="insurance-table">
+            <thead>
+              <tr>
+                <th>Plan</th>
+                <th>Best For</th>
+                <th>Est. Cost<br /><span className="insurance-table__subhead">(2-wk Japan, 65+)</span></th>
+                <th>Standout Benefit</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Plan"><strong>Squaremouth</strong></td>
+                <td data-label="Best For">Comparing everything in one place</td>
+                <td data-label="Est. Cost">Varies — compares 20+ insurers</td>
+                <td data-label="Standout Benefit">Filters by age + pre-existing conditions</td>
+                <td data-label="">
+                  <a href="{{SQUAREMOUTH_AFFILIATE_LINK}}" target="_blank" rel="sponsored nofollow noopener" className="insurance-table__btn">Compare All Plans →</a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Plan"><strong>Seven Corners</strong></td>
+                <td data-label="Best For">High medical limits for seniors</td>
+                <td data-label="Est. Cost">~$90–$140</td>
+                <td data-label="Standout Benefit">Strong emergency medical + evacuation</td>
+                <td data-label="">
+                  <a href="{{SEVENCORNERS_AFFILIATE_LINK}}" target="_blank" rel="sponsored nofollow noopener" className="insurance-table__btn">Get a Quote →</a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Plan"><strong>IMG GlobeHopper Senior</strong></td>
+                <td data-label="Best For">Travelers 65–79</td>
+                <td data-label="Est. Cost">~$70–$120</td>
+                <td data-label="Standout Benefit">Up to $1M medical, built for seniors</td>
+                <td data-label="">
+                  <a href="{{IMG_AFFILIATE_LINK}}" target="_blank" rel="sponsored nofollow noopener" className="insurance-table__btn">See Senior Plan →</a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Plan"><strong>Allianz Global Assistance</strong></td>
+                <td data-label="Best For">A brand seniors trust</td>
+                <td data-label="Est. Cost">~$80–$130</td>
+                <td data-label="Standout Benefit">24/7 English hotline, easy claims</td>
+                <td data-label="">
+                  <a href="{{ALLIANZ_AFFILIATE_LINK}}" target="_blank" rel="sponsored nofollow noopener" className="insurance-table__btn">Get Covered →</a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Plan"><strong>Faye</strong></td>
+                <td data-label="Best For">Fast, app-based claims</td>
+                <td data-label="Est. Cost">~$85–$135</td>
+                <td data-label="Standout Benefit">Real-time app support + reimbursements</td>
+                <td data-label="">
+                  <a href="{{FAYE_AFFILIATE_LINK}}" target="_blank" rel="sponsored nofollow noopener" className="insurance-table__btn">Get a Quote →</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
