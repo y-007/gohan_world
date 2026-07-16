@@ -58,7 +58,7 @@ const Hero = () => {
           src="/mt_fuji.png"
           alt="Mt. Fuji from the shinkansen — senior-friendly Japan travel tips"
           loading="eager"
-          fetchpriority="high"
+          fetchPriority="high"
           className="hero__image"
         />
         <div className="hero__credential">
