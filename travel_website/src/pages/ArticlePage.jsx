@@ -117,7 +117,7 @@ const ArticlePage = () => {
     }
 
     return () => {
-      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
+      document.title = 'Japan Travel & Insurance for Seniors & First-Timers | Gohan World'
       const desc = document.querySelector('meta[name="description"]')
       if (desc) desc.setAttribute('content', 'Gohan World is your USA⇄Japan travel and insurance guide. Senior-friendly safety tips, packing essentials, airport guidance, cultural insights, and practical answers to \'what happens if...?\' moments.')
       const canon = document.querySelector('link[rel="canonical"]')

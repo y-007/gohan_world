@@ -62,7 +62,7 @@ const ArticlesPage = () => {
     const ogUrl = document.querySelector('meta[property="og:url"]')
     if (ogUrl) ogUrl.setAttribute('content', 'https://www.gohanworld.com/articles/')
     return () => {
-      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
+      document.title = 'Japan Travel & Insurance for Seniors & First-Timers | Gohan World'
       if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
       if (ogUrl) ogUrl.setAttribute('content', 'https://www.gohanworld.com/')
     }

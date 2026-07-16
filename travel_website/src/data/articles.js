@@ -770,20 +770,6 @@ export const articles = [
       {
         type: 'affiliate_card',
         badge: 'Insurance',
-        name: 'World Nomads — Best for Active Senior Travelers',
-        tagline: 'High coverage limits and full CFAR flexibility for active seniors.',
-        pros: [
-          'Up to $100,000 medical coverage and $500,000 evacuation',
-          'Cancel For Any Reason (CFAR) upgrade available',
-          'Ideal for longer trips and high-cost international destinations',
-        ],
-        link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
-        linkText: 'Get a Quote with World Nomads',
-        sponsored: true,
-      },
-      {
-        type: 'affiliate_card',
-        badge: 'Insurance',
         name: 'Seven Corners — Best for High Medical Coverage',
         tagline: 'Maximum protection for seniors with complex medical histories.',
         pros: [
@@ -816,7 +802,7 @@ export const articles = [
       {
         type: 'paragraph',
         html: true,
-        text: 'Getting covered takes less than two minutes. All you need is your destination, travel dates, total trip cost, and traveler ages. Enter those details at <a href="https://www.squaremouth.com/plans/single-trip?aid=101&msclkid=3b37bb28f4881506805cd2daea8ad355&src=BING-SQM-41501358-1114977136&tag=3b37bb28f4881506805cd2daea8ad355&utm_campaign=Search_Branded+-+SquareMouth+%28All+Devices%29&utm_content=Squaremouth+-+Broad+Match&utm_medium=cpc&utm_source=bing&utm_term=squaremouth" target="_blank" rel="noopener noreferrer">www.squaremouth.com</a> and you\'ll see matched plans instantly — sorted by price, coverage limit, or provider rating, with full breakdowns so you can compare with confidence.',
+        text: 'Getting covered takes less than two minutes. All you need is your destination, travel dates, total trip cost, and traveler ages. Enter those details at <a href="https://www.squaremouth.com/resources/best-travel-insurance/seniors" target="_blank" rel="noopener noreferrer">www.squaremouth.com</a> and you\'ll see matched plans instantly — sorted by price, coverage limit, or provider rating, with full breakdowns so you can compare with confidence.',
       },
       {
         type: 'list',
@@ -1017,11 +1003,11 @@ export const articles = [
       ] },
       { type: 'h2', text: 'My Top Picks for Japan Travel Insurance in 2026' },
       { type: 'paragraph', text: 'These are the providers I actually recommend to friends and family planning trips to Japan. I\'ve organized them by who they\'re best for.' },
-      { type: 'affiliate_card', badge: 'Insurance', name: 'Tin Leg — Best for Value & Budget-Conscious Seniors', tagline: 'Affordable comprehensive plans that still cover the essentials.', pros: [
+      { type: 'affiliate_card', badge: 'Insurance', name: 'Tin Leg — Best for Value & Budget-Conscious Seniors', nameLink: 'https://www.tinleg.com/', tagline: 'Affordable comprehensive plans that still cover the essentials.', pros: [
         'Economy plans are among the most affordable — often around $90 for a traveler in their 60s',
         'Includes trip cancellation and interruption (unlike medical-only plans)',
         'Pre-existing condition waiver available when you buy early',
-      ], link: '{{TINLEG_AFFILIATE_LINK}}', // TODO: replace with Tin Leg affiliate URL
+      ], link: 'https://buy.tinleg.com/products', // TODO: replace with Tin Leg affiliate URL
         linkText: 'Get a Quote with Tin Leg', sponsored: true },
       { type: 'affiliate_card', badge: 'Insurance', name: 'Allianz Travel Insurance — Best Overall for Most Travelers', tagline: 'Trusted coverage. Exceptional 24/7 emergency support worldwide.', pros: [
         'Up to $50,000 medical coverage and $500,000 medical evacuation',
@@ -1029,12 +1015,6 @@ export const articles = [
         'Consistently top-rated for customer service',
       ], link: 'https://www.allianztravelinsurance.com', // TODO: replace with Allianz affiliate URL
         linkText: 'Get a Quote with Allianz', sponsored: true },
-      { type: 'affiliate_card', badge: 'Insurance', name: 'Seven Corners — Best for High Medical Coverage', tagline: 'Maximum protection for travelers with complex medical histories.', pros: [
-        'Up to $250,000 medical coverage and $1,000,000 evacuation limit',
-        'Pre-existing condition waiver within 20 days of initial deposit',
-        'Cancel For Any Reason available — best for cruises and long-haul trips',
-      ], link: 'https://www.sevencorners.com', // TODO: replace with Seven Corners affiliate URL
-        linkText: 'Get a Quote with Seven Corners', sponsored: true },
       { type: 'affiliate_card', badge: 'Compare', name: 'Squaremouth — Best for Comparison Shopping', tagline: 'Compare 30+ top-rated plans side by side in minutes.', pros: [
         'Filter by medical limit, pre-existing waiver, CFAR, and price',
         'Disputes resolved within 30 days',
@@ -1657,20 +1637,6 @@ export const articles = [
       },
       {
         type: 'affiliate_card',
-        badge: 'Insurance',
-        name: 'World Nomads — Best for Active & Adventure Travelers',
-        tagline: 'High coverage limits and full CFAR flexibility.',
-        pros: [
-          'Up to $100,000 medical coverage and $500,000 evacuation',
-          'Cancel For Any Reason (CFAR) upgrade available',
-          'Covers most adventure sports by default — verify your activities',
-        ],
-        link: 'https://www.worldnomads.com', // TODO: replace with World Nomads affiliate URL
-        linkText: 'Get a Quote with World Nomads',
-        sponsored: true,
-      },
-      {
-        type: 'affiliate_card',
         badge: 'Compare',
         name: 'Squaremouth — Best for Comparison Shopping',
         tagline: 'Compare 30+ top-rated plans side by side in minutes.',
@@ -1683,20 +1649,7 @@ export const articles = [
         linkText: 'Compare Plans on Squaremouth',
         sponsored: true,
       },
-      {
-        type: 'affiliate_card',
-        badge: 'Insurance',
-        name: 'SafetyWing — Best for Budget & Long-Stay Travelers',
-        tagline: 'Starts at ~$63/4 weeks and covers $250,000 in medical expenses — a strong budget option for shorter stays.',
-        pros: [
-          'Up to $250,000 in medical expense coverage per incident',
-          'Monthly subscription — start, pause, or cancel anytime',
-          'No pre-existing conditions or trip cancellation — best for healthy travelers on a budget',
-        ],
-        link: 'https://www.safetywing.com', // TODO: replace with SafetyWing affiliate URL
-        linkText: 'Get a Quote with SafetyWing',
-        sponsored: true,
-      },
+      
       {
         type: 'h2',
         text: 'How to Actually Get a Quote (It Takes 5 Minutes)',

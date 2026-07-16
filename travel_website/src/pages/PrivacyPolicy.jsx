@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
     const canon = document.querySelector('link[rel="canonical"]')
     if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/privacy-policy/')
     return () => {
-      document.title = 'USA⇄Japan Travel & Insurance Guides for Seniors & First-Timers 2026 | Gohan World'
+      document.title = 'Japan Travel & Insurance for Seniors & First-Timers | Gohan World'
       if (canon) canon.setAttribute('href', 'https://www.gohanworld.com/')
     }
   }, [])
